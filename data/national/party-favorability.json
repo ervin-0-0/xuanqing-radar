@@ -1,0 +1,527 @@
+{
+  "series": [
+    {
+      "fieldStart": "2024-06-25",
+      "fieldEnd": "2024-06-27",
+      "published": "2024-07-01",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1074,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 49.2,
+        "dppDislike": 40.9,
+        "kmtLike": 34.4,
+        "kmtDislike": 54.0,
+        "tppLike": 34.7,
+        "tppDislike": 50.5
+      },
+      "source": "https://my-formosa.com.tw/DOC_207338.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1074人（住宅電話752人、行動電話322人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2024-07-23",
+      "fieldEnd": "2024-07-26",
+      "published": "2024-07-29",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1074,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 46.9,
+        "dppDislike": 40.7,
+        "kmtLike": 32.3,
+        "kmtDislike": 52.5,
+        "tppLike": 31.6,
+        "tppDislike": 49.6
+      },
+      "source": "https://my-formosa.com.tw/DOC_208335.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1074人（住宅電話752人、行動電話322人）；戴立安規劃、畢肯市場研究公司執行；實際訪問日為7月23日與7月26日（24、25日颱風停班未執行）"
+    },
+    {
+      "fieldStart": "2024-08-21",
+      "fieldEnd": "2024-08-23",
+      "published": "2024-08-26",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1082,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 50.3,
+        "dppDislike": 40.6,
+        "kmtLike": 31.4,
+        "kmtDislike": 54.1,
+        "tppLike": 21.9,
+        "tppDislike": 65.3
+      },
+      "source": "https://my-formosa.com.tw/DOC_209323.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1082人（住宅電話757人、行動電話325人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2024-09-24",
+      "fieldEnd": "2024-09-26",
+      "published": "2024-09-30",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1076,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 49.1,
+        "dppDislike": 41.3,
+        "kmtLike": 37.4,
+        "kmtDislike": 51.3,
+        "tppLike": 25.6,
+        "tppDislike": 60.3
+      },
+      "source": "https://my-formosa.com.tw/DOC_210409.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1076人（住宅電話752人、行動電話324人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2024-10-22",
+      "fieldEnd": "2024-10-24",
+      "published": "2024-10-28",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1077,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 46.7,
+        "dppDislike": 42.4,
+        "kmtLike": 39.5,
+        "kmtDislike": 45.9,
+        "tppLike": 25.7,
+        "tppDislike": 57.5
+      },
+      "source": "https://my-formosa.com.tw/DOC_211187.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1077人（住宅電話754人、行動電話323人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2024-11-26",
+      "fieldEnd": "2024-11-28",
+      "published": "2024-12-02",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1073,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 46.4,
+        "dppDislike": 41.5,
+        "kmtLike": 39.2,
+        "kmtDislike": 44.2,
+        "tppLike": 22.6,
+        "tppDislike": 61.1
+      },
+      "source": "https://my-formosa.com.tw/DOC_212148.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1073人（住宅電話753人、行動電話320人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2024-12-24",
+      "fieldEnd": "2024-12-26",
+      "published": "2024-12-30",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1074,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 48.2,
+        "dppDislike": 42.0,
+        "kmtLike": 32.0,
+        "kmtDislike": 56.6,
+        "tppLike": 23.9,
+        "tppDislike": 62.0
+      },
+      "source": "https://my-formosa.com.tw/DOC_212978.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1074人（住宅電話754人、行動電話320人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-01-15",
+      "fieldEnd": "2025-01-17",
+      "published": "2025-01-20",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1077,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 45.6,
+        "dppDislike": 46.7,
+        "kmtLike": 33.3,
+        "kmtDislike": 55.8,
+        "tppLike": 27.0,
+        "tppDislike": 59.3
+      },
+      "source": "https://my-formosa.com.tw/DOC_213478.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1077人（住宅電話755人、行動電話322人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-02-19",
+      "fieldEnd": "2025-02-21",
+      "published": "2025-02-24",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1074,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 43.6,
+        "dppDislike": 45.7,
+        "kmtLike": 31.6,
+        "kmtDislike": 54.7,
+        "tppLike": 28.5,
+        "tppDislike": 55.6
+      },
+      "source": "https://my-formosa.com.tw/DOC_214330.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1074人（住宅電話753人、行動電話321人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-03-25",
+      "fieldEnd": "2025-03-27",
+      "published": "2025-03-31",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1072,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 52.7,
+        "dppDislike": 40.9,
+        "kmtLike": 27.2,
+        "kmtDislike": 61.2,
+        "tppLike": 25.2,
+        "tppDislike": 61.0
+      },
+      "source": "https://my-formosa.com.tw/DOC_215286.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1072人（住宅電話751人、行動電話321人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-04-22",
+      "fieldEnd": "2025-04-24",
+      "published": "2025-04-29",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1059,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 43.8,
+        "dppDislike": 48.9,
+        "kmtLike": 29.2,
+        "kmtDislike": 58.1,
+        "tppLike": 31.5,
+        "tppDislike": 54.3
+      },
+      "source": "https://my-formosa.com.tw/DOC_216034.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1059人（住宅電話683人、行動電話376人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-05-21",
+      "fieldEnd": "2025-05-23",
+      "published": "2025-05-26",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1075,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 42.4,
+        "dppDislike": 45.2,
+        "kmtLike": 26.2,
+        "kmtDislike": 57.3,
+        "tppLike": 29.7,
+        "tppDislike": 48.2
+      },
+      "source": "https://my-formosa.com.tw/DOC_216790.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1075人（住宅電話699人、行動電話376人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-06-24",
+      "fieldEnd": "2025-06-26",
+      "published": "2025-06-30",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1076,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 40.5,
+        "dppDislike": 45.0,
+        "kmtLike": 26.3,
+        "kmtDislike": 53.6,
+        "tppLike": 27.7,
+        "tppDislike": 50.9
+      },
+      "source": "https://my-formosa.com.tw/DOC_217710.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1076人（住宅電話699人、行動電話377人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-07-28",
+      "fieldEnd": "2025-07-30",
+      "published": "2025-08-04",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1082,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 32.7,
+        "dppDislike": 53.5,
+        "kmtLike": 32.7,
+        "kmtDislike": 46.6,
+        "tppLike": 33.2,
+        "tppDislike": 42.1
+      },
+      "source": "https://my-formosa.com.tw/DOC_218675.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1082人（住宅電話705人、行動電話377人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-08-25",
+      "fieldEnd": "2025-08-27",
+      "published": "2025-09-01",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1080,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 33.1,
+        "dppDislike": 56.8,
+        "kmtLike": 36.3,
+        "kmtDislike": 47.0,
+        "tppLike": 34.2,
+        "tppDislike": 46.9
+      },
+      "source": "https://my-formosa.com.tw/DOC_219563.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1080人（住宅電話703人、行動電話377人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-09-23",
+      "fieldEnd": "2025-09-25",
+      "published": "2025-09-30",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1077,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 35.5,
+        "dppDislike": 52.1,
+        "kmtLike": 36.6,
+        "kmtDislike": 44.0,
+        "tppLike": 33.4,
+        "tppDislike": 44.1
+      },
+      "source": "https://my-formosa.com.tw/DOC_220407.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1077人（住宅電話699人、行動電話378人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-10-20",
+      "fieldEnd": "2025-10-22",
+      "published": "2025-10-27",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1077,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 38.6,
+        "dppDislike": 49.2,
+        "kmtLike": 35.7,
+        "kmtDislike": 46.6,
+        "tppLike": 32.6,
+        "tppDislike": 46.5
+      },
+      "source": "https://my-formosa.com.tw/DOC_220952.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1077人（住宅電話700人、行動電話377人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-11-24",
+      "fieldEnd": "2025-11-26",
+      "published": "2025-12-01",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1079,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 39.9,
+        "dppDislike": 49.9,
+        "kmtLike": 35.4,
+        "kmtDislike": 49.3,
+        "tppLike": 30.7,
+        "tppDislike": 49.5
+      },
+      "source": "https://my-formosa.com.tw/DOC_221882.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1079人（住宅電話701人、行動電話378人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-12-22",
+      "fieldEnd": "2025-12-24",
+      "published": "2025-12-29",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1083,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 38.3,
+        "dppDislike": 49.9,
+        "kmtLike": 35.1,
+        "kmtDislike": 49.5,
+        "tppLike": 32.9,
+        "tppDislike": 47.7
+      },
+      "source": "https://my-formosa.com.tw/DOC_222574.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1083人（住宅電話705人、行動電話378人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2026-01-26",
+      "fieldEnd": "2026-01-28",
+      "published": "2026-02-02",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1075,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 43.9,
+        "dppDislike": 45.0,
+        "kmtLike": 34.4,
+        "kmtDislike": 49.9,
+        "tppLike": 30.8,
+        "tppDislike": 51.8
+      },
+      "source": "https://my-formosa.com.tw/DOC_223441.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1075人（住宅電話698人、行動電話377人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2026-03-26",
+      "fieldEnd": "2026-03-28",
+      "published": "2026-04-01",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1076,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 43.6,
+        "dppDislike": 43.8,
+        "kmtLike": 28.3,
+        "kmtDislike": 54.3,
+        "tppLike": 25.8,
+        "tppDislike": 56.5
+      },
+      "source": "https://my-formosa.com.tw/DOC_224706.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1076人（住宅電話698人、行動電話378人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2026-04-22",
+      "fieldEnd": "2026-04-24",
+      "published": "2026-04-28",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1074,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 44.0,
+        "dppDislike": 46.0,
+        "kmtLike": 33.9,
+        "kmtDislike": 50.5,
+        "tppLike": 25.5,
+        "tppDislike": 55.8
+      },
+      "source": "https://my-formosa.com.tw/DOC_225352.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1074人（住宅電話698人、行動電話376人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2026-05-20",
+      "fieldEnd": "2026-05-22",
+      "published": "2026-05-27",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1078,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 41.1,
+        "dppDislike": 43.1,
+        "kmtLike": 31.4,
+        "kmtDislike": 47.7,
+        "tppLike": 25.4,
+        "tppDislike": 51.3
+      },
+      "source": "https://my-formosa.com.tw/DOC_226123.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1078人（住宅電話699人、行動電話379人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2026-06-22",
+      "fieldEnd": "2026-06-24",
+      "published": "2026-06-29",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1078,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 40.8,
+        "dppDislike": 45.6,
+        "kmtLike": 29.9,
+        "kmtDislike": 51.1,
+        "tppLike": 23.7,
+        "tppDislike": 55.8
+      },
+      "source": "https://my-formosa.com.tw/DOC_226926.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1078人（住宅電話699人、行動電話379人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2026-07-28",
+      "fieldEnd": "2026-07-30",
+      "published": "2026-08-04",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1200,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 41.4,
+        "dppDislike": 45.7,
+        "kmtLike": 36.4,
+        "kmtDislike": 48.3,
+        "tppLike": 29.1,
+        "tppDislike": 50.5
+      },
+      "source": "https://my-formosa.com.tw/DOC_227893.htm",
+      "notes": "題目：對民進黨／國民黨／民眾黨有好感或覺得反感（Like=很有好感+有些好感，Dislike=很反感+有些反感）；成功完訪1200人（住宅電話840人、行動電話360人）；自2026年7月起改由張佑宗教授規劃、趨勢民意調查公司執行"
+    },
+    {
+      "fieldStart": "2026-08-19",
+      "fieldEnd": "2026-08-21",
+      "published": "2026-08-25",
+      "pollster": "台灣民心調查（戴立安）",
+      "sampleSize": 1076,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 46.8,
+        "dppDislike": 38.9,
+        "kmtLike": 27.9,
+        "kmtDislike": 53.8,
+        "tppLike": 22.6,
+        "tppDislike": 54.8
+      },
+      "source": "https://www.cmmedia.com.tw/home/articles/62518",
+      "notes": "題目：對各黨有好感或覺得反感；戴立安規劃、畢肯市場研究公司執行；成功完訪1076人（市話699人、手機377人）；來源為新聞報導轉述"
+    },
+    {
+      "fieldStart": "2026-08-24",
+      "fieldEnd": "2026-08-26",
+      "published": "2026-09-01",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1632,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 41.2,
+        "dppDislike": 44.5,
+        "kmtLike": 27.3,
+        "kmtDislike": 53.7,
+        "tppLike": 23.0,
+        "tppDislike": 57.4
+      },
+      "source": "https://my-formosa.com.tw/DOC_228773.htm",
+      "notes": "題目已改為「喜歡或不喜歡」（喜好度），Like=非常喜歡+喜歡，Dislike=不喜歡+非常不喜歡；與先前好感／反感題不完全可比；成功完訪1632人（住宅電話825人、行動電話807人）；自2026年7月起改由張佑宗教授規劃、趨勢民意調查公司執行"
+    },
+    {
+      "fieldStart": "2026-09-21",
+      "fieldEnd": "2026-09-23",
+      "published": "2026-09-29",
+      "pollster": "台灣民心調查（戴立安）",
+      "sampleSize": 1075,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 47.4,
+        "dppDislike": null,
+        "kmtLike": 26.4,
+        "kmtDislike": null,
+        "tppLike": 21.6,
+        "tppDislike": null
+      },
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5588997",
+      "notes": "題目：對各黨有好感或覺得反感；報導未提供反感比例；戴立安規劃、畢肯市場研究公司執行；成功完訪1075人（市話698人、手機377人）；來源為新聞報導轉述"
+    },
+    {
+      "fieldStart": "2026-09-29",
+      "fieldEnd": "2026-10-02",
+      "published": "2026-10-06",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1201,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 43.1,
+        "dppDislike": 39.9,
+        "kmtLike": 26.5,
+        "kmtDislike": 53.4,
+        "tppLike": 21.0,
+        "tppDislike": 57.9
+      },
+      "source": "https://my-formosa.com.tw/DOC_229724.htm",
+      "notes": "題目已改為「喜歡或不喜歡」（喜好度），Like=非常喜歡+喜歡，Dislike=不喜歡+非常不喜歡；與先前好感／反感題不完全可比；成功完訪1201人（住宅電話721人、行動電話480人）；自2026年7月起改由張佑宗教授規劃、趨勢民意調查公司執行；本期為2026年9月國政民調，訪問期間跨至10月2日"
+    }
+  ],
+  "notes": "美麗島電子報每月國政民調政黨好感度；2026年8月起美麗島改問喜好度（喜歡／不喜歡）。另收台灣民心調查（戴立安）2026年8、9月。"
+}

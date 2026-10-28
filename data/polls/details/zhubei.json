@@ -1,0 +1,198 @@
+{
+  "raceId": "zhubei",
+  "details": [],
+  "extraPolls": [
+    {
+      "source": "https://www.cna.com.tw/news/aipl/202606150276.aspx",
+      "pollster": null,
+      "sponsor": "國民黨新竹縣黨部（竹北市長內參初選）",
+      "fieldStart": "2026-06-12",
+      "fieldEnd": "2026-06-14",
+      "published": "2026-06-15",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "國民黨黨內初選全民調（邱靖雅、林禹佑、吳旭智、林啟賢四人），只公布吳旭智勝出，未公布數字與方法。",
+      "extraSources": [
+        "https://udn.com/news/story/124652/9568023"
+      ],
+      "excluded": true,
+      "excludeReason": "黨內初選內參，未公布數字"
+    },
+    {
+      "source": "https://ctinews.com/news/items/vNWOQ0KXxw",
+      "pollster": "趨勢民調",
+      "sponsor": "美麗島電子報",
+      "fieldStart": "2026-09-09",
+      "fieldEnd": "2026-09-11",
+      "published": "2026-09-12",
+      "method": "phone",
+      "sampleSize": 1071,
+      "moe": 2.99,
+      "confidence": 95,
+      "population": "設籍新竹縣竹北市年滿20歲民眾",
+      "weighting": "依內政部最新人口資料，就戶籍地、性別、年齡、教育程度多重反覆加權（raking）",
+      "results": [
+        {
+          "name": "吳旭智",
+          "party": "kmt",
+          "pct": 29.0
+        },
+        {
+          "name": "曾聖凱",
+          "party": "dpp",
+          "pct": 25.2
+        },
+        {
+          "name": "邱臣遠",
+          "party": "tpp",
+          "pct": 17.4
+        },
+        {
+          "name": "李貞秀",
+          "party": "ind",
+          "pct": 3.6
+        }
+      ],
+      "undecided": 24.6,
+      "likelyVoters": null,
+      "notes": "市話（中華電信市內號碼簿）分層比例隨機抽樣。調查時李貞秀尚未被取消資格。孫文學校引述未明確選擇為24.8%。自發知名度：吳31.0%、邱28.7%、曾12.7%、李2.7%，57.2%說不出任何人。國民黨認同者65.9%挺吳、民進黨認同者71.7%挺曾、民眾黨認同者72.1%挺邱。給民進黨繼續做34.2%、換國民黨31.4%。20-29歲曾36.4%、吳9.7%。邱臣遠批為吳子嘉「意料中的產品」。",
+      "extraSources": [
+        "https://tw.news.yahoo.com/%E7%BE%8E%E9%BA%97%E5%B3%B6%E6%B0%91%E8%AA%BF-%E7%AB%B9%E5%8C%97%E8%97%8D%E7%99%BD%E5%88%86%E8%A3%82%E6%9C%80%E6%96%B0%E6%B0%91%E8%AA%BF%E6%9B%9D%E5%85%89-%E5%90%B3%E6%97%AD%E6%99%BA29-%E5%BE%AE%E5%B9%85%E9%A0%98%E5%85%88%E6%9B%BE%E8%81%96%E5%87%B125-2-090400985.html",
+        "https://news.ltn.com.tw/news/HsinchuCounty/breakingnews/5572229"
+      ]
+    },
+    {
+      "source": "https://www.storm.mg/article/11167314",
+      "pollster": "風傳媒民調",
+      "sponsor": "風傳媒",
+      "fieldStart": "2026-09-20",
+      "fieldEnd": "2026-09-22",
+      "published": "2026-09-23",
+      "method": "phone",
+      "sampleSize": 1068,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "設籍竹北市31里年滿20歲民眾",
+      "weighting": null,
+      "results": [
+        {
+          "name": "吳旭智",
+          "party": "kmt",
+          "pct": 27.8
+        },
+        {
+          "name": "曾聖凱",
+          "party": "dpp",
+          "pct": 23.3
+        },
+        {
+          "name": "邱臣遠",
+          "party": "tpp",
+          "pct": 15.7
+        },
+        {
+          "name": "李貞秀",
+          "party": "ind",
+          "pct": 0.7
+        }
+      ],
+      "undecided": 26.7,
+      "likelyVoters": null,
+      "notes": "CATI，竹北市住宅電話資料庫分層隨機抽樣＋RDD末兩碼（市話）。另有不投票/投廢票5.7%。看好度吳36.5%、曾17.5%、邱13.6%、李0.5%、未答32.2%。吳vs曾兩人對決：38.9%比33.2%、未答27.8%。報導未寫加權方式；sponsor 依標題「風傳媒民調」推定為風傳媒，原文未明寫經費來源。",
+      "extraSources": [
+        "https://www.mirrormedia.mg/story/20260924edi041"
+      ]
+    },
+    {
+      "source": "https://udn.com/news/story/124652/9760400",
+      "pollster": "孫文學校AI民意與數據研究中心",
+      "sponsor": null,
+      "fieldStart": null,
+      "fieldEnd": "2026-09-16",
+      "published": "2026-09-17",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "吳旭智",
+          "party": "kmt",
+          "pct": 38.2
+        },
+        {
+          "name": "曾聖凱",
+          "party": "dpp",
+          "pct": 33.2
+        },
+        {
+          "name": "邱臣遠",
+          "party": "tpp",
+          "pct": 23.4
+        },
+        {
+          "name": "李貞秀",
+          "party": "ind",
+          "pct": 5.2
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "用美麗島9月民調把未表態者重新分配後的「今天投票」模型推估，不是新的調查。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "AI模型推估，非新的抽樣調查"
+    },
+    {
+      "source": "https://tw.news.yahoo.com/%E7%AB%B9%E5%8C%97%E5%B8%82%E9%95%B7%E6%9C%80%E6%96%B0%E6%B0%91%E8%AA%BF%E6%9B%9D-%E9%80%99%E4%BA%BA%E7%AB%9F%E7%8B%82%E6%94%AC%E8%BF%917%E6%88%90%E6%94%AF%E6%8C%81-%E7%A2%BE%E5%A3%93%E5%A5%AA%E5%86%A0-014214587.html",
+      "pollster": "壹蘋新聞網網路投票",
+      "sponsor": "壹蘋新聞網",
+      "fieldStart": null,
+      "fieldEnd": null,
+      "published": "2026-09-01",
+      "method": "online",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "吳旭智",
+          "party": "kmt",
+          "pct": 60.4
+        },
+        {
+          "name": "曾聖凱",
+          "party": "dpp",
+          "pct": 23.4
+        },
+        {
+          "name": "邱臣遠",
+          "party": "tpp",
+          "pct": 6.8
+        },
+        {
+          "name": "李貞秀",
+          "party": "ind",
+          "pct": 6.5
+        }
+      ],
+      "undecided": 2.9,
+      "likelyVoters": null,
+      "notes": "約1.2萬人參與的開放式網路投票（吳7,273票、曾2,823票、邱823票、李777票），報導標題稱「民調」，被多家媒體轉載，記錄以免誤用。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "壹蘋網路投票，非抽樣民調"
+    }
+  ]
+}

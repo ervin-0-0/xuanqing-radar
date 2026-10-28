@@ -1,0 +1,82 @@
+{
+  "raceId": "lienchiang",
+  "incumbent": {
+    "name": "王忠銘",
+    "party": "kmt",
+    "running": true,
+    "termLimited": false
+  },
+  "candidates": [
+    {
+      "name": "王忠銘",
+      "party": "kmt",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": [
+        "kmt"
+      ],
+      "incumbent": true,
+      "born": 1958,
+      "currentRole": "連江縣長",
+      "bio": "現任縣長，曾任連江縣副縣長、馬祖國家風景區管理處處長、縣府秘書長與教育局長；2022 年以 4337 票（50.99%）當選，獲國民黨徵召爭取連任。",
+      "source": "https://www.cna.com.tw/news/aloc/202610270054.aspx"
+    },
+    {
+      "name": "曹爾元",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": "前連江縣地政局長",
+      "bio": "公務資歷 40 多年，歷任自來水廠長、觀光局、建設局、民政局、地政局局長；2022 年經國民黨報准參選得 3582 票（42.12%），僅差 755 票；本屆因違紀參選遭國民黨撤銷黨籍，以無黨籍二度挑戰。",
+      "source": "https://www.cna.com.tw/news/aloc/202610270054.aspx"
+    }
+  ],
+  "withdrawn": [
+    {
+      "name": "張金秋",
+      "party": "ind",
+      "reason": "金億營造董事長，8 月底完成縣長領表，但未登記參選",
+      "date": "2026-09-04",
+      "source": "https://www.matsu-news.gov.tw/news/article/243999"
+    }
+  ],
+  "keyEvents": [
+    {
+      "date": "2026-06-08",
+      "text": "國民黨中央提名審核委員會通過王忠銘連任徵召案",
+      "source": "https://www.ettoday.net/news/20260615/3183959.htm"
+    },
+    {
+      "date": "2026-06-15",
+      "text": "曹爾元臉書宣布再戰連江縣長，挑戰現任王忠銘，批其違背「只做一任」承諾",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5472403"
+    },
+    {
+      "date": "2026-07-22",
+      "text": "國民黨中常會通過王忠銘等 6 位縣市長連任徵召",
+      "source": "https://news.pts.org.tw/article/818815"
+    },
+    {
+      "date": "2026-08-31",
+      "text": "王忠銘登記首日完成登記；曹爾元 9-2 登記，最終僅 2 人登記",
+      "source": "https://news.cts.com.tw/cna/local/202608/202608313073481.html"
+    },
+    {
+      "date": "2026-09-23",
+      "text": "地方評估選情五五波，旅外鄉親返鄉投票意願被視為關鍵",
+      "source": "https://udn.com/news/story/124652/9773906"
+    },
+    {
+      "date": "2026-10-27",
+      "text": "號次抽籤（因颱風延期）：1 王忠銘、2 曹爾元",
+      "source": "https://www.cna.com.tw/news/aloc/202610270054.aspx"
+    }
+  ],
+  "notes": "2022 年民進黨李問得 586 票，本屆民進黨未提名，這 500 多票是兩陣營爭取對象。國民黨連江縣黨部主委陳雪生因案遭限制出境、出海，可能影響輔選（中時 10-27 選戰解碼）。維基「潛在人選」表列有國民黨籍縣議員曹爾章，但查無他宣布參選或登記的報導。截至 10-28 查無任何連江縣長民調。",
+  "updated": "2026-10-28"
+}

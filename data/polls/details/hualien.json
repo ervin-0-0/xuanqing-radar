@@ -1,0 +1,123 @@
+{
+  "raceId": "hualien",
+  "details": [
+    {
+      "source": "https://www.ksnews.com.tw/e/66602",
+      "pollster": null, "sponsor": "國民黨花蓮縣黨部（內參民調）",
+      "fieldStart": null, "fieldEnd": null, "published": "2026-01-21",
+      "method": "unknown", "sampleSize": null, "moe": null, "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [{ "name": "游淑貞", "party": "kmt", "pct": 51.9 }, { "name": "葉耀輝", "party": "kmt", "pct": 11.8 }],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "國民黨黨內初選內參民調，依1月8日全縣委員會議決議「委託專業民意調查公司」執行，報導未載明公司名稱、調查日期、方法與樣本數；縣黨部稱游淑貞在各鄉鎮市均領先。維基把這則 ref 的日期寫成2026-01-08（那是委員會議日期），更生日報與 ETtoday 實際發布日是2026-01-21。葉耀輝不承認結果並提司法救濟。更生日報原網址被 Cloudflare 擋，內容由 Wayback 存檔與 ETtoday 核對。",
+      "extraSources": ["https://www.ettoday.net/news/20260121/3105235.htm"]
+    },
+    {
+      "source": "https://my-formosa.com.tw/DOC_224538.htm",
+      "pollster": "美麗島電子報（戴立安規劃，畢肯市場研究公司執行）", "sponsor": "美麗島電子報",
+      "fieldStart": "2026-03-18", "fieldEnd": "2026-03-23", "published": "2026-03-24",
+      "method": "phone", "sampleSize": 1071, "moe": 3.0, "confidence": 95,
+      "population": "設籍花蓮縣、年滿20歲民眾",
+      "weighting": "比例估計法（raking），依2026年2月性別、戶籍行政區、年齡與2025年12月教育程度加權",
+      "results": [{ "name": "游淑貞", "party": "kmt", "pct": 28.7 }, { "name": "魏嘉賢", "party": "ind", "pct": 20.2 }, { "name": "張峻", "party": "ind", "pct": 19.8 }],
+      "undecided": 23.8,
+      "likelyVoters": null,
+      "notes": "調查日為3月18至20日及3月23日（中間跳過21、22日）。市話 CATI，以中華電信住宅電話簿分層抽樣再隨機跳號末2碼，未含手機。三人對決另有不投票／投廢票7.6%（維基的「其他/未表態」31.3%是7.6加23.8）。一對一：游淑貞31.0%對魏嘉賢35.2%（不投票12.2%、未答21.6%）；游淑貞44.1%對張峻28.3%（不投票11.3%、未答16.3%）。適任度（可複選）：魏嘉賢47.4%、游淑貞39.6%、張峻29.8%。徐榛蔚施政滿意52.6%（很滿意18.4＋有點滿意34.2）、不滿意34.9%。「給國民黨繼續做」25.6%、「換無黨籍做做看」41.7%。好感度：蔣萬安62.3%、盧秀燕52.4%、蕭美琴43.5%、傅崐萁35.6%、鄭麗文31.7%、賴清德26.5%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.storm.mg/article/11116179",
+      "pollster": "風傳媒民調中心", "sponsor": "風傳媒",
+      "fieldStart": null, "fieldEnd": null, "published": "2026-03-30",
+      "method": "phone", "sampleSize": 1068, "moe": 3.0, "confidence": 95,
+      "population": "設籍花蓮縣13鄉鎮市、年滿20歲民眾",
+      "weighting": "比例估計法（raking），依性別、戶籍、年齡、教育程度加權",
+      "results": [{ "name": "游淑貞", "party": "kmt", "pct": 26.6 }, { "name": "魏嘉賢", "party": "ind", "pct": 17.9 }, { "name": "張峻", "party": "ind", "pct": 13.0 }],
+      "undecided": 32.7,
+      "likelyVoters": null,
+      "notes": "原文沒有寫調查日期（維基只寫「3月」）。住宅電話資料庫分層隨機抽樣加隨機跳號（RDD）。三人對決另有不投票／投廢票9.8%。一對一：游淑貞31.3%對魏嘉賢31.0%（不投票10.3%、未答27.4%）；游淑貞39.9%對張峻25.0%（不投票10.2%、未答24.9%）。徐榛蔚施政滿意56.3%、不滿意30.9%；傅崐萁在中央爭取資源滿意55.1%、不滿意30.9%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.nownews.com/news/6809155",
+      "pollster": "求真民意調查股份有限公司", "sponsor": null,
+      "fieldStart": "2026-04-07", "fieldEnd": "2026-04-10", "published": "2026-04-20",
+      "method": "phone+mobile", "sampleSize": 1086, "moe": 2.97, "confidence": 95,
+      "population": "設籍花蓮縣、年滿20歲具投票權民眾",
+      "weighting": "依內政部最新人口資料，就戶籍地、性別、年齡、教育程度多重反覆加權",
+      "results": [{ "name": "游淑貞", "party": "kmt", "pct": 32.5 }, { "name": "魏嘉賢", "party": "ind", "pct": 28.6 }, { "name": "張峻", "party": "ind", "pct": 21.8 }],
+      "undecided": 17.1,
+      "likelyVoters": null,
+      "notes": "市話762份、手機324份。undecided 是「尚未決定」7.7%加「無明確意見」9.4%。結果數字取自報導附的求真交叉表圖片：魏嘉賢vs游淑貞43.7%對35.4%（尚未決定6.8%、無明確意見14.0%），游淑貞vs張峻51.3%對28.7%（5.3%、14.7%）。NOWnews 內文寫魏vs游是46.5%對35.9%，與附圖交叉表不符；風傳媒同日報導（extraSources）寫43.7%對35.7%，也和交叉表的35.4%差0.3。報導未載明委託單位，內文論調明顯偏向魏嘉賢。魏vs游情境中，魏嘉賢在20至39歲拿到47.9%，在民進黨支持者中拿到62.4%（風傳媒報導）。",
+      "extraSources": ["https://www.storm.mg/article/11123231"]
+    },
+    {
+      "source": "https://www.kingtop.com.tw/detail.php?type=lastest&id=50522",
+      "pollster": "趨勢民意調查股份有限公司", "sponsor": "葉耀輝服務處",
+      "fieldStart": "2026-06-06", "fieldEnd": "2026-06-08", "published": "2026-06-11",
+      "method": "unknown", "sampleSize": null, "moe": null, "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [{ "name": "游淑貞", "party": "kmt", "pct": 36.5 }, { "name": "葉耀輝", "party": "kmt", "pct": 28.2 }],
+      "undecided": 35.1,
+      "likelyVoters": null,
+      "notes": "葉耀輝初選落敗後自辦的民調，由他的服務處公布。報導沒有樣本數、方法、誤差。undecided 是「都不支持／尚未決定」。前面幾題有引導性，例如「是否認同具有美國土木工程博士背景的專業人士參選花蓮縣長」（認同49.9%），以及吉安鄉公所經費用在別的鄉鎮的題目。葉耀輝最後沒有登記參選。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.ksnews.com.tw/e/125075",
+      "pollster": "風傳媒民調中心", "sponsor": "風傳媒",
+      "fieldStart": "2026-07-21", "fieldEnd": "2026-07-23", "published": "2026-07-29",
+      "method": "unknown", "sampleSize": 1068, "moe": 3.0, "confidence": 95,
+      "population": null,
+      "weighting": null,
+      "results": [{ "name": "游淑貞", "party": "kmt", "pct": 30.1 }, { "name": "魏嘉賢", "party": "ind", "pct": 22.1 }, { "name": "張峻", "party": "ind", "pct": 12.5 }],
+      "undecided": 29.2,
+      "likelyVoters": null,
+      "notes": "更生日報原網址被 Cloudflare 擋無法開啟，細節取自風傳媒原文（extraSources，2026-07-29發布）。原文只寫電腦輔助電話訪問（CATI），沒說是否含手機，也沒寫母體與加權方式。另有不投票／投廢票6.0%。這篇是游淑貞的人物報導，民調只占一段。",
+      "extraSources": ["https://www.storm.mg/article/11152459"]
+    },
+    {
+      "source": "https://www.storm.mg/article/11160079",
+      "pollster": "風傳媒民調中心", "sponsor": "風傳媒",
+      "fieldStart": "2026-08-20", "fieldEnd": "2026-08-22", "published": "2026-08-28",
+      "method": "phone", "sampleSize": 1068, "moe": 3.0, "confidence": 95,
+      "population": "設籍花蓮縣、年滿20歲民眾",
+      "weighting": null,
+      "results": [{ "name": "游淑貞", "party": "kmt", "pct": 29.1 }, { "name": "張峻", "party": "ind", "pct": 19.4 }, { "name": "魏嘉賢", "party": "ind", "pct": 18.4 }],
+      "undecided": 29.6,
+      "likelyVoters": null,
+      "notes": "住宅電話資料庫分層隨機抽樣加 RDD；這篇沒寫加權方式。另有不投票／投廢票3.5%。政黨交叉：國民黨支持者近6成挺游淑貞，魏嘉賢13.1%、張峻7.4%；民進黨支持者過半挺張峻，魏嘉賢21.8%。張峻首度超過魏嘉賢居第二。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.mirrormedia.mg/story/20260905-169soc-100102",
+      "pollster": "包打聽AI民調中心", "sponsor": null,
+      "fieldStart": "2026-09-01", "fieldEnd": "2026-09-03", "published": "2026-09-04",
+      "method": "phone+mobile", "sampleSize": 1068, "moe": 3.0, "confidence": 95,
+      "population": "設籍花蓮縣、年滿20歲民眾",
+      "weighting": null,
+      "results": [{ "name": "游淑貞", "party": "kmt", "pct": 27.2 }, { "name": "魏嘉賢", "party": "ind", "pct": 23.1 }, { "name": "張峻", "party": "ind", "pct": 18.7 }],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "雖然名叫「AI民調中心」，但不是 AI 預測：方法是「AI語音撥號系統」的自動語音電話調查（類似 IVR），住宅電話681人、行動電話雙底冊387人。不過自動語音電訪的品質通常比真人訪員差，報導也沒寫加權、委託單位和未表態比例，使用時要打折。鏡週刊原文沒有寫調查機構與方法，這些資料取自警政時報（9/5）與 Newtalk（9/9，引述更生日報、警政時報）。鏡週刊稱民調是9月4日公布。一對一：魏嘉賢34.6%對游淑貞28.7%；游淑貞33.4%對張峻30.3%。20至39歲：魏嘉賢32.1%、游淑貞14.2%；張峻在40至60歲領先。",
+      "extraSources": ["https://new-reporter.com/news/277360/", "https://newtalk.tw/news/view/2026-09-09/1058639"]
+    },
+    {
+      "source": "https://www.storm.mg/article/11175544",
+      "pollster": "風傳媒民調中心", "sponsor": "風傳媒",
+      "fieldStart": "2026-10-16", "fieldEnd": "2026-10-18", "published": "2026-10-24",
+      "method": "phone", "sampleSize": 1068, "moe": 3.0, "confidence": 95,
+      "population": "設籍花蓮縣13鄉鎮市、年滿20歲民眾",
+      "weighting": "比例估計法，依性別、戶籍、年齡、教育程度加權",
+      "results": [{ "name": "游淑貞", "party": "kmt", "pct": 29.6 }, { "name": "張峻", "party": "ind", "pct": 17.8 }, { "name": "魏嘉賢", "party": "ind", "pct": 13.8 }],
+      "undecided": 33.5,
+      "likelyVoters": { "sampleSize": null, "results": [{ "name": "游淑貞", "pct": 37.7 }, { "name": "張峻", "pct": 24.0 }, { "name": "魏嘉賢", "pct": 14.8 }] },
+      "notes": "住宅電話資料庫分層隨機抽樣加 RDD。likelyVoters 是表示「一定會去投票」的受訪者（占66.2%），原文沒有給子樣本人數。維基的「其他/未表態」寫38.8%（是100減三人支持度），原文未明確表態是33.5%，剩下約5.3%原文沒有說明。看好度：游淑貞34.7%、張峻13.1%、魏嘉賢12.4%；游的支持者有76.6%認為她會當選。政黨交叉：游淑貞拿下國民黨傾向選民60.5%；張峻拿下民進黨支持者64.2%、中間選民18.0%。情境題：若民進黨公開支持張峻，游33.3%、張20.2%、魏17.5%；若藍白合，游34.4%、張17.2%、魏12.5%；若演變成游張對決，游44.5%、張26.9%、魏4.0%。",
+      "extraSources": ["https://www.ftnn.com.tw/news/590123", "https://www.mirrormedia.mg/story/20261025-169soc-173347"]
+    }
+  ],
+  "extraPolls": []
+}

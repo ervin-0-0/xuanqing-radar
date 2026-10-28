@@ -1,0 +1,154 @@
+{
+  "raceId": "kinmen",
+  "incumbent": {
+    "name": "陳福海",
+    "party": "ind",
+    "running": false,
+    "termLimited": false
+  },
+  "candidates": [
+    {
+      "name": "張國威",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": "旅遊、餐飲業者",
+      "bio": "經營旅遊、餐飲業，無公職經驗，9-28 成立金沙競選服務處，口號「微風吹起，金門有望」。",
+      "source": "https://www.cna.com.tw/news/aipl/202610230076.aspx"
+    },
+    {
+      "name": "李文良",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": "前金門縣副縣長",
+      "bio": "留美學者，曾任高應科大金門分部主任秘書、系主任、總務長，後任縣府教育處長、副縣長；2026-05-21 表態參選並卸任副縣長，原獲陳福海支持。",
+      "source": "https://www.cna.com.tw/news/aipl/202610230076.aspx"
+    },
+    {
+      "name": "洪和成",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": null,
+      "bio": "第二度參選金門縣長（曾參選縣長、立委），8-31 登記首日第一位完成登記。",
+      "source": "https://www.cna.com.tw/news/aipl/202610230076.aspx"
+    },
+    {
+      "name": "張火木",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 4,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": "實踐大學退休副教授",
+      "bio": "實踐大學退休學者，9-4 登記截止前最後一刻完成登記。",
+      "source": "https://www.cna.com.tw/news/aipl/202610230076.aspx"
+    },
+    {
+      "name": "陳玉珍",
+      "party": "kmt",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 5,
+      "endorsedBy": [
+        "kmt"
+      ],
+      "incumbent": false,
+      "born": 1973,
+      "currentRole": "金門縣選區立法委員",
+      "bio": "2019 年補選起任金門立委（第 9–11 屆），前金門縣議員、2024-08 起曾任國民黨金門縣黨部主委；2026-03-04 獲國民黨徵召，楊鎮浯 9-4 退選後歸隊接任縣黨部主委、藍營整合，各家民調都大幅領先。",
+      "source": "https://www.cna.com.tw/news/aipl/202610230076.aspx"
+    },
+    {
+      "name": "梁文韜",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 6,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": 1968,
+      "currentRole": "成功大學政治學系教授",
+      "bio": "香港出生、持香港居民身分的政治學者，設籍台灣逾 10 年，2026-07-16 宣布參選，主張金門「永久停戰」、設自治區。",
+      "source": "https://www.cna.com.tw/news/aipl/202610230076.aspx"
+    },
+    {
+      "name": "黃世團",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 7,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": "文藝工作者",
+      "bio": "以「金門沒有自己的答案」為主軸，主張金門自訂十年發展戰略。",
+      "source": "https://www.cna.com.tw/news/aipl/202610230076.aspx"
+    }
+  ],
+  "withdrawn": [
+    {
+      "name": "楊鎮浯",
+      "party": "kmt",
+      "reason": "前縣長，未獲國民黨提名後一度放話「寸步不讓」，登記截止日上午由國民黨秘書長李乾龍陪同宣布不選，以黨的團結為優先",
+      "date": "2026-09-04",
+      "source": "https://www.nownews.com/news/6872122"
+    },
+    {
+      "name": "簡瑞鴻",
+      "party": "ind",
+      "reason": "地方創生業者，8-28 已領表，但未在 9-4 前完成登記",
+      "date": "2026-09-04",
+      "source": "https://news.cts.com.tw/cna/local/202609/202609043075205.html"
+    }
+  ],
+  "keyEvents": [
+    {
+      "date": "2026-01-13",
+      "text": "媒體披露國民黨內參民調，陳玉珍 41% 大幅領先楊鎮浯、李文良；民進黨始終找不到人選",
+      "source": "https://news.tvbs.com.tw/politics/3099283"
+    },
+    {
+      "date": "2026-03-04",
+      "text": "國民黨提名立委陳玉珍，前縣長楊鎮浯放話「寸步不讓」",
+      "source": "https://www.cna.com.tw/news/aipl/202603040245.aspx"
+    },
+    {
+      "date": "2026-05-21",
+      "text": "副縣長李文良表態參選，5-22 成立服務處，形成三腳督",
+      "source": "https://www.ettoday.net/news/20260521/3169813.htm"
+    },
+    {
+      "date": "2026-07-16",
+      "text": "成大教授梁文韜宣布參選",
+      "source": "https://www.ettoday.net/news/20260716/3202501.htm"
+    },
+    {
+      "date": "2026-09-04",
+      "text": "楊鎮浯宣布退選；登記截止共 7 人登記（7 搶 1）",
+      "source": "https://news.cts.com.tw/cna/local/202609/202609043075205.html"
+    },
+    {
+      "date": "2026-10-23",
+      "text": "號次抽籤（颱風薔琵期間唯一如期辦理）：1 張國威、2 李文良、3 洪和成、4 張火木、5 陳玉珍、6 梁文韜、7 黃世團",
+      "source": "https://www.cna.com.tw/news/aipl/202610230076.aspx"
+    }
+  ],
+  "notes": "現任縣長陳福海（2022 年當選）因過去收賄判刑，依 2023 年《選罷法》排黑條款不得再參選，不是任期屆滿。民進黨本屆未提名。維基「候選人」表列了簡瑞鴻、漏了張國威與張火木，以中央社登記與抽籤報導為準。中時 10-23 分析稱 7 人參選僅次於 2014 年的 10 人、與 2009 年並列。陳福海之子陳麒翔參選議員後，陳福海於 2026-01 表態支持陳玉珍（NOWnews 報導）。",
+  "updated": "2026-10-28"
+}

@@ -1,0 +1,70 @@
+{
+  "raceId": "hualien",
+  "incumbent": { "name": "徐榛蔚", "party": "kmt", "running": false, "termLimited": true },
+  "candidates": [
+    {
+      "name": "魏嘉賢", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": 1978,
+      "currentRole": "花蓮縣議員",
+      "bio": "前花蓮市長（2016年補選當選、2018年連任），曾任國民黨中常委；2022年違紀參選議員遭撤銷黨籍，2026年2月22日以無黨籍宣布參選縣長，民調中在20至39歲選民表現最強。",
+      "source": "https://news.ltn.com.tw/news/Hualien/breakingnews/5619854"
+    },
+    {
+      "name": "張峻", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": 1974,
+      "currentRole": "花蓮縣議會議長",
+      "bio": "光復鄉人，四屆縣議員、2018年起任議長，曾任國民黨花蓮縣黨部主委；2022年自行角逐議長後遭國民黨開除黨籍，2026年3月11日宣布參選，定位反傅崐萁陣營。民進黨未提名縣長人選，地方綠營民代力挺、副總統蕭美琴9月27日公開邀他合作，但截至10月中旬民進黨中央未正式推薦（風傳媒10月民調仍以「若民進黨公開支持張峻」作假設題）。LED路燈採購案2026年8月19日三審無罪定讞；檳榔園違反水保法案2026年8月一審判刑6月，已上訴。",
+      "source": "https://news.ltn.com.tw/news/Hualien/breakingnews/5619854"
+    },
+    {
+      "name": "游淑貞", "party": "kmt", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": ["kmt"],
+      "incumbent": false,
+      "born": 1967,
+      "currentRole": "吉安鄉長",
+      "bio": "台東縣出生，花蓮師院教育系畢業，經營幼教多年；歷任吉安鄉民代表、縣議員，2018年起任吉安鄉長兩屆。2026年1月國民黨內參民調以51.9%比11.8%勝葉耀輝，3月獲黨中央提名，獲傅崐萁、徐榛蔚夫婦力挺，被視為「傅系接班人」。",
+      "source": "https://news.ltn.com.tw/news/Hualien/breakingnews/5619854"
+    },
+    {
+      "name": "羅佩秦", "party": "other", "partyName": "台灣工黨",
+      "status": "registered",
+      "ballotNumber": 4,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": null,
+      "bio": "具卑南與魯凱族血統、在排灣族部落長大，陸軍中校退伍；2026年6月10日由司法改革黨、台灣工黨、左翼聯盟第三勢力聯合說明會推出，主打重刑化與協助光復堰塞湖災民求償。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5467216"
+    }
+  ],
+  "withdrawn": [
+    { "name": "葉耀輝", "party": "kmt", "reason": "前花蓮市長，國民黨內參民調11.8%不敵游淑貞51.9%；不服結果聲請假處分、提告縣黨部，6月仍自辦民調，但未在9月登記期間登記參選", "date": "2026-01-21", "source": "https://www.ettoday.net/news/20260121/3105235.htm" },
+    { "name": "何啟聖", "party": "kmt", "reason": "致理科大教授，表態爭取國民黨提名，但因戶籍、黨籍不在花蓮未被納入初選民調，之後未參選", "date": "2026-01-08", "source": "https://www.cna.com.tw/news/aipl/202601080318.aspx" }
+  ],
+  "keyEvents": [
+    { "date": "2025-12-16", "text": "吉安鄉長游淑貞表態參選縣長", "source": "https://www.cna.com.tw/news/aloc/202512160314.aspx" },
+    { "date": "2026-01-21", "text": "國民黨花蓮縣黨部公布內參民調：游淑貞51.9%、葉耀輝11.8%，建請中央提名游淑貞", "source": "https://www.ettoday.net/news/20260121/3105235.htm" },
+    { "date": "2026-01-27", "text": "葉耀輝不服初選結果，赴花蓮地院聲請假處分", "source": "https://newtalk.tw/news/view/2026-01-27/1017108" },
+    { "date": "2026-02-22", "text": "縣議員、前花蓮市長魏嘉賢以無黨籍宣布參選", "source": "https://www.ftvnews.com.tw/news/detail/2026222W0090" },
+    { "date": "2026-03-04", "text": "國民黨中常會通過提名游淑貞", "source": "https://www.cna.com.tw/news/aipl/202603040245.aspx" },
+    { "date": "2026-03-11", "text": "議長張峻宣布參選，形成游淑貞、魏嘉賢、張峻「泛藍三腳督」", "source": "https://udn.com/news/story/124652/9373988" },
+    { "date": "2026-06-10", "text": "台灣工黨在第三勢力三黨聯合說明會推出羅佩秦參選", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5467216" },
+    { "date": "2026-08-19", "text": "張峻LED路燈採購弊案最高法院判無罪確定", "source": "https://www.cna.com.tw/news/asoc/202608190238.aspx" },
+    { "date": "2026-08-25", "text": "張峻檳榔園違反水保法案一審判刑6月（可易科罰金），已上訴", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5551126" },
+    { "date": "2026-09-04", "text": "候選人登記截止，游淑貞、張峻、魏嘉賢、羅佩秦4人完成登記；民進黨未推人選", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5564393" },
+    { "date": "2026-09-27", "text": "張峻首度出現在民進黨輔選場合，副總統蕭美琴公開邀他合作", "source": "https://www.mnews.tw/story/20260927sot1900001" },
+    { "date": "2026-10-27", "text": "花蓮縣選委會號次抽籤：1號魏嘉賢、2號張峻、3號游淑貞、4號羅佩秦", "source": "https://news.ltn.com.tw/news/Hualien/breakingnews/5619854" }
+  ],
+  "notes": "花蓮號次抽籤是2026-10-27（不是10-23）。民進黨在花蓮從未贏過縣長，本屆不提名，實際上支持張峻，但查無中央正式推薦的決議，所以張峻的 endorsedBy 留空。三位主要候選人都出身國民黨，主軸是「傅系（游淑貞）對非傅」，非傅票分散在張峻和魏嘉賢之間。羅佩秦出生年查不到。游淑貞出生年取自2022年吉安鄉長選舉公報（民國56年11月25日）。",
+  "updated": "2026-10-28"
+}

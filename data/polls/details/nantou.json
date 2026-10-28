@@ -1,0 +1,66 @@
+{
+  "raceId": "nantou",
+  "details": [],
+  "extraPolls": [
+    {
+      "source": "https://www.chinatimes.com/realtimenews/20261005003908-260407",
+      "pollster": "ETtoday民調雲",
+      "sponsor": "東森民調雲",
+      "fieldStart": "2026-09-11",
+      "fieldEnd": "2026-09-24",
+      "published": "2026-10-05",
+      "method": "online",
+      "sampleSize": 1073,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "設籍南投縣年滿20歲民眾",
+      "weighting": null,
+      "results": [],
+      "undecided": 10.4,
+      "likelyVoters": null,
+      "notes": "沒有候選人對決題，只問現任縣長：許淑華整體表現滿意69.6%、不滿意21.6%；支持連任69.8%、不支持19.7%、未表態10.4%（undecided 指連任題未表態）。EDM＋手機簡訊通知的封閉式網路問卷，分層比例抽樣。報導以縣府政策滿意度為主，宣傳色彩較重。",
+      "extraSources": [
+        "https://udn.com/news/story/124652/9797891"
+      ],
+      "excluded": true,
+      "excludeReason": "非候選人對決題（僅施政滿意度與支持連任）"
+    },
+    {
+      "source": "https://www.gvm.com.tw/article/130553",
+      "pollster": "遠見民意研究調查",
+      "sponsor": "遠見雜誌",
+      "fieldStart": "2026-03-02",
+      "fieldEnd": "2026-04-14",
+      "published": "2026-06-01",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": "22縣市民眾（全國合計14,251人）",
+      "weighting": "依性別、年齡、教育程度、戶籍選區加權",
+      "results": [
+        {
+          "name": "國民黨（政黨別）",
+          "party": "kmt",
+          "pct": 37.4
+        },
+        {
+          "name": "民進黨（政黨別）",
+          "party": "dpp",
+          "pct": 13.1
+        },
+        {
+          "name": "民眾黨（政黨別）",
+          "party": "tpp",
+          "pct": 0.7
+        }
+      ],
+      "undecided": 48.6,
+      "likelyVoters": null,
+      "notes": "《遠見》年度縣市長調查中的「縣市長選舉支持哪一黨」題，是政黨別而非候選人對決，結果為國民黨37.4%、民進黨13.1%、民眾黨0.7%、其他0.3%、未表態48.6%。全國22縣市共訪問14,251人，各縣市樣本數與調查方式報導未載明，依性別、年齡、教育程度、戶籍選區加權。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "政黨別支持度，非候選人對決題；單一縣市樣本數未公布"
+    }
+  ]
+}

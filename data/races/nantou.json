@@ -1,0 +1,71 @@
+{
+  "raceId": "nantou",
+  "incumbent": {
+    "name": "許淑華",
+    "party": "kmt",
+    "running": true,
+    "termLimited": false
+  },
+  "candidates": [
+    {
+      "name": "許淑華",
+      "party": "kmt",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": [
+        "kmt"
+      ],
+      "incumbent": true,
+      "born": 1975,
+      "currentRole": "南投縣長",
+      "bio": "前南投縣第二選區立委，2022年當選縣長，尋求連任；國民黨依現任優先原則於2026年7月徵召，施政滿意度在各項調查中約六到七成。",
+      "source": "https://news.ltn.com.tw/news/politics/paper/1776267"
+    },
+    {
+      "name": "温世政",
+      "party": "dpp",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [
+        "dpp"
+      ],
+      "incumbent": false,
+      "born": null,
+      "currentRole": "新北市牙醫師公會理事長、世樺牙醫診所院長",
+      "bio": "南投草屯出身的植牙專科醫師、北醫兼任助理教授，政治素人；民進黨南投在地人選皆無意參選，2026年1月由賴清德延攬徵召。",
+      "source": "https://news.ltn.com.tw/news/politics/paper/1776267"
+    }
+  ],
+  "withdrawn": [],
+  "keyEvents": [
+    {
+      "date": "2026-01-12",
+      "text": "民進黨選對會拍板提名牙醫温世政參選南投縣長，挑戰許淑華",
+      "source": "https://www.rti.org.tw/news?uid=3&pid=185829"
+    },
+    {
+      "date": "2026-05-29",
+      "text": "《遠見》縣市長調查：許淑華連任支持度61%，九位拚連任首長中排第二",
+      "source": "https://www.gvm.com.tw/article/130410"
+    },
+    {
+      "date": "2026-07-22",
+      "text": "國民黨徵召許淑華等6位現任縣市長爭取連任",
+      "source": "https://news.pts.org.tw/article/818815"
+    },
+    {
+      "date": "2026-08-31",
+      "text": "温世政完成登記；許淑華同日宣布加碼營養午餐",
+      "source": "https://cna.com.tw/news/aipl/202608310138.aspx"
+    },
+    {
+      "date": "2026-10-27",
+      "text": "號次抽籤：許淑華1號、温世政2號",
+      "source": "https://news.ltn.com.tw/news/politics/paper/1776267"
+    }
+  ],
+  "notes": "兩人對決。民眾黨依藍白合現任優先原則未提名，未查到正式共同推薦。截至10/28找不到兩人對決的科學民調，只有施政滿意度/連任支持度調查（見 polls/details/nantou.json 的 extraPolls）。温世政出生年查不到。",
+  "updated": "2026-10-28"
+}

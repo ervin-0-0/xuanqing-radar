@@ -1,0 +1,45 @@
+{
+  "raceId": "taoyuan",
+  "incumbent": { "name": "張善政", "party": "kmt", "running": true, "termLimited": false },
+  "candidates": [
+    {
+      "name": "黃世杰", "party": "dpp", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": ["dpp"],
+      "incumbent": false,
+      "born": 1979,
+      "currentRole": "前法務部政務次長",
+      "bio": "律師出身，曾任第 10 屆立委（桃園市第二選區）與桃園市府參議；2026 年 4 月 15 日民進黨中執會提名參選桃園市長。",
+      "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx"
+    },
+    {
+      "name": "張善政", "party": "kmt", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": ["kmt"],
+      "incumbent": true,
+      "born": 1954,
+      "currentRole": "桃園市長",
+      "bio": "前行政院長、科技部長，曾任 Google 亞洲硬體營運總監；2022 年當選桃園市長，2026 年 7 月 22 日國民黨中常會提名競選連任。",
+      "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx"
+    }
+  ],
+  "withdrawn": [
+    {
+      "name": "彭紹瑾", "party": "dpp",
+      "reason": "2025 年 10 月報名民進黨桃園市長提名，黨中央最終提名黃世杰",
+      "date": "2026-04-15",
+      "source": "https://www.cna.com.tw/news/aipl/202604150169.aspx"
+    }
+  ],
+  "keyEvents": [
+    { "date": "2025-10-31", "text": "民進黨縣市長提名報名截止，前立委彭紹瑾報名桃園市長", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5230454" },
+    { "date": "2025-11-10", "text": "張善政表態對爭取連任「有信心」", "source": "https://udn.com/news/story/124652/9129983" },
+    { "date": "2026-04-15", "text": "民進黨中執會提名前法務部政務次長黃世杰參選桃園市長", "source": "https://www.cna.com.tw/news/aipl/202604150169.aspx" },
+    { "date": "2026-07-22", "text": "國民黨中常會提名張善政等 6 位現任縣市長競選連任；依藍白合作協議現任者優先，民眾黨未提名", "source": "https://news.pts.org.tw/article/818815" },
+    { "date": "2026-10-27", "text": "號次抽籤（原訂 10 月 23 日，因颱風延期）：1 黃世杰、2 張善政", "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx" }
+  ],
+  "notes": "兩人對決。總統府副秘書長何志偉 2025 年 10 月曾被議員掛看板拱選，回應「若有機會」會全力以赴，但未正式宣布，也沒有報名，所以不列 withdrawn（https://news.ebc.net.tw/news/living/519517）。張善政未見民眾黨正式共同推薦的報導，endorsedBy 只列國民黨。號次與參選人生日、經歷以中央社 10/27 抽籤一覽為準（另見 https://www.cna.com.tw/news/aloc/202610270036.aspx）。張善政對黃世杰的科學民調目前只有一筆（新台灣國策智庫 9/15–17）。",
+  "updated": "2026-10-28"
+}

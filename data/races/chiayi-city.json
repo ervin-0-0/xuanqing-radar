@@ -1,0 +1,78 @@
+{
+  "raceId": "chiayi-city",
+  "incumbent": { "name": "黃敏惠", "party": "kmt", "running": false, "termLimited": true },
+  "candidates": [
+    {
+      "name": "王義成", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": 1960,
+      "currentRole": null,
+      "bio": "無黨籍，中選會登記資料未列學經歷。",
+      "source": "https://www.cna.com.tw/news/aipl/202609045002.aspx"
+    },
+    {
+      "name": "陳愷璜", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": 1960,
+      "currentRole": "前國立台北藝術大學校長",
+      "bio": "藝術家、前國立台北藝術大學校長，2026年6月16日宣布以無黨籍參選，主打以數位孿生打造新城市。",
+      "source": "https://www.ettoday.net/news/20260616/3184416.htm"
+    },
+    {
+      "name": "張啓楷", "party": "tpp", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": ["tpp", "kmt"],
+      "incumbent": false,
+      "born": 1962,
+      "currentRole": "前全國不分區立法委員",
+      "bio": "嘉義東石人，政論節目主持人出身，第11屆民眾黨不分區立委；2025年12月獲民眾黨徵召，2026年4月藍白整合民調勝國民黨翁壽良，成為藍白共推人選。",
+      "source": "https://news.pts.org.tw/article/802486"
+    },
+    {
+      "name": "王美惠", "party": "dpp", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 4,
+      "endorsedBy": ["dpp"],
+      "incumbent": false,
+      "born": 1965,
+      "currentRole": "立法委員（嘉義市選區）",
+      "bio": "前嘉義市議員（第7至10屆），第10、11屆立委；2025年10月民進黨首波徵召提名。",
+      "source": "https://www.cna.com.tw/news/aipl/202510220227.aspx"
+    },
+    {
+      "name": "黃宏成台灣阿成世界偉人財神總統", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 5,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": 1968,
+      "currentRole": "行為藝術家",
+      "bio": "多次參選的行為藝術家（2014嘉義縣長、2016與2020嘉義市立委、2018嘉義市長），2026年4月13日宣布參選。",
+      "source": "https://www.ettoday.net/news/20260413/3148340.htm"
+    }
+  ],
+  "withdrawn": [
+    { "name": "陳家平", "party": "kmt", "reason": "嘉義市議員，宣布退出國民黨黨內初選，盼加速藍白整合", "date": "2026-01-05", "source": "https://news.ttv.com.tw/news/11501050025100N" },
+    { "name": "翁壽良", "party": "kmt", "reason": "藍白整合民調落敗（雙方協議不公布數字）", "date": "2026-04-07", "source": "https://news.pts.org.tw/article/802486" }
+  ],
+  "keyEvents": [
+    { "date": "2025-10-22", "text": "民進黨首波縣市長提名，徵召立委王美惠參選嘉義市長", "source": "https://www.cna.com.tw/news/aipl/202510220227.aspx" },
+    { "date": "2025-12-24", "text": "民眾黨徵召張啓楷參選，喊藍白整合最強人選", "source": "https://www.cna.com.tw/news/aipl/202512240265.aspx" },
+    { "date": "2026-01-05", "text": "國民黨籍市議員陳家平退出黨內初選", "source": "https://news.ttv.com.tw/news/11501050025100N" },
+    { "date": "2026-04-07", "text": "藍白整合民調（4/2–4/4執行）揭曉，民眾黨張啓楷勝國民黨翁壽良，獲兩黨共同推薦；雙方協議不公布數字", "source": "https://news.pts.org.tw/article/802486" },
+    { "date": "2026-04-13", "text": "黃宏成台灣阿成世界偉人財神總統宣布參選", "source": "https://www.ettoday.net/news/20260413/3148340.htm" },
+    { "date": "2026-06-16", "text": "前北藝大校長陳愷璜宣布以無黨籍參選", "source": "https://www.ettoday.net/news/20260616/3184416.htm" },
+    { "date": "2026-08-29", "text": "國民黨主席鄭麗文稱黨內民調張啓楷、王美惠差距在誤差範圍內（未公布數字），並在嘉義造勢全力支持張啓楷", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5556532" },
+    { "date": "2026-10-14", "text": "張啓楷表示將對王美惠與為其站台的姚立明提告加重誹謗及違反選罷法", "source": "https://udn.com/news/story/124652/9813201" },
+    { "date": "2026-10-27", "text": "號次抽籤：1號王義成、2號陳愷璜、3號張啓楷、4號王美惠、5號黃宏成台灣阿成世界偉人財神總統", "source": "https://news.tvbs.com.tw/politics/4041834" }
+  ],
+  "notes": "全國唯一由民眾黨籍候選人代表藍白的縣市長選區。公開科學民調只有TVBS（4月）與關鍵調查（7月），兩份都只測王美惠、張啓楷兩人。",
+  "updated": "2026-10-28"
+}

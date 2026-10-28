@@ -1,0 +1,19 @@
+{
+  "raceId": "taitung",
+  "details": [
+    {
+      "source": "https://cnews.com.tw/145260601a01/",
+      "pollster": "CNEWS匯流新聞網民調中心", "sponsor": "CNEWS匯流新聞網",
+      "fieldStart": "2026-05-27", "fieldEnd": "2026-05-28", "published": "2026-06-01",
+      "method": "phone", "sampleSize": 905, "moe": 3.26, "confidence": 95,
+      "population": "戶籍在台東縣、年滿20歲民眾",
+      "weighting": "依內政部最新人口資料，按戶籍地、性別、年齡、教育程度加權",
+      "results": [{ "name": "吳秀華", "party": "kmt", "pct": 44.2 }, { "name": "陳瑩", "party": "dpp", "pct": 15.0 }, { "name": "劉櫂豪", "party": "ind", "pct": 13.4 }],
+      "undecided": 27.4,
+      "likelyVoters": null,
+      "notes": "家戶（市話）電話調查，分層比例隨機抽樣，晚間執行。results 為三人參選情境（劉櫂豪7/31宣布不選）。藍綠對決：吳秀華51.3%、陳瑩22.4%、未決定26.3%。看好度：吳57.5%、陳12.0%、劉10.3%、未表態20.2%。饒慶鈴施政滿意77.9%（非常36.0＋還算41.9）、不滿意8.2%。不提示知名度：知道吳秀華參選23.2%、陳瑩20.0%、劉櫂豪5.6%、都不知道68.1%。吳任議長表現肯定63.9%；陳任立委表現肯定44.4%、不滿23.1%。政黨傾向：國民黨42.8%、民進黨21.6%、民眾黨9.8%、中間14.0%。同系列另有「4-4」LOWI AI 大數據網路聲量分析，非民調，未收。",
+      "extraSources": ["https://news.tvbs.com.tw/politics/3218706", "https://newtalk.tw/news/view/2026-06-01/1038624"]
+    }
+  ],
+  "extraPolls": []
+}

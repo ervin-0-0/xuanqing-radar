@@ -1,0 +1,74 @@
+{
+  "raceId": "yilan",
+  "details": [
+    {
+      "source": "https://my-formosa.com.tw/DOC_224420.htm",
+      "pollster": "美麗島電子報（戴立安規劃，畢肯市場研究公司執行電訪）", "sponsor": "美麗島電子報",
+      "fieldStart": "2026-03-16", "fieldEnd": "2026-03-18", "published": "2026-03-19",
+      "method": "phone", "sampleSize": 1070, "moe": 3.0, "confidence": 95,
+      "population": "設籍宜蘭縣、年滿20歲民眾",
+      "weighting": "比例估計法（raking），依宜蘭縣政府2026年2月性別、戶籍行政區、年齡與2025年12月教育程度加權",
+      "results": [{ "name": "林國漳", "party": "dpp", "pct": 35.8 }, { "name": "吳宗憲", "party": "kmt", "pct": 33.0 }],
+      "undecided": 23.5,
+      "likelyVoters": null,
+      "notes": "results 為「藍白合推吳宗憲 vs 民進黨林國漳」一對一（另有不投票／投廢票7.7%）。三人參選：林國漳33.0%、吳宗憲26.6%、陳琬惠7.9%、不投票／投廢票7.5%、未明確回答25.0%（維基「其他/未表態」寫25.0%，未含不投票7.5%）。藍白合推陳琬惠：林國漳35.8%、陳琬惠26.7%、不投票11.5%、未答25.9%。適任度（可複選）：林國漳35.3%、吳宗憲31.9%、陳琬惠19.3%、未答40.4%。政黨輪替：給國民黨繼續做23.6%、換民進黨30.4%、換民眾黨6.5%、未答39.5%。好感度：蔣萬安53.5%、林姿妙41.3%、賴清德40.6%、柯文哲25.1%、鄭麗文20.8%。市話 CATI，中華電信住宅電話簿等比分層抽樣後隨機跳號末2碼，未含手機。",
+      "extraSources": ["https://udn.com/news/story/124652/9390853"]
+    },
+    {
+      "source": "https://news.tvbs.com.tw/politics/3158893",
+      "pollster": "TVBS民意調查中心", "sponsor": "TVBS",
+      "fieldStart": "2026-03-13", "fieldEnd": "2026-03-19", "published": "2026-03-23",
+      "method": "phone", "sampleSize": 1042, "moe": 3.0, "confidence": 95,
+      "population": "20歲以上宜蘭縣民",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [{ "name": "林國漳", "party": "dpp", "pct": 38 }, { "name": "吳宗憲", "party": "kmt", "pct": 35 }],
+      "undecided": 27,
+      "likelyVoters": null,
+      "notes": "results 為藍綠一對一。三人參選（報導明寫為「有投票意願的宜蘭縣民」中）：林國漳33%、吳宗憲28%、陳琬惠8%、未決定31%；一對一題報導未說明是否同樣只問有投票意願者。投票意願：一定會59%、可能會24%、不一定6%、不會11%。原支持陳琬惠者在一對一中53%轉吳宗憲、26%轉林國漳。2022年投林姿妙者57%投吳、25%轉林。市話後四碼隨機抽樣、人員電訪，晚間18:30–22:00；接觸1,221人、拒訪179人（14.7%）。維基 ref 日期誤植為2026-03-34，實際發布2026-03-23。",
+      "extraSources": ["https://www.chinatimes.com/realtimenews/20260323003611-260407"]
+    },
+    {
+      "source": "https://www.storm.mg/article/11127599",
+      "pollster": null, "sponsor": "國民黨、民眾黨（藍白整合民調）",
+      "fieldStart": null, "fieldEnd": null, "published": "2026-05-04",
+      "method": "unknown", "sampleSize": null, "moe": null, "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [{ "name": "林國漳", "party": "dpp", "pct": 28.9 }, { "name": "吳宗憲", "party": "kmt", "pct": 27.6 }],
+      "undecided": 36.7,
+      "likelyVoters": null,
+      "notes": "對比式整合民調，題目「如果是藍白共推OOO跟民進黨林國漳，在這兩個人當中，請問您會投票支持哪一位來當縣長？」。results 為吳宗憲情境，另有兩人都支持0.7%、都不支持6.0%。陳琬惠情境：林國漳27.5%、陳琬惠21.1%、兩人都支持0.4%、都不支持10.6%、未表態40.4%。只委託一家民調公司，且採「不公開日期」執行以防灌票；執行單位、調查日期、樣本數、方法均未公布（維基寫5月）。細項數字取自 NOWnews。",
+      "extraSources": ["https://www.nownews.com/news/6822497", "https://newtalk.tw/news/view/2026-05-04/1033145", "https://www.businesstoday.com.tw/article/category/183027/post/202605040018/"]
+    },
+    {
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5558776",
+      "pollster": "山水民意研究公司", "sponsor": "林國漳競選總部",
+      "fieldStart": "2026-08-26", "fieldEnd": "2026-08-29", "published": "2026-09-01",
+      "method": "unknown", "sampleSize": 2327, "moe": null, "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [{ "name": "林國漳", "party": "dpp", "pct": 37.8 }, { "name": "吳宗憲", "party": "kmt", "pct": 28.0 }],
+      "undecided": null,
+      "likelyVoters": { "sampleSize": null, "results": [{ "name": "林國漳", "pct": 47.3 }, { "name": "吳宗憲", "pct": 33.0 }] },
+      "notes": "林國漳陣營委託的內部民調。likelyVoters 為「一定會去投票」者（占52.7%，另可能會31.8%），子樣本數未公布。看好度：林41.3%、吳22.7%。欣賞度：林46.4%、吳40.4%；不欣賞：林10.3%、吳22.4%。知名度：吳91.6%、林83.4%。政黨傾向：民進黨31.8%、國民黨21.5%、民眾黨8.6%；泛綠33%、泛藍25.4%、中間36.5%。民眾黨支持者67.7%挺吳、13.1%挺林。未表態比例、調查方式、誤差、加權報導未載。競總稱與先前兩份民調趨勢吻合；吳宗憲批為「策略性民調」。",
+      "extraSources": ["https://news.ltn.com.tw/news/politics/breakingnews/5559138", "https://news.ltn.com.tw/news/politics/breakingnews/5559251"]
+    }
+  ],
+  "extraPolls": [
+    {
+      "source": "https://ctinews.com/news/items/m0x7kOvlxv",
+      "pollster": "街頭有派對（YouTube 頻道，主持人蔡宇傑）", "sponsor": null,
+      "fieldStart": "2026-03-22", "fieldEnd": "2026-03-22", "published": "2026-03-29",
+      "method": "unknown", "sampleSize": 50, "moe": null, "confidence": null,
+      "population": "宜蘭車站、新月廣場周邊路人",
+      "weighting": null,
+      "results": [{ "name": "林國漳", "party": "dpp", "pct": null }, { "name": "吳宗憲", "party": "kmt", "pct": null }],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "非隨機便利街訪50人，只給票數：林國漳26票、吳宗憲23票、沒意見1票；林國漳vs陳琬惠為26比16、8票沒意見；藍白支持者中吳宗憲18票、陳琬惠5票。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "街頭調查，非隨機抽樣"
+    }
+  ]
+}

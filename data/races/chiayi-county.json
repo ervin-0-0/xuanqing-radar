@@ -1,0 +1,43 @@
+{
+  "raceId": "chiayi-county",
+  "incumbent": { "name": "翁章梁", "party": "dpp", "running": false, "termLimited": true },
+  "candidates": [
+    {
+      "name": "吳品叡", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": ["kmt"],
+      "incumbent": false,
+      "born": 1986,
+      "currentRole": "朴子市長",
+      "bio": "前朴子市民代表、第8屆朴子市長；國民黨2026年5月決定禮讓、以「在野大聯盟」支持她以無黨籍參選，主打打破嘉義縣25年未政黨輪替。",
+      "source": "https://www.cna.com.tw/news/aipl/202609030072.aspx"
+    },
+    {
+      "name": "蔡易餘", "party": "dpp", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": ["dpp"],
+      "incumbent": false,
+      "born": 1981,
+      "currentRole": "立法委員（嘉義縣第一選區）",
+      "bio": "律師出身，第9至11屆立委、前民進黨嘉義縣黨部主委；2026年1月初選民調以64.8135%對38.1949%勝縣議員黃榮利，口號「嘉義黃金10年」。",
+      "source": "https://www.dpp.org.tw/media/contents/11435"
+    }
+  ],
+  "withdrawn": [
+    { "name": "黃榮利", "party": "dpp", "reason": "民進黨初選民調落敗（對比式三家平均38.1949%，蔡易餘64.8135%）", "date": "2026-01-14", "source": "https://www.dpp.org.tw/media/contents/11435" },
+    { "name": "蔡松益", "party": "ind", "reason": "曾宣布參選縣長，最後改登記太保市過溝里長", "date": "2026-09-04", "source": "https://udn.com/news/story/124652/9735158" }
+  ],
+  "keyEvents": [
+    { "date": "2026-01-14", "text": "民進黨公布初選結果（1/13晚間三家對比式電話民調，各自對王育敏）：蔡易餘64.8135%勝黃榮利38.1949%", "source": "https://www.dpp.org.tw/media/contents/11435" },
+    { "date": "2026-01-21", "text": "民進黨正式提名蔡易餘，縣長翁章梁到場推薦", "source": "https://www.dpp.org.tw/media/contents/11447" },
+    { "date": "2026-05-26", "text": "國民黨嘉義縣黨部決議禮讓無黨籍朴子市長吳品叡（報中央核定）；原被討論的在野人選為前中選會代理主委吳容輝", "source": "https://www.bigmedia.com.tw/article/1779793187675" },
+    { "date": "2026-07-05", "text": "吳品叡宣布參選嘉義縣長，「在野大聯盟」成軍", "source": "https://udn.com/news/story/124652/9608450" },
+    { "date": "2026-08-29", "text": "國民黨主席鄭麗文嘉義造勢，下令全力支持吳品叡、張啓楷", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5556532" },
+    { "date": "2026-09-03", "text": "蔡易餘、吳品叡同日登記參選，形成另類藍綠對決", "source": "https://www.cna.com.tw/news/aipl/202609030072.aspx" },
+    { "date": "2026-10-27", "text": "號次抽籤：1號吳品叡、2號蔡易餘", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5619769" }
+  ],
+  "notes": "國民黨首度在嘉義縣長選舉禮讓無黨籍人選。維基與新聞都沒有找到蔡易餘對吳品叡的公開科學民調。",
+  "updated": "2026-10-28"
+}

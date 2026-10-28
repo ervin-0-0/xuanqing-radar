@@ -1,0 +1,109 @@
+{
+  "raceId": "kinmen",
+  "details": [
+    {
+      "source": "https://news.tvbs.com.tw/politics/3099283",
+      "pollster": null,
+      "sponsor": "國民黨（內參民調）",
+      "fieldStart": "2025-10-27",
+      "fieldEnd": "2025-10-31",
+      "published": "2026-01-13",
+      "method": "phone",
+      "sampleSize": 478,
+      "moe": 4.5,
+      "confidence": 95,
+      "population": "設籍金門縣、年滿 20 歲以上民眾",
+      "weighting": "依內政部 113 年底人口資料，按性別、年齡、地區、教育程度加權",
+      "results": [
+        { "name": "陳玉珍", "party": "kmt", "pct": 41 },
+        { "name": "楊鎮浯", "party": "kmt", "pct": 14 },
+        { "name": "李文良", "party": "ind", "pct": 9 }
+      ],
+      "undecided": 28,
+      "likelyVoters": null,
+      "notes": "媒體取得的國民黨內參，執行單位只自稱「本中心」，未具名。CATI 電話訪問，以中華電信金門縣電話簿 35,000 筆為抽樣底冊、戶中隨機抽選成年人，晚間 18:30–22:00 訪問。results 為三人情境；undecided 是「無意見」28%，另「三人都支持」1%、「都不支持／投廢票」6%。陳玉珍 vs 楊鎮浯一對一：50% 比 24%（未表態比例原文無）。國民黨支持者中陳玉珍 60%、楊鎮浯 21%；陳玉珍立委滿意度 78%、不滿意 12%。TVBS 發布日 2026-01-13（中時同日報導），維基寫 2026-01-03。",
+      "extraSources": ["https://www.chinatimes.com/realtimenews/20260113004099-260407"]
+    },
+    {
+      "source": "https://www.ftvnews.com.tw/news/detail/2026522W0366",
+      "pollster": "世新大學民意調查中心",
+      "sponsor": null,
+      "fieldStart": "2026-04-13",
+      "fieldEnd": "2026-04-17",
+      "published": "2026-05-22",
+      "method": "unknown",
+      "sampleSize": 1524,
+      "moe": 2.5,
+      "confidence": 95,
+      "population": null,
+      "weighting": null,
+      "results": [
+        { "name": "陳玉珍", "party": "kmt", "pct": 46.1 },
+        { "name": "楊鎮浯", "party": "kmt", "pct": 18.9 },
+        { "name": "李文良", "party": "ind", "pct": 6.2 }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "陳玉珍 5-22 對外釋出，委託者原文未明載。results 為三人情境，數字依 NOWnews（46.1%）；民視內文把三人情境的陳玉珍寫成 47.7%，與一對一楊鎮浯情境數字重複，應為筆誤，維基也採 46.1%。一對一：陳玉珍 52% vs 李文良 10.4%；陳玉珍 47.7% vs 楊鎮浯 21.2%。誤差 NOWnews 寫正負 2.5%、民視寫「不到 2.6%」。調查時李文良尚未表態參選。各情境未表態比例原文無。民視原網址被 Cloudflare 擋，內容由 Wayback 存檔讀取。",
+      "extraSources": ["https://www.nownews.com/news/6839107"]
+    },
+    {
+      "source": "https://news.tvbs.com.tw/politics/4023574",
+      "pollster": "雨晴指標行銷股份有限公司",
+      "sponsor": "中國國民黨",
+      "fieldStart": "2026-09-07",
+      "fieldEnd": "2026-09-11",
+      "published": "2026-09-17",
+      "method": "phone",
+      "sampleSize": 1071,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "金門縣年滿 20 歲以上成年民眾（中華電信金門縣住宅電話用戶）",
+      "weighting": "依金門縣 2026 年 8 月底人口資料，就鄉鎮、年齡、性別加權",
+      "results": [
+        { "name": "陳玉珍", "party": "kmt", "pct": 45.4 },
+        { "name": "李文良", "party": "ind", "pct": 10.7 },
+        { "name": "張國威", "party": "ind", "pct": 3.5 },
+        { "name": "洪和成", "party": "ind", "pct": 1.1 },
+        { "name": "張火木", "party": "ind", "pct": 0.7 },
+        { "name": "黃世團", "party": "ind", "pct": 0.6 },
+        { "name": "梁文韜", "party": "ind", "pct": 0.4 }
+      ],
+      "undecided": 37.6,
+      "likelyVoters": null,
+      "notes": "國民黨委託、陳玉珍競辦提供。分層比例隨機抽樣，住宅電話號碼後二碼隨機，未提手機。看好度：陳玉珍 53.4%、李文良 6.8%、張國威 1.2%、黃世團 1.0%、張火木 1.0%、梁文韜 0.8%、洪和成 0.7%、未表態 35.1%（部分媒體把 35.1% 誤當支持度的未表態）。國民黨支持者 77.8%、民眾黨支持者 70.3% 挺陳玉珍；民進黨支持者 60.5% 挺李文良、17.1% 挺陳玉珍；李文良支持者中 34.9% 認為陳玉珍會當選。陳玉珍立委滿意度 56.0%、不滿意 14.6%。TVBS 內文稱「6 位無黨籍合計約 37.4%」，與表列數字加總不符。",
+      "extraSources": [
+        "https://www.kmdn.gov.tw/1117/1271/1272/590324/",
+        "https://udn.com/news/story/124652/9761297"
+      ]
+    }
+  ],
+  "extraPolls": [
+    {
+      "source": "https://www.chinatimes.com/realtimenews/20261018002475-260407",
+      "pollster": "街頭有派對（YouTube 頻道，主持人蔡宇傑）",
+      "sponsor": "頻道 YouTube 廣告收益",
+      "fieldStart": "2026-10-02",
+      "fieldEnd": "2026-10-02",
+      "published": "2026-10-17",
+      "method": "unknown",
+      "sampleSize": 50,
+      "moe": null,
+      "confidence": null,
+      "population": "烈嶼東林市場與全聯金門慈湖店周邊路人",
+      "weighting": null,
+      "results": [
+        { "name": "陳玉珍", "party": "kmt", "pct": null },
+        { "name": "李文良", "party": "ind", "pct": null },
+        { "name": "梁文韜", "party": "ind", "pct": null },
+        { "name": "張國威", "party": "ind", "pct": null }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "非隨機便利街訪 50 人，原文只給票數：陳玉珍 43 票、李文良 6 票、梁文韜 1 票、張國威 0 票。頻道 10-17 公布影片，中時 10-18 報導。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "街頭調查，非隨機抽樣"
+    }
+  ]
+}

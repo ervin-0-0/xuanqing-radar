@@ -1,0 +1,74 @@
+name: 每日更新與部署
+
+on:
+  schedule:
+    - cron: "0 10 * * *" # 台灣時間每天 18:00
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      - name: 下載維基民調
+        # 維基暫時連不上就沿用上一次的資料，不要讓整個部署失敗
+        run: npm run data:wiki || echo "::warning::維基下載失敗，沿用上次資料"
+
+      - name: 合併資料、算預測
+        run: npm run data
+
+      - name: 測試
+        run: npm test
+
+      - name: 打包
+        run: npm run build
+
+      - name: 選前封關：不上線任何民調資料
+        # 《公職人員選舉罷免法》第 53 條：11/18 00:00 至 11/28 16:00 不得發布民調。
+        # 每日排程在 18:00，所以從 11/17 那次起就改上封關版，避免 11/18 凌晨還留著資料檔。
+        run: |
+          now=$(TZ=Asia/Taipei date +%Y%m%d%H%M)
+          if [ "$now" -ge 202611171200 ] && [ "$now" -lt 202611281600 ]; then
+            find dist/data -name '*.json' ! -name 'meta.json' -delete
+            echo "{\"blackout\":true,\"built\":\"$(date -u +%FT%TZ)\"}" > dist/data/meta.json
+            echo "::notice::封關期間，已移除所有民調資料檔"
+          fi
+
+      - name: 存下當天的維基快照
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/polls/wiki.json data/raw/wiki-polls.wikitext
+          git diff --cached --quiet || (git commit -m "資料：維基民調快照 $(TZ=Asia/Taipei date +%F)" && git push) || echo "::warning::快照推送失敗，不影響部署"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

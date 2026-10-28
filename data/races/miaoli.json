@@ -1,0 +1,71 @@
+{
+  "raceId": "miaoli",
+  "incumbent": {
+    "name": "鍾東錦",
+    "party": "kmt",
+    "running": true,
+    "termLimited": false
+  },
+  "candidates": [
+    {
+      "name": "陳品安",
+      "party": "dpp",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": [
+        "dpp"
+      ],
+      "incumbent": false,
+      "born": 1984,
+      "currentRole": "苗栗縣議員、律師",
+      "bio": "律師出身的年輕縣議員，2025年11月獲民進黨徵召，主打對接中央資源與爭取科技業移入的「新苗栗人」。",
+      "source": "https://www.ettoday.net/news/20261027/3261372.htm"
+    },
+    {
+      "name": "鍾東錦",
+      "party": "kmt",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [
+        "kmt"
+      ],
+      "incumbent": true,
+      "born": 1963,
+      "currentRole": "苗栗縣長",
+      "bio": "礦工家庭出身、前苗栗縣議會議長；2022年脫黨參選當選縣長（遭國民黨開除黨籍），2025年9月恢復黨籍，2026年獲國民黨提名尋求連任。",
+      "source": "https://www.ettoday.net/news/20261027/3261372.htm"
+    }
+  ],
+  "withdrawn": [],
+  "keyEvents": [
+    {
+      "date": "2025-11-26",
+      "text": "民進黨中執會徵召縣議員陳品安參選苗栗縣長",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5258858"
+    },
+    {
+      "date": "2025-11-29",
+      "text": "國民黨主席鄭麗文宣布提名鍾東錦爭取連任",
+      "source": "https://www.ettoday.net/news/20251129/3075639.htm"
+    },
+    {
+      "date": "2026-05-29",
+      "text": "《遠見》縣市長調查：鍾東錦連任支持度62.1%，九位拚連任首長中最高",
+      "source": "https://www.gvm.com.tw/article/130410"
+    },
+    {
+      "date": "2026-07-22",
+      "text": "國民黨中常會徵召鍾東錦等6位現任縣市長爭取連任",
+      "source": "https://news.pts.org.tw/article/818815"
+    },
+    {
+      "date": "2026-10-27",
+      "text": "號次抽籤（因颱風由10/23延期）：陳品安1號、鍾東錦2號；全縣僅2人登記",
+      "source": "https://www.ettoday.net/news/20261027/3261372.htm"
+    }
+  ],
+  "notes": "兩人對決。民眾黨依藍白合現任優先原則未提名，未查到正式共同推薦。截至10/28找不到兩人對決的科學民調；新頭殼專訪引用鍾東錦施政滿意度74.4%、連任支持度62.1%（後者出自《遠見》），滿意度74.4%的原始調查查不到。",
+  "updated": "2026-10-28"
+}

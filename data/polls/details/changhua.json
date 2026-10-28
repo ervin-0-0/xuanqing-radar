@@ -1,0 +1,276 @@
+{
+  "raceId": "changhua",
+  "details": [
+    {
+      "source": "https://www.bigmedia.com.tw/article/1769073918464",
+      "pollster": null,
+      "sponsor": "在地藍營（未公布內參）",
+      "fieldStart": null,
+      "fieldEnd": null,
+      "published": "2026-01-23",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "陳素月",
+          "party": "dpp",
+          "pct": 37.4
+        },
+        {
+          "name": "謝衣鳳",
+          "party": "kmt",
+          "pct": 30.0
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "國民黨提名前的內參民調，報導無執行機構、日期、樣本數（維基寫2026年1月）。其他對比：陳素月39.7% vs 柯呈枋23.6%；陳39.2% vs 謝典霖22.2%；陳41.1% vs 洪榮章18.5%。同文另引民進黨12月底初選民調：林世賢40.5349% vs 謝衣鳳27.4411%；邱建富42.0250% vs 謝衣鳳25.5435%；陳素月44.0332% vs 謝衣鳳24.2279%。謝衣鳳、謝典霖最後都沒參選。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.mirrormedia.mg/story/20260325inv003",
+      "pollster": "趨勢民調",
+      "sponsor": "中彰投地方輔選系統（藍營）",
+      "fieldStart": "2026-03-06",
+      "fieldEnd": "2026-03-08",
+      "published": "2026-03-25",
+      "method": "phone",
+      "sampleSize": 1076,
+      "moe": 2.99,
+      "confidence": 95,
+      "population": "年滿20歲彰化縣民",
+      "weighting": null,
+      "results": [
+        {
+          "name": "陳素月",
+          "party": "dpp",
+          "pct": 34.8
+        },
+        {
+          "name": "謝衣鳳",
+          "party": "kmt",
+          "pct": 31.9
+        }
+      ],
+      "undecided": 33,
+      "likelyVoters": null,
+      "notes": "電訪，母體為中華電信市內號碼簿（市話）。國民黨提名前的假設對比，undecided 為原文「無法選擇達3成3」。柯呈枋28.3% vs 陳37.7%；洪榮章23.8% vs 陳39.6%。黨內互比謝22.1%、柯15.2%、洪9.2%、無法選擇約53%。政黨支持：民進黨27.4%、國民黨25.2%、民眾黨9.4%、不偏任何黨17.2%、不知道15.5%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.bigmedia.com.tw/article/1778147228192",
+      "pollster": "皮爾森數據",
+      "sponsor": "鉅聞天下新聞網",
+      "fieldStart": "2026-04-27",
+      "fieldEnd": "2026-05-02",
+      "published": "2026-05-08",
+      "method": "online",
+      "sampleSize": 1477,
+      "moe": 2.55,
+      "confidence": 95,
+      "population": "彰化縣年滿20歲網路人口",
+      "weighting": null,
+      "results": [
+        {
+          "name": "陳素月",
+          "party": "dpp",
+          "pct": 39.2
+        },
+        {
+          "name": "魏平政",
+          "party": "kmt",
+          "pct": 14.4
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "網路民調，藍白未整合前的兩組對比。陳vs魏組「都不支持＋尚未決定」合計46.4%（維基寫20.67%，原文未拆分）。陳素月39.63% vs 蔡壁如19.17%，都不支持＋尚未決定41.20%（維基寫15.54%）。政黨認同：國民黨31.86%、民進黨26.16%、民眾黨10.33%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://cnews.com.tw/001260525a01/",
+      "pollster": "匯流新聞網民調中心",
+      "sponsor": "CNEWS匯流新聞網",
+      "fieldStart": "2026-05-20",
+      "fieldEnd": "2026-05-21",
+      "published": "2026-05-25",
+      "method": "phone",
+      "sampleSize": 1068,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "戶籍在彰化縣年滿20歲縣民",
+      "weighting": "依內政部最新人口資料，就戶籍地、性別、年齡、教育程度加權",
+      "results": [
+        {
+          "name": "陳素月",
+          "party": "dpp",
+          "pct": 30.5
+        },
+        {
+          "name": "魏平政",
+          "party": "kmt",
+          "pct": 14.0
+        },
+        {
+          "name": "蔡壁如",
+          "party": "tpp",
+          "pct": 8.5
+        }
+      ],
+      "undecided": 47.0,
+      "likelyVoters": null,
+      "notes": "家戶電話（市話）。三人情境。藍白互比魏27.8%、蔡27.3%、未表態44.9%。共推魏 vs 陳：23.2%比42.6%（34.2%）；共推蔡 vs 陳：28.8%比41.5%（29.7%）。看好度陳47.2%、魏17.0%、蔡9.3%。支持藍白初選44.0%、不支持25.3%。王惠美施政滿意63.4%。邱建富當時尚未脫黨參選。",
+      "extraSources": []
+    },
+    {
+      "source": "https://udn.com/vote2026/story/124652/9617676",
+      "pollster": null,
+      "sponsor": "民進黨（綠營內部民調）",
+      "fieldStart": null,
+      "fieldEnd": null,
+      "published": "2026-07-09",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "陳素月",
+          "party": "dpp",
+          "pct": 28
+        },
+        {
+          "name": "邱建富",
+          "party": "ind",
+          "pct": 12
+        },
+        {
+          "name": "魏平政",
+          "party": "kmt",
+          "pct": 11
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "綠營內部民調，報導未寫執行機構、日期（維基寫6月）、樣本數；原文說「約50%未表態」（維基寫49%）。泛藍選民魏40%、邱18%、陳15%；泛綠選民陳65%、邱10%、魏2%。未表態者多在北彰化、20-40歲、大學以上。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.ettoday.net/news/20260818/3221430.htm",
+      "pollster": "ETtoday民調雲",
+      "sponsor": "東森民調雲",
+      "fieldStart": "2026-08-10",
+      "fieldEnd": "2026-08-17",
+      "published": "2026-08-18",
+      "method": "online",
+      "sampleSize": 1133,
+      "moe": 2.9,
+      "confidence": 95,
+      "population": "設籍彰化縣年滿20歲民眾",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [
+        {
+          "name": "陳素月",
+          "party": "dpp",
+          "pct": 36.4
+        },
+        {
+          "name": "魏平政",
+          "party": "kmt",
+          "pct": 19.4
+        },
+        {
+          "name": "邱建富",
+          "party": "ind",
+          "pct": 12.7
+        }
+      ],
+      "undecided": 27.9,
+      "likelyVoters": null,
+      "notes": "手機簡訊通知的封閉式網路問卷。另有不投票/投廢票3.7%。不支持任何政黨者33.0%，其中陳18.1%、邱14.7%、魏7.4%、未決定54.9%。國民黨支持者58.6%挺魏、民眾黨支持者36.8%挺魏；2022投王惠美者34.6%挺魏。投票意願一定會73.0%、可能會15.8%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://udn.com/vote2026/story/124652/9822866",
+      "pollster": "聯合報（本報調查）",
+      "sponsor": "聯合報",
+      "fieldStart": "2026-10-13",
+      "fieldEnd": "2026-10-15",
+      "published": "2026-10-19",
+      "method": "phone",
+      "sampleSize": 1003,
+      "moe": 3.1,
+      "confidence": 95,
+      "population": "設籍彰化縣選民",
+      "weighting": "依彰化縣20歲以上民眾性別、年齡、鄉鎮市結構加權",
+      "results": [
+        {
+          "name": "陳素月",
+          "party": "dpp",
+          "pct": 32
+        },
+        {
+          "name": "魏平政",
+          "party": "kmt",
+          "pct": 16
+        },
+        {
+          "name": "邱建富",
+          "party": "ind",
+          "pct": 10
+        }
+      ],
+      "undecided": 42,
+      "likelyVoters": null,
+      "notes": "住宅電話尾數兩位隨機（市話），另有338人拒訪。陳重嘉原文只寫「不到百分之一」（維基寫0.3%）。看好度陳38%、魏10%、邱5%、勝負難料47%。綠營支持者78%挺陳；藍營支持者59%挺魏、11%挺陳、7%挺邱；中立選民陳19%、邱12%、魏4%。王惠美施政滿意58%、不滿意15%。48%不關心選舉。",
+      "extraSources": [
+        "https://news.tvbs.com.tw/politics/4038144"
+      ]
+    }
+  ],
+  "extraPolls": [
+    {
+      "source": "https://www.gvm.com.tw/article/130553",
+      "pollster": "遠見民意研究調查",
+      "sponsor": "遠見雜誌",
+      "fieldStart": "2026-03-02",
+      "fieldEnd": "2026-04-14",
+      "published": "2026-06-01",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": "22縣市民眾（全國合計14,251人）",
+      "weighting": "依性別、年齡、教育程度、戶籍選區加權",
+      "results": [
+        {
+          "name": "國民黨（政黨別）",
+          "party": "kmt",
+          "pct": 26.2
+        },
+        {
+          "name": "民進黨（政黨別）",
+          "party": "dpp",
+          "pct": 20.8
+        },
+        {
+          "name": "民眾黨（政黨別）",
+          "party": "tpp",
+          "pct": 2.5
+        }
+      ],
+      "undecided": 50.3,
+      "likelyVoters": null,
+      "notes": "《遠見》年度縣市長調查中的「縣市長選舉支持哪一黨」題，是政黨別而非候選人對決，結果為國民黨26.2%、民進黨20.8%、民眾黨2.5%、其他0.2%、未表態50.3%。全國22縣市共訪問14,251人，各縣市樣本數與調查方式報導未載明，依性別、年齡、教育程度、戶籍選區加權。報導稱彰化是選情最渾沌的縣市。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "政黨別支持度，非候選人對決題；單一縣市樣本數未公布"
+    }
+  ]
+}

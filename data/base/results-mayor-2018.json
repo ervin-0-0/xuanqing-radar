@@ -1,0 +1,985 @@
+{
+  "year": 2018,
+  "source": "https://db.cec.gov.tw/ElecTable/Election/ElecTickets?dataType=tickets&typeId=ELC&subjectId=C1&legisId=00&themeId=a0222f6529a3ff2192a1a04f209eaac3&dataLevel=C&prvCode=00&cityCode=000&areaCode=00&deptCode=000&liCode=0000",
+  "races": {
+    "taipei": {
+      "electorate": 2164155,
+      "ballotsCast": 1427225,
+      "validVotes": 1413870,
+      "turnout": 65.95,
+      "candidates": [
+        {
+          "name": "柯文哲",
+          "party": "ind",
+          "votes": 580663,
+          "pct": 41.06,
+          "elected": true,
+          "incumbent": true
+        },
+        {
+          "name": "丁守中",
+          "party": "kmt",
+          "votes": 577096,
+          "pct": 40.81,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "姚文智",
+          "party": "dpp",
+          "votes": 244342,
+          "pct": 17.28,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "李錫錕",
+          "party": "ind",
+          "votes": 6158,
+          "pct": 0.43,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "吳蕚洋",
+          "party": "ind",
+          "votes": 5611,
+          "pct": 0.39,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C1/00/a0222f6529a3ff2192a1a04f209eaac3/C/00_000_00_000_0000.json"
+    },
+    "new-taipei": {
+      "electorate": 3264128,
+      "ballotsCast": 2089127,
+      "validVotes": 2038822,
+      "turnout": 64.0,
+      "candidates": [
+        {
+          "name": "侯友宜",
+          "party": "kmt",
+          "votes": 1165130,
+          "pct": 57.14,
+          "elected": true,
+          "incumbent": false
+        },
+        {
+          "name": "蘇貞昌",
+          "party": "dpp",
+          "votes": 873692,
+          "pct": 42.85,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C1/00/a0222f6529a3ff2192a1a04f209eaac3/C/00_000_00_000_0000.json"
+    },
+    "taoyuan": {
+      "electorate": 1732591,
+      "ballotsCast": 1050527,
+      "validVotes": 1033149,
+      "turnout": 60.63,
+      "candidates": [
+        {
+          "name": "鄭文燦",
+          "party": "dpp",
+          "votes": 552330,
+          "pct": 53.46,
+          "elected": true,
+          "incumbent": true
+        },
+        {
+          "name": "陳學聖",
+          "party": "kmt",
+          "votes": 407234,
+          "pct": 39.41,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "楊麗環",
+          "party": "ind",
+          "votes": 51518,
+          "pct": 4.98,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "朱梅雪",
+          "party": "ind",
+          "votes": 18200,
+          "pct": 1.76,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "吳富彤",
+          "party": "ind",
+          "votes": 3867,
+          "pct": 0.37,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C1/00/a0222f6529a3ff2192a1a04f209eaac3/C/00_000_00_000_0000.json"
+    },
+    "taichung": {
+      "electorate": 2213789,
+      "ballotsCast": 1493365,
+      "validVotes": 1463770,
+      "turnout": 67.46,
+      "candidates": [
+        {
+          "name": "盧秀燕",
+          "party": "kmt",
+          "votes": 827996,
+          "pct": 56.56,
+          "elected": true,
+          "incumbent": false
+        },
+        {
+          "name": "林佳龍",
+          "party": "dpp",
+          "votes": 619855,
+          "pct": 42.34,
+          "elected": false,
+          "incumbent": true
+        },
+        {
+          "name": "宋原通",
+          "party": "ind",
+          "votes": 15919,
+          "pct": 1.08,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C1/00/a0222f6529a3ff2192a1a04f209eaac3/C/00_000_00_000_0000.json"
+    },
+    "tainan": {
+      "electorate": 1546862,
+      "ballotsCast": 990204,
+      "validVotes": 966670,
+      "turnout": 64.01,
+      "candidates": [
+        {
+          "name": "黃偉哲",
+          "party": "dpp",
+          "votes": 367518,
+          "pct": 38.01,
+          "elected": true,
+          "incumbent": false
+        },
+        {
+          "name": "高思博",
+          "party": "kmt",
+          "votes": 312874,
+          "pct": 32.36,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "陳永和",
+          "party": "ind",
+          "votes": 117179,
+          "pct": 12.12,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "林義豐",
+          "party": "ind",
+          "votes": 84153,
+          "pct": 8.7,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "許忠信",
+          "party": "ind",
+          "votes": 45168,
+          "pct": 4.67,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "蘇煥智",
+          "party": "ind",
+          "votes": 39778,
+          "pct": 4.11,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C1/00/a0222f6529a3ff2192a1a04f209eaac3/C/00_000_00_000_0000.json"
+    },
+    "kaohsiung": {
+      "electorate": 2281338,
+      "ballotsCast": 1677650,
+      "validVotes": 1656907,
+      "turnout": 73.54,
+      "candidates": [
+        {
+          "name": "韓國瑜",
+          "party": "kmt",
+          "votes": 892545,
+          "pct": 53.86,
+          "elected": true,
+          "incumbent": false
+        },
+        {
+          "name": "陳其邁",
+          "party": "dpp",
+          "votes": 742239,
+          "pct": 44.79,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "蘇盈貴",
+          "party": "ind",
+          "votes": 14125,
+          "pct": 0.85,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "璩美鳳",
+          "party": "ind",
+          "votes": 7998,
+          "pct": 0.48,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C1/00/a0222f6529a3ff2192a1a04f209eaac3/C/00_000_00_000_0000.json"
+    },
+    "keelung": {
+      "electorate": 309428,
+      "ballotsCast": 193251,
+      "validVotes": 188696,
+      "turnout": 62.45,
+      "candidates": [
+        {
+          "name": "林右昌",
+          "party": "dpp",
+          "votes": 102167,
+          "pct": 54.14,
+          "elected": true,
+          "incumbent": true
+        },
+        {
+          "name": "謝立功",
+          "party": "kmt",
+          "votes": 86529,
+          "pct": 45.85,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C2/00/f75e94cad2958f8764f9d090e72b5567/C/00_000_00_000_0000.json"
+    },
+    "hsinchu-city": {
+      "electorate": 338323,
+      "ballotsCast": 221402,
+      "validVotes": 217103,
+      "turnout": 65.44,
+      "candidates": [
+        {
+          "name": "林智堅",
+          "party": "dpp",
+          "votes": 107612,
+          "pct": 49.56,
+          "elected": true,
+          "incumbent": true
+        },
+        {
+          "name": "許明財",
+          "party": "kmt",
+          "votes": 60508,
+          "pct": 27.87,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "謝文進",
+          "party": "ind",
+          "votes": 44101,
+          "pct": 20.31,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "黃源甫",
+          "party": "ind",
+          "votes": 3603,
+          "pct": 1.65,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "李驥羣",
+          "party": "ind",
+          "votes": 705,
+          "pct": 0.32,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "郭榮睿",
+          "party": "ind",
+          "votes": 574,
+          "pct": 0.26,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C2/00/f75e94cad2958f8764f9d090e72b5567/C/00_000_00_000_0000.json"
+    },
+    "hsinchu-county": {
+      "electorate": 427652,
+      "ballotsCast": 290600,
+      "validVotes": 282405,
+      "turnout": 67.95,
+      "candidates": [
+        {
+          "name": "楊文科",
+          "party": "kmt",
+          "votes": 107877,
+          "pct": 38.19,
+          "elected": true,
+          "incumbent": false
+        },
+        {
+          "name": "徐欣瑩",
+          "party": "other",
+          "partyName": "民國黨",
+          "votes": 91190,
+          "pct": 32.29,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "votes": 78170,
+          "pct": 27.68,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "葉芳棟",
+          "party": "ind",
+          "votes": 5168,
+          "pct": 1.82,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C2/00/f75e94cad2958f8764f9d090e72b5567/C/00_000_00_000_0000.json"
+    },
+    "miaoli": {
+      "electorate": 446507,
+      "ballotsCast": 315841,
+      "validVotes": 304370,
+      "turnout": 70.74,
+      "candidates": [
+        {
+          "name": "徐耀昌",
+          "party": "kmt",
+          "votes": 175756,
+          "pct": 57.74,
+          "elected": true,
+          "incumbent": true
+        },
+        {
+          "name": "徐定禎",
+          "party": "ind",
+          "votes": 112704,
+          "pct": 37.02,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "黃玉燕",
+          "party": "ind",
+          "votes": 9030,
+          "pct": 2.96,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "朱泰平",
+          "party": "ind",
+          "votes": 6880,
+          "pct": 2.26,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C2/00/f75e94cad2958f8764f9d090e72b5567/C/00_000_00_000_0000.json"
+    },
+    "changhua": {
+      "electorate": 1031222,
+      "ballotsCast": 731136,
+      "validVotes": 710419,
+      "turnout": 70.9,
+      "candidates": [
+        {
+          "name": "王惠美",
+          "party": "kmt",
+          "votes": 377795,
+          "pct": 53.17,
+          "elected": true,
+          "incumbent": false
+        },
+        {
+          "name": "魏明谷",
+          "party": "dpp",
+          "votes": 283269,
+          "pct": 39.87,
+          "elected": false,
+          "incumbent": true
+        },
+        {
+          "name": "黃文玲",
+          "party": "ind",
+          "votes": 34690,
+          "pct": 4.88,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "白雅燦",
+          "party": "ind",
+          "votes": 7402,
+          "pct": 1.04,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "洪敏雄",
+          "party": "ind",
+          "votes": 7263,
+          "pct": 1.02,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C2/00/f75e94cad2958f8764f9d090e72b5567/C/00_000_00_000_0000.json"
+    },
+    "nantou": {
+      "electorate": 413222,
+      "ballotsCast": 300608,
+      "validVotes": 292845,
+      "turnout": 72.75,
+      "candidates": [
+        {
+          "name": "林明溱",
+          "party": "kmt",
+          "votes": 195385,
+          "pct": 66.71,
+          "elected": true,
+          "incumbent": true
+        },
+        {
+          "name": "洪國浩",
+          "party": "dpp",
+          "votes": 97460,
+          "pct": 33.28,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C2/00/f75e94cad2958f8764f9d090e72b5567/C/00_000_00_000_0000.json"
+    },
+    "yunlin": {
+      "electorate": 565078,
+      "ballotsCast": 404447,
+      "validVotes": 391519,
+      "turnout": 71.57,
+      "candidates": [
+        {
+          "name": "張麗善",
+          "party": "kmt",
+          "votes": 210770,
+          "pct": 53.83,
+          "elected": true,
+          "incumbent": false
+        },
+        {
+          "name": "李進勇",
+          "party": "dpp",
+          "votes": 163325,
+          "pct": 41.71,
+          "elected": false,
+          "incumbent": true
+        },
+        {
+          "name": "王麗萍",
+          "party": "ind",
+          "votes": 11261,
+          "pct": 2.87,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "林佳瑜",
+          "party": "ind",
+          "votes": 6163,
+          "pct": 1.57,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C2/00/f75e94cad2958f8764f9d090e72b5567/C/00_000_00_000_0000.json"
+    },
+    "chiayi-city": {
+      "electorate": 212843,
+      "ballotsCast": 144534,
+      "validVotes": 142208,
+      "turnout": 67.91,
+      "candidates": [
+        {
+          "name": "黃敏惠",
+          "party": "kmt",
+          "votes": 58558,
+          "pct": 41.17,
+          "elected": true,
+          "incumbent": false
+        },
+        {
+          "name": "涂醒哲",
+          "party": "dpp",
+          "votes": 56256,
+          "pct": 39.55,
+          "elected": false,
+          "incumbent": true
+        },
+        {
+          "name": "蕭淑麗",
+          "party": "ind",
+          "votes": 25572,
+          "pct": 17.98,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "黃宏成台灣阿成世界偉人財神總統",
+          "party": "ind",
+          "votes": 1822,
+          "pct": 1.28,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C2/00/f75e94cad2958f8764f9d090e72b5567/C/00_000_00_000_0000.json"
+    },
+    "chiayi-county": {
+      "electorate": 428649,
+      "ballotsCast": 303269,
+      "validVotes": 285147,
+      "turnout": 70.75,
+      "candidates": [
+        {
+          "name": "翁章梁",
+          "party": "dpp",
+          "votes": 145288,
+          "pct": 50.95,
+          "elected": true,
+          "incumbent": false
+        },
+        {
+          "name": "吳育仁",
+          "party": "kmt",
+          "votes": 84243,
+          "pct": 29.54,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "吳芳銘",
+          "party": "ind",
+          "votes": 51020,
+          "pct": 17.89,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "林國龍",
+          "party": "ind",
+          "votes": 4596,
+          "pct": 1.61,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C2/00/f75e94cad2958f8764f9d090e72b5567/C/00_000_00_000_0000.json"
+    },
+    "pingtung": {
+      "electorate": 689393,
+      "ballotsCast": 490078,
+      "validVotes": 470146,
+      "turnout": 71.09,
+      "candidates": [
+        {
+          "name": "潘孟安",
+          "party": "dpp",
+          "votes": 262809,
+          "pct": 55.89,
+          "elected": true,
+          "incumbent": true
+        },
+        {
+          "name": "蘇清泉",
+          "party": "kmt",
+          "votes": 197518,
+          "pct": 42.01,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "李鎔任",
+          "party": "ind",
+          "votes": 9819,
+          "pct": 2.08,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C2/00/f75e94cad2958f8764f9d090e72b5567/C/00_000_00_000_0000.json"
+    },
+    "yilan": {
+      "electorate": 373510,
+      "ballotsCast": 258048,
+      "validVotes": 250121,
+      "turnout": 69.09,
+      "candidates": [
+        {
+          "name": "林姿妙",
+          "party": "kmt",
+          "votes": 123767,
+          "pct": 49.48,
+          "elected": true,
+          "incumbent": false
+        },
+        {
+          "name": "陳歐珀",
+          "party": "dpp",
+          "votes": 95609,
+          "pct": 38.22,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "林信華",
+          "party": "ind",
+          "votes": 27399,
+          "pct": 10.95,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "林錦坤",
+          "party": "ind",
+          "votes": 1922,
+          "pct": 0.76,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "陳秋境",
+          "party": "ind",
+          "votes": 1424,
+          "pct": 0.56,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C2/00/f75e94cad2958f8764f9d090e72b5567/C/00_000_00_000_0000.json"
+    },
+    "hualien": {
+      "electorate": 268817,
+      "ballotsCast": 174376,
+      "validVotes": 169596,
+      "turnout": 64.87,
+      "candidates": [
+        {
+          "name": "徐榛蔚",
+          "party": "kmt",
+          "votes": 121297,
+          "pct": 71.52,
+          "elected": true,
+          "incumbent": false
+        },
+        {
+          "name": "劉曉玫",
+          "party": "dpp",
+          "votes": 43879,
+          "pct": 25.87,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "黄師鵬",
+          "party": "ind",
+          "votes": 4420,
+          "pct": 2.6,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C2/00/f75e94cad2958f8764f9d090e72b5567/C/00_000_00_000_0000.json"
+    },
+    "taitung": {
+      "electorate": 179706,
+      "ballotsCast": 122786,
+      "validVotes": 119518,
+      "turnout": 68.33,
+      "candidates": [
+        {
+          "name": "饒慶鈴",
+          "party": "kmt",
+          "votes": 70577,
+          "pct": 59.05,
+          "elected": true,
+          "incumbent": false
+        },
+        {
+          "name": "劉櫂豪",
+          "party": "dpp",
+          "votes": 44264,
+          "pct": 37.03,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "鄺麗貞",
+          "party": "ind",
+          "votes": 3049,
+          "pct": 2.55,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "彭權國",
+          "party": "ind",
+          "votes": 988,
+          "pct": 0.82,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "黃裕斌",
+          "party": "ind",
+          "votes": 640,
+          "pct": 0.53,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C2/00/f75e94cad2958f8764f9d090e72b5567/C/00_000_00_000_0000.json"
+    },
+    "penghu": {
+      "electorate": 86603,
+      "ballotsCast": 54456,
+      "validVotes": 52915,
+      "turnout": 62.88,
+      "candidates": [
+        {
+          "name": "賴峰偉",
+          "party": "kmt",
+          "votes": 20570,
+          "pct": 38.87,
+          "elected": true,
+          "incumbent": false
+        },
+        {
+          "name": "陳光復",
+          "party": "dpp",
+          "votes": 17347,
+          "pct": 32.78,
+          "elected": false,
+          "incumbent": true
+        },
+        {
+          "name": "陳大松",
+          "party": "ind",
+          "votes": 5822,
+          "pct": 11.0,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "鄭清發",
+          "party": "ind",
+          "votes": 4330,
+          "pct": 8.18,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "吳政隆",
+          "party": "ind",
+          "votes": 2999,
+          "pct": 5.66,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "翁珍聖",
+          "party": "ind",
+          "votes": 1379,
+          "pct": 2.6,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "呂華苑",
+          "party": "ind",
+          "votes": 468,
+          "pct": 0.88,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C2/00/f75e94cad2958f8764f9d090e72b5567/C/00_000_00_000_0000.json"
+    },
+    "kinmen": {
+      "electorate": 117913,
+      "ballotsCast": 50419,
+      "validVotes": 49229,
+      "turnout": 42.76,
+      "candidates": [
+        {
+          "name": "楊鎮浯",
+          "party": "kmt",
+          "votes": 23520,
+          "pct": 47.77,
+          "elected": true,
+          "incumbent": false
+        },
+        {
+          "name": "陳福海",
+          "party": "ind",
+          "votes": 22719,
+          "pct": 46.14,
+          "elected": false,
+          "incumbent": true
+        },
+        {
+          "name": "謝宜璋",
+          "party": "ind",
+          "votes": 1389,
+          "pct": 2.82,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "洪志恒",
+          "party": "other",
+          "partyName": "金門高粱黨",
+          "votes": 832,
+          "pct": 1.69,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "汪承樺",
+          "party": "other",
+          "partyName": "教科文預算保障e聯盟",
+          "votes": 403,
+          "pct": 0.81,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "洪和成",
+          "party": "ind",
+          "votes": 366,
+          "pct": 0.74,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C2/00/f75e94cad2958f8764f9d090e72b5567/C/00_000_00_000_0000.json"
+    },
+    "lienchiang": {
+      "electorate": 10773,
+      "ballotsCast": 7682,
+      "validVotes": 7408,
+      "turnout": 71.31,
+      "candidates": [
+        {
+          "name": "劉增應",
+          "party": "kmt",
+          "votes": 4861,
+          "pct": 65.61,
+          "elected": true,
+          "incumbent": true
+        },
+        {
+          "name": "朱秀珍",
+          "party": "ind",
+          "votes": 1284,
+          "pct": 17.33,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "蘇柏豪",
+          "party": "other",
+          "partyName": "樹黨",
+          "votes": 927,
+          "pct": 12.51,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "魏耀乾",
+          "party": "ind",
+          "votes": 336,
+          "pct": 4.53,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/C2/00/f75e94cad2958f8764f9d090e72b5567/C/00_000_00_000_0000.json"
+    },
+    "zhubei": {
+      "electorate": 130653,
+      "ballotsCast": 84750,
+      "validVotes": 80871,
+      "turnout": 64.87,
+      "candidates": [
+        {
+          "name": "何淦銘",
+          "party": "ind",
+          "votes": 47284,
+          "pct": 58.46,
+          "elected": true,
+          "incumbent": true
+        },
+        {
+          "name": "楊敬賜",
+          "party": "kmt",
+          "votes": 27957,
+          "pct": 34.56,
+          "elected": false,
+          "incumbent": false
+        },
+        {
+          "name": "陳榮燦",
+          "party": "ind",
+          "votes": 5630,
+          "pct": 6.96,
+          "elected": false,
+          "incumbent": false
+        }
+      ],
+      "source": "https://db.cec.gov.tw/static/elections/data/tickets/ELC/D2/00/e34d0b6d7e29a5d82fec3aeb226f4a2f/D/10_004_00_000_0000.json"
+    }
+  }
+}

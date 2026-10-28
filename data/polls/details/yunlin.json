@@ -1,0 +1,108 @@
+{
+  "raceId": "yunlin",
+  "details": [
+    {
+      "source": "https://www.bigmedia.com.tw/article/1779181485438",
+      "pollster": "皮爾森數據",
+      "sponsor": "鉅聞天下新聞網",
+      "fieldStart": "2026-03-23",
+      "fieldEnd": "2026-03-28",
+      "published": "2026-05-20",
+      "method": "online",
+      "sampleSize": 1417,
+      "moe": 2.6,
+      "confidence": 95,
+      "population": "雲林縣年滿20歲網路人口",
+      "weighting": null,
+      "results": [
+        {
+          "name": "張嘉郡",
+          "party": "kmt",
+          "pct": 49.52
+        },
+        {
+          "name": "劉建國",
+          "party": "dpp",
+          "pct": 38.91
+        }
+      ],
+      "undecided": 8.92,
+      "likelyVoters": null,
+      "notes": "網路調查（DMP 網路主動發放，依性別、年齡、居住地分層），媒體自行出資。調查完成近兩個月後才發布。另有都不支持或不會去投票2.65%。斗六市張43.48%、劉47.83%；斗六莿桐林內選區張42.44%、劉49.13%，其餘五區張領先。張麗善施政滿意73.25%；賴清德不滿意60.20%。調查時吳炳輝、林佳瑜尚未登記，未列入。",
+      "extraSources": [
+        "https://news.nextapple.com/politics/20260702/88AE697C2EAED78DC280544A528663D0"
+      ]
+    }
+  ],
+  "extraPolls": [
+    {
+      "source": "https://ctinews.com/news/items/14a12JvYxk",
+      "pollster": "TPOC台灣議題研究中心（QuickseeK快析輿情資料庫）",
+      "sponsor": "影響力數據顧問股份有限公司",
+      "fieldStart": null,
+      "fieldEnd": "2026-10-13",
+      "published": "2026-10-19",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": "全網公開社群、新聞、討論區聲量",
+      "weighting": null,
+      "results": [
+        {
+          "name": "張嘉郡",
+          "party": "kmt",
+          "pct": 55.81
+        },
+        {
+          "name": "劉建國",
+          "party": "dpp",
+          "pct": 44.19
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "網路輿情語意分析推估的「預估得票率」，非機率抽樣，機構自言不適用抽樣誤差；報導對監測期間說法不一（文中同時出現7/13-10/12與9/4-9/8）。僅供參考雲林缺乏民調的狀況。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "網路聲量／AI推估，非抽樣民調"
+    },
+    {
+      "source": "https://www.gvm.com.tw/article/130553",
+      "pollster": "遠見民意研究調查",
+      "sponsor": "遠見雜誌",
+      "fieldStart": "2026-03-02",
+      "fieldEnd": "2026-04-14",
+      "published": "2026-06-01",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": "22縣市民眾（全國合計14,251人）",
+      "weighting": "依性別、年齡、教育程度、戶籍選區加權",
+      "results": [
+        {
+          "name": "國民黨（政黨別）",
+          "party": "kmt",
+          "pct": 21.7
+        },
+        {
+          "name": "民進黨（政黨別）",
+          "party": "dpp",
+          "pct": 15.8
+        },
+        {
+          "name": "民眾黨（政黨別）",
+          "party": "tpp",
+          "pct": 1.6
+        }
+      ],
+      "undecided": 60.9,
+      "likelyVoters": null,
+      "notes": "《遠見》年度縣市長調查中的「縣市長選舉支持哪一黨」題，是政黨別而非候選人對決，結果為國民黨21.7%、民進黨15.8%、民眾黨1.6%、未表態60.9%。全國22縣市共訪問14,251人，各縣市樣本數與調查方式報導未載明，依性別、年齡、教育程度、戶籍選區加權。未表態率全國最高（圖表60.9%，內文寫60.0%）；未表態者中看人不看黨10.9%、看情形21.9%、不知道或未答28.1%。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "政黨別支持度，非候選人對決題；單一縣市樣本數未公布"
+    }
+  ]
+}

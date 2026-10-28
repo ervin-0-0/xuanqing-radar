@@ -1,0 +1,215 @@
+{
+  "raceId": "chiayi-county",
+  "details": [
+    {
+      "source": "https://www.upmedia.mg/tw/focus/politics/249606",
+      "pollster": "民進黨中央黨部民調中心、精湛民調、大地民意（三家平均）",
+      "sponsor": "民主進步黨",
+      "fieldStart": "2026-01-13",
+      "fieldEnd": "2026-01-13",
+      "published": "2026-01-14",
+      "method": "unknown",
+      "sampleSize": 1200,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "蔡易餘",
+          "party": "dpp",
+          "pct": 64.8135
+        },
+        {
+          "name": "王育敏",
+          "party": "kmt",
+          "pct": 14.2338
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "三家平均：蔡易餘 vs 王育敏",
+          "results": [
+            {
+              "name": "蔡易餘",
+              "party": "dpp",
+              "pct": 64.8135
+            },
+            {
+              "name": "王育敏",
+              "party": "kmt",
+              "pct": 14.2338
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "三家平均：黃榮利 vs 王育敏",
+          "results": [
+            {
+              "name": "黃榮利",
+              "party": "dpp",
+              "pct": 38.1949
+            },
+            {
+              "name": "王育敏",
+              "party": "kmt",
+              "pct": 16.3175
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "中央黨部：蔡易餘 vs 王育敏",
+          "results": [
+            {
+              "name": "蔡易餘",
+              "party": "dpp",
+              "pct": 63.5224
+            },
+            {
+              "name": "王育敏",
+              "party": "kmt",
+              "pct": 15.053
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "中央黨部：黃榮利 vs 王育敏",
+          "results": [
+            {
+              "name": "黃榮利",
+              "party": "dpp",
+              "pct": 39.0245
+            },
+            {
+              "name": "王育敏",
+              "party": "kmt",
+              "pct": 18.3584
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "精湛：蔡易餘 vs 王育敏",
+          "results": [
+            {
+              "name": "蔡易餘",
+              "party": "dpp",
+              "pct": 67.5559
+            },
+            {
+              "name": "王育敏",
+              "party": "kmt",
+              "pct": 14.2266
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "精湛：黃榮利 vs 王育敏",
+          "results": [
+            {
+              "name": "黃榮利",
+              "party": "dpp",
+              "pct": 37.5963
+            },
+            {
+              "name": "王育敏",
+              "party": "kmt",
+              "pct": 15.2331
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "大地：蔡易餘 vs 王育敏",
+          "results": [
+            {
+              "name": "蔡易餘",
+              "party": "dpp",
+              "pct": 63.3621
+            },
+            {
+              "name": "王育敏",
+              "party": "kmt",
+              "pct": 13.4218
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "大地：黃榮利 vs 王育敏",
+          "results": [
+            {
+              "name": "黃榮利",
+              "party": "dpp",
+              "pct": 37.964
+            },
+            {
+              "name": "王育敏",
+              "party": "kmt",
+              "pct": 15.361
+            }
+          ],
+          "undecided": null
+        }
+      ],
+      "notes": "民進黨嘉義縣長正式初選民調，對比式：蔡易餘、黃榮利各自對國民黨潛在人選王育敏，比較民進黨參選人支持率。2026-01-13晚間18:00–22:30電話訪問，1/14開封公布，民調成績為三家平均，蔡易餘勝出。各家數字以民進黨官方結果表（中央黨部民調中心製）為準。維基與官方表不同處：蔡易餘的大地數字維基寫63.6321%（官方63.3621%，上報內文同官方）；王育敏對蔡易餘的中央黨部數字維基寫15.0550%（官方15.0530%）、精湛維基寫14.2226%（官方14.2266%）；黃榮利的精湛數字維基寫37.5953%（官方37.5963%）。維基日期1月13日為執行日。樣本數依TVBS報導為1,200份，沒說是每家或三家合計；報導只寫「電話民調」，沒寫市話或手機。未公布未表態與抽樣誤差。王育敏後來沒有參選，國民黨禮讓無黨籍吳品叡。",
+      "extraSources": [
+        "https://www.dpp.org.tw/media/contents/11435",
+        "https://www.dpp.org.tw/upload/ckfinder/2026%E5%98%89%E7%BE%A9%E7%B8%A3%E9%95%B7%E5%88%9D%E9%81%B8%E6%B0%91%E8%AA%BF%E7%B5%90%E6%9E%9C.jpg",
+        "https://news.tvbs.com.tw/politics/3099870",
+        "https://web.archive.org/web/2026/https://www.upmedia.mg/tw/focus/politics/249606"
+      ]
+    }
+  ],
+  "extraPolls": [
+    {
+      "source": "https://www.gvm.com.tw/article/130553",
+      "pollster": "遠見民意研究調查",
+      "sponsor": "遠見雜誌",
+      "fieldStart": "2026-03-02",
+      "fieldEnd": "2026-04-14",
+      "published": "2026-06-01",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": "對各縣市受訪者的性別、年齡、教育程度、戶籍選區進行樣本代表性檢定並加權",
+      "results": [
+        {
+          "name": "國民黨（候選人）",
+          "party": "kmt",
+          "pct": 8
+        },
+        {
+          "name": "民進黨（候選人）",
+          "party": "dpp",
+          "pct": 42.7
+        },
+        {
+          "name": "民眾黨（候選人）",
+          "party": "tpp",
+          "pct": 2.2
+        },
+        {
+          "name": "其他",
+          "party": "other",
+          "pct": 0.4
+        }
+      ],
+      "undecided": 46.5,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "《遠見》2026縣市長選舉支持度調查，22縣市共訪問14,251人，只公布各縣市的政黨別支持度（藍／綠／白／其他／未表態），不是候選人對決，也沒有公布各縣市樣本數、調查方式與抽樣誤差。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "政黨別支持度，不是候選人對決；未公布各縣市樣本數與調查方式"
+    }
+  ]
+}

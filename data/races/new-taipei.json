@@ -1,0 +1,65 @@
+{
+  "raceId": "new-taipei",
+  "incumbent": { "name": "侯友宜", "party": "kmt", "running": false, "termLimited": true },
+  "candidates": [
+    {
+      "name": "蘇巧慧", "party": "dpp", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": ["dpp"],
+      "incumbent": false,
+      "born": 1976,
+      "currentRole": "立法委員（新北市第五選區）、民進黨新北市黨部主委",
+      "bio": "前行政院長蘇貞昌之女，律師出身、三屆立委；2025 年 11 月 26 日民進黨中執會通過徵召參選新北市長。",
+      "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx"
+    },
+    {
+      "name": "蘇輝湟", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": 1976,
+      "currentRole": null,
+      "bio": "台大畢業，曾參選新莊區立委與新莊區興漢里長，以無黨籍登記參選。",
+      "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx"
+    },
+    {
+      "name": "李四川", "party": "kmt", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": ["kmt", "tpp"],
+      "incumbent": false,
+      "born": 1958,
+      "currentRole": "前台北市副市長",
+      "bio": "工程背景的老牌副手，歷任北北高三市副市長、行政院秘書長；2026 年 3 月 11 日獲國民黨提名，4 月 28 日藍白整合民調勝過黃國昌，代表藍白參選。",
+      "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx"
+    }
+  ],
+  "withdrawn": [
+    {
+      "name": "劉和然", "party": "kmt",
+      "reason": "在侯友宜協調下表態全力支持李四川，退出國民黨內競爭",
+      "date": "2026-02-11",
+      "source": "https://news.ttv.com.tw/news/11502110003700W"
+    },
+    {
+      "name": "黃國昌", "party": "tpp",
+      "reason": "藍白整合民調落敗（兩家民調皆輸李四川）",
+      "date": "2026-04-28",
+      "source": "https://www.cna.com.tw/news/aipl/202604280191.aspx"
+    }
+  ],
+  "keyEvents": [
+    { "date": "2025-08-11", "text": "民眾黨主席黃國昌宣布投入新北市長選舉，不排斥與國民黨共推", "source": "https://news.pts.org.tw/article/764974" },
+    { "date": "2025-11-26", "text": "民進黨中執會通過徵召立委蘇巧慧參選新北市長，由賴清德在提名記者會宣布", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5258858" },
+    { "date": "2026-02-04", "text": "民眾黨中央委員會通過徵召黨主席黃國昌參選新北市長", "source": "https://www.cna.com.tw/news/aipl/202602040186.aspx" },
+    { "date": "2026-02-11", "text": "李四川拋出請辭台北市副市長訊息，侯友宜發文「一起全力支持李四川」，副市長劉和然退出黨內競爭並表態全力支持李四川", "source": "https://news.ttv.com.tw/news/11502110003700W" },
+    { "date": "2026-03-11", "text": "國民黨中常會通過提名李四川，藍白兩黨隨後啟動協調、共推人選", "source": "https://www.cna.com.tw/news/aipl/202603110228.aspx" },
+    { "date": "2026-04-28", "text": "藍白新北市長整合民調結果公布，李四川勝出、將代表藍白參選", "source": "https://www.cna.com.tw/news/aipl/202604280191.aspx" },
+    { "date": "2026-09-04", "text": "李四川登記參選，侯友宜全程陪同並喊交棒，民眾黨新北市議員參選人到場助陣", "source": "https://www.cna.com.tw/news/aipl/202609040096.aspx" },
+    { "date": "2026-10-27", "text": "號次抽籤（原訂 10 月 23 日，因颱風延期）：1 蘇巧慧、2 蘇輝湟、3 李四川", "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx" }
+  ],
+  "notes": "侯友宜 2018、2022 連任兩屆，不得再參選。李四川的 endorsedBy 列 tpp 是依藍白整合共推（4/28 兩黨聯合記者會），未查到中選會登記時的推薦政黨欄位；9/4 登記時民眾黨議員參選人到場相挺。號次與參選人生日、經歷以中央社 10/27 抽籤一覽為準（另見 TVBS https://news.tvbs.com.tw/politics/4041834）。",
+  "updated": "2026-10-28"
+}

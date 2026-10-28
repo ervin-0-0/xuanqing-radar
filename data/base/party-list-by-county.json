@@ -1,0 +1,446 @@
+{
+  "elections": {
+    "2020": {
+      "national": {
+        "dpp": 33.98,
+        "kmt": 33.36,
+        "tpp": 11.22,
+        "npp": 7.75,
+        "pfp": 3.66,
+        "tsp": 3.16,
+        "other": 6.87
+      },
+      "byRace": {
+        "taipei": {
+          "dpp": 30.36,
+          "kmt": 34.38,
+          "tpp": 12.94,
+          "npp": 8.09,
+          "pfp": 4.02,
+          "tsp": 2.28,
+          "other": 7.94
+        },
+        "new-taipei": {
+          "dpp": 33.75,
+          "kmt": 33.16,
+          "tpp": 11.95,
+          "npp": 8.08,
+          "pfp": 4.21,
+          "tsp": 2.23,
+          "other": 6.61
+        },
+        "taoyuan": {
+          "dpp": 31.78,
+          "kmt": 34.95,
+          "tpp": 12.19,
+          "npp": 7.85,
+          "pfp": 3.98,
+          "tsp": 2.16,
+          "other": 7.08
+        },
+        "taichung": {
+          "dpp": 32.16,
+          "kmt": 33.11,
+          "tpp": 13.05,
+          "npp": 7.89,
+          "pfp": 4.06,
+          "tsp": 3.57,
+          "other": 6.16
+        },
+        "tainan": {
+          "dpp": 42.09,
+          "kmt": 25.72,
+          "tpp": 9.15,
+          "npp": 7.54,
+          "pfp": 2.97,
+          "tsp": 4.52,
+          "other": 8.01
+        },
+        "kaohsiung": {
+          "dpp": 38.76,
+          "kmt": 30.11,
+          "tpp": 8.51,
+          "npp": 7.07,
+          "pfp": 2.84,
+          "tsp": 5.95,
+          "other": 6.76
+        },
+        "keelung": {
+          "dpp": 29.07,
+          "kmt": 37.36,
+          "tpp": 11.54,
+          "npp": 8.1,
+          "pfp": 4.88,
+          "tsp": 2.15,
+          "other": 6.88
+        },
+        "hsinchu-city": {
+          "dpp": 28.33,
+          "kmt": 32.07,
+          "tpp": 15.31,
+          "npp": 11.51,
+          "pfp": 3.93,
+          "tsp": 2.26,
+          "other": 6.6
+        },
+        "hsinchu-county": {
+          "dpp": 23.36,
+          "kmt": 39.9,
+          "tpp": 13.58,
+          "npp": 9.09,
+          "pfp": 4.12,
+          "tsp": 1.88,
+          "other": 8.07
+        },
+        "miaoli": {
+          "dpp": 25.15,
+          "kmt": 44.28,
+          "tpp": 10.95,
+          "npp": 8.65,
+          "pfp": 3.86,
+          "tsp": 1.69,
+          "other": 5.41
+        },
+        "changhua": {
+          "dpp": 33.62,
+          "kmt": 34.04,
+          "tpp": 12.14,
+          "npp": 7.67,
+          "pfp": 3.62,
+          "tsp": 3.01,
+          "other": 5.91
+        },
+        "nantou": {
+          "dpp": 30.95,
+          "kmt": 39.92,
+          "tpp": 9.95,
+          "npp": 6.16,
+          "pfp": 4.02,
+          "tsp": 2.73,
+          "other": 6.28
+        },
+        "yunlin": {
+          "dpp": 38.04,
+          "kmt": 30.5,
+          "tpp": 11.23,
+          "npp": 6.93,
+          "pfp": 3.26,
+          "tsp": 2.79,
+          "other": 7.26
+        },
+        "chiayi-city": {
+          "dpp": 35.71,
+          "kmt": 30.23,
+          "tpp": 11.58,
+          "npp": 8.42,
+          "pfp": 3.24,
+          "tsp": 3.6,
+          "other": 7.22
+        },
+        "chiayi-county": {
+          "dpp": 40.21,
+          "kmt": 28.92,
+          "tpp": 9.37,
+          "npp": 7.26,
+          "pfp": 2.96,
+          "tsp": 3.31,
+          "other": 7.98
+        },
+        "pingtung": {
+          "dpp": 42.04,
+          "kmt": 31.66,
+          "tpp": 7.24,
+          "npp": 6.91,
+          "pfp": 2.38,
+          "tsp": 3.52,
+          "other": 6.25
+        },
+        "yilan": {
+          "dpp": 40.38,
+          "kmt": 28.89,
+          "tpp": 10.95,
+          "npp": 8.39,
+          "pfp": 3.21,
+          "tsp": 2.28,
+          "other": 5.91
+        },
+        "hualien": {
+          "dpp": 21.12,
+          "kmt": 54.67,
+          "tpp": 7.69,
+          "npp": 5.57,
+          "pfp": 3.29,
+          "tsp": 1.76,
+          "other": 5.89
+        },
+        "taitung": {
+          "dpp": 23.29,
+          "kmt": 53.55,
+          "tpp": 6.96,
+          "npp": 4.95,
+          "pfp": 3.06,
+          "tsp": 2.22,
+          "other": 5.96
+        },
+        "penghu": {
+          "dpp": 34.31,
+          "kmt": 37.18,
+          "tpp": 9.07,
+          "npp": 6.31,
+          "pfp": 3.96,
+          "tsp": 2.89,
+          "other": 6.28
+        },
+        "kinmen": {
+          "dpp": 8.18,
+          "kmt": 65.69,
+          "tpp": 8.91,
+          "npp": 5.61,
+          "pfp": 2.88,
+          "tsp": 1.72,
+          "other": 7.01
+        },
+        "lienchiang": {
+          "dpp": 6.98,
+          "kmt": 67.86,
+          "tpp": 8.6,
+          "npp": 5.11,
+          "pfp": 3.22,
+          "tsp": 1.2,
+          "other": 7.04
+        },
+        "zhubei": {
+          "dpp": 23.89,
+          "kmt": 31.44,
+          "tpp": 17.46,
+          "npp": 12.04,
+          "pfp": 4.33,
+          "tsp": 2.52,
+          "other": 8.32
+        }
+      },
+      "source": "https://db.cec.gov.tw/ElecTable/Election/ElecTickets?dataType=tickets&typeId=ELC&subjectId=L0&legisId=L4&themeId=e002307160cbb898376da0c9cbb9ba16&dataLevel=N&prvCode=00&cityCode=000&areaCode=00&deptCode=000&liCode=0000"
+    },
+    "2024": {
+      "national": {
+        "dpp": 36.16,
+        "kmt": 34.58,
+        "tpp": 22.07,
+        "npp": 2.57,
+        "pfp": 0.51,
+        "tsp": 0.69,
+        "other": 3.42
+      },
+      "byRace": {
+        "taipei": {
+          "dpp": 33.38,
+          "kmt": 37.53,
+          "tpp": 21.83,
+          "npp": 2.82,
+          "pfp": 0.61,
+          "tsp": 0.58,
+          "other": 3.24
+        },
+        "new-taipei": {
+          "dpp": 34.81,
+          "kmt": 35.13,
+          "tpp": 22.89,
+          "npp": 2.6,
+          "pfp": 0.61,
+          "tsp": 0.47,
+          "other": 3.5
+        },
+        "taoyuan": {
+          "dpp": 32.17,
+          "kmt": 35.56,
+          "tpp": 25.32,
+          "npp": 2.41,
+          "pfp": 0.5,
+          "tsp": 0.45,
+          "other": 3.58
+        },
+        "taichung": {
+          "dpp": 33.74,
+          "kmt": 34.21,
+          "tpp": 24.73,
+          "npp": 2.76,
+          "pfp": 0.54,
+          "tsp": 0.61,
+          "other": 3.4
+        },
+        "tainan": {
+          "dpp": 45.97,
+          "kmt": 26.83,
+          "tpp": 19.38,
+          "npp": 2.5,
+          "pfp": 0.37,
+          "tsp": 1.36,
+          "other": 3.59
+        },
+        "kaohsiung": {
+          "dpp": 44.9,
+          "kmt": 30.61,
+          "tpp": 17.47,
+          "npp": 2.25,
+          "pfp": 0.33,
+          "tsp": 1.27,
+          "other": 3.17
+        },
+        "keelung": {
+          "dpp": 31.01,
+          "kmt": 39.48,
+          "tpp": 22.4,
+          "npp": 2.31,
+          "pfp": 0.74,
+          "tsp": 0.52,
+          "other": 3.54
+        },
+        "hsinchu-city": {
+          "dpp": 30.2,
+          "kmt": 31.63,
+          "tpp": 29.35,
+          "npp": 4.63,
+          "pfp": 0.45,
+          "tsp": 0.51,
+          "other": 3.23
+        },
+        "hsinchu-county": {
+          "dpp": 23.59,
+          "kmt": 39.31,
+          "tpp": 28.77,
+          "npp": 3.92,
+          "pfp": 0.52,
+          "tsp": 0.41,
+          "other": 3.47
+        },
+        "miaoli": {
+          "dpp": 25.32,
+          "kmt": 43.18,
+          "tpp": 23.27,
+          "npp": 4.01,
+          "pfp": 0.64,
+          "tsp": 0.33,
+          "other": 3.25
+        },
+        "changhua": {
+          "dpp": 34.62,
+          "kmt": 35.11,
+          "tpp": 23.45,
+          "npp": 2.41,
+          "pfp": 0.53,
+          "tsp": 0.52,
+          "other": 3.36
+        },
+        "nantou": {
+          "dpp": 32.66,
+          "kmt": 40.66,
+          "tpp": 20.23,
+          "npp": 1.78,
+          "pfp": 0.55,
+          "tsp": 0.51,
+          "other": 3.61
+        },
+        "yunlin": {
+          "dpp": 40.77,
+          "kmt": 31.95,
+          "tpp": 20.82,
+          "npp": 1.91,
+          "pfp": 0.43,
+          "tsp": 0.54,
+          "other": 3.59
+        },
+        "chiayi-city": {
+          "dpp": 39.07,
+          "kmt": 32.35,
+          "tpp": 21.48,
+          "npp": 2.69,
+          "pfp": 0.42,
+          "tsp": 0.69,
+          "other": 3.29
+        },
+        "chiayi-county": {
+          "dpp": 44.2,
+          "kmt": 29.46,
+          "tpp": 19.07,
+          "npp": 2.01,
+          "pfp": 0.5,
+          "tsp": 0.72,
+          "other": 4.05
+        },
+        "pingtung": {
+          "dpp": 44.4,
+          "kmt": 32.78,
+          "tpp": 16.42,
+          "npp": 1.91,
+          "pfp": 0.32,
+          "tsp": 0.92,
+          "other": 3.26
+        },
+        "yilan": {
+          "dpp": 41.02,
+          "kmt": 30.06,
+          "tpp": 22.26,
+          "npp": 2.34,
+          "pfp": 0.43,
+          "tsp": 0.7,
+          "other": 3.2
+        },
+        "hualien": {
+          "dpp": 21.45,
+          "kmt": 52.82,
+          "tpp": 19.57,
+          "npp": 1.82,
+          "pfp": 0.56,
+          "tsp": 0.31,
+          "other": 3.48
+        },
+        "taitung": {
+          "dpp": 24.17,
+          "kmt": 52.23,
+          "tpp": 16.95,
+          "npp": 1.7,
+          "pfp": 0.59,
+          "tsp": 0.41,
+          "other": 3.95
+        },
+        "penghu": {
+          "dpp": 36.24,
+          "kmt": 38.42,
+          "tpp": 19.49,
+          "npp": 1.51,
+          "pfp": 0.84,
+          "tsp": 0.46,
+          "other": 3.05
+        },
+        "kinmen": {
+          "dpp": 7.97,
+          "kmt": 63.79,
+          "tpp": 21.78,
+          "npp": 1.53,
+          "pfp": 0.52,
+          "tsp": 0.24,
+          "other": 4.16
+        },
+        "lienchiang": {
+          "dpp": 7.96,
+          "kmt": 64.12,
+          "tpp": 21.97,
+          "npp": 1.6,
+          "pfp": 0.71,
+          "tsp": 0.28,
+          "other": 3.35
+        },
+        "zhubei": {
+          "dpp": 25.78,
+          "kmt": 31.94,
+          "tpp": 32.6,
+          "npp": 5.39,
+          "pfp": 0.42,
+          "tsp": 0.52,
+          "other": 3.35
+        }
+      },
+      "source": "https://db.cec.gov.tw/ElecTable/Election/ElecTickets?dataType=tickets&typeId=ELC&subjectId=L0&legisId=L4&themeId=e753a8e7a7bcc09fa51d1aea0024a843&dataLevel=N&prvCode=00&cityCode=000&areaCode=00&deptCode=000&liCode=0000"
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "raceId": "hsinchu-county",
+  "incumbent": {
+    "name": "楊文科",
+    "party": "kmt",
+    "running": false,
+    "termLimited": true
+  },
+  "candidates": [
+    {
+      "name": "鄭朝方",
+      "party": "dpp",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": [
+        "dpp"
+      ],
+      "incumbent": false,
+      "born": 1980,
+      "currentRole": "竹北市長、民進黨新竹縣黨部主委",
+      "bio": "前新竹縣長鄭永金之子、竹東客家人，歌手主播出身；2018年參選縣長得票27.68%落敗，2022年當選竹北市長（首位民進黨籍），2026年6月獲徵召二度挑戰縣長。",
+      "source": "https://tw.news.yahoo.com/%E7%AB%B9%E7%AB%B9%E8%8B%97%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E8%99%9F%E6%AC%A1%E6%8A%BD%E7%B1%A4%E5%87%BA%E7%88%90-%E6%95%B8%E5%AD%97%E9%83%BD%E6%9C%89%E5%A5%BD%E5%BD%A9%E9%A0%AD-041356368.html"
+    },
+    {
+      "name": "徐欣瑩",
+      "party": "kmt",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [
+        "kmt"
+      ],
+      "incumbent": false,
+      "born": 1972,
+      "currentRole": "立法委員（新竹縣第一選區）",
+      "bio": "前縣議員、前民國黨主席、2016年副總統候選人，2018年曾參選縣長；2026年3月國民黨初選以50.634%對49.366%險勝副縣長陳見賢。",
+      "source": "https://tw.news.yahoo.com/%E7%AB%B9%E7%AB%B9%E8%8B%97%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E8%99%9F%E6%AC%A1%E6%8A%BD%E7%B1%A4%E5%87%BA%E7%88%90-%E6%95%B8%E5%AD%97%E9%83%BD%E6%9C%89%E5%A5%BD%E5%BD%A9%E9%A0%AD-041356368.html"
+    },
+    {
+      "name": "朱定瑀",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": null,
+      "bio": "無黨籍，在新埔鎮成立競選總部，以「台灣第四次土地改革」為核心政見。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5602918"
+    }
+  ],
+  "withdrawn": [
+    {
+      "name": "林思銘",
+      "party": "kmt",
+      "reason": "退出國民黨初選",
+      "date": "2025-12-30",
+      "source": "https://www.cna.com.tw/news/aipl/202512300225.aspx"
+    },
+    {
+      "name": "陳見賢",
+      "party": "kmt",
+      "reason": "國民黨初選（7成民調＋3成黨員投票）以49.366%對50.634%落敗",
+      "date": "2026-03-28",
+      "source": "https://www.ettoday.net/news/20260328/3140075.htm"
+    }
+  ],
+  "keyEvents": [
+    {
+      "date": "2025-12-30",
+      "text": "立委林思銘退出國民黨初選，由副縣長陳見賢、立委徐欣瑩競逐",
+      "source": "https://www.cna.com.tw/news/aipl/202512300225.aspx"
+    },
+    {
+      "date": "2026-03-28",
+      "text": "國民黨初選結果：徐欣瑩50.634%險勝陳見賢49.366%（陳贏黨員投票、徐贏三家民調）",
+      "source": "https://www.ettoday.net/news/20260328/3140075.htm"
+    },
+    {
+      "date": "2026-06-10",
+      "text": "民進黨選對會建議徵召竹北市長鄭朝方參選縣長",
+      "source": "https://www.cna.com.tw/news/aipl/202606100116.aspx"
+    },
+    {
+      "date": "2026-09-04",
+      "text": "登記截止，鄭朝方、徐欣瑩、無黨籍朱定瑀3人登記",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5563627"
+    },
+    {
+      "date": "2026-09-06",
+      "text": "竹北市長藍白合破局，民眾黨宣布新竹縣不再受藍白合作協議拘束，黨員幫徐欣瑩站台最重開除黨籍",
+      "source": "https://www.cna.com.tw/news/aipl/202609060053.aspx"
+    },
+    {
+      "date": "2026-09-21",
+      "text": "年代民調鄭朝方35.1%首度超越徐欣瑩28.7%",
+      "source": "https://newtalk.tw/news/view/2026-09-21/1061013"
+    },
+    {
+      "date": "2026-10-27",
+      "text": "號次抽籤：鄭朝方1號、徐欣瑩2號、朱定瑀3號",
+      "source": "https://tw.news.yahoo.com/%E7%AB%B9%E7%AB%B9%E8%8B%97%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E8%99%9F%E6%AC%A1%E6%8A%BD%E7%B1%A4%E5%87%BA%E7%88%90-%E6%95%B8%E5%AD%97%E9%83%BD%E6%9C%89%E5%A5%BD%E5%BD%A9%E9%A0%AD-041356368.html"
+    }
+  ],
+  "notes": "楊文科連任屆滿。原屬藍白合作縣，因竹北市長整合破局，民眾黨9/6宣布不再與國民黨合作。2022年楊文科得票63.36%，傳統藍營優勢選區。朱定瑀出生年與經歷查不到。號次來源為中央社稿（Yahoo 轉載）。",
+  "updated": "2026-10-28"
+}

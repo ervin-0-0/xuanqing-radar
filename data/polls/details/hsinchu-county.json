@@ -1,0 +1,766 @@
+{
+  "raceId": "hsinchu-county",
+  "details": [
+    {
+      "source": "https://www.setn.com/News.aspx?NewsID=1756831",
+      "pollster": "艾普羅行銷市場研究",
+      "sponsor": null,
+      "fieldStart": "2025-11-20",
+      "fieldEnd": "2025-11-22",
+      "published": "2025-11-26",
+      "method": "unknown",
+      "sampleSize": 1070,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "設籍新竹縣年滿20歲選民",
+      "weighting": null,
+      "results": [
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 36.8
+        },
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 33.9
+        }
+      ],
+      "undecided": 19.5,
+      "likelyVoters": null,
+      "notes": "國民黨提名前的假設對比。報導只寫晚間18:00-21:30訪問，未明寫電話或手機。主情境另有都不支持8.7%。鄭朝方42.5% vs 陳見賢24%（都不支持10.3%、沒意見22.5%）；鄭朝方40.8% vs 林思銘28.6%（8.9%、21%）。國民黨三人互比徐欣瑩30.2%、林思銘16.3%、陳見賢12.9%。竹北市鄭43.3%、徐27.0%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.ftnn.com.tw/news/513634",
+      "pollster": "美麗島電子報",
+      "sponsor": "美麗島電子報",
+      "fieldStart": "2025-12-30",
+      "fieldEnd": "2026-01-02",
+      "published": null,
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 37.2
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 35.1
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "FTNN 2026-01-07 轉述，未附方法；美麗島原始頁未找到。調查日期取自維基。陳見賢33.3% vs 鄭朝方38.3%。國民黨初選前的假設對比。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.storm.mg/article/11098736",
+      "pollster": "全國公信力民意調查",
+      "sponsor": "讚聲顧問公司",
+      "fieldStart": "2026-01-24",
+      "fieldEnd": "2026-01-26",
+      "published": "2026-01-28",
+      "method": "unknown",
+      "sampleSize": 1074,
+      "moe": 2.99,
+      "confidence": 95,
+      "population": "戶籍設於新竹縣年滿20歲民眾",
+      "weighting": "依性別、年齡、教育程度、行政區加權",
+      "results": [
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 39.3
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 33.8
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "國民黨初選前。陳見賢33.5% vs 鄭朝方36.1%。三人都參選：徐32.0%、鄭30.7%、陳17.5%。黨內互比徐43.6%、陳26.0%。維基寫徐vs鄭其他26.9%，原始報導未見。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.ftnn.com.tw/news/521857",
+      "pollster": "循證民調有限公司",
+      "sponsor": "鋒燦傳媒",
+      "fieldStart": "2026-02-02",
+      "fieldEnd": "2026-02-05",
+      "published": "2026-02-06",
+      "method": "phone",
+      "sampleSize": 1072,
+      "moe": 2.99,
+      "confidence": 95,
+      "population": "戶籍設在新竹縣年滿20歲縣民",
+      "weighting": "依性別、年齡、行政區人口比例加權",
+      "results": [
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 43.8
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 35.9
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "家用電話（電話資料庫隨機抽樣），實際訪問日為2/2、2/4、2/5。國民黨初選民調模擬。陳見賢50.2% vs 鄭朝方31.1%（維基寫50.3%）。黨內互比陳見賢41.8%、徐欣瑩33.8%（維基寫33.6%）。鋒燦傳媒與 FTNN 同集團。",
+      "extraSources": []
+    },
+    {
+      "source": "https://m.my-formosa.com.tw/doc_223590.htm",
+      "pollster": "畢肯市場研究（戴立安規劃）",
+      "sponsor": "美麗島電子報",
+      "fieldStart": "2026-02-04",
+      "fieldEnd": "2026-02-05",
+      "published": "2026-02-06",
+      "method": "phone",
+      "sampleSize": 1073,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "設籍新竹縣年滿20歲民眾",
+      "weighting": "比例估計法（raking），依性別、戶籍行政區、年齡、教育程度",
+      "results": [
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 32.3
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 27.3
+        },
+        {
+          "name": "陳見賢",
+          "party": "kmt",
+          "pct": 16.5
+        }
+      ],
+      "undecided": 15.1,
+      "likelyVoters": null,
+      "notes": "三人同時參選情境（陳、徐同為國民黨，屬初選前假設）。另有不投票/投廢票8.9%（維基合計24.0%）。適任度（複選）鄭46.2%、徐38.7%、陳29.5%。楊文科施政滿意57.9%。給國民黨繼續做41.0%、換民進黨30.0%。CATI 市話。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.facebook.com/linweijo/posts/pfbid02rwesxCQ729mZQ5KgUNcTzKxP4AjxeyA4cHC5KX4HzyZr1LmY9dZQ1CnDnUkNh1ZWl",
+      "pollster": "趨勢民調",
+      "sponsor": null,
+      "fieldStart": "2026-02-07",
+      "fieldEnd": "2026-02-08",
+      "published": "2026-02-25",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 44.7
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 30.7
+        }
+      ],
+      "undecided": 24.6,
+      "likelyVoters": null,
+      "notes": "來源為前立委林為洲（挺徐欣瑩、批評陳見賢）臉書貼文，無法開啟；數字與日期全部取自維基，未經原始貼文核對，也找不到新聞轉載。維基另列徐38.6% vs 陳見賢37.5%（23.9%）。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.ftnn.com.tw/news/526838",
+      "pollster": "循證民調有限公司",
+      "sponsor": "鋒燦傳媒",
+      "fieldStart": "2026-02-23",
+      "fieldEnd": "2026-02-24",
+      "published": "2026-03-03",
+      "method": "phone",
+      "sampleSize": 1070,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "戶籍設在新竹縣年滿20歲縣民",
+      "weighting": "依性別、年齡、行政區人口比例加權",
+      "results": [
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 42.7
+        },
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 35.9
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "家用電話。陳見賢44.0% vs 鄭朝方：導言寫37.0%、內文寫39.0%，原文前後不一（維基用37%）。黨內互比陳42.8%、徐31.4%。報導稱有問三腳督題但未列數字。",
+      "extraSources": []
+    },
+    {
+      "source": "https://news.tvbs.com.tw/politics/3140411",
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "藍營（內參，報導未具名）",
+      "fieldStart": "2026-02-25",
+      "fieldEnd": "2026-02-27",
+      "published": "2026-03-03",
+      "method": "phone",
+      "sampleSize": 1076,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "戶籍設於新竹縣年滿20歲民眾",
+      "weighting": "依114年底人口統計，就性別、年齡、地區、教育程度加權",
+      "results": [
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 43.1
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 31.8
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "CATI＋RDD後兩碼、任意成人法。陳見賢43.8% vs 鄭朝方36.4%。若徐脫黨三腳督：陳34.6%、鄭28.8%、徐22.1%，都不支持3.5%、未決定10.9%。維基另列一組40.6% vs 36.2%，原始報導未見。",
+      "extraSources": []
+    },
+    {
+      "source": "https://news.ebc.net.tw/news/politics/541182",
+      "pollster": "雨晴民調",
+      "sponsor": null,
+      "fieldStart": "2026-03-02",
+      "fieldEnd": "2026-03-05",
+      "published": "2026-03-09",
+      "method": "unknown",
+      "sampleSize": 1068,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "新竹縣年滿20歲民眾",
+      "weighting": null,
+      "results": [
+        {
+          "name": "陳見賢",
+          "party": "kmt",
+          "pct": 46.7
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 27.1
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "晚間訪問，未寫方式與委託單位。黨內互比陳36%、徐32%、未表態32%。三人競逐陳35.3%、徐23.1%、鄭21.2%。知道徐是立委87.3%、知道陳是副縣長69.8%。",
+      "extraSources": [
+        "https://www.ettoday.net/news/20260309/3129555.htm"
+      ]
+    },
+    {
+      "source": "https://my-formosa.com.tw/DOC_224158.htm",
+      "pollster": "畢肯市場研究（戴立安規劃）",
+      "sponsor": "美麗島電子報",
+      "fieldStart": "2026-03-04",
+      "fieldEnd": "2026-03-06",
+      "published": "2026-03-09",
+      "method": "phone",
+      "sampleSize": 1072,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "設籍新竹縣年滿20歲民眾",
+      "weighting": "比例估計法（raking），依性別、戶籍行政區、年齡、教育程度",
+      "results": [
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 38.5
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 32.2
+        }
+      ],
+      "undecided": 17.2,
+      "likelyVoters": null,
+      "notes": "住宅電話簿＋RDD。另有不投票/投廢票12.0%。陳見賢37.6% vs 鄭朝方38.2%（不投票10.3%、未答13.9%）。黨內二選一徐41.0%、陳32.5%。給國民黨繼續做44.3%、換民進黨30.2%。若國民黨提名陳、徐以無黨籍參選：贊成36.5%、不贊成42.6%。",
+      "extraSources": [
+        "https://www.nownews.com/news/6794299"
+      ]
+    },
+    {
+      "source": "https://news.nextapple.com/politics/20260318/614FCCFBA60F76ED4DA9EE3A0AF41581",
+      "pollster": "全方位市場調查有限公司",
+      "sponsor": null,
+      "fieldStart": "2026-03-12",
+      "fieldEnd": "2026-03-13",
+      "published": "2026-03-18",
+      "method": "phone",
+      "sampleSize": 1093,
+      "moe": 2.96,
+      "confidence": 95,
+      "population": "戶籍設在新竹縣年滿20歲選民",
+      "weighting": "依新竹縣人口結構加權",
+      "results": [
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 36.7
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 24.5
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "CATI 電話訪問，模擬國民黨初選題型；刊於壹蘋新聞網但屬電話民調，非壹蘋網路投票。陳見賢36.7% vs 鄭朝方27.1%。黨內互比徐37.3%、陳36.6%。依初選公式試算徐36.8%、陳36.7%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.ftnn.com.tw/news/531528",
+      "pollster": "趨勢民意調查",
+      "sponsor": "台灣研究學會",
+      "fieldStart": "2026-03-16",
+      "fieldEnd": "2026-03-17",
+      "published": "2026-03-20",
+      "method": "unknown",
+      "sampleSize": 1004,
+      "moe": 3.09,
+      "confidence": 95,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 45.6
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 32.2
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "陳見賢45.9% vs 鄭朝方32.4%。黨內互比徐40.6%、陳36.1%。發布學者高永光稱民進黨支持度偏低，懷疑有人假扮國民黨支持者干擾初選民調。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.ftnn.com.tw/news/532318",
+      "pollster": "循證民調有限公司",
+      "sponsor": "鋒燦傳媒",
+      "fieldStart": "2026-03-18",
+      "fieldEnd": "2026-03-19",
+      "published": "2026-03-24",
+      "method": "phone",
+      "sampleSize": 1082,
+      "moe": 2.98,
+      "confidence": 95,
+      "population": "戶籍設在新竹縣年滿20歲選民",
+      "weighting": "依性別、年齡、戶籍地人口比例多變數反覆加權",
+      "results": [
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 46.6
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 30.9
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "家用電話。陳見賢47.2% vs 鄭朝方32.8%。黨內互比陳37.3%、徐34.7%。依國民黨初選公式（政黨對比85%＋黨內互比15%）陳45.7%、徐44.8%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://my-formosa.com.tw/DOC_224581.htm",
+      "pollster": "畢肯市場研究（戴立安設計）",
+      "sponsor": "美麗島電子報",
+      "fieldStart": "2026-03-23",
+      "fieldEnd": "2026-03-25",
+      "published": "2026-03-26",
+      "method": "phone",
+      "sampleSize": 1072,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "新竹縣年滿20歲民眾",
+      "weighting": "比例估計法（raking），依性別、行政區、年齡、教育程度",
+      "results": [
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 44.7
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 27.0
+        }
+      ],
+      "undecided": 28.3,
+      "likelyVoters": null,
+      "notes": "數字讀自報導內的簡報圖片。CATI＋RDD。undecided 為「不投票/未明確」合計28.3%（維基只寫12.1%）。陳見賢39.7% vs 鄭朝方31.2%（不投票/未明確29.1%）。黨內互比徐43.7%、陳33.4%、未明確23.0%。適任度徐47.2%、鄭41.7%、陳39.2%。給國民黨繼續做50.9%、換民進黨22.4%、未明確26.7%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.ettoday.net/news/20260328/3140075.htm",
+      "pollster": "國民黨初選（世新、全國公信力、艾普羅民調＋黨員投票）",
+      "sponsor": "國民黨",
+      "fieldStart": null,
+      "fieldEnd": "2026-03-28",
+      "published": "2026-03-28",
+      "method": "mixed",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 50.634
+        },
+        {
+          "name": "陳見賢",
+          "party": "kmt",
+          "pct": 49.366
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "黨內初選結果，不是一般民調：7成民調＋3成黨員投票。黨員投票陳2,870票（56.78%）、徐2,184票（43.21%）；民調部分世新徐50.775%、陳49.225%，公信力徐56.835%、陳43.164%，艾普羅徐53.820%、陳46.180%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://udn.com/news/story/124652/9430562",
+      "pollster": "年代民調中心",
+      "sponsor": null,
+      "fieldStart": "2026-04-06",
+      "fieldEnd": "2026-04-07",
+      "published": "2026-04-09",
+      "method": "phone",
+      "sampleSize": 1072,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "新竹縣年滿20歲民眾",
+      "weighting": null,
+      "results": [
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 36.6
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 30.8
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "電話訪問（未說明是否含手機）。當時民進黨尚未提名，傳鄭朝方婉拒徵召。看好度徐42.3%、鄭25.8%。楊文科施政滿意59.6%、不滿意25.6%。維基寫未表態28.3%，原始報導未見。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.pinview.com.tw/News/57636.html",
+      "pollster": "全國公信力民意調查",
+      "sponsor": null,
+      "fieldStart": "2026-04-16",
+      "fieldEnd": "2026-04-18",
+      "published": null,
+      "method": "unknown",
+      "sampleSize": 1072,
+      "moe": 2.99,
+      "confidence": 95,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 38.7
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 27.3
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "頁面無發布日期，維基 ref 寫2026-04-24。竹北市徐37.9%、鄭33.4%。2024投柯文哲者49.1%挺徐、26.9%挺鄭。中立及無反應選民45.2%。維基寫未表態21.7%，原始報導未見。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.setn.com/News.aspx?NewsID=1856735",
+      "pollster": "年代民調中心",
+      "sponsor": null,
+      "fieldStart": "2026-06-14",
+      "fieldEnd": "2026-06-16",
+      "published": "2026-06-17",
+      "method": "phone",
+      "sampleSize": 1068,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "新竹縣年滿20歲民眾",
+      "weighting": "依新竹縣20歲以上人口性別、年齡、鄉鎮市加權",
+      "results": [
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 32.3
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 30.5
+        }
+      ],
+      "undecided": 33.6,
+      "likelyVoters": null,
+      "notes": "CATI，住宅電話號碼簿＋後兩碼隨機（市話），以鄉鎮市分層。另有不投票/投廢票3.6%。竹北市鄭42.2%、徐32.2%。泛藍56.3%挺徐、17.4%挺鄭、22.6%未決定；泛綠85.3%挺鄭。維基 ref 日期誤植為2026-05-17，實際發布6/17。",
+      "extraSources": [
+        "https://www.nownews.com/news/6847698"
+      ]
+    },
+    {
+      "source": "https://www.bigmedia.com.tw/article/1786409505418",
+      "pollster": "皮爾森數據",
+      "sponsor": null,
+      "fieldStart": "2026-07-27",
+      "fieldEnd": "2026-08-01",
+      "published": null,
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 44.88
+        },
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 35.5
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "鉅聞原文已下架（頁面未找到），維基標題稱「綠內參民調」、ref 日期2026-08-13。數字取自新頭殼評論（2026-08-23）與年代新聞（2026-08-21）。好感度鄭55.34%（反感23.95%）、徐29.75%（反感49.01%）；較前次調查鄭增約1個百分點、徐降7.2個百分點。皮爾森後兩波由鄭朝方競辦委託、採網路調查，本波方法未見原文。維基寫未表態12.87%。",
+      "extraSources": [
+        "https://www.eracom.com.tw/EraNews/Home/political/2026-08-21/2443725.html",
+        "https://newtalk.tw/news/view/2026-08-23/1055195"
+      ]
+    },
+    {
+      "source": "https://cnews.com.tw/247260821a05/",
+      "pollster": "精確市場研究",
+      "sponsor": null,
+      "fieldStart": "2026-08-18",
+      "fieldEnd": "2026-08-20",
+      "published": "2026-08-21",
+      "method": "phone",
+      "sampleSize": 1070,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "戶籍新竹縣年滿20歲民眾",
+      "weighting": "依內政部最新人口資料，就戶籍地、性別、年齡、教育程度多重反覆加權",
+      "results": [
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 41.4
+        },
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 38.1
+        }
+      ],
+      "undecided": 15.6,
+      "likelyVoters": null,
+      "notes": "市話（中華電信市內號碼簿、尾數兩位隨機）。另有不投票/投廢票4.9%（維基合計20.5%）。假設三腳督（陳見賢以無黨籍參選）：徐38.7%、鄭33.6%、陳12.6%。國民黨支持者74.6%挺徐、民進黨支持者83.7%挺鄭、民眾黨支持者64.6%挺徐。換民進黨做做看39.7%、給國民黨繼續做36.7%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://newtalk.tw/news/view/2026-09-21/1061013",
+      "pollster": "年代民調中心",
+      "sponsor": null,
+      "fieldStart": "2026-09-16",
+      "fieldEnd": "2026-09-18",
+      "published": "2026-09-21",
+      "method": "phone",
+      "sampleSize": 1069,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "新竹縣年滿20歲民眾",
+      "weighting": "依新竹縣20歲以上人口性別、年齡、鄉鎮市加權",
+      "results": [
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 35.1
+        },
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 28.7
+        },
+        {
+          "name": "朱定瑀",
+          "party": "ind",
+          "pct": 2.8
+        }
+      ],
+      "undecided": 29.2,
+      "likelyVoters": null,
+      "notes": "電話訪問、分層隨機抽樣。另有不投票/投廢票4.2%。看好度鄭39.9%、徐22.4%、朱1.8%、不知道35.8%。竹北鄭46.4%、徐24.2%；湖口徐37.6%、鄭31.4%。",
+      "extraSources": [
+        "https://udn.com/news/story/124652/9767813"
+      ]
+    },
+    {
+      "source": "https://www.ftvnews.com.tw/news/detail/2026A27W0193",
+      "pollster": "皮爾森數據",
+      "sponsor": "鄭朝方競選辦公室",
+      "fieldStart": "2026-09-14",
+      "fieldEnd": "2026-09-21",
+      "published": "2026-10-27",
+      "method": "online",
+      "sampleSize": 3098,
+      "moe": 1.76,
+      "confidence": 95,
+      "population": "新竹縣年滿20歲網路人口",
+      "weighting": "比率估計法，依性別、年齡、居住地加權",
+      "results": [
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 47.68
+        },
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 33.34
+        }
+      ],
+      "undecided": 13.24,
+      "likelyVoters": null,
+      "notes": "候選人陣營委託。透過資料管理平台（DMP）網路主動發放問卷。9月這波與10月那波同日（10/27）公布。都不支持或不投票4.94%。朱定瑀9月數字原文（Yahoo 轉載民視）未見，維基寫0.79%。中立受訪者鄭46.72%、徐25.11%。民視原文擋爬蟲，內容取自 Yahoo 轉載。",
+      "extraSources": [
+        "https://tw.news.yahoo.com/%E6%9C%80%E6%96%B0%E6%B0%91%E8%AA%BF%E4%BE%86%E4%BA%86-%E6%96%B0%E7%AB%B9%E7%B8%A3%E9%95%B72%E9%81%B8%E5%B0%87%E5%B7%AE%E8%B7%9D%E5%87%BA%E7%88%90-%E9%A9%9A%E4%BA%BA%E8%B6%A8%E5%8B%A2%E6%9B%9D%E5%85%89-022455169.html",
+        "https://newtalk.tw/news/view/2026-10-27/1067646"
+      ]
+    },
+    {
+      "source": "https://newtalk.tw/news/view/2026-10-27/1067646",
+      "pollster": "皮爾森數據",
+      "sponsor": "鄭朝方競選辦公室",
+      "fieldStart": "2026-10-12",
+      "fieldEnd": "2026-10-18",
+      "published": "2026-10-27",
+      "method": "online",
+      "sampleSize": 3054,
+      "moe": 1.77,
+      "confidence": 95,
+      "population": "新竹縣年滿20歲網路人口",
+      "weighting": "比率估計法，依性別、年齡、居住地加權",
+      "results": [
+        {
+          "name": "鄭朝方",
+          "party": "dpp",
+          "pct": 50.3
+        },
+        {
+          "name": "徐欣瑩",
+          "party": "kmt",
+          "pct": 34.87
+        },
+        {
+          "name": "朱定瑀",
+          "party": "ind",
+          "pct": 1.14
+        }
+      ],
+      "undecided": 11.24,
+      "likelyVoters": null,
+      "notes": "候選人陣營委託的網路調查。都不支持或不投票2.46%。受訪者政黨支持：國民黨27.45%、民進黨22.48%、民眾黨9.60%、選人不選黨/中立32.78%。中立者鄭54.95%、徐25.49%；民眾黨認同者鄭46.33%、徐25.55%；國民黨認同者徐81.50%。60歲以上徐46.12%、鄭41.71%。",
+      "extraSources": [
+        "https://tw.news.yahoo.com/%E6%9C%80%E6%96%B0%E6%B0%91%E8%AA%BF%E4%BE%86%E4%BA%86-%E6%96%B0%E7%AB%B9%E7%B8%A3%E9%95%B72%E9%81%B8%E5%B0%87%E5%B7%AE%E8%B7%9D%E5%87%BA%E7%88%90-%E9%A9%9A%E4%BA%BA%E8%B6%A8%E5%8B%A2%E6%9B%9D%E5%85%89-022455169.html",
+        "https://www.storm.mg/article/11176074"
+      ]
+    }
+  ],
+  "extraPolls": [
+    {
+      "source": "https://www.gvm.com.tw/article/130553",
+      "pollster": "遠見民意研究調查",
+      "sponsor": "遠見雜誌",
+      "fieldStart": "2026-03-02",
+      "fieldEnd": "2026-04-14",
+      "published": "2026-06-01",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": "22縣市民眾（全國合計14,251人）",
+      "weighting": "依性別、年齡、教育程度、戶籍選區加權",
+      "results": [
+        {
+          "name": "國民黨（政黨別）",
+          "party": "kmt",
+          "pct": 43.5
+        },
+        {
+          "name": "民進黨（政黨別）",
+          "party": "dpp",
+          "pct": 13.4
+        },
+        {
+          "name": "民眾黨（政黨別）",
+          "party": "tpp",
+          "pct": 3.9
+        }
+      ],
+      "undecided": 39.2,
+      "likelyVoters": null,
+      "notes": "《遠見》年度縣市長調查中的「縣市長選舉支持哪一黨」題，是政黨別而非候選人對決，結果為國民黨43.5%、民進黨13.4%、民眾黨3.9%、未表態39.2%。全國22縣市共訪問14,251人，各縣市樣本數與調查方式報導未載明，依性別、年齡、教育程度、戶籍選區加權。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "政黨別支持度，非候選人對決題；單一縣市樣本數未公布"
+    }
+  ]
+}

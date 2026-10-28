@@ -1,0 +1,1245 @@
+{
+  "raceId": "tainan",
+  "details": [
+    {
+      "source": "https://www.upmedia.mg/tw/focus/politics/239780",
+      "pollster": "雨晴民調",
+      "sponsor": "東森新聞",
+      "fieldStart": "2025-09-05",
+      "fieldEnd": "2025-09-07",
+      "published": "2025-09-11",
+      "method": "phone",
+      "sampleSize": 1072,
+      "moe": 3,
+      "confidence": 95,
+      "population": "台南市全部37個行政區、年滿20歲以上市民（以中華電信住宅電話為母體）",
+      "weighting": "依內政部戶政司2025年6月底人口統計，針對性別、年齡與戶籍加權",
+      "results": [
+        {
+          "name": "陳亭妃",
+          "party": "dpp",
+          "pct": 43.2
+        },
+        {
+          "name": "謝龍介",
+          "party": "kmt",
+          "pct": 27
+        }
+      ],
+      "undecided": 29.9,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "陳亭妃 vs 謝龍介",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 43.2
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 27
+            }
+          ],
+          "undecided": 29.9
+        },
+        {
+          "label": "林俊憲 vs 謝龍介",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 36.6
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 31.6
+            }
+          ],
+          "undecided": 31.8
+        },
+        {
+          "label": "黨內互比 陳亭妃 vs 林俊憲",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 37.1
+            },
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 20
+            }
+          ],
+          "undecided": 42.9
+        }
+      ],
+      "notes": "東森新聞《台南初選報告》，民進黨初選前的對比式（各自對謝龍介）＋黨內互比。2025-09-11 由東森發布，上報報導日 2025-09-12。抽樣：中華電信住宅電話為母體、末兩碼隨機以涵蓋未登錄號碼，每日下午及晚間訪問。上報原文沒有寫各組未表態，未表態數字取自 TVBS 新聞與新頭殼的轉述。維基標「東森民調」。和維基的差異：林俊憲 vs 謝龍介那組，維基寫謝龍介 31.8%、其他 31.6%，原始報導是謝龍介 31.6%、未表態 31.8%（維基把兩個數字對調了）；陳亭妃 vs 謝龍介的未表態，維基寫 29.8%，報導是 29.9%。",
+      "extraSources": [
+        "https://web.archive.org/web/20251018163619/https://www.upmedia.mg/tw/focus/politics/239780",
+        "https://news.tvbs.com.tw/politics/2986538",
+        "https://newtalk.tw/news/view/2025-09-12/993148"
+      ]
+    },
+    {
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2025/20250917/b821fdad1c8903f8437d790b84d6d5de.pdf",
+      "pollster": "TVBS民調中心",
+      "sponsor": "TVBS",
+      "fieldStart": "2025-09-08",
+      "fieldEnd": "2025-09-12",
+      "published": "2025-09-15",
+      "method": "phone",
+      "sampleSize": 1007,
+      "moe": 3.1,
+      "confidence": 95,
+      "population": "20歲以上台南市民",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [
+        {
+          "name": "陳亭妃",
+          "party": "dpp",
+          "pct": 41
+        },
+        {
+          "name": "謝龍介",
+          "party": "kmt",
+          "pct": 36
+        }
+      ],
+      "undecided": 23,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "陳亭妃 vs 謝龍介",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 41
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 36
+            }
+          ],
+          "undecided": 23
+        },
+        {
+          "label": "林俊憲 vs 謝龍介",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 32
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 44
+            }
+          ],
+          "undecided": 24
+        }
+      ],
+      "notes": "TVBS 自辦的藍綠對比題（題目：如果民進黨推派○○○、國民黨推派謝龍介，假如明天就是投票日，比較可能投給哪一位，人名隨機輪替），沒有黨內互比。調查方式是「電話號碼後四碼隨機抽樣，人員電話訪問」，沒有提到手機。訪問時段為晚間 18:30–22:00。共接觸 1,211 人，拒訪 204 人，拒訪率 16.8%。TVBS 新聞 2025-09-15 發布；PDF 路徑日期是 20250917，維基日期 2025-09-17 用的就是這個。其他題目：黃偉哲施政滿意度 42%（歷次最低）、不滿意 41%（歷次最高）、無意見 16%；丹娜絲颱風後政府救災表現，滿意 32%、不滿意 52%；繼續推動太陽能，贊成 35%、不贊成 48%。樣本政黨傾向：民進黨 31%、國民黨 21%、民眾黨 11%、中立 21%、其他 16%。中立選民裡，陳亭妃 33%、謝龍介 25%、未決定 43%。數字和維基一致。",
+      "extraSources": [
+        "https://web.archive.org/web/20250924073205/https://cc.tvbs.com.tw/portal/file/poll_center/2025/20250917/b821fdad1c8903f8437d790b84d6d5de.pdf",
+        "https://news.tvbs.com.tw/politics/2989441"
+      ]
+    },
+    {
+      "source": "https://www.upmedia.mg/tw/lifestyle/policy/243169",
+      "pollster": "趨勢民調",
+      "sponsor": null,
+      "fieldStart": "2025-10-21",
+      "fieldEnd": "2025-10-22",
+      "published": "2025-10-24",
+      "method": "unknown",
+      "sampleSize": 1084,
+      "moe": 2.98,
+      "confidence": 95,
+      "population": null,
+      "weighting": "依內政部最新人口資料，針對戶籍地、性別、年齡與教育程度加權",
+      "results": [
+        {
+          "name": "陳亭妃",
+          "party": "dpp",
+          "pct": 52.1
+        },
+        {
+          "name": "謝龍介",
+          "party": "kmt",
+          "pct": 22.5
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "陳亭妃 vs 謝龍介",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 52.1
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 22.5
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "林俊憲 vs 謝龍介",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 46.6
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 31.4
+            }
+          ],
+          "undecided": null
+        }
+      ],
+      "notes": "媒體稱為「綠營內參民調」，委託者沒有揭露。題型是對比式（各自對謝龍介），沒有黨內互比。最早是聯合報 2025-10-24 披露，上報（「政策櫥窗」欄位）2025-10-25 跟進。上報沒有方法資訊，樣本數、誤差、加權和「電話調查隨機抽樣」都取自聯合報，報導沒說是市話還是手機，所以 method 填 unknown。兩篇報導都沒有寫未表態。上報的圖說誤把差距寫成謝龍介 29.6%，內文則是謝 22.5%、差距 29.6。和維基的差異：維基寫陳亭妃 vs 謝龍介為謝龍介 29.6%、其他 18.3%，原始報導是謝龍介 22.5%（29.6 是差距），未表態沒有公布；林俊憲 vs 謝龍介，維基寫其他 22.0%，報導沒有這個數字。",
+      "extraSources": [
+        "https://web.archive.org/web/20251030142958/https://www.upmedia.mg/tw/lifestyle/policy/243169",
+        "https://udn.com/news/story/6656/9094595",
+        "https://web.archive.org/web/20251104031934/https://udn.com/news/story/6656/9094595"
+      ]
+    },
+    {
+      "source": "https://www.ftnn.com.tw/news/495955",
+      "pollster": "循證民調有限公司",
+      "sponsor": "鋒燦傳媒",
+      "fieldStart": "2025-10-27",
+      "fieldEnd": "2025-10-28",
+      "published": "2025-10-31",
+      "method": "phone",
+      "sampleSize": 1201,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "陳亭妃",
+          "party": "dpp",
+          "pct": 52.6
+        },
+        {
+          "name": "謝龍介",
+          "party": "kmt",
+          "pct": 24.9
+        }
+      ],
+      "undecided": 22.5,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "陳亭妃 vs 謝龍介",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 52.6
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 24.9
+            }
+          ],
+          "undecided": 22.5
+        },
+        {
+          "label": "林俊憲 vs 謝龍介",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 42.3
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 37.2
+            }
+          ],
+          "undecided": 20.5
+        }
+      ],
+      "notes": "鋒燦傳媒第 1 波「2026台南初選民調」，對比式（各自對謝龍介）。題目：「假如明天就是投票日，請問您會投票給哪一位？」未表態用的是「無法決定」。樣本數、抽樣（電話資料庫系統隨機抽樣）和執行機構取自報導圖表；同一機構第 2、3 波明載為家用電話，所以判為市話。本篇沒有寫抽樣誤差、母體和加權。維基標「鋒燦民調」。其他題目：政黨傾向，民進黨 43.2%、國民黨 15.7%、民眾黨 11.7%；看好度（「民進黨初選誰較可能勝出」），陳亭妃 40.2%、林俊憲 37.7%。12 月報導圖表另附 10 月的政黨交叉：民進黨支持者，陳 82.8 vs 謝 4.0、林 79.0 vs 謝 12.6；中立選民，陳 31.0 vs 謝 15.7、林 16.4 vs 謝 28.6。數字和維基一致。",
+      "extraSources": [
+        "https://i01.ftnn.com.tw/a/25/303/25303144604090338ce92e.jpg",
+        "https://i01.ftnn.com.tw/a/25/344/253441602131627691d6e5.jpg"
+      ]
+    },
+    {
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2025/20251124/b598691bc21b681281b8b75489a1deef.pdf",
+      "pollster": "TVBS民調中心",
+      "sponsor": "TVBS",
+      "fieldStart": "2025-11-17",
+      "fieldEnd": "2025-11-20",
+      "published": "2025-11-24",
+      "method": "phone",
+      "sampleSize": 1013,
+      "moe": 3.1,
+      "confidence": 95,
+      "population": "20歲以上台南市民",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [
+        {
+          "name": "陳亭妃",
+          "party": "dpp",
+          "pct": 47
+        },
+        {
+          "name": "謝龍介",
+          "party": "kmt",
+          "pct": 34
+        }
+      ],
+      "undecided": 19,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "陳亭妃 vs 謝龍介",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 47
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 34
+            }
+          ],
+          "undecided": 19
+        },
+        {
+          "label": "林俊憲 vs 謝龍介",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 38
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 41
+            }
+          ],
+          "undecided": 21
+        },
+        {
+          "label": "陳亭妃 vs 陳以信",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 60
+            },
+            {
+              "name": "陳以信",
+              "party": "kmt",
+              "pct": 13
+            }
+          ],
+          "undecided": 26
+        },
+        {
+          "label": "林俊憲 vs 陳以信",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 45
+            },
+            {
+              "name": "陳以信",
+              "party": "kmt",
+              "pct": 20
+            }
+          ],
+          "undecided": 35
+        }
+      ],
+      "notes": "TVBS 自辦的藍綠對比題（人名隨機輪替），另外測了國民黨陳以信（當時表態參加國民黨初選）的兩組，沒有黨內互比。調查方式是「電話號碼後四碼隨機抽樣，人員電話訪問」，沒有提到手機。訪問時段為晚間 18:30–22:00。共接觸 1,241 人，拒訪 228 人，拒訪率 18.4%。其他題目：黃偉哲施政滿意度 47%、不滿意 34%、無意見 19%。樣本政黨傾向：民進黨 35%、國民黨 22%、民眾黨 9%、中立 23%、其他 10%。中立選民裡，陳亭妃 34%、謝龍介 26%、未決定 40%。數字和維基一致；維基表格沒有列陳以信那兩組。",
+      "extraSources": [
+        "https://web.archive.org/web/20251203055826/https://cc.tvbs.com.tw/portal/file/poll_center/2025/20251124/b598691bc21b681281b8b75489a1deef.pdf",
+        "https://news.tvbs.com.tw/politics/3053460"
+      ]
+    },
+    {
+      "source": "https://www.ftnn.com.tw/news/506723",
+      "pollster": "循證民調有限公司",
+      "sponsor": "鋒燦傳媒",
+      "fieldStart": "2025-12-08",
+      "fieldEnd": "2025-12-09",
+      "published": "2025-12-11",
+      "method": "phone",
+      "sampleSize": 1207,
+      "moe": 2.82,
+      "confidence": 95,
+      "population": "戶籍設在台南市且年滿20歲的台南市民（以中華電信住宅電話簿為抽樣母體）",
+      "weighting": "依台南市政府民政局最新人口統計，針對性別、年齡、戶籍地人口比例做多變數反覆加權",
+      "results": [
+        {
+          "name": "陳亭妃",
+          "party": "dpp",
+          "pct": 53.2
+        },
+        {
+          "name": "謝龍介",
+          "party": "kmt",
+          "pct": 25
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "陳亭妃 vs 謝龍介",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 53.2
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 25
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "林俊憲 vs 謝龍介",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 44.9
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 30.9
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "陳亭妃 vs 陳以信",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 61.6
+            },
+            {
+              "name": "陳以信",
+              "party": "kmt",
+              "pct": 9
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "林俊憲 vs 陳以信",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 50.8
+            },
+            {
+              "name": "陳以信",
+              "party": "kmt",
+              "pct": 13.9
+            }
+          ],
+          "undecided": null
+        }
+      ],
+      "notes": "鋒燦傳媒第 2 波「2026年台南市長初選民意調查」，對比式（各自對謝龍介、陳以信），家用電話訪問。報導和圖表都沒有給「無法決定」比例。政黨交叉（陳 vs 謝／林 vs 謝）：民進黨支持者，陳 79.2 vs 謝 6.8、林 73.8 vs 謝 11.8；國民黨支持者，陳 16.3 vs 76.5、林 5.7 vs 87.9；民眾黨支持者，陳 29.4 vs 60.4、林 21.8 vs 69.0；中立選民，陳 32.9 vs 20.7、林 16.7 vs 26.4。維基標「鋒燦民調」。和維基的差異：維基寫其他/未表態 24.2%（陳組）、21.8%（林組），原始報導沒有這兩個數字。另外，維基沒有列陳以信那兩組。",
+      "extraSources": [
+        "https://i01.ftnn.com.tw/a/25/344/253441602127889245acbf.jpg",
+        "https://i01.ftnn.com.tw/a/25/344/253441602131627691d6e5.jpg"
+      ]
+    },
+    {
+      "source": "https://www.mirrormedia.mg/story/20251225daily001",
+      "pollster": null,
+      "sponsor": null,
+      "fieldStart": "2025-12-22",
+      "fieldEnd": "2025-12-23",
+      "published": "2025-12-25",
+      "method": "phone",
+      "sampleSize": 1217,
+      "moe": 2.8,
+      "confidence": 95,
+      "population": "台南市年滿20歲以上成年民眾（以中華電信台南市電話住宅用戶為抽樣母體，分層比例隨機抽樣）",
+      "weighting": "報導稱數字為「加權後」，加權變數沒有說明",
+      "results": [
+        {
+          "name": "陳亭妃",
+          "party": "dpp",
+          "pct": 54.1
+        },
+        {
+          "name": "謝龍介",
+          "party": "kmt",
+          "pct": 25.3
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "陳亭妃 vs 謝龍介",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 54.1
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 25.3
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "林俊憲 vs 謝龍介",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 51.5
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 28.8
+            }
+          ],
+          "undecided": null
+        }
+      ],
+      "notes": "鏡報取得的「綠營內參民調」，執行機構和委託者都沒有揭露，維基標「民進黨內參」。民進黨中央 2025-12-26 否認：從未針對初選縣市執行或發布任何內參民調（央廣）。陳亭妃同日發函黨中央，質疑來源不明的民調和「內參民調」沒有依選罷法揭露調查資訊。題型是對比式（各自對謝龍介）。其他題目：看好度（加權後），44.2% 認為林俊憲會代表民進黨參選，37.8% 認為是陳亭妃。報導還說「純綠」支持者中林已超越陳，但沒有給數字。報導沒有給未表態。和維基的差異：陳亭妃 vs 謝龍介，維基寫謝龍介 28.3%、其他 17.6%，原始報導是謝龍介 25.3%，未表態沒有公布；林俊憲 vs 謝龍介，維基寫其他 19.7%，報導沒有這個數字。",
+      "extraSources": [
+        "https://www.rti.org.tw/news?uid=3&pid=183112"
+      ]
+    },
+    {
+      "source": "https://cnews.com.tw/174251225a03/",
+      "pollster": "CNEWS匯流新聞網民調中心",
+      "sponsor": "CNEWS匯流新聞網",
+      "fieldStart": "2025-12-22",
+      "fieldEnd": "2025-12-23",
+      "published": "2025-12-25",
+      "method": "phone",
+      "sampleSize": 1074,
+      "moe": 2.99,
+      "confidence": 95,
+      "population": "戶籍在台南市年滿20歲的台南市民",
+      "weighting": "依內政部最新人口資料，做戶籍地、性別、年齡和教育程度加權",
+      "results": [
+        {
+          "name": "陳亭妃",
+          "party": "dpp",
+          "pct": 57.1
+        },
+        {
+          "name": "謝龍介",
+          "party": "kmt",
+          "pct": 18.5
+        }
+      ],
+      "undecided": 24.4,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "陳亭妃 vs 謝龍介",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 57.1
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 18.5
+            }
+          ],
+          "undecided": 24.4
+        },
+        {
+          "label": "林俊憲 vs 謝龍介",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 51.6
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 28.5
+            }
+          ],
+          "undecided": 19.9
+        },
+        {
+          "label": "黨內互比 陳亭妃 vs 林俊憲",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 42.7
+            },
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 33
+            }
+          ],
+          "undecided": 24.3
+        }
+      ],
+      "notes": "匯流「仿民進黨初選方式」：純市話（家戶電話）、分層比例隨機抽樣，晚間訪問，以對比題組計分，另做黨內互比。題目：「如果參選市長的是民進黨的X、國民黨的謝龍介這2個人……最希望哪一位來做我們的市長」。未表態選項為「無法選出任一候選人」。對謝龍介的數字和未表態取自報導內的民調中心截圖。其他題目：黃偉哲施政滿意度 57.8%（非常 11.6、還算 46.2）、不滿意 27.5%、無明確意見 14.7%。對比題的政黨交叉：民進黨支持者，林 84.7%、陳 74.1%；國民黨支持者，陳 24.8%、林 10.6%；民眾黨支持者，陳 49.0%、林 12.1%；中間選民，陳 44.0%、林 24.5%。截圖的樣本數欄：民進黨 514、國民黨 130、民眾黨 96、不偏任何黨 153、未表態 139。數字和維基一致。",
+      "extraSources": [
+        "https://cnews.com.tw/174251225a06/",
+        "https://cnews.com.tw/wp-content/uploads/2025/12/2025-12-25_11-46-34_088974.png",
+        "https://cnews.com.tw/wp-content/uploads/2025/12/2025-12-25_11-47-02_632268.png",
+        "https://cnews.com.tw/wp-content/uploads/2025/12/2025-12-25_11-47-30_749450.png"
+      ]
+    },
+    {
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5297627",
+      "pollster": "關鍵民調公司",
+      "sponsor": "政治社會觀察家張老書",
+      "fieldStart": "2025-12-24",
+      "fieldEnd": "2025-12-29",
+      "published": "2026-01-02",
+      "method": "unknown",
+      "sampleSize": 1260,
+      "moe": 2.8,
+      "confidence": 95,
+      "population": "設籍台南37個行政區、年滿20歲以上民眾",
+      "weighting": null,
+      "results": [
+        {
+          "name": "陳亭妃",
+          "party": "dpp",
+          "pct": 50.1
+        },
+        {
+          "name": "謝龍介",
+          "party": "kmt",
+          "pct": 22.4
+        }
+      ],
+      "undecided": 27.5,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "陳亭妃 vs 謝龍介",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 50.1
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 22.4
+            }
+          ],
+          "undecided": 27.5
+        },
+        {
+          "label": "林俊憲 vs 謝龍介",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 52.7
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 27.8
+            }
+          ],
+          "undecided": 19.5
+        }
+      ],
+      "notes": "《2026台南市長選舉調查》，對比式（各自對謝龍介），沒有黨內互比。題目：「明年的臺南市長選舉中，如果民進黨推派X，國民黨推派謝龍介，您會想投票給哪位候選人？」未表態為「無明確意見」，數字取自報導附圖。報導只寫「電話資料庫隨機抽樣訪問」，沒說市話或手機，也沒寫加權。其他題目：黃偉哲施政滿意度 56.1%（非常 16.2、還算 39.9）、不滿意 24.0%、未表態 19.9%。投票意願：91.0% 一定會或可能會投票，其中 71.3% 一定會，6.0% 不會；林俊憲和謝龍介的支持者都有逾 96% 表示會去投票。沒有公布定投票者子樣本的支持率。數字和維基一致。",
+      "extraSources": [
+        "https://img.ltn.com.tw/Upload/news/600/2026/01/02/5297627_1_1.jpg",
+        "https://img.ltn.com.tw/Upload/news/600/2026/01/02/5297627_2_1.jpg"
+      ]
+    },
+    {
+      "source": "https://www.ftnn.com.tw/news/512544",
+      "pollster": "循證民調有限公司",
+      "sponsor": "鋒燦傳媒",
+      "fieldStart": "2025-12-29",
+      "fieldEnd": "2025-12-30",
+      "published": "2026-01-03",
+      "method": "phone",
+      "sampleSize": 1204,
+      "moe": 2.82,
+      "confidence": 95,
+      "population": "戶籍設在台南市且年滿20歲的台南市民",
+      "weighting": "依性別、年齡、戶籍地人口比例做多變數反覆加權",
+      "results": [
+        {
+          "name": "陳亭妃",
+          "party": "dpp",
+          "pct": 56.2
+        },
+        {
+          "name": "謝龍介",
+          "party": "kmt",
+          "pct": 23.7
+        }
+      ],
+      "undecided": 20.1,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "陳亭妃 vs 謝龍介",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 56.2
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 23.7
+            }
+          ],
+          "undecided": 20.1
+        },
+        {
+          "label": "林俊憲 vs 謝龍介",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 50.6
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 31.4
+            }
+          ],
+          "undecided": 17.9
+        }
+      ],
+      "notes": "鋒燦傳媒第 3 波（初選前封關）「2026年台南市長初選民意調查」，對比式（各自對謝龍介）。陳以信已退出國民黨初選，這波沒有納入。家用電話訪問（電話資料庫系統隨機抽樣）。未表態為「無法決定」，數字取自報導圖表。政黨交叉：泛綠選民，林 80.6%、陳 76.0%；中間選民，陳 36.2%、林 16.7%。維基標「鋒燦民調」。和維基的差異：林俊憲 vs 謝龍介的其他/未表態，維基寫 18%，原始圖表是 17.9%。",
+      "extraSources": [
+        "https://i01.ftnn.com.tw/a/26/001/26001221110721741b9758.jpeg"
+      ]
+    },
+    {
+      "source": "https://www.ettoday.net/news/20260108/3097921.htm",
+      "pollster": "ETtoday民調雲",
+      "sponsor": "ETtoday民調雲",
+      "fieldStart": "2026-01-02",
+      "fieldEnd": "2026-01-07",
+      "published": "2026-01-08",
+      "method": "unknown",
+      "sampleSize": 1339,
+      "moe": 2.68,
+      "confidence": 95,
+      "population": "設籍在台南市且年滿20歲的民眾",
+      "weighting": null,
+      "results": [
+        {
+          "name": "陳亭妃",
+          "party": "dpp",
+          "pct": 48.1
+        },
+        {
+          "name": "謝龍介",
+          "party": "kmt",
+          "pct": 37.7
+        }
+      ],
+      "undecided": 14.2,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "陳亭妃 vs 謝龍介",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 48.1
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 37.7
+            }
+          ],
+          "undecided": 14.2
+        },
+        {
+          "label": "林俊憲 vs 謝龍介",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 44.8
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 38.5
+            }
+          ],
+          "undecided": 16.7
+        }
+      ],
+      "notes": "ETtoday 民調雲「2026市長人選」調查，對比式（各自對謝龍介），沒有黨內互比。題目：「如果明天就是台南市長選舉，參選人有民進黨OOO、國民黨謝龍介，請問您會投給誰？」2 人順序及組合隨機輪調。未表態含不投票、投廢票、不知道、沒意見，數字取自報導附圖。報導沒有揭露調查方式（電話或網路）和加權；信心水準原文寫「95%的信賴區間」。數字和維基一致。",
+      "extraSources": [
+        "https://cdn2.ettoday.net/images/8572/d8572048.jpg"
+      ]
+    },
+    {
+      "source": "https://www.upmedia.mg/tw/lifestyle/policy/249218",
+      "pollster": "雨晴指標行銷公司（雨晴民調）",
+      "sponsor": null,
+      "fieldStart": "2026-01-06",
+      "fieldEnd": "2026-01-07",
+      "published": "2026-01-08",
+      "method": "unknown",
+      "sampleSize": 1069,
+      "moe": 3,
+      "confidence": 95,
+      "population": "台南市年滿20歲以上民眾",
+      "weighting": "依行政區、年齡與性別加權",
+      "results": [
+        {
+          "name": "陳亭妃",
+          "party": "dpp",
+          "pct": 51
+        },
+        {
+          "name": "謝龍介",
+          "party": "kmt",
+          "pct": 24.5
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "陳亭妃 vs 謝龍介",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 51
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 24.5
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "林俊憲 vs 謝龍介",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 45.8
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": null
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "黨內互比 陳亭妃 vs 林俊憲",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 41.4
+            },
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 33.7
+            }
+          ],
+          "undecided": 24.9
+        }
+      ],
+      "notes": "上報「政策櫥窗」欄位稱為「最新一份內部民調」的封關民調，委託者沒有揭露；執行者雨晴就是 2025 年 9 月東森民調的同一家。題型有黨內互比加藍綠對比，報導以互比為主（陳 41.4、林 33.7、未表態 24.9）。陳亭妃 vs 謝龍介 51.0 比 24.5，報導寫差距 26.6，但兩數相減是 26.5。林俊憲 vs 謝龍介只給林 45.8%，謝龍介數字沒有公布。報導沒有寫調查方式和對比題的未表態。和維基的差異：陳亭妃 vs 謝龍介，維基寫其他 24.5%，報導沒有這個數字；林組維基寫「不詳」，和報導一致。",
+      "extraSources": [
+        "https://web.archive.org/web/20260110085006/https://www.upmedia.mg/tw/lifestyle/policy/249218"
+      ]
+    },
+    {
+      "source": "https://www.dpp.org.tw/media/contents/11439",
+      "pollster": "民進黨中央黨部民調中心、山水民調、精湛民調（三家平均）",
+      "sponsor": "民主進步黨",
+      "fieldStart": "2026-01-14",
+      "fieldEnd": "2026-01-14",
+      "published": "2026-01-15",
+      "method": "phone",
+      "sampleSize": 1200,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "陳亭妃",
+          "party": "dpp",
+          "pct": 60.8557
+        },
+        {
+          "name": "謝龍介",
+          "party": "kmt",
+          "pct": 13.8631
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "三家平均：陳亭妃 vs 謝龍介",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 60.8557
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 13.8631
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "三家平均：林俊憲 vs 謝龍介",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 58.163
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 21.6493
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "中央黨部：陳亭妃 vs 謝龍介",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 62.3917
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 12.7247
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "中央黨部：林俊憲 vs 謝龍介",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 57.0485
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 21.3107
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "山水：陳亭妃 vs 謝龍介",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 58.2395
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 15.8599
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "山水：林俊憲 vs 謝龍介",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 58.3703
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 22.3465
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "精湛：陳亭妃 vs 謝龍介",
+          "results": [
+            {
+              "name": "陳亭妃",
+              "party": "dpp",
+              "pct": 61.936
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 13.0048
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "精湛：林俊憲 vs 謝龍介",
+          "results": [
+            {
+              "name": "林俊憲",
+              "party": "dpp",
+              "pct": 59.0703
+            },
+            {
+              "name": "謝龍介",
+              "party": "kmt",
+              "pct": 21.2906
+            }
+          ],
+          "undecided": null
+        }
+      ],
+      "notes": "民進黨正式初選民調，對比式：林、陳各自對謝龍介，比較支持率。結果是三家平均，陳亭妃以 2.6927 個百分點勝出。新聞稿只有結果表（中央黨部民調中心製），沒有方法資訊。執行資訊取自自由時報與公視：2026-01-14 晚間 6 時至 10 時 30 分，三家民調公司同步以室內電話調查，「共達成1200份有效樣本」。報導沒說 1,200 是每家還是三家合計，sampleSize 照報導填。新聞稿沒有公布未表態。數字和維基一致；維基的 1月15日是公布日，實際執行日是 1 月 14 日。",
+      "extraSources": [
+        "https://www.dpp.org.tw/upload/ckfinder/2026%E5%8F%B0%E5%8D%97%E5%B8%82%E9%95%B7%E5%88%9D%E9%81%B8%E6%B0%91%E8%AA%BF%E7%B5%90%E6%9E%9C.jpg",
+        "https://news.ltn.com.tw/news/politics/breakingnews/5310572",
+        "https://news.pts.org.tw/article/790683"
+      ]
+    },
+    {
+      "source": "https://www.bigmedia.com.tw/article/1772712411866",
+      "pollster": "皮爾森數據",
+      "sponsor": "鉅聞天下新聞網",
+      "fieldStart": "2026-02-23",
+      "fieldEnd": "2026-02-28",
+      "published": "2026-03-06",
+      "method": "online",
+      "sampleSize": 1580,
+      "moe": 2.48,
+      "confidence": 95,
+      "population": "台南市年滿20歲以上之網路人口",
+      "weighting": "比率估計法：依內政部2026年1月年齡、性別、戶籍資料，結合皮爾森數據DMP修正網路人口特徵值，逐項重複連續性修正",
+      "results": [
+        {
+          "name": "陳亭妃",
+          "party": "dpp",
+          "pct": 45.96
+        },
+        {
+          "name": "謝龍介",
+          "party": "kmt",
+          "pct": 40.57
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "網路調查：透過資料管理平台（DMP）依性別、年齡、居住地比例分層隨機抽樣主動發放問卷，轉傳、重複填答等不列為有效樣本。報導未公布未表態比例（維基也填「-」）。其他：賴清德總統在台南市滿意度48.38%、黃偉哲市長滿意度52.8%；政黨認同民進黨38.91%、國民黨22.6%、民眾黨6.91%。報導稱黃偉哲支持者流失25%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://news.tvbs.com.tw/politics/3152745",
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "fieldStart": "2026-03-09",
+      "fieldEnd": "2026-03-12",
+      "published": "2026-03-16",
+      "method": "phone",
+      "sampleSize": 1052,
+      "moe": 3,
+      "confidence": 95,
+      "population": "20歲以上台南市民",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [
+        {
+          "name": "陳亭妃",
+          "party": "dpp",
+          "pct": 53
+        },
+        {
+          "name": "謝龍介",
+          "party": "kmt",
+          "pct": 30
+        }
+      ],
+      "undecided": 17,
+      "likelyVoters": {
+        "sampleSize": null,
+        "results": [
+          {
+            "name": "陳亭妃",
+            "pct": 53
+          },
+          {
+            "name": "謝龍介",
+            "pct": 30
+          }
+        ]
+      },
+      "scenarios": null,
+      "notes": "市內電話後四碼電腦隨機抽樣、人員電話訪問；接觸1,207人，拒訪155人（拒訪率12.8%）。支持度的基數是「有投票意願」的台南市民（82%表示會去投票：57%一定會、25%可能會；7%不一定、10%不會），PDF沒有列出這個子樣本的人數，所以 likelyVoters 與主數字相同、樣本數 null。題目：「假如明天就是投票日，請問您比較可能投票給哪一位？（人名隨機輪替）」。喜好度：陳亭妃喜歡56%／不喜歡15%，謝龍介38%／35%。黃偉哲施政滿意度46%、不滿意33%。政黨傾向：民進黨認同者89%挺陳；國民黨認同者78%挺謝；民眾黨認同者60%挺謝、36%挺陳；中立選民陳44%、謝19%、未決定37%。數字與維基一致。",
+      "extraSources": [
+        "https://www-asset.tvbs.com.tw/poll_center/2026/20260316/17c65a48cf4cb9fa94dd118ac0b13662.pdf"
+      ]
+    },
+    {
+      "source": "https://www.setn.com/news/1925870",
+      "pollster": "趨勢民意調查公司",
+      "sponsor": "財團法人凱達格蘭基金會（新台灣國策智庫發布）",
+      "fieldStart": "2026-10-13",
+      "fieldEnd": "2026-10-15",
+      "published": "2026-10-21",
+      "method": "phone",
+      "sampleSize": 1071,
+      "moe": 2.98,
+      "confidence": 95,
+      "population": "戶籍在台南市、年滿20歲的民眾",
+      "weighting": "依內政部最新人口資料，就戶籍地、性別、年齡、教育程度進行多重反覆加權",
+      "results": [
+        {
+          "name": "陳亭妃",
+          "party": "dpp",
+          "pct": 59.4
+        },
+        {
+          "name": "謝龍介",
+          "party": "kmt",
+          "pct": 22.6
+        },
+        {
+          "name": "葉人文",
+          "party": "ind",
+          "pct": 0.9
+        },
+        {
+          "name": "蕭燐洪",
+          "party": "other",
+          "partyName": "台灣SoR無法黨",
+          "pct": 0.1
+        }
+      ],
+      "undecided": 17,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "四位登記候選人全列入的多人題。市話調查：以中華電信住宅電話簿為抽樣清冊、末兩碼隨機，分層比例隨機抽樣，每晚18:00–22:00訪問。新台灣國策智庫2026-10-21發布，經費來自凱達格蘭基金會、委託趨勢民調執行（維基標「新台灣國策智庫」）。undecided 為「無法選出任一候選人」17.0%。當選看好度：陳70.5%、謝15.9%、葉0.1%、蕭0.1%、無法選出13.4%。欣賞度：陳亭妃欣賞68.4%／不欣賞12.0%，謝龍介36.9%／44.3%。謝龍介陣營公開質疑這份民調（自由時報 2026-10-21）。維基只列陳、謝與其他17%，沒列葉人文0.9%、蕭燐洪0.1%。",
+      "extraSources": [
+        "https://news.ltn.com.tw/news/politics/breakingnews/5613520"
+      ]
+    }
+  ],
+  "extraPolls": [
+    {
+      "source": "https://www.gvm.com.tw/article/130553",
+      "pollster": "遠見民意研究調查",
+      "sponsor": "遠見雜誌",
+      "fieldStart": "2026-03-02",
+      "fieldEnd": "2026-04-14",
+      "published": "2026-06-01",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": "對各縣市受訪者的性別、年齡、教育程度、戶籍選區進行樣本代表性檢定並加權",
+      "results": [
+        {
+          "name": "國民黨（候選人）",
+          "party": "kmt",
+          "pct": 15.5
+        },
+        {
+          "name": "民進黨（候選人）",
+          "party": "dpp",
+          "pct": 46.8
+        },
+        {
+          "name": "民眾黨（候選人）",
+          "party": "tpp",
+          "pct": 0.7
+        }
+      ],
+      "undecided": 37,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "《遠見》2026縣市長選舉支持度調查，22縣市共訪問14,251人，只公布各縣市的政黨別支持度（藍／綠／白／其他／未表態），不是候選人對決，也沒有公布各縣市樣本數、調查方式與抽樣誤差。台南市的「其他」欄報導沒有數字。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "政黨別支持度，不是候選人對決；未公布各縣市樣本數與調查方式"
+    }
+  ]
+}

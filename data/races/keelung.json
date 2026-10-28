@@ -1,0 +1,51 @@
+{
+  "raceId": "keelung",
+  "incumbent": { "name": "謝國樑", "party": "kmt", "running": true, "termLimited": false },
+  "candidates": [
+    {
+      "name": "童子瑋", "party": "dpp", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": ["dpp"],
+      "incumbent": false,
+      "born": 1986,
+      "currentRole": "基隆市議會議長",
+      "bio": "第 19、20 屆基隆市議員，第 20 屆議長；2025 年 12 月 31 日獲民進黨徵召挑戰謝國樑。",
+      "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx"
+    },
+    {
+      "name": "魏造文", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": null,
+      "bio": "無黨籍登記參選，中央社名單未列生日與學經歷，報導中查不到背景資料；民調支持度約 1%。",
+      "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx"
+    },
+    {
+      "name": "謝國樑", "party": "kmt", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": ["kmt"],
+      "incumbent": true,
+      "born": 1975,
+      "currentRole": "基隆市長",
+      "bio": "出身掌控基隆二信的謝家，前第 6–8 屆立委；2022 年當選市長，任內遭罷免案挑戰未通過，2026 年 7 月 22 日國民黨提名競選連任，民眾黨表態支持。",
+      "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx"
+    }
+  ],
+  "withdrawn": [],
+  "keyEvents": [
+    { "date": "2025-10-23", "text": "謝國樑表態爭取連任", "source": "https://www.cna.com.tw/news/aloc/202510230208.aspx" },
+    { "date": "2025-12-31", "text": "民進黨第三波縣市長提名，徵召基隆市議會議長童子瑋", "source": "https://news.pts.org.tw/article/788498" },
+    { "date": "2026-04-08", "text": "民眾黨主席黃國昌宣示 2026 年全力支持謝國樑爭取連任", "source": "https://n.yam.com/Article/20260408614204" },
+    { "date": "2026-07-22", "text": "國民黨中常會提名謝國樑等 6 位現任縣市長競選連任", "source": "https://news.pts.org.tw/article/818815" },
+    { "date": "2026-07-30", "text": "鏡週刊報導謝國樑市府 7 月接連發生幼兒虐童案、工務處涉及行賄、國民黨籍議員遭羈押等事件，綠營內參民調差距縮至 2.5 個百分點", "source": "https://www.mirrormedia.mg/story/20260730inv001" },
+    { "date": "2026-09-01", "text": "謝國樑登記參選；鏡週刊後續報導指謝家掌控的基隆二信高階主管上班時間陪同造勢、進黨部主持選務，引發「政金不分」爭議，競辦回應歡迎各界響應", "source": "https://www.mirrormedia.mg/story/20260928soc001" },
+    { "date": "2026-10-27", "text": "號次抽籤（原訂 10 月 23 日，因颱風延期）：1 童子瑋、2 魏造文、3 謝國樑", "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx" }
+  ],
+  "notes": "民眾黨未在基隆提名，黨主席黃國昌公開表態支持謝國樑，但未查到中選會登記的推薦政黨欄位，endorsedBy 只列國民黨。罷免案未通過依維基百科記述，未另查原始新聞。號次以中央社 10/27 抽籤一覽為準（另見 TVBS https://news.tvbs.com.tw/politics/4041834）。10 月民調互有領先：趨勢、全國公信力、雨晴謝國樑領先 4.6～7.3 個百分點，大地民意（鏡新聞）童子瑋以 0.7 個百分點小幅領先。",
+  "updated": "2026-10-28"
+}

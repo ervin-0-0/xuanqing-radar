@@ -1,0 +1,160 @@
+{
+  "raceId": "penghu",
+  "incumbent": {
+    "name": "陳光復",
+    "party": "dpp",
+    "running": false,
+    "termLimited": false
+  },
+  "candidates": [
+    {
+      "name": "許智富",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": "前澎湖縣副縣長",
+      "bio": "前澎湖縣副縣長，具民眾黨黨籍但以無黨籍身分參選，2026-03-03 宣布投入。",
+      "source": "https://www.cna.com.tw/news/aloc/202610270054.aspx"
+    },
+    {
+      "name": "周倪安",
+      "party": "other",
+      "partyName": "台灣團結聯盟",
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [
+        "other"
+      ],
+      "incumbent": false,
+      "born": 1972,
+      "currentRole": "台灣團結聯盟主席",
+      "bio": "台聯黨主席、前台聯不分區立委，2026-06-03 宣布參選澎湖縣長；抽籤未出席由選委會代抽。",
+      "source": "https://www.cna.com.tw/news/aloc/202610270054.aspx"
+    },
+    {
+      "name": "葉竹林",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": 1962,
+      "currentRole": "前馬公市長",
+      "bio": "前國民黨籍兩任馬公市長、前縣議員，2022 年以無黨籍參選縣長拿下約三成選票；2026-03 藍營整合破局後無黨籍選到底。",
+      "source": "https://www.cna.com.tw/news/aloc/202610270054.aspx"
+    },
+    {
+      "name": "吳淑瑾",
+      "party": "dpp",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 4,
+      "endorsedBy": [
+        "dpp"
+      ],
+      "incumbent": false,
+      "born": 1957,
+      "currentRole": "縣長陳光復之妻（議員助理、幼教背景）",
+      "bio": "現任縣長陳光復之妻，陳光復春節跌倒重傷後於 2026-06-17 獲民進黨徵召「代夫出征」，主打延續幸福澎湖政策。",
+      "source": "https://www.cna.com.tw/news/aloc/202610270054.aspx"
+    },
+    {
+      "name": "陳振中",
+      "party": "kmt",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 5,
+      "endorsedBy": [
+        "kmt"
+      ],
+      "incumbent": false,
+      "born": 1963,
+      "currentRole": "湖西鄉長",
+      "bio": "湖西鄉長、前澎湖縣議員，2026-04-01 獲國民黨徵召參選縣長。",
+      "source": "https://www.cna.com.tw/news/aloc/202610270054.aspx"
+    },
+    {
+      "name": "陳盡川",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 6,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": "澎湖海洋志工隊長",
+      "bio": "海洋志工隊長，2026-01 以無黨籍宣布參選；抽籤未出席由選委會代抽。",
+      "source": "https://www.cna.com.tw/news/aloc/202610270054.aspx"
+    }
+  ],
+  "withdrawn": [
+    {
+      "name": "陳光復",
+      "party": "dpp",
+      "reason": "現任縣長，2026-02-04 獲民進黨提名競選連任，但春節（大年初一）跌倒重傷昏迷住院，民進黨取消提名改徵召其妻吳淑瑾",
+      "date": "2026-06-17",
+      "source": "https://www.cna.com.tw/news/aipl/202606170240.aspx"
+    },
+    {
+      "name": "鄭清發",
+      "party": "kmt",
+      "reason": "前縣議員，2025-06 首位表態爭取國民黨提名，國民黨改徵召陳振中，未登記參選",
+      "date": "2026-04-01",
+      "source": "https://www.rti.org.tw/news?uid=3&pid=200659"
+    }
+  ],
+  "keyEvents": [
+    {
+      "date": "2026-02-04",
+      "text": "民進黨正式提名現任縣長陳光復競選連任",
+      "source": "https://news.ttv.com.tw/news/11502040003100W"
+    },
+    {
+      "date": "2026-02-17",
+      "text": "陳光復春節期間跌倒重傷昏迷住院，副縣長林皆興代行縣長職務，選情出現變數",
+      "source": "https://udn.com/news/story/124652/9564481"
+    },
+    {
+      "date": "2026-03-16",
+      "text": "葉竹林與國民黨的在野整合破局，葉竹林宣布以無黨籍選到底",
+      "source": "https://www.cna.com.tw/news/aloc/202603160136.aspx"
+    },
+    {
+      "date": "2026-04-01",
+      "text": "國民黨第四波縣市長提名，徵召湖西鄉長陳振中",
+      "source": "https://www.rti.org.tw/news?uid=3&pid=200659"
+    },
+    {
+      "date": "2026-06-03",
+      "text": "台聯黨主席周倪安宣布參選澎湖縣長",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5459545"
+    },
+    {
+      "date": "2026-06-17",
+      "text": "民進黨選對會改徵召陳光復之妻吳淑瑾代夫出征",
+      "source": "https://www.cna.com.tw/news/aipl/202606170240.aspx"
+    },
+    {
+      "date": "2026-09-02",
+      "text": "吳淑瑾完成縣長參選登記（登記期間 8/31–9/4，最終 6 人登記）",
+      "source": "https://www.cna.com.tw/news/aipl/202609020207.aspx"
+    },
+    {
+      "date": "2026-10-27",
+      "text": "號次抽籤（原訂 10-23，因颱風薔琵延期）：1 許智富、2 周倪安、3 葉竹林、4 吳淑瑾、5 陳振中、6 陳盡川",
+      "source": "https://www.cna.com.tw/news/aloc/202610270054.aspx"
+    },
+    {
+      "date": "2026-10-28",
+      "text": "葉竹林開記者會批國民黨釋出的選情數字未揭露方法、製造藍綠對決假象",
+      "source": "https://www.cna.com.tw/news/aloc/202610280175.aspx"
+    }
+  ],
+  "notes": "陳光復自 2026-02-17 起休職，由副縣長林皆興代行職務；他 2014、2022 年兩度當選（非連續兩屆），連任資格未受限，是因傷退出。民進黨馬公市長黃健忠曾被列入 3 月民調但未參選；國民黨縣黨部主委陳雙全（2025-11 民調列名）也未登記。6 人名單與號次以 2026-10-27 中央社抽籤報導為準。",
+  "updated": "2026-10-28"
+}

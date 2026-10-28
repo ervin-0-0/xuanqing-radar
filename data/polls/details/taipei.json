@@ -1,0 +1,387 @@
+{
+  "raceId": "taipei",
+  "details": [
+    {
+      "source": "https://www.shotnews.tw/news/e61dccbd57da4",
+      "pollster": "循證民調",
+      "sponsor": null,
+      "fieldStart": "2025-11-17",
+      "fieldEnd": "2025-11-19",
+      "published": "2025-11-25",
+      "method": "phone",
+      "sampleSize": 1077,
+      "moe": 2.99,
+      "confidence": 95,
+      "population": null,
+      "weighting": "依人口資料，針對性別、年齡、戶籍地人口比例加權",
+      "results": [
+        { "name": "王世堅", "party": "dpp", "pct": 29.9 },
+        { "name": "蔣萬安", "party": "kmt", "pct": 49.1 }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "民進黨人選假設對決（沈伯洋尚未列入）。原文：「本民調委託循證民調有限公司執行」，未說明委託方；採家用電話系統隨機抽樣。其他情境：吳怡農 24.5% vs 蔣萬安 56.9%；吳思瑤 22.4% vs 蔣萬安 58.9%；苗博雅 28.4% vs 蔣萬安 59.4%（後兩組維基未列）。各情境未表態比例原文無。原文顯示發布 2025-11-25（維基寫 2025-11-26）。",
+      "extraSources": []
+    },
+    {
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2025/20251208/f76262efaa46dd37ae3df58e65b2d1eb.pdf",
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "fieldStart": "2025-11-27",
+      "fieldEnd": "2025-12-04",
+      "published": "2025-12-08",
+      "method": "phone",
+      "sampleSize": 1006,
+      "moe": 3.1,
+      "confidence": 95,
+      "population": "20 歲以上台北市民",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [
+        { "name": "沈伯洋", "party": "dpp", "pct": 22 },
+        { "name": "蔣萬安", "party": "kmt", "pct": 64 }
+      ],
+      "undecided": 14,
+      "likelyVoters": null,
+      "notes": "民進黨人選假設對決，results 放沈伯洋情境。其他情境（蔣萬安：對手／未決定）：王世堅 55:31／14、吳怡農 61:24／14、鄭麗君 62:24／14、林右昌 65:19／17。維基寫王世堅 34%，PDF 為 31%（另寫較 2024-12 調查增 4 個百分點，當時 27%）。蔣萬安施政滿意度 59%（非常滿意 22%、還算滿意 37%）、不滿意 25%、沒意見 16%。輝達總部落腳：35% 認為市府功勞、8% 中央、37% 兩者都有。接觸 1,256 人、拒訪 250 人（19.9%）。方法寫「電話號碼後四碼隨機抽樣，人員電話訪問」，未註明是否含手機（TVBS 同系列 2026 年調查明寫市內電話）。原 PDF 網址現回 AccessDenied，內容取自 web.archive.org 2025-12-26 存檔。",
+      "extraSources": ["https://web.archive.org/web/20251226021910/https://cc.tvbs.com.tw/portal/file/poll_center/2025/20251208/f76262efaa46dd37ae3df58e65b2d1eb.pdf"]
+    },
+    {
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/40330",
+      "pollster": "山水民意研究",
+      "sponsor": "震傳媒",
+      "fieldStart": "2026-01-25",
+      "fieldEnd": "2026-01-26",
+      "published": "2026-01-28",
+      "method": "phone+mobile",
+      "sampleSize": 1078,
+      "moe": 2.99,
+      "confidence": 95,
+      "population": "設籍台北市、年滿 20 歲民眾",
+      "weighting": "依內政部人口統計，地區、性別、年齡層、教育程度加權",
+      "results": [
+        { "name": "王世堅", "party": "dpp", "pct": 32.7 },
+        { "name": "蔣萬安", "party": "kmt", "pct": 52.0 }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "民進黨人選假設對決。維基 ref 這篇（震傳媒民調（一））只有賴清德施政滿意度（滿意 39.7%、不滿意 51.1%）與政黨傾向（國民黨 31.6%、民進黨 30.4%、民眾黨 12.4%；泛藍 37.9%、泛綠 33.5%、中間 20.8%），市長對決數字取自 Newtalk 報導：王世堅 32.7% vs 蔣萬安 52.0%；鄭麗君 27.4% vs 60.4%；卓榮泰 24.0% vs 62.7%。未表態原文無，維基寫 15.3%／12.2%／13.3%（應為 100 減兩人）。加權前家戶 537 份、手機 541 份。",
+      "extraSources": ["https://newtalk.tw/news/view/2026-01-28/1017301"]
+    },
+    {
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2026/20260130/a77f38bdee0ceef8c988b182d179b754.pdf",
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "fieldStart": "2026-01-23",
+      "fieldEnd": "2026-01-28",
+      "published": "2026-01-29",
+      "method": "phone",
+      "sampleSize": 1009,
+      "moe": 3.1,
+      "confidence": 95,
+      "population": "20 歲以上台北市民",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [
+        { "name": "王世堅", "party": "dpp", "pct": 27 },
+        { "name": "蔣萬安", "party": "kmt", "pct": 60 }
+      ],
+      "undecided": 13,
+      "likelyVoters": null,
+      "notes": "民進黨人選假設對決。另一情境：鄭麗君 25% vs 蔣萬安 62%（未決定比例報導未寫，維基寫 13%）。政黨傾向交叉：民進黨認同者 63% 支持王世堅、20% 支持蔣萬安；國民黨認同者 94% 支持蔣；民眾黨認同者 82% 支持蔣、13% 支持王；中立選民 51% 蔣、29% 王、20% 未決定。TVBS 同期報導標題稱蔣萬安施政滿意度 63% 創新高。接觸 1,124 人、拒訪 115 人（10.2%）。方法寫「電話號碼後四碼隨機抽樣，人員電話訪問」。原 PDF 網址回 AccessDenied（維基 archive 連結誤指 2025-12 那份），細節取自 ETtoday 報導（2026-01-29 刊出；維基寫發布 2026-01-30）。",
+      "extraSources": ["https://www.ettoday.net/news/20260129/3109831.htm", "https://news.tvbs.com.tw/politics/3114320"]
+    },
+    {
+      "source": "https://www.setn.com/News.aspx?NewsID=1834747",
+      "pollster": "新台灣國策智庫",
+      "sponsor": "財團法人凱達格蘭基金會（經費來源）",
+      "fieldStart": "2026-05-04",
+      "fieldEnd": "2026-05-05",
+      "published": "2026-05-07",
+      "method": "phone",
+      "sampleSize": 1095,
+      "moe": 2.96,
+      "confidence": 95,
+      "population": "戶籍在台北市、年滿 20 歲民眾（母體清冊為中華電信市內號碼簿）",
+      "weighting": "依內政部最新人口資料，對戶籍地、性別、年齡、教育程度多重反覆加權",
+      "results": [
+        { "name": "蔣萬安", "party": "kmt", "pct": 52.9 },
+        { "name": "沈伯洋", "party": "dpp", "pct": 29.7 }
+      ],
+      "undecided": 17.4,
+      "likelyVoters": null,
+      "notes": "綠營智庫、凱達格蘭基金會出資；市話、分層比例隨機抽樣。蔣萬安滿意度 58.8%、不滿意 30.2%；沈伯洋滿意度 40.1%、不滿意 34.4%。欣賞度：蔣萬安 57.5% 欣賞、28.3% 不欣賞；沈伯洋 36.2% 欣賞、38.9% 不欣賞（同文後段又寫 28.9%，原文前後不一）。",
+      "extraSources": []
+    },
+    {
+      "source": "https://news.tvbs.com.tw/politics/3214850",
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "fieldStart": "2026-05-21",
+      "fieldEnd": "2026-05-26",
+      "published": "2026-05-27",
+      "method": "phone",
+      "sampleSize": 901,
+      "moe": 3.3,
+      "confidence": 95,
+      "population": "20 歲以上台北市民",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [
+        { "name": "蔣萬安", "party": "kmt", "pct": 58 },
+        { "name": "沈伯洋", "party": "dpp", "pct": 30 }
+      ],
+      "undecided": 13,
+      "likelyVoters": null,
+      "notes": "市內電話後四碼隨機抽樣、人員訪問；接觸 1,024 人、拒訪 123 人（12.0%）。未決定 13% 取自聯合報轉述。政黨交叉：民進黨認同者 79% 沈、10% 蔣；國民黨認同者 97% 蔣；民眾黨認同者 94% 蔣；中立選民 57% 蔣、14% 沈、29% 未決定。分區：中山大同沈 47%、蔣 43%（沈唯一領先區）；中正萬華蔣 58%、沈 18%。喜好度（聯合報轉述）：蔣萬安 57% 喜歡、22% 不喜歡；沈伯洋 31% 喜歡、38% 不喜歡。",
+      "extraSources": ["https://udn.com/news/story/124652/9529403"]
+    },
+    {
+      "source": "https://www.setn.com/News.aspx?NewsID=1861503",
+      "pollster": "山水民意研究",
+      "sponsor": "震傳媒",
+      "fieldStart": "2026-06-21",
+      "fieldEnd": "2026-06-22",
+      "published": "2026-06-24",
+      "method": "phone",
+      "sampleSize": 1074,
+      "moe": 2.99,
+      "confidence": 95,
+      "population": "設籍台北市、年滿 20 歲民眾",
+      "weighting": "依內政部人口統計，地區、性別、年齡層、教育程度加權",
+      "results": [
+        { "name": "蔣萬安", "party": "kmt", "pct": 55.2 },
+        { "name": "沈伯洋", "party": "dpp", "pct": 27.5 }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "CATI 電話訪問，抽樣架構為住宅電話用戶（未提手機）。題目：「台北市民最希望哪一位擔任市長？」標題寫沈伯洋 27.7%，內文寫 27.5%（27.7 實為兩人差距），震傳媒 10 月報導回顧 6 月數據也寫 27.5%。未表態原文無，維基寫 17.4%（應為 100 減兩人）。看好度：蔣萬安 70.9%、沈伯洋 15.0%。政黨支持：民進黨 30.3%、國民黨 29.7%、民眾黨 9.5%；泛綠 31.6%、泛藍 35.5%、中間 27.1%。",
+      "extraSources": ["https://www.zmedia.com.tw/Document/PoolDetail/44789"]
+    },
+    {
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5539708",
+      "pollster": "TPOC台灣議題研究中心",
+      "sponsor": null,
+      "fieldStart": "2026-08-05",
+      "fieldEnd": "2026-08-07",
+      "published": "2026-08-14",
+      "method": "phone",
+      "sampleSize": 1099,
+      "moe": 2.96,
+      "confidence": 95,
+      "population": "戶籍在台北市 12 個行政區、年滿 20 歲民眾",
+      "weighting": null,
+      "results": [
+        { "name": "蔣萬安", "party": "kmt", "pct": 48.4 },
+        { "name": "沈伯洋", "party": "dpp", "pct": 33.0 }
+      ],
+      "undecided": 18.7,
+      "likelyVoters": null,
+      "notes": "市話、分層比例隨機抽樣，晚間 18:30–22:00 訪問；加權方式原文無。published 為自由時報刊出日。原文寫「18.7％無法選出任一候選人」，維基寫 18.6%。知名度：蔣萬安 70.3%、沈伯洋 53.5%；在不提示的情況下 46.6% 不知道沈伯洋要參選。欣賞度：蔣萬安 51.5% 欣賞、32.2% 不欣賞；沈伯洋 34.4% 欣賞、33.9% 不欣賞。44.2% 不滿意市府兒虐預防與保護機制。",
+      "extraSources": []
+    },
+    {
+      "source": "https://dc579968-5ed9-4902-8454-9871fa44324e.filesusr.com/ugd/3ea6ac_7c66d227dc414f169202cda2ca75a7f3.pdf",
+      "pollster": "畢肯市場研究（戴立安問卷設計與分析）",
+      "sponsor": "台北市信民兩岸研究協會",
+      "fieldStart": "2026-09-16",
+      "fieldEnd": "2026-09-18",
+      "published": "2026-09-22",
+      "method": "phone+mobile",
+      "sampleSize": 1076,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "設籍台北市、年滿 20 歲民眾",
+      "weighting": "雙架構合併樣本與手機次樣本以比例估計法（raking）加權，母體參數為性別、戶籍行政區、年齡、教育程度",
+      "results": [
+        { "name": "蔣萬安", "party": "kmt", "pct": 41.7 },
+        { "name": "沈伯洋", "party": "dpp", "pct": 40.5 },
+        { "name": "郭璽", "party": "other", "partyName": "台灣麻將最大黨", "pct": 0.7 },
+        { "name": "唐新民", "party": "other", "partyName": "三勢團結促進聯盟", "pct": 0.6 },
+        { "name": "蕭文乾", "party": "other", "partyName": "臺灣SoR無法黨", "pct": 0.5 },
+        { "name": "林志成", "party": "ind", "pct": 0.3 }
+      ],
+      "undecided": 10.6,
+      "likelyVoters": null,
+      "notes": "住宅電話 752、手機 324。題目：「只剩 2 個多月就要選舉台北市長，根據報導有以下 6 位登記參選，如果現在投票，您可能會投給誰」（選項隨機排序）。另有不投票／投廢票 5.2%；undecided 只放「未明確回答」10.6%（維基其他／未表態欄寫 17.8%，為 100 減蔣、沈）。蔣萬安施政滿意度 52.4%、不滿意 41.6%。適合度：蔣萬安適合 50.0%、不適合 38.3%；沈伯洋適合 46.2%、不適合 32.5%。政黨輪替：給國民黨繼續做 38.0%、換民進黨做做看 42.0%。看好度：蔣萬安 57.8%、沈伯洋 21.3%。政黨傾向樣本：國民黨 24.3%、其他泛藍 4.1%、民進黨 32.7%、時代力量 0.7%、基進 0.2%、其他泛綠 3.9%、民眾黨 5.4%、中立 25.5%（國民黨議員批評樣本偏綠）。本次無投票意願題。",
+      "extraSources": ["https://news.ltn.com.tw/news/politics/breakingnews/5581917"]
+    },
+    {
+      "source": "https://news.tvbs.com.tw/politics/4033527",
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "fieldStart": "2026-10-03",
+      "fieldEnd": "2026-10-07",
+      "published": "2026-10-08",
+      "method": "phone",
+      "sampleSize": 1120,
+      "moe": 2.9,
+      "confidence": 95,
+      "population": "20 歲以上台北市民",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [
+        { "name": "蔣萬安", "party": "kmt", "pct": 49 },
+        { "name": "沈伯洋", "party": "dpp", "pct": 41 }
+      ],
+      "undecided": 11,
+      "likelyVoters": null,
+      "notes": "調查日為 10/3 與 10/5–7（10/4 未訪），市內電話後四碼隨機抽樣、人員訪問；接觸 1,284 人、拒訪 164 人（12.8%）。投票意願：一定會 74%、可能會 18%（未提供一定會投票者的支持分布）。看好度：蔣萬安 55%、沈伯洋 20%、無意見 26%。喜好度：蔣萬安 49% 喜歡、33% 不喜歡；沈伯洋 44% 喜歡（增 13 個百分點）、36% 不喜歡。政黨認同：民進黨 28%、國民黨 32%、民眾黨 7%、中立 22%、其他及拒答 10%。",
+      "extraSources": ["https://www.mirrormedia.mg/external/amp/setn_1919773", "https://news.ltn.com.tw/news/politics/breakingnews/5600275"]
+    },
+    {
+      "source": "https://dc579968-5ed9-4902-8454-9871fa44324e.filesusr.com/ugd/3ea6ac_257951a3d235492f8595f6dcd7b5cdd3.pdf",
+      "pollster": "畢肯市場研究（戴立安問卷設計與分析）",
+      "sponsor": "台北市信民兩岸研究協會",
+      "fieldStart": "2026-10-14",
+      "fieldEnd": "2026-10-16",
+      "published": "2026-10-20",
+      "method": "phone+mobile",
+      "sampleSize": 1075,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "設籍台北市、年滿 20 歲民眾",
+      "weighting": "雙架構合併樣本與手機次樣本以比例估計法（raking）加權，母體參數為性別、戶籍行政區、年齡、教育程度",
+      "results": [
+        { "name": "蔣萬安", "party": "kmt", "pct": 33.3 },
+        { "name": "沈伯洋", "party": "dpp", "pct": 50.3 },
+        { "name": "林志成", "party": "ind", "pct": 0.7 },
+        { "name": "郭璽", "party": "other", "partyName": "台灣麻將最大黨", "pct": 0.4 },
+        { "name": "蕭文乾", "party": "other", "partyName": "臺灣SoR無法黨", "pct": 0.1 },
+        { "name": "唐新民", "party": "other", "partyName": "三勢團結促進聯盟", "pct": 0.1 }
+      ],
+      "undecided": 12.2,
+      "likelyVoters": {
+        "sampleSize": 857,
+        "results": [
+          { "name": "沈伯洋", "pct": 56.7 },
+          { "name": "蔣萬安", "pct": 35.2 }
+        ]
+      },
+      "notes": "住宅電話 753、手機 322。題目：「下個月就要選舉台北市長，根據報導有以下 6 位登記參選，如果現在投票，您可能會投給誰」。另有不投票／投廢票 3.0%（維基未表態欄 15.2% = 3.0 + 12.2）。likelyVoters 為自述「一定會」去投票者（79.7%，交叉表 n=857）。投票意願：一定會 79.7%、可能會 12.9%、可能不會 3.3%、一定不會 2.8%。適合度：蔣萬安適合 41.2%、不適合 46.8%；沈伯洋適合 56.6%、不適合 27.5%。政黨輪替：換民進黨做做看 48.7%、給國民黨繼續做 31.7%。看好度：蔣萬安 39.5%、沈伯洋 37.7%（問卷頁寫 37.7%，摘要文字寫 37.3%）、未回答 22.8%。政黨傾向樣本：國民黨 23.2%、其他泛藍 3.5%、民進黨 38.7%、時代力量 1.2%、其他泛綠 2.2%、民眾黨 4.0%、中立 25.5%。民眾黨支持者 63.8% 投蔣、19.0% 投沈；中立 34.2% 沈、22.9% 蔣、34.3% 未回答。",
+      "extraSources": ["https://news.ebc.net.tw/news/politics/576612"]
+    },
+    {
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/44789",
+      "pollster": "山水民意研究",
+      "sponsor": "震傳媒",
+      "fieldStart": "2026-10-18",
+      "fieldEnd": "2026-10-19",
+      "published": "2026-10-22",
+      "method": "phone",
+      "sampleSize": 1074,
+      "moe": 2.99,
+      "confidence": 95,
+      "population": "設籍台北市、年滿 20 歲民眾",
+      "weighting": "依內政部人口統計，地區、性別、年齡層、教育程度加權",
+      "results": [
+        { "name": "蔣萬安", "party": "kmt", "pct": 39.0 },
+        { "name": "沈伯洋", "party": "dpp", "pct": 42.8 }
+      ],
+      "undecided": null,
+      "likelyVoters": {
+        "sampleSize": null,
+        "results": [
+          { "name": "沈伯洋", "pct": 51.2 },
+          { "name": "蔣萬安", "pct": 38.6 }
+        ]
+      },
+      "notes": "CATI 電話訪問，抽樣架構只寫住宅電話用戶（系統抽樣加尾 2 碼隨機），未提手機。報導寫「在 6 名市長參選人中」，但只公布沈、蔣兩人。維基寫郭璽 0.1%、其他／未表態 18.1%，原文都沒有。投票意願：90.1% 會去投、8.1% 不會投。likelyVoters 為表示「一定會投」者，樣本數未公布。政黨支持：民進黨 35.9%、國民黨 25.4%、民眾黨 9.4%；泛綠 37.3%、泛藍 29.6%、中間 26.9%。政黨交叉：民進黨支持者 92.8% 挺沈；國民黨 91.2%、民眾黨 72.6% 挺蔣（民眾黨 14.8% 挺沈）；不偏任何政黨 29.1% 蔣、21.0% 沈。議員選區：沈在中正萬華 46.1%、士林北投 46.0%；蔣在大安文山 44.3%；中山大同沈 44.5%／蔣 43.8%；松山信義沈 41.6%／蔣 42.1%。同系列另有（三）蔣萬安施政滿意度 51.4%（較 6 月跌 14.3 個百分點）、（四）黃珊珊 2022 年選民 54.4% 挺沈、34.1% 挺蔣。",
+      "extraSources": ["https://news.ltn.com.tw/news/politics/breakingnews/5614570"]
+    },
+    {
+      "source": "https://www.ettoday.net/news/20261027/3261830.htm",
+      "pollster": "ETtoday民調雲（東森民調雲股份有限公司）",
+      "sponsor": "東森民調雲股份有限公司",
+      "fieldStart": "2026-10-21",
+      "fieldEnd": "2026-10-25",
+      "published": "2026-10-27",
+      "method": "online",
+      "sampleSize": 1462,
+      "moe": 2.56,
+      "confidence": 95,
+      "population": "設籍台北市 12 個行政區、年滿 20 歲民眾（東森民調雲會員資料庫，母體 350,542 人）",
+      "weighting": "比例估計法（raking ratio estimation），依性別、年齡、行政區、教育程度",
+      "results": [
+        { "name": "蔣萬安", "party": "kmt", "pct": 48.6 },
+        { "name": "沈伯洋", "party": "dpp", "pct": 41.1 },
+        { "name": "蕭文乾", "party": "other", "partyName": "臺灣SoR無法黨", "pct": 0.2 },
+        { "name": "郭璽", "party": "other", "partyName": "台灣麻將最大黨", "pct": 0.1 },
+        { "name": "林志成", "party": "ind", "pct": 0.1 },
+        { "name": "唐新民", "party": "other", "partyName": "三勢團結促進聯盟", "pct": 0.1 }
+      ],
+      "undecided": 8.7,
+      "likelyVoters": null,
+      "notes": "以手機簡訊及 EDM 通知會員，封閉式網路問卷；分層比例抽樣。另有不投票／投廢票 1.1%（維基未表態欄 9.8% = 8.7 + 1.1）。投票意願：一定會 87.3%（Yahoo 轉載標題稱投票意願 95.8%），未提供一定會投票者的支持分布。看好度：蔣萬安 51.3%、沈伯洋 40.9%、郭璽 0.3%、蕭文乾 0.1%、唐新民 0.0%、不知道／沒意見 5.3%、都不看好 2.1%。喜好度：蔣萬安 喜歡 44.3%、討厭 32.9%、不喜歡也不討厭 22.8%；沈伯洋 喜歡 41.3%、討厭 41.9%、不喜歡也不討厭 16.9%。",
+      "extraSources": ["https://udn.com/news/story/124652/9840838"]
+    },
+    {
+      "source": "https://udn.com/news/story/124652/9840910?from=udn-catebreaknews_ch2",
+      "pollster": "聯合報系民意調查中心",
+      "sponsor": "聯合報",
+      "fieldStart": "2026-10-20",
+      "fieldEnd": "2026-10-25",
+      "published": "2026-10-28",
+      "method": "phone+mobile",
+      "sampleSize": 1115,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "設籍台北市的成年民眾",
+      "weighting": "依設籍台北市 20 歲以上選民的性別、年齡、行政區結構加權",
+      "results": [
+        { "name": "蔣萬安", "party": "kmt", "pct": 41 },
+        { "name": "沈伯洋", "party": "dpp", "pct": 45 }
+      ],
+      "undecided": 13,
+      "likelyVoters": null,
+      "notes": "調查日為 10/20–22 與 10/25（10/23–24 未訪），住宅及手機雙電話底冊；拒訪 264 人。其他四位參選人合計不到 1%。看好度：蔣萬安 48%、沈伯洋 35%、無法判斷 16%。印象：蔣萬安 好印象 44%、不喜歡 36%、無意見 20%；沈伯洋 好印象 46%、不喜歡 31%、無意見 24%。蔣萬安市長表現滿意 50%、不滿意 37%；沈伯洋立委表現 39% 肯定。政黨交叉：綠營 91% 挺沈、藍營 86% 擁蔣、民眾黨支持者 75% 挺蔣／16% 挺沈；中立選民 40% 沈、33% 蔣、26% 觀望。國民黨團指出調查在 10/26 蔣萬安競選總部成立前完成。",
+      "extraSources": ["https://www.worldjournal.com/wj/story/121218/9841963", "https://news.ltn.com.tw/news/politics/breakingnews/5621239"]
+    }
+  ],
+  "extraPolls": [
+    {
+      "source": "https://ctinews.com/news/items/dynyX0jVxZ",
+      "pollster": "TPOC台灣議題研究中心",
+      "sponsor": "影響力數據股份有限公司",
+      "fieldStart": "2026-10-26",
+      "fieldEnd": "2026-10-26",
+      "published": "2026-10-28",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": "台北市選舉人（約 209 萬人）",
+      "weighting": null,
+      "results": [
+        { "name": "蔣萬安", "party": "kmt", "pct": 41.8 },
+        { "name": "沈伯洋", "party": "dpp", "pct": 39.1 }
+      ],
+      "undecided": 12.0,
+      "likelyVoters": null,
+      "notes": "AI 模擬「民調」：以 OpenAI GPT-5.4 mini 產生 17,550 個「矽基樣本」AI 代理人，報導明寫不採隨機抽樣、無抽樣誤差。媒體以「最新台北市長 AI 民調」標題報導，容易被誤當成真民調。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "AI 模擬，非真人抽樣調查"
+    },
+    {
+      "source": "https://www.mirrormedia.mg/story/20260806edi083",
+      "pollster": "壹蘋新聞網",
+      "sponsor": "壹蘋新聞網",
+      "fieldStart": null,
+      "fieldEnd": "2026-08-06",
+      "published": "2026-08-06",
+      "method": "online",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        { "name": "蔣萬安", "party": "kmt", "pct": 51.71 },
+        { "name": "沈伯洋", "party": "dpp", "pct": 46.66 }
+      ],
+      "undecided": 1.63,
+      "likelyVoters": null,
+      "notes": "壹蘋網路投票，讀者自行投票，29,754 人參與（蔣 15,386 票、沈 13,884 票、未表態 484）。題目：「蔣萬安與沈伯洋都積極爭取聲量，你支持誰當台北市長？」",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "壹蘋網路投票，非隨機抽樣"
+    }
+  ]
+}

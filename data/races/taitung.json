@@ -1,0 +1,69 @@
+{
+  "raceId": "taitung",
+  "incumbent": { "name": "饒慶鈴", "party": "kmt", "running": false, "termLimited": true },
+  "candidates": [
+    {
+      "name": "李吳穎智", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": null,
+      "bio": "自述具外省、客家、閩南與阿美族血統，做過記者、立法院公費助理、司機等多種工作；過去多次表態參選議員、縣長、立委都未登記，本次自稱同時具國民黨、民眾黨黨籍但以無黨籍登記，主打廉政契約與「縣地自建」。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5619855"
+    },
+    {
+      "name": "陳瑩", "party": "dpp", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": ["dpp"],
+      "incumbent": false,
+      "born": 1972,
+      "currentRole": "立法委員",
+      "bio": "卑南族，前台東縣長陳建年之女，五屆立委（含平地原住民區），民進黨正國會成員；2025年10月獲民進黨徵召，前總統蔡英文任競總主委、原本有意參選的劉櫂豪任總幹事。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5619855"
+    },
+    {
+      "name": "王志偉", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": "台東釋迦合作社理事主席",
+      "bio": "66歲（2026年）釋迦農，9月4日登記截止前突然現身登記，主打教育獎勵金、「台東牌」農產與設立上空海灘，自評當選機率萬分之一。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5563339"
+    },
+    {
+      "name": "吳秀華", "party": "kmt", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 4,
+      "endorsedBy": ["kmt"],
+      "incumbent": false,
+      "born": 1973,
+      "currentRole": "台東縣議會議長",
+      "bio": "2014年在胞兄推薦下當選議員，2017年當選國民黨台東縣黨部主委，2018年起任議長兩屆；前縣長吳俊立之妹（嫂嫂鄺麗貞亦曾任縣長）；2025年12月獲國民黨徵召，主打接棒饒慶鈴、黃健庭縣政。胞兄吳俊立10月涉台東農路拓寬圖利案遭聲押、交保，她批為司法迫害。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5619855"
+    }
+  ],
+  "withdrawn": [
+    { "name": "劉櫂豪", "party": "ind", "reason": "前民進黨三連霸立委（2023年退黨），3月起考慮第七度參選縣長，在蔡英文等人協調下宣布不參選，8月4日起任陳瑩競總總幹事", "date": "2026-07-31", "source": "https://www.cna.com.tw/news/aloc/202608010024.aspx" }
+  ],
+  "keyEvents": [
+    { "date": "2025-10-22", "text": "民進黨中執會通過首波提名，徵召立委陳瑩參選台東縣長", "source": "https://www.cna.com.tw/news/aipl/202510220227.aspx" },
+    { "date": "2025-12-24", "text": "國民黨中常會首波提名，徵召議長吳秀華參選台東縣長", "source": "https://www.cna.com.tw/news/aipl/202512240185.aspx" },
+    { "date": "2026-02-21", "text": "李吳穎智宣布以無黨籍參選", "source": "https://ctinews.com/news/items/4OaZyjp3W6" },
+    { "date": "2026-03-19", "text": "劉櫂豪臉書表示考慮第七度參選縣長，批藍綠都是家族政治接班", "source": "https://newtalk.tw/news/view/2026-03-23/1025661" },
+    { "date": "2026-06-01", "text": "匯流民調（5/27–28）：三人參選吳秀華44.2%、陳瑩15.0%、劉櫂豪13.4%；藍綠對決吳51.3%、陳22.4%", "source": "https://cnews.com.tw/145260601a01/" },
+    { "date": "2026-07-31", "text": "劉櫂豪宣布不參選縣長，選戰轉為藍綠對決；民眾黨不提名", "source": "https://www.cna.com.tw/news/aloc/202608010024.aspx" },
+    { "date": "2026-08-04", "text": "蔡英文出任陳瑩競總主委、劉櫂豪任總幹事，台東綠營整合", "source": "https://udn.com/news/story/124652/9670027" },
+    { "date": "2026-09-04", "text": "登記截止，共4人登記：吳秀華、陳瑩、李吳穎智、王志偉", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5563339" },
+    { "date": "2026-10-04", "text": "吳秀華競總成立，朱立倫與民眾黨創黨主席柯文哲站台，柯呼籲民眾黨員支持吳秀華", "source": "https://www.cna.com.tw/news/aipl/202610040175.aspx" },
+    { "date": "2026-10-09", "text": "陳瑩稱內部民調差距已縮至個位數；吳秀華陣營稱兩份內部民調仍明顯領先（皆未公布數字）", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5600693" },
+    { "date": "2026-10-20", "text": "吳秀華胞兄、前縣長吳俊立涉台東農路拓寬圖利案遭約談、聲押，21日500萬交保；檢方抗告後10月27日加保至700萬", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5612962" },
+    { "date": "2026-10-27", "text": "號次抽籤：1李吳穎智、2陳瑩、3王志偉、4吳秀華", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5619855" }
+  ],
+  "notes": "現任饒慶鈴（國民黨）連任一屆屆滿。台東從未出現民進黨縣長，政壇版圖常被視為藍綠6比4。陳瑩與吳秀華的丈夫皆為卑南族，被稱「卑南族女兒與媳婦」之爭。民眾黨未提名、未正式列為共同推薦，但柯文哲10/4到場為吳秀華站台。維基「候選人」表只列吳、陳兩人，「選舉結果」表才列齊4人，號次與自由時報10/27報導一致。陳瑩現任立委：匯流、TVBS稱其為「不分區立委」，維基與部分報導寫平地原住民立委，currentRole 只寫立法委員。",
+  "updated": "2026-10-28"
+}

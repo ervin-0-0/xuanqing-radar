@@ -1,0 +1,79 @@
+{
+  "raceId": "kaohsiung",
+  "incumbent": { "name": "陳其邁", "party": "dpp", "running": false, "termLimited": true },
+  "candidates": [
+    {
+      "name": "張靜", "party": "other", "partyName": "司法改革黨",
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": ["other"],
+      "incumbent": false,
+      "born": 1956,
+      "currentRole": "司法改革黨黨主席、律師",
+      "bio": "前金門地方法院連江民事庭庭長，2026年3月29日宣布參選，訴求挑戰藍綠兩大黨。",
+      "source": "https://www.ettoday.net/news/20260329/3140309.htm"
+    },
+    {
+      "name": "王肇民", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": 1963,
+      "currentRole": null,
+      "bio": "台北科技大學建築學士，中選會登記經歷為「台灣一條心」創黨籌備處創始負責人暨發起人。",
+      "source": "https://www.cna.com.tw/news/aipl/202609045002.aspx"
+    },
+    {
+      "name": "柯志恩", "party": "kmt", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": ["kmt"],
+      "incumbent": false,
+      "born": 1962,
+      "currentRole": "全國不分區立法委員、國家政策研究基金會執行長",
+      "bio": "前淡江大學教授、學務長，電視節目主持人出身，第9、11屆立委、國民黨高雄市黨部主委；2022年挑戰陳其邁落敗，2025年12月獲國民黨首波徵召二度參選。",
+      "source": "https://www.cna.com.tw/news/aipl/202512240185.aspx"
+    },
+    {
+      "name": "洪方隆", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 4,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": 1963,
+      "currentRole": "長春藤電訊公司創辦人",
+      "bio": "中興大學環境工程學系畢業，以無黨籍登記參選。",
+      "source": "https://www.cna.com.tw/news/aipl/202609045002.aspx"
+    },
+    {
+      "name": "賴瑞隆", "party": "dpp", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 5,
+      "endorsedBy": ["dpp"],
+      "incumbent": false,
+      "born": 1973,
+      "currentRole": "立法委員（高雄市第八選區）",
+      "bio": "國會助理出身，陳菊市府時期任高雄市海洋局長、新聞局長，三連任立委；2026年1月民進黨四人初選以對比式民調55.9995%險勝邱議瑩55.3807%。",
+      "source": "https://www.cna.com.tw/news/aipl/202601130111.aspx"
+    }
+  ],
+  "withdrawn": [
+    { "name": "邱議瑩", "party": "dpp", "reason": "民進黨初選民調落敗（對柯志恩55.3807%，僅次於賴瑞隆）", "date": "2026-01-13", "source": "https://www.cna.com.tw/news/aipl/202601130111.aspx" },
+    { "name": "許智傑", "party": "dpp", "reason": "民進黨初選民調落敗（對柯志恩51.9022%）", "date": "2026-01-13", "source": "https://www.cna.com.tw/news/aipl/202601130111.aspx" },
+    { "name": "林岱樺", "party": "dpp", "reason": "民進黨初選民調落敗（對柯志恩50.5986%）；2025年2月因助理費案遭搜索", "date": "2026-01-13", "source": "https://www.cna.com.tw/news/aipl/202601130111.aspx" }
+  ],
+  "keyEvents": [
+    { "date": "2025-02-20", "text": "民進黨初選原本領先的林岱樺涉助理費案遭檢調搜索，本人批評司法干預初選（今周刊報導）", "source": "https://www.businesstoday.com.tw/article/category/183027/post/202502200012/" },
+    { "date": "2025-10-24", "text": "柯志恩在旗津掛競選看板，宣示參選2026高雄市長", "source": "https://www.upmedia.mg/tw/focus/politics/243121" },
+    { "date": "2025-12-24", "text": "國民黨首波提名，徵召柯志恩參選高雄市長", "source": "https://www.cna.com.tw/news/aipl/202512240185.aspx" },
+    { "date": "2026-01-13", "text": "民進黨公布初選結果（1/12晚間對比式電話民調）：賴瑞隆55.9995%、邱議瑩55.3807%、許智傑51.9022%、林岱樺50.5986%（各自對柯志恩），賴瑞隆勝出", "source": "https://www.cna.com.tw/news/aipl/202601130111.aspx" },
+    { "date": "2026-01-21", "text": "民進黨正式提名賴瑞隆，現任市長陳其邁到場推薦", "source": "https://www.dpp.org.tw/media/contents/11447" },
+    { "date": "2026-03-29", "text": "司法改革黨主席張靜宣布參選高雄市長", "source": "https://www.ettoday.net/news/20260329/3140309.htm" },
+    { "date": "2026-06-04", "text": "TVBS民調賴瑞隆40.3%、柯志恩39.7%，TVBS網頁事後標明為柯志恩委託", "source": "https://news.tvbs.com.tw/politics/3221242" },
+    { "date": "2026-09-04", "text": "登記截止，賴瑞隆、柯志恩、張靜、王肇民、洪方隆5人登記", "source": "https://www.cna.com.tw/news/aipl/202609045002.aspx" },
+    { "date": "2026-10-27", "text": "號次抽籤：1號張靜、2號王肇民、3號柯志恩、4號洪方隆、5號賴瑞隆", "source": "https://news.tvbs.com.tw/politics/4041834" }
+  ],
+  "notes": "最新公開的科學民調是ETtoday民調雲8/22–30（9/11發布，柯43.8%、賴43.5%）；9、10月未找到新的賴柯對決科學民調。",
+  "updated": "2026-10-28"
+}

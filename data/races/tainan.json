@@ -1,0 +1,66 @@
+{
+  "raceId": "tainan",
+  "incumbent": { "name": "黃偉哲", "party": "dpp", "running": false, "termLimited": true },
+  "candidates": [
+    {
+      "name": "蕭燐洪", "party": "other", "partyName": "台灣SoR無法黨",
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": ["other"],
+      "incumbent": false,
+      "born": 1943,
+      "currentRole": null,
+      "bio": "台灣SoR無法黨推派參選，中選會登記經歷為旅行社導遊、領隊。",
+      "source": "https://www.cna.com.tw/news/aipl/202609045002.aspx"
+    },
+    {
+      "name": "謝龍介", "party": "kmt", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": ["kmt"],
+      "incumbent": false,
+      "born": 1961,
+      "currentRole": "全國不分區立法委員",
+      "bio": "前台南市議員（多屆）、前國民黨副秘書長，2022年代表國民黨參選台南市長敗給黃偉哲；2025年12月獲國民黨徵召二度參選，登記時喊藍白全面合作、當選後不尋求連任。",
+      "source": "https://www.cna.com.tw/news/aipl/202609010168.aspx"
+    },
+    {
+      "name": "陳亭妃", "party": "dpp", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": ["dpp"],
+      "incumbent": false,
+      "born": 1974,
+      "currentRole": "立法委員（台南市第三選區）",
+      "bio": "新聞主播出身，前台南市議員、第7至11屆立委、前民進黨台南市黨部主委；2026年1月民進黨初選以2.6927個百分點險勝林俊憲，若當選將是台南首位女市長。",
+      "source": "https://www.dpp.org.tw/media/contents/11447"
+    },
+    {
+      "name": "葉人文", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 4,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": 1988,
+      "currentRole": "南部街頭藝人表演俱樂部總召",
+      "bio": "政治素人，前國立屏東大學（屏東商業技術學院）學生會會長；2026年5月表態參選、9月2日完成登記，主張「台南需要第3個選擇」。",
+      "source": "https://udn.com/news/story/124652/9524625"
+    }
+  ],
+  "withdrawn": [
+    { "name": "林俊憲", "party": "dpp", "reason": "民進黨初選民調落敗（對比式民調三家平均58.1630%，低於陳亭妃60.8557%）", "date": "2026-01-15", "source": "https://www.dpp.org.tw/media/contents/11439" }
+  ],
+  "keyEvents": [
+    { "date": "2024-09-15", "text": "謝龍介在節目中宣布參選2026台南市長，承諾「給我4年」只做一任", "source": "https://www.taisounds.com/news/content/71/147508" },
+    { "date": "2025-12-24", "text": "國民黨中常會首波提名，徵召謝龍介參選台南市長（同批：柯志恩、蘇清泉、吳秀華）", "source": "https://www.cna.com.tw/news/aipl/202512240185.aspx" },
+    { "date": "2026-01-15", "text": "民進黨公布初選結果（1/14晚間三家對比式電話民調）：陳亭妃對謝龍介60.8557%，林俊憲對謝龍介58.1630%，陳亭妃勝出", "source": "https://www.dpp.org.tw/media/contents/11439" },
+    { "date": "2026-01-21", "text": "民進黨正式提名陳亭妃，現任市長黃偉哲到場推薦", "source": "https://www.dpp.org.tw/media/contents/11447" },
+    { "date": "2026-05-25", "text": "38歲無黨籍葉人文穿競選外套出席市府活動，表態參選市長", "source": "https://udn.com/news/story/124652/9524625" },
+    { "date": "2026-09-01", "text": "謝龍介登記參選，喊出藍白全面合作", "source": "https://www.cna.com.tw/news/aipl/202609010168.aspx" },
+    { "date": "2026-09-04", "text": "登記截止，謝龍介、陳亭妃、蕭燐洪、葉人文4人登記", "source": "https://www.cna.com.tw/news/aipl/202609045002.aspx" },
+    { "date": "2026-10-21", "text": "新台灣國策智庫民調陳亭妃59.4%、謝龍介22.6%，謝龍介公開質疑民調", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5613520" },
+    { "date": "2026-10-27", "text": "號次抽籤：1號蕭燐洪、2號謝龍介、3號陳亭妃、4號葉人文", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5619739" }
+  ],
+  "notes": "號次另見 TVBS 全國號次整理 https://news.tvbs.com.tw/politics/4041834 。維基稱前總統府發言人陳以信曾表態參選、後退出國民黨初選轉挺謝龍介，但維基所附來源沒有提到，未能查證，因此沒有列入 withdrawn。",
+  "updated": "2026-10-28"
+}

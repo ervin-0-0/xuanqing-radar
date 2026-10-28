@@ -1,0 +1,300 @@
+{
+  "raceId": "keelung",
+  "details": [
+    {
+      "source": "https://news.tvbs.com.tw/politics/3080482?openExternalBrowser=1",
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "威肯公關公司",
+      "fieldStart": "2025-12-15",
+      "fieldEnd": "2025-12-22",
+      "published": "2025-12-23",
+      "method": "phone",
+      "sampleSize": 1072,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "20 歲以上基隆市民",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [
+        { "name": "謝國樑", "party": "kmt", "pct": 48 },
+        { "name": "童子瑋", "party": "dpp", "pct": 33 }
+      ],
+      "undecided": 19,
+      "likelyVoters": null,
+      "notes": "報導寫「調查經費來源為威肯公關公司」，不是 TVBS 自費。方法原文為「電話號碼後四碼隨機抽樣與人員電話訪問」，未說明是否含手機。接觸 1,360 人，拒訪率 21.2%。另一情境（王醒之表態不選之前詢問）：謝國樑 40%、童子瑋 27%、王醒之 9%、未決定 24%。投票意願：61% 一定會、19% 可能會、8% 不一定、12% 不會去投。政黨傾向交叉：民進黨認同者 84% 挺童子瑋；國民黨認同者 88% 挺謝國樑；民眾黨認同者 72% 挺謝、17% 挺童；中立選民 37% 挺謝、21% 挺童、42% 未決定。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.mirrormedia.mg/story/20260312inv003",
+      "pollster": null,
+      "sponsor": "民進黨（綠營內參）",
+      "fieldStart": "2026-02-26",
+      "fieldEnd": "2026-02-28",
+      "published": "2026-03-12",
+      "method": "phone",
+      "sampleSize": 1083,
+      "moe": 2.97,
+      "confidence": 95,
+      "population": "設籍基隆市、20 歲以上成年人",
+      "weighting": null,
+      "results": [
+        { "name": "謝國樑", "party": "kmt", "pct": 39.3 },
+        { "name": "童子瑋", "party": "dpp", "pct": 33.1 }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "民進黨內參民調，鏡週刊報導稱「本刊掌握綠營這份最新民調」，未載委託與執行單位。抽樣架構為基隆市住宅電話用戶。欣賞度：童子瑋 54.6%、謝國樑 53.8%。報導只提到「民進黨支持者對市長選舉表態率 30.9%，國民黨 27.5%」，沒有全體未表態比例。報導網頁時間 2026-03-12（維基 ref 日期寫 2026-03-13）。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.storm.mg/article/11115511",
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "中國國民黨基隆市黨部",
+      "fieldStart": "2026-03-19",
+      "fieldEnd": "2026-03-26",
+      "published": "2026-03-27",
+      "method": "phone",
+      "sampleSize": 1086,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "20 歲以上基隆市民",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [
+        { "name": "謝國樑", "party": "kmt", "pct": 45 },
+        { "name": "童子瑋", "party": "dpp", "pct": 30 }
+      ],
+      "undecided": 25,
+      "likelyVoters": null,
+      "notes": "TVBS 新聞稿寫「調查經費來源為中國國民黨基隆市黨部」（藍營出錢）。支持度 45／30／25 的基數是「有投票意願的市民」，不是全體受訪者。投票意願：59% 一定會、24% 可能會、8% 不一定、9% 不會去投。接觸 1,341 人，拒訪率 19.0%。方法原文為「電話號碼後四碼隨機抽樣，人員電話訪問」。20-29 歲：謝 36%、童 34%、30% 未決定。政黨傾向：民進黨認同者 76% 挺童、16% 未決定；國民黨認同者 89% 挺謝；民眾黨認同者 77% 挺謝、11% 挺童；中立選民 31% 挺謝、23% 挺童、46% 未決定。維基 ref 的網站欄寫「上報」，實際網址是風傳媒。",
+      "extraSources": ["https://news.tvbs.com.tw/politics/3162996"]
+    },
+    {
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5436378",
+      "pollster": null,
+      "sponsor": "民進黨（綠營內參）",
+      "fieldStart": null,
+      "fieldEnd": null,
+      "published": "2026-05-14",
+      "method": "phone",
+      "sampleSize": 3016,
+      "moe": null,
+      "confidence": null,
+      "population": "20 歲以上成年人",
+      "weighting": null,
+      "results": [
+        { "name": "謝國樑", "party": "kmt", "pct": 42.2 },
+        { "name": "童子瑋", "party": "dpp", "pct": 37.7 }
+      ],
+      "undecided": 20.1,
+      "likelyVoters": null,
+      "notes": "民進黨內參民調，自由時報稱「根據綠營內部最新民調」，未載委託、執行單位、調查日期與抽樣誤差。方法為「系統隨機抽樣住宅電話用戶」。報導另稱不偏任何政黨的選民「超過 5 成未明確表態」。維基調查日期只寫「5月」。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.mirrormedia.mg/story/20260730inv001",
+      "pollster": null,
+      "sponsor": "民進黨（綠營內參）",
+      "fieldStart": "2026-07-24",
+      "fieldEnd": "2026-07-27",
+      "published": "2026-07-30",
+      "method": null,
+      "sampleSize": 1075,
+      "moe": 2.98,
+      "confidence": 95,
+      "population": "設籍基隆市、年滿 20 歲的成年人",
+      "weighting": null,
+      "results": [
+        { "name": "謝國樑", "party": "kmt", "pct": 38.5 },
+        { "name": "童子瑋", "party": "dpp", "pct": 36.0 }
+      ],
+      "undecided": 25.5,
+      "likelyVoters": {
+        "sampleSize": null,
+        "results": [
+          { "name": "謝國樑", "pct": 45.9 },
+          { "name": "童子瑋", "pct": 40.7 }
+        ]
+      },
+      "notes": "民進黨內參民調，鏡新聞 7/30 在政論節目揭露，鏡週刊稱「綠營內參民調」，未載委託、執行單位與訪問方式。「一定會投票」受訪者中謝 45.9%、童 40.7%（差距反而比全體大）。欣賞度：童子瑋 46.1%、不欣賞 17.1%（聽過童者中欣賞 53.3%、淨欣賞度 72.9%）；謝國樑 50.5%、不欣賞 32.4%（淨欣賞度 60.9%）。政黨交叉：童獲民進黨支持者 87.4%、謝獲國民黨支持者 79.7%；不偏任何政黨者童 20.9%、謝 19.4%、59.7% 未表態。調查期間有幼兒園虐童案、工務處行賄案、藍營議員遭羈押等事件。",
+      "extraSources": []
+    },
+    {
+      "source": "https://udn.com/vote2026/story/7328/9708171",
+      "pollster": "全國公信力民意調查股份有限公司",
+      "sponsor": "中國國民黨基隆市黨部",
+      "fieldStart": "2026-08-01",
+      "fieldEnd": "2026-08-17",
+      "published": "2026-08-22",
+      "method": "phone",
+      "sampleSize": 3209,
+      "moe": 1.73,
+      "confidence": 95,
+      "population": "戶籍在基隆市中正區、中山區、信義區，年滿 20 歲以上民眾",
+      "weighting": null,
+      "results": null,
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "這是三個行政區各自的分區民調，不是全市民調，所以 results 填 null。維基把三區數字列成三列，看起來像全市三種情境，其實是：信義區 謝國樑 44.9%、童子瑋 28.0%；中山區 謝 40.7%、童 29.1%；中正區 謝 38.5%、童 30.6%。各區有效樣本：中正 1,068、中山 1,070、信義 1,071（合計 3,209，總體誤差 ±1.73 個百分點）。市話訪問。國民黨基隆市黨部 8/22 公布，稱其他 4 區民調持續進行中（之後未見公布）。施政滿意度：信義 58.4%、中正 57.3%、中山 55.9%。",
+      "extraSources": [
+        "https://udn.com/news/story/124652/9707522",
+        "https://tw.news.yahoo.com/%E5%9F%BA%E9%9A%86%E5%B8%82%E9%95%B7%E6%9C%80%E6%96%B0%E6%B0%91%E8%AA%BF%E6%9B%9D-%E8%AC%9D%E5%9C%8B%E6%A8%91%E5%A4%A7%E5%B9%85%E9%A0%98%E5%85%88%E7%AB%A5%E5%AD%90%E7%91%8B-%E6%94%AF%E6%8C%81%E5%BA%A6%E7%A0%B45%E6%88%90-020031334.html"
+      ]
+    },
+    {
+      "source": "https://www.upmedia.mg/tw/focus/politics/267542",
+      "pollster": "山水民意研究股份有限公司",
+      "sponsor": "上報",
+      "fieldStart": "2026-08-21",
+      "fieldEnd": "2026-08-24",
+      "published": "2026-08-31",
+      "method": "phone",
+      "sampleSize": 1068,
+      "moe": 2.99,
+      "confidence": 95,
+      "population": "設籍基隆市的 20 歲以上成年人",
+      "weighting": "依地區、性別及年齡加權",
+      "results": [
+        { "name": "謝國樑", "party": "kmt", "pct": 38.6 },
+        { "name": "童子瑋", "party": "dpp", "pct": 33.2 }
+      ],
+      "undecided": 28.2,
+      "likelyVoters": {
+        "sampleSize": 589,
+        "results": [
+          { "name": "謝國樑", "pct": 41.9 },
+          { "name": "童子瑋", "pct": 41.8 }
+        ]
+      },
+      "notes": "上報原文被 Cloudflare 擋（HTTP 403），細節取自新頭殼與 NOWnews 轉述。抽樣架構為基隆市住宅電話用戶，系統抽樣加尾 2 碼隨機。「一定會投票」589 人中另有 16.3% 未明確表態；全體 55.2% 一定會投票、29.4% 可能會。當選看好度：謝國樑 51.2%、童子瑋 22.2%。政黨傾向分布：傾民進黨 28.3%、傾國民黨 28.6%、傾民眾黨 10.1%、不偏任何政黨 30.0%、其他 3.0%。年齡：20-29 歲童 39.8%、謝 24.6%；60-69 歲童 30.6%、謝 46.3%。上報估計約 2.8 萬名「一定會投票但未決定」選民。",
+      "extraSources": [
+        "https://newtalk.tw/news/view/2026-08-31/1056730",
+        "https://www.nownews.com/news/6870740"
+      ]
+    },
+    {
+      "source": "https://newtalk.tw/news/view/2026-09-28/1062272",
+      "pollster": "山水民意研究股份有限公司",
+      "sponsor": "芋傳媒",
+      "fieldStart": "2026-09-20",
+      "fieldEnd": "2026-09-21",
+      "published": "2026-09-28",
+      "method": "phone",
+      "sampleSize": 1076,
+      "moe": 2.98,
+      "confidence": 95,
+      "population": "設籍基隆市、年滿 20 歲民眾",
+      "weighting": "依內政部人口統計資料，進行地區、性別、年齡層加權",
+      "results": [
+        { "name": "謝國樑", "party": "kmt", "pct": 38.0 },
+        { "name": "童子瑋", "party": "dpp", "pct": 34.2 },
+        { "name": "魏造文", "party": "ind", "pct": 1.7 }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "CATI 電話訪問，抽樣架構為住宅電話用戶。原文只說「若以『一定會投票』者計算，童子瑋甚至反超 1.5%」，沒有給子樣本人數與各人數字。報導未載未表態比例；維基寫 29.9%，但 38.0＋34.2＋1.7＝73.9，與 29.9% 加總不符。欣賞度：童子瑋 50.1%（不欣賞 17.2%，淨欣賞度 74.4%）；謝國樑 53.3%（不欣賞 29.6%，淨欣賞度 64.3%）。「謝國樑已執政 4 年，同不同意換人做做看」：48.9% 同意（20-29 歲 63.6%、30-39 歲 68.8%；仁愛區 59.7%、安樂區 51.7%、中正區 43.7%）。",
+      "extraSources": [
+        "https://taronews.tw/2026/09/28/1209055/",
+        "https://taronews.tw/2026/09/28/1209059/",
+        "https://www.setn.com/news/1914165"
+      ]
+    },
+    {
+      "source": "https://newtalk.tw/news/view/2026-10-15/1065627",
+      "pollster": "趨勢民意調查股份有限公司",
+      "sponsor": "中國國民黨基隆市黨部",
+      "fieldStart": "2026-10-07",
+      "fieldEnd": "2026-10-09",
+      "published": "2026-10-15",
+      "method": "phone",
+      "sampleSize": 1070,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "設籍於基隆市且年滿 20 歲之民眾",
+      "weighting": "依內政部最新人口資料，針對戶籍地、性別、年齡及教育程度多重反覆加權",
+      "results": [
+        { "name": "謝國樑", "party": "kmt", "pct": 42.9 },
+        { "name": "童子瑋", "party": "dpp", "pct": 38.3 }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "國民黨委託。母體清冊為中華電信市內號碼簿（市話），尾數兩碼隨機撥出，分層比例隨機抽樣。調查日期原文寫 10 月 7 日至 9 日，維基寫 10 月 7 日至 10 日。聯合報 10/15 上午寫「市黨部今天發布」，新頭殼寫「今（14日）發布」，此處採 10/15。報導未給魏造文的全體支持率與未表態比例；以已表態者換算得票率：謝 51.1%、童 45.6%、魏 3.3%。維基未表態寫 18.8%（看起來是 100 減兩人支持率，含魏造文），原文沒有這個數字。當選看好度：謝 50.4%、童 34.3%。施政滿意度：報導只說「謝國樑獲得五成受訪者肯定」。黨部稱樣本中支持民進黨者多於國民黨，未給比例。",
+      "extraSources": ["https://udn.com/news/story/124652/9815763"]
+    },
+    {
+      "source": "https://www.ctwant.com/article/503031",
+      "pollster": "全國公信力民意調查股份有限公司",
+      "sponsor": "中國國民黨基隆市黨部",
+      "fieldStart": "2026-10-13",
+      "fieldEnd": "2026-10-16",
+      "published": "2026-10-20",
+      "method": null,
+      "sampleSize": 1071,
+      "moe": 2.99,
+      "confidence": 95,
+      "population": "基隆市民",
+      "weighting": null,
+      "results": [
+        { "name": "謝國樑", "party": "kmt", "pct": 41.3 },
+        { "name": "童子瑋", "party": "dpp", "pct": 35.7 }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "國民黨委託，報導寫「委託單位及經費來源為中國國民黨基隆市黨部」。報導未載訪問方式、加權、魏造文支持率與未表態比例；維基未表態寫 23.0%（看起來是 100 減兩人支持率）。當選看好度：謝 45.0%、童 26.5%（差 18.5）。施政滿意度：滿意 52.7%、不滿意 36.6%。50-59 歲謝支持度 49.1%；報導稱童子瑋在兩個年齡層佔優，未給數字。",
+      "extraSources": ["https://udn.com/news/story/124652/9826107"]
+    },
+    {
+      "source": "https://www.upmedia.mg/tw/focus/politics/272280",
+      "pollster": "雨晴指標行銷股份有限公司",
+      "sponsor": "謝國樑競選辦公室公布（報導稱「智庫內參」，未載委託單位）",
+      "fieldStart": "2026-10-16",
+      "fieldEnd": "2026-10-18",
+      "published": "2026-10-24",
+      "method": "phone",
+      "sampleSize": 1070,
+      "moe": 2.99,
+      "confidence": 95,
+      "population": "基隆市年滿 20 歲以上民眾",
+      "weighting": "依行政區、年齡及性別加權",
+      "results": [
+        { "name": "謝國樑", "party": "kmt", "pct": 40.5 },
+        { "name": "童子瑋", "party": "dpp", "pct": 33.2 }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "藍營內參，由謝國樑競總在鏡新聞民調（童子瑋小勝）公布隔天發布。住宅電話訪問，分層比例隨機抽樣。當選看好度：謝 42.6%、童 19.1%。上報原文被 Cloudflare 擋（HTTP 403）無法核對；聯合報與新頭殼都沒有魏造文與未表態數字，維基寫魏造文 1.9%、未表態 24.3%，未能查證。",
+      "extraSources": [
+        "https://udn.com/news/story/124652/9835343",
+        "https://newtalk.tw/news/view/2026-10-24/1067286"
+      ]
+    },
+    {
+      "source": "https://www.mnews.tw/story/20261023nm001",
+      "pollster": "大地民意研究股份有限公司",
+      "sponsor": "鏡新聞",
+      "fieldStart": "2026-10-18",
+      "fieldEnd": "2026-10-21",
+      "published": "2026-10-23",
+      "method": "phone",
+      "sampleSize": 1075,
+      "moe": 2.99,
+      "confidence": 95,
+      "population": "戶籍設於基隆市、年滿 20 歲以上民眾",
+      "weighting": "依內政部人口統計，按性別、年齡、教育程度及行政區多重反覆加權（raking）",
+      "results": [
+        { "name": "童子瑋", "party": "dpp", "pct": 37.0 },
+        { "name": "謝國樑", "party": "kmt", "pct": 36.3 },
+        { "name": "魏造文", "party": "ind", "pct": 0.8 }
+      ],
+      "undecided": 25.9,
+      "likelyVoters": {
+        "sampleSize": null,
+        "results": [
+          { "name": "童子瑋", "pct": 44.8 },
+          { "name": "謝國樑", "pct": 40.1 }
+        ]
+      },
+      "notes": "市話訪問，依各行政區人口比例抽號。題目：最希望哪一位擔任基隆市長。likelyVoters 是「一定會投票」者（佔全體 60.3%，子樣本人數未載）。有投票意願者（86.4%）：童 40.5%、謝 38.1%、魏 0.5%、未表態 20.9%。當選看好度：謝 40.2%、童 31.8%、未表態 28.0%。謝國樑團隊施政滿意度：滿意 46.7%、不滿意 35.9%、未表態 17.4%。同意換人執政 50.7%、不同意 31.0%。喜好度：謝 45.6%／不喜歡 32.0%；童 49.3%／不喜歡 16.2%。不提示知名度：謝 69.9%、童 64.3%、魏 0.4%。政黨支持：民進黨 28.0%、國民黨 25.5%、民眾黨 8.5%、時代力量 4.6%、小民參政歐巴桑聯盟 0.4%、其他及未表態 33.0%。",
+      "extraSources": ["https://www.mirrormedia.mg/story/20261023edi015"]
+    }
+  ],
+  "extraPolls": []
+}

@@ -1,0 +1,80 @@
+{
+  "raceId": "yilan",
+  "incumbent": { "name": "林姿妙", "party": "kmt", "running": false, "termLimited": true },
+  "candidates": [
+    {
+      "name": "林國漳", "party": "dpp", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": ["dpp"],
+      "incumbent": false,
+      "born": 1968,
+      "currentRole": "律師、行政院政務顧問、宜蘭信賴台灣之友會理事長",
+      "bio": "宜蘭市人，27歲應游錫堃之邀返鄉執業，曾任宜蘭律師公會理事長、法扶宜蘭分會會長，長年在宜蘭社大與宜蘭大學授課；政治素人，原為無黨籍，2025年10月獲民進黨徵召，被視為賴清德欽點、新潮流與游系共同支持。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5619798"
+    },
+    {
+      "name": "陳宏毅", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": "科技公司資深設計工程師",
+      "bio": "52歲（2026年），從外縣市移居宜蘭三星鄉的新住民，平日在北部上班，無從政經歷；8月31日登記首日搶頭香，政見勾選不同意公開。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5559938"
+    },
+    {
+      "name": "吳宗憲", "party": "kmt", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": ["kmt", "tpp"],
+      "incumbent": false,
+      "born": 1971,
+      "currentRole": "國民黨不分區立委",
+      "bio": "前檢察官、新北市法制局長、國民黨文傳會主委；2026年2月初選險勝議長張勝德獲國民黨提名，5月藍白整合民調勝過民眾黨陳琬惠，由國民黨與民眾黨共推；停職縣長林姿妙10月25日首度公開站台。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5619798"
+    },
+    {
+      "name": "劉燦輝", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 4,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": null,
+      "bio": "63歲（2026年）員山鄉人，曾參選員山鄉長與鄉民代表，2024年員山鄉縣議員補選以58票落選。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5559938"
+    },
+    {
+      "name": "楊鉯婷", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 5,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": null,
+      "bio": "39歲（2026年）、住員山鄉，崇右企專畢業，曾在不同產業工作；9月4日登記截止前壓線登記，號次抽籤未出席由代理人抽。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5563381"
+    }
+  ],
+  "withdrawn": [
+    { "name": "張勝德", "party": "kmt", "reason": "宜蘭縣議長，國民黨提名電話民調（2月25至27日）以些微差距不敵吳宗憲，數字依雙方協議不公布", "date": "2026-02-28", "source": "https://www.cna.com.tw/news/aipl/202602280048.aspx" },
+    { "name": "陳琬惠", "party": "tpp", "reason": "民眾黨徵召參選，藍白整合對比式民調以21.1%（對林國漳27.5%）不及吳宗憲27.6%（對林國漳28.9%），改支持吳宗憲", "date": "2026-05-04", "source": "https://www.storm.mg/article/11127599" }
+  ],
+  "keyEvents": [
+    { "date": "2024-12-31", "text": "縣長林姿妙因圖利等案一審判刑遭內政部停職，由副縣長林茂盛代理縣長", "source": "https://www.cna.com.tw/news/aipl/202412310239.aspx" },
+    { "date": "2025-10-15", "text": "民進黨選對會決定徵召無黨籍律師林國漳參選宜蘭縣長，10月22日中執會通過", "source": "https://www.cna.com.tw/news/aipl/202510150314.aspx" },
+    { "date": "2026-02-28", "text": "國民黨公布宜蘭縣長提名民調，吳宗憲險勝議長張勝德，數字不公開", "source": "https://www.cna.com.tw/news/aipl/202602280048.aspx" },
+    { "date": "2026-03-11", "text": "國民黨中常會正式提名吳宗憲參選宜蘭縣長", "source": "https://www.cna.com.tw/news/aipl/202603110228.aspx" },
+    { "date": "2026-05-04", "text": "藍白整合民調公布，吳宗憲勝過陳琬惠，由國民黨、民眾黨共推；兩人對比式民調皆落後林國漳", "source": "https://www.storm.mg/article/11127599" },
+    { "date": "2026-09-01", "text": "林國漳競總公布山水民調（8/26–29）：林37.8%、吳28%；吳宗憲同日登記參選並批為「策略性民調」", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5558776" },
+    { "date": "2026-09-04", "text": "登記截止，共5人登記：吳宗憲、林國漳及無黨籍陳宏毅、劉燦輝、楊鉯婷", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5563381" },
+    { "date": "2026-10-16", "text": "中選會審定宜蘭縣長候選人5人全數合格", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5608512" },
+    { "date": "2026-10-18", "text": "林國漳溪南競總成立，總統賴清德站台，稱宜蘭是他第一個布局的縣市", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5610581" },
+    { "date": "2026-10-25", "text": "吳宗憲溪南競總造勢，停職縣長林姿妙首度公開力挺，立法院長韓國瑜站台", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5618480" },
+    { "date": "2026-10-27", "text": "號次抽籤（中選會原訂10/23，實際10/27舉行）：1林國漳、2陳宏毅、3吳宗憲、4劉燦輝、5楊鉯婷", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5619798" }
+  ],
+  "notes": "現任林姿妙（國民黨）已連任一屆不得再選，且自2024-12-31停職，由副縣長林茂盛代理。實質為林國漳與藍白共推吳宗憲對決，其餘3位無黨籍皆為政治素人。號次以自由時報10/27抽籤報導為準，與維基一致；維基「候選人」表只列林、吳兩人，「選舉結果」表才列齊5人。10/31林國漳溪北競總成立，賴清德將再站台。",
+  "updated": "2026-10-28"
+}

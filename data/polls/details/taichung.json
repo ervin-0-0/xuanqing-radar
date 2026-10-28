@@ -1,0 +1,511 @@
+{
+  "raceId": "taichung",
+  "details": [
+    {
+      "source": "https://cnews.com.tw/%e3%80%90%e5%8c%af%e6%b5%81%e6%b0%91%e8%aa%bf2026%e5%8f%b0%e4%b8%ad%e5%b8%82%e9%95%b7%e9%81%b8%e8%88%89%e6%9c%80%e6%96%b0%e6%b0%91%e8%aa%bf3-2%e3%80%912026%e5%8f%b0%e4%b8%ad%e5%b8%82%e9%95%b7%e9%81%b8",
+      "pollster": "匯流新聞網民調中心",
+      "sponsor": "CNEWS匯流新聞網",
+      "fieldStart": "2025-11-25",
+      "fieldEnd": "2025-11-26",
+      "published": "2025-11-30",
+      "method": "phone+mobile",
+      "sampleSize": 1208,
+      "moe": 2.82,
+      "confidence": 95,
+      "population": "戶籍在台中市年滿20歲市民",
+      "weighting": "依內政部最新人口資料，就戶籍地、性別、年齡、教育程度加權",
+      "results": [
+        {
+          "name": "江啟臣",
+          "party": "kmt",
+          "pct": 43.9
+        },
+        {
+          "name": "何欣純",
+          "party": "dpp",
+          "pct": 25.0
+        }
+      ],
+      "undecided": 31.1,
+      "likelyVoters": null,
+      "notes": "市話848份、手機360份（7:3）。調查時楊瓊瓔尚未宣布參選，未列入。看好度：江啟臣52.7%、何欣純21.5%、未表態25.8%。樣本中民眾黨支持者17.3%，其中73.1%挺江、12.5%挺何；國民黨支持者83.8%挺江，民進黨支持者71.7%挺何。",
+      "extraSources": []
+    },
+    {
+      "source": "https://news.tvbs.com.tw/politics/3069680",
+      "pollster": null,
+      "sponsor": "國民黨（內參民調）",
+      "fieldStart": null,
+      "fieldEnd": null,
+      "published": "2025-12-11",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "江啟臣",
+          "party": "kmt",
+          "pct": 39.9
+        },
+        {
+          "name": "何欣純",
+          "party": "dpp",
+          "pct": 19.9
+        }
+      ],
+      "undecided": 34.3,
+      "likelyVoters": null,
+      "notes": "國民黨內參民調，報導未載明執行機構、調查日期、樣本數與方法（維基表格把日期併入匯流民調的2025-11-25～26列，原始報導沒有日期）。江vs何情境另有都支持0.8%、都不支持5.2%。楊瓊瓔vs何欣純：28.2%比26.8%，都支持0.4%、都不支持7.1%、不表態37.5%。黨內互比江啟臣41.4%、楊瓊瓔12.9%，都支持4.6%、都不支持11.6%、不表態29.5%。盧秀燕滿意度67.5%、不滿意25.2%。受訪者自認泛藍23.7%、泛綠18.1%、民眾黨8.7%、無特定立場42.4%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.upmedia.mg/tw/focus/politics/249173",
+      "pollster": "艾普羅民調",
+      "sponsor": null,
+      "fieldStart": "2026-01-05",
+      "fieldEnd": "2026-01-06",
+      "published": "2026-01-08",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "江啟臣",
+          "party": "kmt",
+          "pct": 39.4
+        },
+        {
+          "name": "何欣純",
+          "party": "dpp",
+          "pct": 25.8
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "上報原文被 Cloudflare 擋住無法開啟，也找不到其他媒體轉載；results 與日期取自維基，未經原始報導核對。維基另列楊瓊瓔31.5% vs 何欣純28.3%（其他41.2%）。報導標題稱黨內互比江啟臣45%勝楊瓊瓔15.5%。標題稱「內參民調」。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.ettoday.net/news/20260114/3100632.htm",
+      "pollster": "ETtoday民調雲",
+      "sponsor": "東森民調雲",
+      "fieldStart": "2026-01-08",
+      "fieldEnd": "2026-01-12",
+      "published": "2026-01-14",
+      "method": "online",
+      "sampleSize": 1225,
+      "moe": 2.8,
+      "confidence": 95,
+      "population": "設籍台中市年滿20歲民眾",
+      "weighting": null,
+      "results": [
+        {
+          "name": "江啟臣",
+          "party": "kmt",
+          "pct": 51.0
+        },
+        {
+          "name": "何欣純",
+          "party": "dpp",
+          "pct": 32.4
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "本篇未寫調查方式與經費來源；ETtoday民調雲其他報導均載明為手機簡訊/EDM通知的封閉式網路問卷、經費來源東森民調雲，故標 online。楊瓊瓔vs何欣純：41.7%比35.1%。黨內互比江啟臣48.0%、楊瓊瓔16.3%。看好度（三人）江45.4%、何29.6%、楊10.1%；江vs何看好度54.8%比32.7%。喜好度江38.6%（討厭19.9%）、何28.1%（23.9%）、楊25.3%（23.6%）。",
+      "extraSources": []
+    },
+    {
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2026/20260123/e81df25f05002ab1c3e1dbf68d1d320b.pdf",
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "fieldStart": "2026-01-19",
+      "fieldEnd": "2026-01-22",
+      "published": "2026-01-23",
+      "method": "phone",
+      "sampleSize": 1037,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "20歲以上台中市民",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [
+        {
+          "name": "江啟臣",
+          "party": "kmt",
+          "pct": 46
+        },
+        {
+          "name": "何欣純",
+          "party": "dpp",
+          "pct": 31
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "PDF 無法下載（AccessDenied），細節取自 NOWnews 轉述。電話號碼後四碼隨機抽樣、人員電話訪問（未說明是否含手機），接觸1,242人、拒訪205人。楊瓊瓔vs何欣純36%比34%；黨內互比江啟臣領先楊瓊瓔34個百分點（維基寫54%比20%）。維基寫江vs何未表態23%，原始報導未見。20-29歲何欣純44%、江啟臣35%。",
+      "extraSources": [
+        "https://www.nownews.com/news/6779061",
+        "https://www.nownews.com/news/6779106"
+      ]
+    },
+    {
+      "source": "https://m.my-formosa.com.tw/DOC_223267.htm",
+      "pollster": "畢肯市場研究（戴立安規劃）",
+      "sponsor": "美麗島電子報",
+      "fieldStart": "2026-01-21",
+      "fieldEnd": "2026-01-23",
+      "published": "2026-01-26",
+      "method": "phone",
+      "sampleSize": 1069,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "設籍台中市年滿20歲民眾",
+      "weighting": "比例估計法（raking），依性別、戶籍行政區、年齡、教育程度",
+      "results": [
+        {
+          "name": "江啟臣",
+          "party": "kmt",
+          "pct": 43.9
+        },
+        {
+          "name": "何欣純",
+          "party": "dpp",
+          "pct": 29.4
+        }
+      ],
+      "undecided": 20.3,
+      "likelyVoters": null,
+      "notes": "住宅電話簿＋RDD，市話。江vs何另有不投票/投廢票6.4%（維基把6.4+20.3合計為26.7%）。楊瓊瓔vs何欣純32.7%比33.7%（不投票11.3%、未答22.3%）。黨內二選一江啟臣52.0%、楊瓊瓔17.4%。適任度（複選）江49.7%、何33.9%、楊25.7%。盧秀燕施政滿意64.6%（很滿意21.5+還算滿意43.1）。給國民黨繼續做37.8%、換民進黨做做看35.3%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.upmedia.mg/tw/focus/politics/253073",
+      "pollster": "艾普羅民調",
+      "sponsor": null,
+      "fieldStart": "2026-03-02",
+      "fieldEnd": "2026-03-03",
+      "published": "2026-03-24",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "江啟臣",
+          "party": "kmt",
+          "pct": 41.8
+        },
+        {
+          "name": "何欣純",
+          "party": "dpp",
+          "pct": 20.1
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "上報原文無法開啟（Cloudflare），標題為「內參民調」；數字與日期取自維基，未經原始報導核對。維基另列黨內互比江46.6%、楊14.2%；楊瓊瓔22.9% vs 何欣純24.6%。屬國民黨初選期間。",
+      "extraSources": []
+    },
+    {
+      "source": "https://cnews.com.tw/1450514a02/",
+      "pollster": "匯流新聞網民調中心",
+      "sponsor": "CNEWS匯流新聞網",
+      "fieldStart": "2026-05-11",
+      "fieldEnd": "2026-05-12",
+      "published": "2026-05-14",
+      "method": "phone",
+      "sampleSize": 1070,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "戶籍在台中市年滿20歲市民",
+      "weighting": "依內政部最新人口資料，就戶籍地、性別、年齡、教育程度加權",
+      "results": [
+        {
+          "name": "江啟臣",
+          "party": "kmt",
+          "pct": 40.6
+        },
+        {
+          "name": "何欣純",
+          "party": "dpp",
+          "pct": 24.4
+        }
+      ],
+      "undecided": 35.0,
+      "likelyVoters": null,
+      "notes": "家戶電話隨機抽樣（市話）。調查日期原文斷行只見「12日晚間」，起日依維基。看好度江49.0%、何20.7%、未表態30.2%。喜歡/不喜歡：江44.1%/18.8%，何34.5%/19.5%。政黨支持：國民黨27.5%、民進黨24.9%、民眾黨10.1%、不偏任何政黨17.5%；民眾黨支持者76.2%挺江、7.9%挺何；中間選民70.9%未決定。",
+      "extraSources": [
+        "https://cnews.com.tw/1450514a01/"
+      ]
+    },
+    {
+      "source": "https://news.ebc.net.tw/news/politics/565257",
+      "pollster": "艾普羅行銷市場研究",
+      "sponsor": null,
+      "fieldStart": "2026-08-03",
+      "fieldEnd": "2026-08-05",
+      "published": "2026-08-07",
+      "method": "phone",
+      "sampleSize": 1077,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "戶籍在台中市年滿20歲民眾",
+      "weighting": "依性別、年齡、學歷、行政區加權",
+      "results": [
+        {
+          "name": "江啟臣",
+          "party": "kmt",
+          "pct": 38.2
+        },
+        {
+          "name": "何欣純",
+          "party": "dpp",
+          "pct": 24.1
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": {
+        "sampleSize": null,
+        "results": [
+          {
+            "name": "江啟臣",
+            "pct": 44.5
+          },
+          {
+            "name": "何欣純",
+            "pct": 31.6
+          }
+        ]
+      },
+      "notes": "人員電話訪問（未說明是否含手機），報導未寫委託單位。likelyVoters 為「一定會去投票」者（占52.7%，另可能會26.4%），報導未給子樣本數。看好度江46.6%、何16.2%。喜好度（0-10）江5.74、何5.21；不認識何14.7%、江8.1%。泛藍84.1%挺江、泛綠69.0%挺何；民眾黨支持者63.4%挺江、6.3%挺何；中立選民江15.5%、何13.4%、58.0%未表態。維基寫未表態37.7%，原始報導未見。",
+      "extraSources": []
+    },
+    {
+      "source": "https://braintrust.tw/wp-content/uploads/2026/08/2605098-4%E6%96%B0%E5%8F%B0%E7%81%A3%E5%9C%8B%E7%AD%96%E6%99%BA%E5%BA%AB%E8%AA%BF%E6%9F%A5%E7%B0%A1%E5%A0%B1.pdf",
+      "pollster": "趨勢民調",
+      "sponsor": "新台灣國策智庫（經費：財團法人凱達格蘭基金會）",
+      "fieldStart": "2026-08-11",
+      "fieldEnd": "2026-08-13",
+      "published": "2026-08-17",
+      "method": "phone",
+      "sampleSize": 1159,
+      "moe": 2.88,
+      "confidence": 95,
+      "population": "戶籍在台中市年滿20歲民眾",
+      "weighting": "依內政部最新人口資料，就戶籍地、性別、年齡、教育程度多重反覆加權",
+      "results": [
+        {
+          "name": "江啟臣",
+          "party": "kmt",
+          "pct": 42.8
+        },
+        {
+          "name": "何欣純",
+          "party": "dpp",
+          "pct": 36.1
+        }
+      ],
+      "undecided": 21.1,
+      "likelyVoters": null,
+      "notes": "市話（中華電信市內號碼簿、尾數兩位隨機），執行單位趨勢民調見風傳媒報導。看好度江48.2%、何23.6%、無明確意見28.2%。欣賞度：江46.8%（不欣賞25.2%）、何40.0%（21.8%）。盧秀燕施政滿意53.9%、不滿意36.5%。賴清德滿意39.3%、不滿意48.5%。民進黨傾向者81.6%挺何、8.8%挺江；民眾黨傾向者看好江83.7%。報導另稱51%市民不滿市府處理毒油案。",
+      "extraSources": [
+        "https://www.storm.mg/lifestyle/11157090"
+      ]
+    },
+    {
+      "source": "https://news.tvbs.com.tw/politics/4022042",
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "國民黨台中市議會黨團",
+      "fieldStart": "2026-09-07",
+      "fieldEnd": "2026-09-11",
+      "published": "2026-09-14",
+      "method": "phone",
+      "sampleSize": 1086,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "20歲以上台中市民",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [
+        {
+          "name": "江啟臣",
+          "party": "kmt",
+          "pct": 45.1
+        },
+        {
+          "name": "何欣純",
+          "party": "dpp",
+          "pct": 32.5
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "電話號碼後兩碼隨機、人員電話訪問（未說明是否含手機），接觸1,291人、拒訪205人。看好度江51.8%、何15.0%。受訪者政黨支持：民進黨28.6%、國民黨28.3%、民眾黨7.5%、中立24.5%、其他/拒答11.1%；江獲90.7%國民黨支持者、81.6%民眾黨支持者、約35%中立；何獲81.2%民進黨支持者、近2成中立。江在20-29歲落後2.7個百分點、屯區落後6個百分點。廢除非核家園公投：同意54.1%、不同意21.9%。維基寫未表態21.4%，原始報導未見。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.youtube.com/watch?v=MLwUdNyfH20",
+      "pollster": "年代民調中心",
+      "sponsor": null,
+      "fieldStart": "2026-10-02",
+      "fieldEnd": "2026-10-04",
+      "published": "2026-10-06",
+      "method": "phone",
+      "sampleSize": 1068,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "台中市年滿20歲民眾",
+      "weighting": "依台中市20歲以上人口性別、年齡、行政區加權",
+      "results": [
+        {
+          "name": "江啟臣",
+          "party": "kmt",
+          "pct": 37.3
+        },
+        {
+          "name": "何欣純",
+          "party": "dpp",
+          "pct": 31.3
+        },
+        {
+          "name": "洪麗華",
+          "party": "other",
+          "partyName": "司法正義黨",
+          "pct": 1.1
+        }
+      ],
+      "undecided": 29.7,
+      "likelyVoters": null,
+      "notes": "CATI，住宅電話號碼簿、後兩碼隨機、以行政區分層（風傳媒）。另有拒答0.5%。看好度江41.7%、何21.3%、無法選出37%。欣賞度何86%（不欣賞14%）、江76.2%（23.8%）。國民黨繼續執政32.2%、換民進黨31%、無意見36.7%。盧秀燕施政滿意54.5%、不滿意25.2%。",
+      "extraSources": [
+        "https://www.nownews.com/news/6881349",
+        "https://www.storm.mg/article/11170492"
+      ]
+    },
+    {
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5603302",
+      "pollster": "循證民調有限公司",
+      "sponsor": "台中市信賴台灣之友會",
+      "fieldStart": "2026-10-05",
+      "fieldEnd": "2026-10-06",
+      "published": "2026-10-12",
+      "method": "phone+mobile",
+      "sampleSize": 1071,
+      "moe": 2.99,
+      "confidence": 95,
+      "population": "戶籍設於台中市年滿20歲民眾",
+      "weighting": "依性別、年齡、行政區人口結構加權",
+      "results": [
+        {
+          "name": "江啟臣",
+          "party": "kmt",
+          "pct": 34.3
+        },
+        {
+          "name": "何欣純",
+          "party": "dpp",
+          "pct": 32.4
+        },
+        {
+          "name": "洪麗華",
+          "party": "other",
+          "partyName": "司法正義黨",
+          "pct": 1.1
+        }
+      ],
+      "undecided": 32.2,
+      "likelyVoters": null,
+      "notes": "CATI、電話資料庫隨機抽樣；中時報導載明市話70%、手機30%。委託單位為綠營友好團體。看好度江48.6%、何20.1%、洪0.9%。民眾黨傾向者58.2%挺江、14.6%挺何、20.7%未決定。20-29歲何44.4%、江20.2%；30-39歲何35.2%、江23.4%。北屯區何40.5%、江32.0%；北區何37.9%、江34.3%。",
+      "extraSources": [
+        "https://www.nownews.com/news/6882608",
+        "https://www.chinatimes.com/realtimenews/20261012004215-260407"
+      ]
+    },
+    {
+      "source": "https://www.upmedia.mg/tw/focus/politics/271680",
+      "pollster": "世新大學民意調查中心",
+      "sponsor": "國民黨台中市議會黨團",
+      "fieldStart": "2026-10-15",
+      "fieldEnd": "2026-10-16",
+      "published": "2026-10-17",
+      "method": "phone",
+      "sampleSize": 1070,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "戶籍設於台中市具投票權民眾",
+      "weighting": "依性別、年齡、學歷、行政區比例加權",
+      "results": [
+        {
+          "name": "江啟臣",
+          "party": "kmt",
+          "pct": 39.8
+        },
+        {
+          "name": "何欣純",
+          "party": "dpp",
+          "pct": 28.7
+        },
+        {
+          "name": "洪麗華",
+          "party": "other",
+          "partyName": "司法正義黨",
+          "pct": 1.0
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "上報原文無法開啟，細節取自 TVBS、聯合報、ETtoday。CATI（未說明是否含手機）。看好度江39.6%、何23.3%。未提示指名度：第一個說出江43.6%、何23.7%；合計總指名度江62.6%、何53.7%。白營支持者江67.8%、何2.8%；中間選民江31.5%、何22%；藍營85%挺江。屯區何35.7%、江30.4%。維基把洪麗華併入其他/未表態31.5%。",
+      "extraSources": [
+        "https://news.tvbs.com.tw/politics/4037637",
+        "https://udn.com/vote2026/story/124652/9820824",
+        "https://www.ettoday.net/news/20261024/3260334.htm"
+      ]
+    }
+  ],
+  "extraPolls": [
+    {
+      "source": "https://www.gvm.com.tw/article/130553",
+      "pollster": "遠見民意研究調查",
+      "sponsor": "遠見雜誌",
+      "fieldStart": "2026-03-02",
+      "fieldEnd": "2026-04-14",
+      "published": "2026-06-01",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": "22縣市民眾（全國合計14,251人）",
+      "weighting": "依性別、年齡、教育程度、戶籍選區加權",
+      "results": [
+        {
+          "name": "國民黨（政黨別）",
+          "party": "kmt",
+          "pct": 33.7
+        },
+        {
+          "name": "民進黨（政黨別）",
+          "party": "dpp",
+          "pct": 16.8
+        },
+        {
+          "name": "民眾黨（政黨別）",
+          "party": "tpp",
+          "pct": 2.4
+        }
+      ],
+      "undecided": 46.0,
+      "likelyVoters": null,
+      "notes": "《遠見》年度縣市長調查中的「縣市長選舉支持哪一黨」題，是政黨別而非候選人對決，結果為國民黨33.7%、民進黨16.8%、民眾黨2.4%、其他1.0%、未表態46.0%。全國22縣市共訪問14,251人，各縣市樣本數與調查方式報導未載明，依性別、年齡、教育程度、戶籍選區加權。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "政黨別支持度，非候選人對決題；單一縣市樣本數未公布"
+    }
+  ]
+}

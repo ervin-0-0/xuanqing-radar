@@ -1,0 +1,90 @@
+{
+  "raceId": "taipei",
+  "incumbent": { "name": "蔣萬安", "party": "kmt", "running": true, "termLimited": false },
+  "candidates": [
+    {
+      "name": "郭璽", "party": "other", "partyName": "台灣麻將最大黨",
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": ["other"],
+      "incumbent": false,
+      "born": 1958,
+      "currentRole": "台灣麻將最大黨黨主席",
+      "bio": "海軍退役上校、前海軍司令部顧問，曾任中華大學與國防大學副教授，台灣麻將最大黨創黨人。",
+      "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx"
+    },
+    {
+      "name": "林志成", "party": "ind", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": 1965,
+      "currentRole": "中華民國健美協會秘書長兼總教練",
+      "bio": "全國健美 16 年連霸、健力 10 年連霸冠軍，以無黨籍登記參選。",
+      "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx"
+    },
+    {
+      "name": "沈伯洋", "party": "dpp", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": ["dpp"],
+      "incumbent": false,
+      "born": 1982,
+      "currentRole": "立法委員（全國不分區）",
+      "bio": "前台北大學犯罪學研究所所長、台灣民主實驗室理事長、黑熊學院院長；2026 年 5 月 13 日獲民進黨徵召挑戰蔣萬安，10 月多份民調追近或反超（「洋流」）。",
+      "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx"
+    },
+    {
+      "name": "蕭文乾", "party": "other", "partyName": "臺灣SoR無法黨",
+      "status": "registered",
+      "ballotNumber": 4,
+      "endorsedBy": ["other"],
+      "incumbent": false,
+      "born": 1974,
+      "currentRole": "臺灣SoR無法黨（原臺灣雙語無法黨）黨主席",
+      "bio": "臺灣師大翻譯所碩士，臺灣雙母語學殿董事長、臺灣雙母語研究學會理事長，主打雙語教育。",
+      "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx"
+    },
+    {
+      "name": "蔣萬安", "party": "kmt", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 5,
+      "endorsedBy": ["kmt"],
+      "incumbent": true,
+      "born": 1978,
+      "currentRole": "台北市長",
+      "bio": "2022 年當選台北市長，前第 9、10 屆立委（台北市第三選區）、執業律師；2026 年 7 月 22 日國民黨中常會提名競選連任。",
+      "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx"
+    },
+    {
+      "name": "唐新民", "party": "other", "partyName": "三勢團結促進聯盟",
+      "status": "registered",
+      "ballotNumber": 6,
+      "endorsedBy": ["other"],
+      "incumbent": false,
+      "born": 1950,
+      "currentRole": null,
+      "bio": "台大土木系學士、柏克萊加大博士，代表三勢團結促進聯盟參選。",
+      "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx"
+    }
+  ],
+  "withdrawn": [
+    {
+      "name": "吳怡農", "party": "dpp",
+      "reason": "2025 年 10 月 2 日表態爭取參選，民進黨最終徵召沈伯洋，未獲提名",
+      "date": "2026-05-13",
+      "source": "https://www.cna.com.tw/news/aipl/202605130100.aspx"
+    }
+  ],
+  "keyEvents": [
+    { "date": "2025-10-02", "text": "前民進黨台北市黨部主委吳怡農證實將爭取參選台北市長，為民進黨第一位表態者", "source": "https://www.cmmedia.com.tw/home/articles/57239" },
+    { "date": "2026-04-01", "text": "傳出民進黨將徵召沈伯洋，沈伯洋表態黨若需要會考量配合", "source": "https://www.taisounds.com/news/content/71/249186" },
+    { "date": "2026-05-13", "text": "民進黨選對會決議建請中執會徵召立委沈伯洋參選台北市長，中執會預定同日下午通過提名", "source": "https://www.cna.com.tw/news/aipl/202605130100.aspx" },
+    { "date": "2026-07-22", "text": "國民黨中常會提名蔣萬安等 6 位現任縣市長競選連任", "source": "https://news.pts.org.tw/article/818815" },
+    { "date": "2026-09-04", "text": "參選人登記截止（8 月 31 日至 9 月 4 日），台北市共 6 人登記", "source": "https://www.cna.com.tw/news/aipl/202609045002.aspx" },
+    { "date": "2026-10-27", "text": "號次抽籤（原訂 10 月 23 日，因颱風延期）：1 郭璽、2 林志成、3 沈伯洋、4 蕭文乾、5 蔣萬安、6 唐新民", "source": "https://www.cna.com.tw/news/aipl/202610275002.aspx" }
+  ],
+  "notes": "號次與參選人生日、經歷以中央社 10/27 抽籤一覽為準（另見 TVBS https://news.tvbs.com.tw/politics/4041834）；中選會正式候選人公告尚未取得。蔣萬安未見民眾黨正式共同推薦的報導，endorsedBy 只列國民黨。維基稱第一場電視辯論 10 月 31 日由 TVBS、三立合辦，未查到原始新聞。10 月信民協會、震傳媒、聯合報民調顯示沈伯洋領先，TVBS、ETtoday 仍顯示蔣萬安領先，詳見 data/polls/details/taipei.json。",
+  "updated": "2026-10-28"
+}

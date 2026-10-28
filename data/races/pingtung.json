@@ -1,0 +1,40 @@
+{
+  "raceId": "pingtung",
+  "incumbent": { "name": "周春米", "party": "dpp", "running": true, "termLimited": false },
+  "candidates": [
+    {
+      "name": "蘇清泉", "party": "kmt", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": ["kmt"],
+      "incumbent": false,
+      "born": 1957,
+      "currentRole": "全國不分區立法委員、國民黨屏東縣黨部主委",
+      "bio": "醫師，安泰醫院創院院長、前醫師公會全聯會理事長，兩屆不分區立委；2018、2022年兩度參選屏東縣長落敗，此次三度參選。2026年6月因安泰醫院違建致9死案遭起訴。",
+      "source": "https://udn.com/news/story/124652/9729356"
+    },
+    {
+      "name": "周春米", "party": "dpp", "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": ["dpp"],
+      "incumbent": true,
+      "born": 1966,
+      "currentRole": "屏東縣長",
+      "bio": "律師、前高雄與屏東地方法院法官，第9、10屆不分區立委；2022年擊敗蘇清泉當選屏東縣長，2026年2月獲民進黨提名爭取連任。",
+      "source": "https://www.dpp.org.tw/media/contents/11459"
+    }
+  ],
+  "withdrawn": [],
+  "keyEvents": [
+    { "date": "2025-12-24", "text": "國民黨首波提名，徵召蘇清泉參選屏東縣長，與周春米二度對決", "source": "https://www.cna.com.tw/news/aipl/202512240185.aspx" },
+    { "date": "2026-02-04", "text": "民進黨中執會提名周春米爭取連任", "source": "https://www.dpp.org.tw/media/contents/11459" },
+    { "date": "2026-06-03", "text": "屏東地檢署依違反建築法致人於死罪嫌起訴蘇清泉（安泰醫院違建案，9人死亡；高檢署發回續查後起訴）", "source": "https://news.ltn.com.tw/news/politics/breakingnews/5459430" },
+    { "date": "2026-09-02", "text": "蘇清泉登記參選，宣告三度挑戰縣長", "source": "https://udn.com/news/story/124652/9729356" },
+    { "date": "2026-10-17", "text": "周春米、蘇清泉競總同日成立，賴清德、韓國瑜分別南下助陣", "source": "https://n.yam.com/Article/20261013872334" },
+    { "date": "2026-10-25", "text": "蘇清泉在枋寮稱周春米「沒有小孩，可憐」，周陣營批性別歧視；蘇當晚臉書道歉、10/27抽籤前再度道歉", "source": "https://udn.com/vote2026/story/124652/9838904" },
+    { "date": "2026-10-27", "text": "號次抽籤：1號蘇清泉、2號周春米", "source": "https://udn.com/vote2026/story/124652/9838959" }
+  ],
+  "notes": "唯一現任尋求連任的南部選區。維基與新聞都沒有找到2026年周春米對蘇清泉的公開科學民調。",
+  "updated": "2026-10-28"
+}

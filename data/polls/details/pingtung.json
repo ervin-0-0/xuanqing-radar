@@ -1,0 +1,49 @@
+{
+  "raceId": "pingtung",
+  "details": [],
+  "extraPolls": [
+    {
+      "source": "https://www.gvm.com.tw/article/130553",
+      "pollster": "遠見民意研究調查",
+      "sponsor": "遠見雜誌",
+      "fieldStart": "2026-03-02",
+      "fieldEnd": "2026-04-14",
+      "published": "2026-06-01",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": "對各縣市受訪者的性別、年齡、教育程度、戶籍選區進行樣本代表性檢定並加權",
+      "results": [
+        {
+          "name": "國民黨（候選人）",
+          "party": "kmt",
+          "pct": 12
+        },
+        {
+          "name": "民進黨（候選人）",
+          "party": "dpp",
+          "pct": 41.2
+        },
+        {
+          "name": "民眾黨（候選人）",
+          "party": "tpp",
+          "pct": 1.6
+        },
+        {
+          "name": "其他",
+          "party": "other",
+          "pct": 0.1
+        }
+      ],
+      "undecided": 44.9,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "《遠見》2026縣市長選舉支持度調查，22縣市共訪問14,251人，只公布各縣市的政黨別支持度（藍／綠／白／其他／未表態），不是候選人對決，也沒有公布各縣市樣本數、調查方式與抽樣誤差。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "政黨別支持度，不是候選人對決；未公布各縣市樣本數與調查方式"
+    }
+  ]
+}

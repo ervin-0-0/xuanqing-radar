@@ -1,0 +1,565 @@
+{
+  "elections": {
+    "2016": {
+      "tickets": [
+        {
+          "id": "dpp",
+          "names": "蔡英文／陳建仁"
+        },
+        {
+          "id": "kmt",
+          "names": "朱立倫／王如玄"
+        },
+        {
+          "id": "pfp",
+          "names": "宋楚瑜／徐欣瑩"
+        }
+      ],
+      "national": {
+        "dpp": 56.12,
+        "kmt": 31.04,
+        "pfp": 12.83,
+        "turnout": 66.27,
+        "validVotes": 12284970
+      },
+      "byRace": {
+        "taipei": {
+          "dpp": 51.95,
+          "kmt": 37.49,
+          "pfp": 10.55,
+          "turnout": 68.03,
+          "validVotes": 1457678
+        },
+        "new-taipei": {
+          "dpp": 54.79,
+          "kmt": 33.33,
+          "pfp": 11.86,
+          "turnout": 67.23,
+          "validVotes": 2127748
+        },
+        "taoyuan": {
+          "dpp": 51.02,
+          "kmt": 34.38,
+          "pfp": 14.58,
+          "turnout": 66.66,
+          "validVotes": 1073104
+        },
+        "taichung": {
+          "dpp": 55.0,
+          "kmt": 29.81,
+          "pfp": 15.17,
+          "turnout": 68.36,
+          "validVotes": 1442096
+        },
+        "tainan": {
+          "dpp": 67.51,
+          "kmt": 22.06,
+          "pfp": 10.41,
+          "turnout": 65.81,
+          "validVotes": 993236
+        },
+        "kaohsiung": {
+          "dpp": 63.39,
+          "kmt": 26.0,
+          "pfp": 10.6,
+          "turnout": 67.64,
+          "validVotes": 1506756
+        },
+        "keelung": {
+          "dpp": 48.21,
+          "kmt": 35.28,
+          "pfp": 16.49,
+          "turnout": 63.99,
+          "validVotes": 193714
+        },
+        "hsinchu-city": {
+          "dpp": 51.22,
+          "kmt": 32.42,
+          "pfp": 16.35,
+          "turnout": 68.32,
+          "validVotes": 221355
+        },
+        "hsinchu-county": {
+          "dpp": 42.52,
+          "kmt": 35.28,
+          "pfp": 22.19,
+          "turnout": 65.89,
+          "validVotes": 268136
+        },
+        "miaoli": {
+          "dpp": 45.45,
+          "kmt": 37.54,
+          "pfp": 16.99,
+          "turnout": 64.81,
+          "validVotes": 287028
+        },
+        "changhua": {
+          "dpp": 56.47,
+          "kmt": 28.79,
+          "pfp": 14.73,
+          "turnout": 66.63,
+          "validVotes": 670660
+        },
+        "nantou": {
+          "dpp": 52.23,
+          "kmt": 32.08,
+          "pfp": 15.68,
+          "turnout": 63.65,
+          "validVotes": 260576
+        },
+        "yunlin": {
+          "dpp": 63.4,
+          "kmt": 24.93,
+          "pfp": 11.65,
+          "turnout": 61.84,
+          "validVotes": 345125
+        },
+        "chiayi-city": {
+          "dpp": 59.86,
+          "kmt": 27.95,
+          "pfp": 12.18,
+          "turnout": 66.61,
+          "validVotes": 138891
+        },
+        "chiayi-county": {
+          "dpp": 65.37,
+          "kmt": 23.38,
+          "pfp": 11.24,
+          "turnout": 65.93,
+          "validVotes": 279807
+        },
+        "pingtung": {
+          "dpp": 63.49,
+          "kmt": 26.99,
+          "pfp": 9.51,
+          "turnout": 66.01,
+          "validVotes": 449356
+        },
+        "yilan": {
+          "dpp": 62.06,
+          "kmt": 25.38,
+          "pfp": 12.55,
+          "turnout": 64.05,
+          "validVotes": 233302
+        },
+        "hualien": {
+          "dpp": 36.93,
+          "kmt": 47.72,
+          "pfp": 15.33,
+          "turnout": 58.68,
+          "validVotes": 154843
+        },
+        "taitung": {
+          "dpp": 38.41,
+          "kmt": 44.62,
+          "pfp": 16.96,
+          "turnout": 55.07,
+          "validVotes": 97663
+        },
+        "penghu": {
+          "dpp": 50.81,
+          "kmt": 29.47,
+          "pfp": 19.71,
+          "turnout": 51.37,
+          "validVotes": 42623
+        },
+        "kinmen": {
+          "dpp": 18.0,
+          "kmt": 66.09,
+          "pfp": 15.9,
+          "turnout": 33.58,
+          "validVotes": 36805
+        },
+        "lienchiang": {
+          "dpp": 16.53,
+          "kmt": 68.59,
+          "pfp": 14.86,
+          "turnout": 44.46,
+          "validVotes": 4468
+        },
+        "zhubei": {
+          "dpp": 47.98,
+          "kmt": 31.29,
+          "pfp": 20.71,
+          "turnout": 67.08,
+          "validVotes": 79698
+        }
+      },
+      "source": "https://db.cec.gov.tw/ElecTable/Election/ElecTickets?dataType=tickets&typeId=ELC&subjectId=P0&legisId=00&themeId=61b4dda0ebac3332203ef3729a9a0ada&dataLevel=N&prvCode=00&cityCode=000&areaCode=00&deptCode=000&liCode=0000"
+    },
+    "2020": {
+      "tickets": [
+        {
+          "id": "dpp",
+          "names": "蔡英文／賴清德"
+        },
+        {
+          "id": "kmt",
+          "names": "韓國瑜／張善政"
+        },
+        {
+          "id": "pfp",
+          "names": "宋楚瑜／余湘"
+        }
+      ],
+      "national": {
+        "dpp": 57.13,
+        "kmt": 38.61,
+        "pfp": 4.26,
+        "turnout": 74.9,
+        "validVotes": 14300940
+      },
+      "byRace": {
+        "taipei": {
+          "dpp": 53.65,
+          "kmt": 42.01,
+          "pfp": 4.34,
+          "turnout": 76.31,
+          "validVotes": 1632453
+        },
+        "new-taipei": {
+          "dpp": 56.52,
+          "kmt": 38.91,
+          "pfp": 4.57,
+          "turnout": 75.09,
+          "validVotes": 2466187
+        },
+        "taoyuan": {
+          "dpp": 54.78,
+          "kmt": 40.4,
+          "pfp": 4.82,
+          "turnout": 74.42,
+          "validVotes": 1311141
+        },
+        "taichung": {
+          "dpp": 56.95,
+          "kmt": 38.06,
+          "pfp": 4.99,
+          "turnout": 76.36,
+          "validVotes": 1698470
+        },
+        "tainan": {
+          "dpp": 67.38,
+          "kmt": 29.1,
+          "pfp": 3.52,
+          "turnout": 75.77,
+          "validVotes": 1167248
+        },
+        "kaohsiung": {
+          "dpp": 62.23,
+          "kmt": 34.63,
+          "pfp": 3.14,
+          "turnout": 77.44,
+          "validVotes": 1763826
+        },
+        "keelung": {
+          "dpp": 50.82,
+          "kmt": 43.92,
+          "pfp": 5.25,
+          "turnout": 73.34,
+          "validVotes": 226204
+        },
+        "hsinchu-city": {
+          "dpp": 55.26,
+          "kmt": 39.34,
+          "pfp": 5.4,
+          "turnout": 76.6,
+          "validVotes": 261102
+        },
+        "hsinchu-county": {
+          "dpp": 46.88,
+          "kmt": 47.45,
+          "pfp": 5.67,
+          "turnout": 75.11,
+          "validVotes": 325039
+        },
+        "miaoli": {
+          "dpp": 45.02,
+          "kmt": 50.32,
+          "pfp": 4.66,
+          "turnout": 73.8,
+          "validVotes": 326601
+        },
+        "changhua": {
+          "dpp": 57.17,
+          "kmt": 38.24,
+          "pfp": 4.59,
+          "turnout": 74.7,
+          "validVotes": 763231
+        },
+        "nantou": {
+          "dpp": 50.83,
+          "kmt": 44.72,
+          "pfp": 4.45,
+          "turnout": 73.21,
+          "validVotes": 299152
+        },
+        "yunlin": {
+          "dpp": 61.56,
+          "kmt": 34.6,
+          "pfp": 3.83,
+          "turnout": 71.65,
+          "validVotes": 399788
+        },
+        "chiayi-city": {
+          "dpp": 61.37,
+          "kmt": 34.79,
+          "pfp": 3.84,
+          "turnout": 75.98,
+          "validVotes": 161738
+        },
+        "chiayi-county": {
+          "dpp": 64.22,
+          "kmt": 32.16,
+          "pfp": 3.62,
+          "turnout": 72.56,
+          "validVotes": 307290
+        },
+        "pingtung": {
+          "dpp": 62.16,
+          "kmt": 35.1,
+          "pfp": 2.74,
+          "turnout": 74.92,
+          "validVotes": 511050
+        },
+        "yilan": {
+          "dpp": 63.28,
+          "kmt": 32.8,
+          "pfp": 3.91,
+          "turnout": 73.86,
+          "validVotes": 274406
+        },
+        "hualien": {
+          "dpp": 35.91,
+          "kmt": 60.38,
+          "pfp": 3.71,
+          "turnout": 69.48,
+          "validVotes": 185212
+        },
+        "taitung": {
+          "dpp": 38.12,
+          "kmt": 58.28,
+          "pfp": 3.6,
+          "turnout": 65.05,
+          "validVotes": 115668
+        },
+        "penghu": {
+          "dpp": 53.85,
+          "kmt": 41.08,
+          "pfp": 5.07,
+          "turnout": 58.29,
+          "validVotes": 50904
+        },
+        "kinmen": {
+          "dpp": 21.77,
+          "kmt": 74.83,
+          "pfp": 3.41,
+          "turnout": 40.14,
+          "validVotes": 48040
+        },
+        "lienchiang": {
+          "dpp": 19.81,
+          "kmt": 77.16,
+          "pfp": 3.04,
+          "turnout": 57.34,
+          "validVotes": 6190
+        },
+        "zhubei": {
+          "dpp": 53.64,
+          "kmt": 40.16,
+          "pfp": 6.2,
+          "turnout": 77.61,
+          "validVotes": 106059
+        }
+      },
+      "source": "https://db.cec.gov.tw/ElecTable/Election/ElecTickets?dataType=tickets&typeId=ELC&subjectId=P0&legisId=00&themeId=1f7d9f4f6bfe06fdaf4db7df2ed4d60c&dataLevel=N&prvCode=00&cityCode=000&areaCode=00&deptCode=000&liCode=0000"
+    },
+    "2024": {
+      "tickets": [
+        {
+          "id": "dpp",
+          "names": "賴清德／蕭美琴"
+        },
+        {
+          "id": "kmt",
+          "names": "侯友宜／趙少康"
+        },
+        {
+          "id": "tpp",
+          "names": "柯文哲／吳欣盈"
+        }
+      ],
+      "national": {
+        "dpp": 40.05,
+        "kmt": 33.49,
+        "tpp": 26.46,
+        "turnout": 71.86,
+        "validVotes": 13947506
+      },
+      "byRace": {
+        "taipei": {
+          "dpp": 38.13,
+          "kmt": 38.08,
+          "tpp": 23.79,
+          "turnout": 74.28,
+          "validVotes": 1542011
+        },
+        "new-taipei": {
+          "dpp": 38.59,
+          "kmt": 35.17,
+          "tpp": 26.24,
+          "turnout": 72.78,
+          "validVotes": 2458480
+        },
+        "taoyuan": {
+          "dpp": 35.27,
+          "kmt": 34.12,
+          "tpp": 30.61,
+          "turnout": 72.22,
+          "validVotes": 1350792
+        },
+        "taichung": {
+          "dpp": 37.58,
+          "kmt": 32.37,
+          "tpp": 30.05,
+          "turnout": 73.85,
+          "validVotes": 1707203
+        },
+        "tainan": {
+          "dpp": 50.95,
+          "kmt": 25.61,
+          "tpp": 23.44,
+          "turnout": 71.98,
+          "validVotes": 1120238
+        },
+        "kaohsiung": {
+          "dpp": 48.89,
+          "kmt": 29.23,
+          "tpp": 21.88,
+          "turnout": 71.25,
+          "validVotes": 1636962
+        },
+        "keelung": {
+          "dpp": 34.77,
+          "kmt": 38.63,
+          "tpp": 26.6,
+          "turnout": 70.58,
+          "validVotes": 218781
+        },
+        "hsinchu-city": {
+          "dpp": 34.79,
+          "kmt": 30.9,
+          "tpp": 34.3,
+          "turnout": 74.59,
+          "validVotes": 266389
+        },
+        "hsinchu-county": {
+          "dpp": 27.42,
+          "kmt": 37.03,
+          "tpp": 35.55,
+          "turnout": 73.46,
+          "validVotes": 340310
+        },
+        "miaoli": {
+          "dpp": 28.81,
+          "kmt": 41.18,
+          "tpp": 30.01,
+          "turnout": 71.69,
+          "validVotes": 318665
+        },
+        "changhua": {
+          "dpp": 38.11,
+          "kmt": 32.93,
+          "tpp": 28.96,
+          "turnout": 72.41,
+          "validVotes": 741368
+        },
+        "nantou": {
+          "dpp": 35.95,
+          "kmt": 38.0,
+          "tpp": 26.05,
+          "turnout": 71.11,
+          "validVotes": 287296
+        },
+        "yunlin": {
+          "dpp": 44.54,
+          "kmt": 29.33,
+          "tpp": 26.13,
+          "turnout": 68.54,
+          "validVotes": 380619
+        },
+        "chiayi-city": {
+          "dpp": 43.26,
+          "kmt": 31.4,
+          "tpp": 25.34,
+          "turnout": 72.9,
+          "validVotes": 157656
+        },
+        "chiayi-county": {
+          "dpp": 47.69,
+          "kmt": 29.28,
+          "tpp": 23.03,
+          "turnout": 69.71,
+          "validVotes": 292534
+        },
+        "pingtung": {
+          "dpp": 47.51,
+          "kmt": 30.84,
+          "tpp": 21.65,
+          "turnout": 70.33,
+          "validVotes": 475927
+        },
+        "yilan": {
+          "dpp": 44.74,
+          "kmt": 28.99,
+          "tpp": 26.27,
+          "turnout": 70.99,
+          "validVotes": 267129
+        },
+        "hualien": {
+          "dpp": 24.78,
+          "kmt": 50.5,
+          "tpp": 24.72,
+          "turnout": 65.72,
+          "validVotes": 174157
+        },
+        "taitung": {
+          "dpp": 27.41,
+          "kmt": 49.32,
+          "tpp": 23.28,
+          "turnout": 62.01,
+          "validVotes": 109941
+        },
+        "penghu": {
+          "dpp": 38.6,
+          "kmt": 36.63,
+          "tpp": 24.76,
+          "turnout": 53.7,
+          "validVotes": 49277
+        },
+        "kinmen": {
+          "dpp": 10.02,
+          "kmt": 61.4,
+          "tpp": 28.58,
+          "turnout": 36.37,
+          "validVotes": 45612
+        },
+        "lienchiang": {
+          "dpp": 10.52,
+          "kmt": 62.67,
+          "tpp": 26.81,
+          "turnout": 51.32,
+          "validVotes": 6159
+        },
+        "zhubei": {
+          "dpp": 30.99,
+          "kmt": 30.68,
+          "tpp": 38.33,
+          "turnout": 76.92,
+          "validVotes": 119889
+        }
+      },
+      "source": "https://db.cec.gov.tw/ElecTable/Election/ElecTickets?dataType=tickets&typeId=ELC&subjectId=P0&legisId=00&themeId=4d83db17c1707e3defae5dc4d4e9c800&dataLevel=N&prvCode=00&cityCode=000&areaCode=00&deptCode=000&liCode=0000"
+    }
+  }
+}

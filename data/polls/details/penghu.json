@@ -1,0 +1,246 @@
+{
+  "raceId": "penghu",
+  "details": [
+    {
+      "source": "https://news.tvbs.com.tw/politics/3059332",
+      "pollster": "民意調查協會",
+      "sponsor": null,
+      "fieldStart": "2025-11-24",
+      "fieldEnd": "2025-11-27",
+      "published": "2025-11-30",
+      "method": "phone",
+      "sampleSize": 1069,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "澎湖縣 6 鄉市 20 歲以上具投票資格民眾",
+      "weighting": null,
+      "results": [
+        {
+          "name": "陳光復",
+          "party": "dpp",
+          "pct": 34.79
+        },
+        {
+          "name": "葉竹林",
+          "party": "ind",
+          "pct": 19.79
+        },
+        {
+          "name": "陳雙全",
+          "party": "kmt",
+          "pct": 16.24
+        }
+      ],
+      "undecided": 22.04,
+      "likelyVoters": null,
+      "notes": "住宅電話隨機抽樣、MISS-CATI 執行，完訪率 59.19%。results 為「陳光復－葉竹林－陳雙全」三人情境；undecided 是「未決定」，另有拒答 7.15%。其他情境：陳光復 38.01%、葉竹林 23.07%、鄭清發 7.78%（未決定 22.27%、拒答 8.87%）；陳光復 35.31% vs 葉竹林 25.62%（未決定 29.54%、拒答 9.52%）；陳光復 38.14% vs 陳雙全 27.91%（未決定 26.31%、拒答 7.63%）；陳光復 46.06% vs 鄭清發 16.08%（未決定 27.77%、拒答 10.09%）。維基漏列陳光復對陳雙全的一對一情境。政黨傾向：國民黨 17.41%、民進黨 15.01%、民眾黨 5.96%。中廣 2026-04-01 報導稱這是該協會三波追蹤的第一波。",
+      "extraSources": []
+    },
+    {
+      "source": "https://bccnews.com.tw/archives/778434",
+      "pollster": "民意調查協會",
+      "sponsor": null,
+      "fieldStart": "2026-03-19",
+      "fieldEnd": "2026-03-27",
+      "published": "2026-04-01",
+      "method": "phone",
+      "sampleSize": 1023,
+      "moe": 3.06,
+      "confidence": 95,
+      "population": "澎湖縣 6 鄉市 20 歲以上具投票資格民眾",
+      "weighting": null,
+      "results": [
+        {
+          "name": "陳光復",
+          "party": "dpp",
+          "pct": 30.37
+        },
+        {
+          "name": "葉竹林",
+          "party": "ind",
+          "pct": 17.82
+        },
+        {
+          "name": "黃健忠",
+          "party": "dpp",
+          "pct": 13.53
+        },
+        {
+          "name": "陳振中",
+          "party": "kmt",
+          "pct": 10.7
+        },
+        {
+          "name": "許智富",
+          "party": "ind",
+          "pct": 2.13
+        },
+        {
+          "name": "陳盡川",
+          "party": "ind",
+          "pct": 0.65
+        }
+      ],
+      "undecided": 24.79,
+      "likelyVoters": null,
+      "notes": "住宅電話隨機抽樣、MISS-CATI 執行，完訪率 63.78%。undecided 是「不知道／拒答」合計。調查時陳光復已於春節重傷住院，但仍列為參選人；黃健忠是民進黨籍現任馬公市長（維基表頭標成無黨籍），後未參選。報導稱這是第三波，陳光復支持度由第一波（2025-11）34.79%、第二波（2026-01）35.68% 降到 30.37%；第二波原始報導查不到。年齡交叉：陳光復在 20–24 歲近五成；行政區：陳光復六區皆領先，葉竹林在馬公高於黃健忠、在湖西落後陳振中。另問經濟發展滿意近七成、治安滿意逾八成二。中廣原網址被 Cloudflare 擋，內容由 Wayback 存檔讀取。",
+      "extraSources": []
+    },
+    {
+      "source": "https://penghudaily.blogspot.com/2026/08/ettoday.html",
+      "pollster": "ETtoday民調雲",
+      "sponsor": "東森民調雲股份有限公司（經費來源）",
+      "fieldStart": "2026-07-14",
+      "fieldEnd": "2026-08-03",
+      "published": "2026-08-05",
+      "method": "online",
+      "sampleSize": 1088,
+      "moe": 2.97,
+      "confidence": 95,
+      "population": "設籍澎湖縣 6 鄉鎮市、年滿 20 歲以上民眾",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [
+        {
+          "name": "陳振中",
+          "party": "kmt",
+          "pct": 30.3
+        },
+        {
+          "name": "吳淑瑾",
+          "party": "dpp",
+          "pct": 21.0
+        },
+        {
+          "name": "葉竹林",
+          "party": "ind",
+          "pct": 17.8
+        },
+        {
+          "name": "周倪安",
+          "party": "other",
+          "pct": 6.7
+        },
+        {
+          "name": "許智富",
+          "party": "ind",
+          "pct": 4.6
+        },
+        {
+          "name": "陳盡川",
+          "party": "ind",
+          "pct": 3.4
+        }
+      ],
+      "undecided": 15.3,
+      "likelyVoters": {
+        "sampleSize": null,
+        "results": [
+          {
+            "name": "陳振中",
+            "pct": 32.8
+          },
+          {
+            "name": "葉竹林",
+            "pct": 20.9
+          },
+          {
+            "name": "吳淑瑾",
+            "pct": 19.2
+          },
+          {
+            "name": "周倪安",
+            "pct": 5.2
+          },
+          {
+            "name": "許智富",
+            "pct": 4.7
+          },
+          {
+            "name": "陳盡川",
+            "pct": 3.1
+          }
+        ]
+      },
+      "notes": "以 EDM 及手機簡訊邀請的封閉性網路問卷，計畫主持人謝惠玲。周倪安、許智富、陳盡川三人的數字內文只寫「未達一成」，取自 ETtoday 報導附圖；附圖另有「不投票／投廢票」0.9%。likelyVoters 是表示一定會或可能會投票者（79.3%，子樣本數未公布），其中未表態 13.6%、不投票／投廢票 0.5%。維基寫周倪安 3.2%、許智富 4.0%、陳盡川 3.1%、未表態 10.1%，與 ETtoday 附圖不符。澎湖日報 8-6 轉載；ETtoday 原文 8-5 發布。看好度：陳振中 34.2%、吳淑瑾 23.1%、葉竹林 18.1%；喜好度：陳振中 33.5%、葉竹林 22.3%、吳淑瑾 22.0%、許智富 11.4%、陳盡川 9.7%、周倪安 9.1%；最有能力：陳振中 31.9%、吳淑瑾 21.4%、葉竹林 19.2%。設籍澎湖但住外地者 59.9% 表示會返鄉投票。",
+      "extraSources": [
+        "https://www.ettoday.net/news/20260805/3213737.htm"
+      ]
+    }
+  ],
+  "extraPolls": [
+    {
+      "source": "https://www.i-meihua.com/Article/Detail/57346",
+      "pollster": null,
+      "sponsor": "國民黨澎湖縣黨部（主委陳雙全引述）",
+      "fieldStart": null,
+      "fieldEnd": null,
+      "published": "2026-10-09",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "陳振中",
+          "party": "kmt",
+          "pct": 25.88
+        },
+        {
+          "name": "吳淑瑾",
+          "party": "dpp",
+          "pct": 18.14
+        },
+        {
+          "name": "葉竹林",
+          "party": "ind",
+          "pct": 16.58
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "國民黨縣黨部主委陳雙全引述「9 月的民調」，未揭露調查單位、日期、方法與樣本數；報導稱未表態約三成。葉竹林 10-28 記者會批這類數字未揭露方法。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "政黨內參數字，無樣本數、無調查單位與方法"
+    },
+    {
+      "source": "https://udn.com/news/story/124652/9842522",
+      "pollster": null,
+      "sponsor": null,
+      "fieldStart": null,
+      "fieldEnd": null,
+      "published": "2026-10-28",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "吳淑瑾",
+          "party": "dpp",
+          "pct": 35
+        },
+        {
+          "name": "葉竹林",
+          "party": "ind",
+          "pct": 33
+        },
+        {
+          "name": "陳振中",
+          "party": "kmt",
+          "pct": 30
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "聯合報報導葉竹林 10-28 記者會時提到「不同陣營流傳」的一組選情數字，未說明來源、日期、樣本或方法；中央社同場報導（https://www.cna.com.tw/news/aloc/202610280175.aspx）未提這組數字。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "陣營流傳數字，無來源、無樣本數"
+    }
+  ]
+}

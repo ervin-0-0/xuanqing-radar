@@ -1,0 +1,231 @@
+{
+  "raceId": "hsinchu-city",
+  "details": [
+    {
+      "source": "https://www.bigmedia.com.tw/article/1768708815496",
+      "pollster": "皮爾森數據",
+      "sponsor": "鉅聞天下新聞網",
+      "fieldStart": "2026-01-06",
+      "fieldEnd": "2026-01-11",
+      "published": "2026-01-19",
+      "method": "online",
+      "sampleSize": 1218,
+      "moe": 2.81,
+      "confidence": 95,
+      "population": "新竹市年滿20歲網路人口",
+      "weighting": null,
+      "results": [
+        {
+          "name": "高虹安",
+          "party": "ind",
+          "pct": 41.96
+        },
+        {
+          "name": "林志潔",
+          "party": "dpp",
+          "pct": 24.38
+        },
+        {
+          "name": "高嘉瑜",
+          "party": "dpp",
+          "pct": 5.74
+        },
+        {
+          "name": "王婉諭",
+          "party": "npp",
+          "pct": 5.74
+        },
+        {
+          "name": "何志勇",
+          "party": "kmt",
+          "pct": 3.89
+        },
+        {
+          "name": "施乃如",
+          "party": "dpp",
+          "pct": 3.18
+        },
+        {
+          "name": "楊玲宜",
+          "party": "dpp",
+          "pct": 2.39
+        }
+      ],
+      "undecided": 10.87,
+      "likelyVoters": null,
+      "notes": "網路民調、多人並列的初期探測題，不是正式對決。另有1.86%都不支持。維基寫高虹安41.98%（原文41.96%），並把「第二選擇」題的尚未決定24.03%誤當成未表態。第二選擇王婉諭10.16%最高；第一＋第二選擇合計高虹安44.70%、林志潔30.83%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2026/20260206/008741205265e8613fa0d2ba0607b0ce.pdf",
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "fieldStart": "2026-01-29",
+      "fieldEnd": "2026-02-04",
+      "published": "2026-02-06",
+      "method": "phone",
+      "sampleSize": 953,
+      "moe": 3.2,
+      "confidence": 95,
+      "population": "20歲以上新竹市民",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [
+        {
+          "name": "高虹安",
+          "party": "ind",
+          "pct": 50
+        },
+        {
+          "name": "林志潔",
+          "party": "dpp",
+          "pct": 28
+        }
+      ],
+      "undecided": 22,
+      "likelyVoters": null,
+      "notes": "PDF 無法下載，細節取自 TVBS 新聞稿。電話號碼後四碼隨機、人員電話訪問（未說明是否含手機），接觸1,134人、拒訪181人。三人情境（加王婉諭）高48%、林25%、王6%、未表態20%。民進黨認同者83%挺林；國民黨認同者84%、民眾黨認同者96%挺高；中立者高38%、林16%、46%未決定。林志潔後來未參選。",
+      "extraSources": [
+        "https://news.tvbs.com.tw/politics/3121343"
+      ]
+    },
+    {
+      "source": "https://cnews.com.tw/【匯流民調】2026新竹市長選舉最新民調-六成五新竹/",
+      "pollster": "匯流新聞網民調中心",
+      "sponsor": "CNEWS匯流新聞網",
+      "fieldStart": "2026-05-19",
+      "fieldEnd": "2026-05-20",
+      "published": "2026-05-27",
+      "method": "phone",
+      "sampleSize": 1068,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "戶籍在新竹市年滿18歲民眾",
+      "weighting": "依內政部最新人口資料，就戶籍地、性別、年齡、教育程度加權",
+      "results": [
+        {
+          "name": "高虹安",
+          "party": "ind",
+          "pct": 54.5
+        },
+        {
+          "name": "莊競程",
+          "party": "dpp",
+          "pct": 21.3
+        }
+      ],
+      "undecided": 20.2,
+      "likelyVoters": null,
+      "notes": "家戶電話（市話）。母體原文寫「年滿18歲」。兩人對決題（何志勇當時未列入），另有都不支持3.3%。高虹安施政滿意65.2%、不滿意21.6%；支持連任65.3%。政黨傾向：民進黨27.9%、國民黨24.6%、民眾黨18.8%、中間16.6%；民進黨支持者23.0%挺高。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.ettoday.net/news/20260916/3238141.htm",
+      "pollster": "ETtoday民調雲",
+      "sponsor": "東森民調雲",
+      "fieldStart": "2026-09-03",
+      "fieldEnd": "2026-09-10",
+      "published": "2026-09-16",
+      "method": "online",
+      "sampleSize": 1069,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "設籍新竹市年滿20歲民眾",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [
+        {
+          "name": "高虹安",
+          "party": "ind",
+          "pct": 48.6
+        },
+        {
+          "name": "莊競程",
+          "party": "dpp",
+          "pct": 21.2
+        },
+        {
+          "name": "何志勇",
+          "party": "ind",
+          "pct": 1.8
+        }
+      ],
+      "undecided": 25.5,
+      "likelyVoters": null,
+      "notes": "EDM 及手機簡訊通知的封閉式網路問卷。另有不投票/投廢票2.9%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://news.tvbs.com.tw/politics/4025748",
+      "pollster": "匯流新聞網民調中心",
+      "sponsor": "CNEWS匯流新聞網",
+      "fieldStart": "2026-09-10",
+      "fieldEnd": "2026-09-13",
+      "published": "2026-09-22",
+      "method": "phone",
+      "sampleSize": 1070,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "戶籍在新竹市年滿20歲民眾",
+      "weighting": "依內政部最新人口資料，就戶籍地、性別、年齡多重反覆加權（raking）",
+      "results": [
+        {
+          "name": "高虹安",
+          "party": "ind",
+          "pct": 49.5
+        },
+        {
+          "name": "莊競程",
+          "party": "dpp",
+          "pct": 25.7
+        },
+        {
+          "name": "何志勇",
+          "party": "ind",
+          "pct": 6.1
+        }
+      ],
+      "undecided": 18.7,
+      "likelyVoters": null,
+      "notes": "市話（中華電信市內號碼簿、尾數兩位隨機）。圖片由高虹安競辦提供、報導以「施政滿意度」為訪問主題。高虹安施政滿意70.4%、不滿意26.5%；支持連任65.8%。國民黨支持者55.9%挺高；民進黨支持者42.0%挺高、34.0%挺莊；民眾黨支持者49.1%挺高；中間選民52.6%挺高、18.3%挺莊。",
+      "extraSources": []
+    }
+  ],
+  "extraPolls": [
+    {
+      "source": "https://www.gvm.com.tw/article/130553",
+      "pollster": "遠見民意研究調查",
+      "sponsor": "遠見雜誌",
+      "fieldStart": "2026-03-02",
+      "fieldEnd": "2026-04-14",
+      "published": "2026-06-01",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": "22縣市民眾（全國合計14,251人）",
+      "weighting": "依性別、年齡、教育程度、戶籍選區加權",
+      "results": [
+        {
+          "name": "國民黨（政黨別）",
+          "party": "kmt",
+          "pct": 14.1
+        },
+        {
+          "name": "民進黨（政黨別）",
+          "party": "dpp",
+          "pct": 16.5
+        },
+        {
+          "name": "民眾黨（政黨別）",
+          "party": "tpp",
+          "pct": 14.9
+        }
+      ],
+      "undecided": 53.2,
+      "likelyVoters": null,
+      "notes": "《遠見》年度縣市長調查中的「縣市長選舉支持哪一黨」題，是政黨別而非候選人對決，結果為國民黨14.1%、民進黨16.5%、民眾黨14.9%、其他1.4%、未表態53.2%。全國22縣市共訪問14,251人，各縣市樣本數與調查方式報導未載明，依性別、年齡、教育程度、戶籍選區加權。報導稱新竹市為藍綠白三方激戰區、民眾黨支持度全國最高；國民黨禮讓高虹安後，藍白合計約29%。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "政黨別支持度，非候選人對決題；單一縣市樣本數未公布"
+    }
+  ]
+}

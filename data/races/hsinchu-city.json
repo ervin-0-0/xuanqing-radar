@@ -1,0 +1,98 @@
+{
+  "raceId": "hsinchu-city",
+  "incumbent": {
+    "name": "高虹安",
+    "party": "ind",
+    "running": true,
+    "termLimited": false
+  },
+  "candidates": [
+    {
+      "name": "高虹安",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": [
+        "tpp",
+        "kmt"
+      ],
+      "incumbent": true,
+      "born": 1984,
+      "currentRole": "新竹市長",
+      "bio": "前民眾黨不分區立委，2022年當選市長；立委助理費案一審判貪污有罪停職，2025年12月二審改判貪污無罪後復職，以無黨籍尋求連任，國民黨禮讓、民眾黨支持。",
+      "source": "https://tw.news.yahoo.com/%E7%AB%B9%E7%AB%B9%E8%8B%97%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E8%99%9F%E6%AC%A1%E6%8A%BD%E7%B1%A4%E5%87%BA%E7%88%90-%E6%95%B8%E5%AD%97%E9%83%BD%E6%9C%89%E5%A5%BD%E5%BD%A9%E9%A0%AD-041356368.html"
+    },
+    {
+      "name": "何志勇",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": 1980,
+      "currentRole": "清華大學通識教育中心兼任助理教授",
+      "bio": "前國民黨發言人、國際部副主任，不接受藍白合禮讓高虹安而自行登記參選，2026年10月遭國民黨撤銷黨籍。",
+      "source": "https://tw.news.yahoo.com/%E7%AB%B9%E7%AB%B9%E8%8B%97%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E8%99%9F%E6%AC%A1%E6%8A%BD%E7%B1%A4%E5%87%BA%E7%88%90-%E6%95%B8%E5%AD%97%E9%83%BD%E6%9C%89%E5%A5%BD%E5%BD%A9%E9%A0%AD-041356368.html"
+    },
+    {
+      "name": "莊競程",
+      "party": "dpp",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": [
+        "dpp"
+      ],
+      "incumbent": false,
+      "born": 1980,
+      "currentRole": "台灣智庫執行長",
+      "bio": "台大醫工博士、前交大助理教授，2020-2024年任台中市第五選區立委，連任失利後任行政院中部聯合服務中心執行長；2026年4月獲民進黨徵召跨區參選。",
+      "source": "https://tw.news.yahoo.com/%E7%AB%B9%E7%AB%B9%E8%8B%97%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E8%99%9F%E6%AC%A1%E6%8A%BD%E7%B1%A4%E5%87%BA%E7%88%90-%E6%95%B8%E5%AD%97%E9%83%BD%E6%9C%89%E5%A5%BD%E5%BD%A9%E9%A0%AD-041356368.html"
+    }
+  ],
+  "withdrawn": [
+    {
+      "name": "林志潔",
+      "party": "dpp",
+      "reason": "年初被視為民進黨最可能人選，最終未參選，民進黨改徵召莊競程",
+      "date": "2026-04-15",
+      "source": "https://www.cna.com.tw/news/aipl/202604150169.aspx"
+    }
+  ],
+  "keyEvents": [
+    {
+      "date": "2025-12-16",
+      "text": "高虹安助理費案二審改判貪污部分無罪（改依使公務員登載不實判6月得易科罰金），12/18復職",
+      "source": "https://udn.com/news/story/124151/9210198"
+    },
+    {
+      "date": "2025-12-26",
+      "text": "國民黨確定禮讓高虹安，稱藍白合作從新竹市開始",
+      "source": "https://www.cna.com.tw/news/aipl/202512260283.aspx"
+    },
+    {
+      "date": "2026-04-15",
+      "text": "民進黨徵召前立委莊競程參選新竹市長",
+      "source": "https://www.cna.com.tw/news/aipl/202604150169.aspx"
+    },
+    {
+      "date": "2026-07-22",
+      "text": "國民黨中常會決議聯手民眾黨支持高虹安連任",
+      "source": "https://news.pts.org.tw/article/818815"
+    },
+    {
+      "date": "2026-10-16",
+      "text": "國民黨中常會通過懲處名單，何志勇因違紀參選遭撤銷黨籍",
+      "source": "https://www.nownews.com/news/6883866"
+    },
+    {
+      "date": "2026-10-27",
+      "text": "號次抽籤：高虹安1號、何志勇2號、莊競程3號（妻子代抽）",
+      "source": "https://tw.news.yahoo.com/%E7%AB%B9%E7%AB%B9%E8%8B%97%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E8%99%9F%E6%AC%A1%E6%8A%BD%E7%B1%A4%E5%87%BA%E7%88%90-%E6%95%B8%E5%AD%97%E9%83%BD%E6%9C%89%E5%A5%BD%E5%BD%A9%E9%A0%AD-041356368.html"
+    }
+  ],
+  "notes": "高虹安目前無黨籍，獲國民黨、民眾黨共同支持。助理費案檢方研議上訴，若更審改判貪污有罪須再停職，三審進度查不到。號次來源為中央社稿（Yahoo 轉載）。何志勇撤銷黨籍的中常會日期以 NOWnews 10/16 報導為準，確切決議日查不到。",
+  "updated": "2026-10-28"
+}

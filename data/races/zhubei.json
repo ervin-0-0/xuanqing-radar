@@ -1,0 +1,120 @@
+{
+  "raceId": "zhubei",
+  "incumbent": {
+    "name": "鄭朝方",
+    "party": "dpp",
+    "running": false,
+    "termLimited": false
+  },
+  "candidates": [
+    {
+      "name": "吳旭智",
+      "party": "kmt",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": [
+        "kmt"
+      ],
+      "incumbent": false,
+      "born": 1976,
+      "currentRole": "新竹縣議員（竹北選區）",
+      "bio": "交大資訊科學博士，曾任民國黨資訊長、第2任主席，2018年起任縣議員；2026年6月國民黨四人內參全民調勝出，藍白協調破局後仍參選。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5620025"
+    },
+    {
+      "name": "曾聖凱",
+      "party": "dpp",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [
+        "dpp"
+      ],
+      "incumbent": false,
+      "born": 1984,
+      "currentRole": "陽明交通大學助理教授",
+      "bio": "建築與永續城市背景的學者，2024年代表民進黨參選新竹縣第二選區立委落敗；主打接棒鄭朝方的竹北市政。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5620025"
+    },
+    {
+      "name": "邱臣遠",
+      "party": "tpp",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": [
+        "tpp"
+      ],
+      "incumbent": false,
+      "born": 1981,
+      "currentRole": "民眾黨新竹黨部主委",
+      "bio": "台商出身，前民眾黨立委、黨團總召，高虹安停職期間任新竹市代理市長；民眾黨主張竹北應由他代表藍白，國民黨稱竹北不在合作協議內，雙方各自參選。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5620025"
+    }
+  ],
+  "withdrawn": [
+    {
+      "name": "李貞秀",
+      "party": "ind",
+      "reason": "新竹縣選委會認定喪失中國大陸戶籍證明繳附未滿10年，不予登記；聲請暫准參選遭駁回，放棄抗告",
+      "date": "2026-10-07",
+      "source": "https://udn.com/news/story/124652/9800337"
+    },
+    {
+      "name": "邱靖雅",
+      "party": "kmt",
+      "reason": "國民黨竹北市長內參全民調落敗",
+      "date": "2026-06-15",
+      "source": "https://www.cna.com.tw/news/aipl/202606150276.aspx"
+    },
+    {
+      "name": "林禹佑",
+      "party": "kmt",
+      "reason": "國民黨竹北市長內參全民調落敗",
+      "date": "2026-06-15",
+      "source": "https://www.cna.com.tw/news/aipl/202606150276.aspx"
+    },
+    {
+      "name": "林啟賢",
+      "party": "kmt",
+      "reason": "國民黨竹北市長內參全民調落敗",
+      "date": "2026-06-15",
+      "source": "https://www.cna.com.tw/news/aipl/202606150276.aspx"
+    }
+  ],
+  "keyEvents": [
+    {
+      "date": "2026-06-15",
+      "text": "國民黨新竹縣黨部公布竹北市長內參全民調（6/12-14），吳旭智勝出，進入藍白協商",
+      "source": "https://www.cna.com.tw/news/aipl/202606150276.aspx"
+    },
+    {
+      "date": "2026-09-03",
+      "text": "吳旭智、邱臣遠、曾聖凱、李貞秀完成登記，藍白各自參選",
+      "source": "https://www.cna.com.tw/news/aipl/202609030215.aspx"
+    },
+    {
+      "date": "2026-09-06",
+      "text": "民眾黨宣布竹北藍白合破局，新竹縣不再受藍白合作協議拘束",
+      "source": "https://www.cna.com.tw/news/aipl/202609060053.aspx"
+    },
+    {
+      "date": "2026-09-12",
+      "text": "美麗島電子報竹北民調：吳旭智29.0%、曾聖凱25.2%、邱臣遠17.4%",
+      "source": "https://ctinews.com/news/items/vNWOQ0KXxw"
+    },
+    {
+      "date": "2026-10-07",
+      "text": "新竹縣選委會審定李貞秀資格不符、不予登記，竹北市長剩3人",
+      "source": "https://udn.com/news/story/124652/9800337"
+    },
+    {
+      "date": "2026-10-27",
+      "text": "號次抽籤：吳旭智1號、曾聖凱2號、邱臣遠3號",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5620025"
+    }
+  ],
+  "notes": "竹北市為新竹縣縣轄市，市長與九合一同日改選。現任市長鄭朝方2022年首度當選，本屆未屆滿兩任，但轉戰新竹縣長，竹北市長為開放席次。2022年竹北國民黨縣長票59.6%，但市長票只有32.0%，選民分裂投票明顯。李貞秀不予登記的審定日：聯合報10/7報導「今審定」（維基寫10/8）；台北高等行政法院10/22駁回暫准參選聲請。",
+  "updated": "2026-10-28"
+}

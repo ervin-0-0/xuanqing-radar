@@ -1,0 +1,99 @@
+{
+  "raceId": "taichung",
+  "incumbent": {
+    "name": "盧秀燕",
+    "party": "kmt",
+    "running": false,
+    "termLimited": true
+  },
+  "candidates": [
+    {
+      "name": "何欣純",
+      "party": "dpp",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": [
+        "dpp"
+      ],
+      "incumbent": false,
+      "born": 1973,
+      "currentRole": "立法委員（台中市第七選區）",
+      "bio": "以大里、太平屯區為基本盤的多屆立委，2025年10月民進黨首波提名即獲徵召，比國民黨定案早約五個月。",
+      "source": "https://udn.com/news/story/124652/9838854"
+    },
+    {
+      "name": "洪麗華",
+      "party": "other",
+      "partyName": "司法正義黨",
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [
+        "other"
+      ],
+      "incumbent": false,
+      "born": null,
+      "currentRole": "前沙鹿區鹿寮里長",
+      "bio": "曾以無黨籍當選鹿寮里長、參選市議員，2024年代表司法正義黨參選立委；自籌120萬元保證金參選，主打少子化與教育。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5602476"
+    },
+    {
+      "name": "江啟臣",
+      "party": "kmt",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": [
+        "kmt"
+      ],
+      "incumbent": false,
+      "born": 1972,
+      "currentRole": "立法院副院長、立法委員（台中市第八選區）",
+      "bio": "前國民黨主席、前行政院新聞局長，台中山城出身；2026年3月在國民黨內參全民調擊敗楊瓊瓔獲提名，接棒盧秀燕。",
+      "source": "https://udn.com/news/story/124652/9838854"
+    }
+  ],
+  "withdrawn": [
+    {
+      "name": "楊瓊瓔",
+      "party": "kmt",
+      "reason": "國民黨內參全民調初選落敗（數字不公布）",
+      "date": "2026-03-31",
+      "source": "https://udn.com/news/story/124652/9413307"
+    }
+  ],
+  "keyEvents": [
+    {
+      "date": "2025-10-22",
+      "text": "民進黨首波提名，徵召立委何欣純參選台中市長",
+      "source": "https://www.cna.com.tw/news/aipl/202510220227.aspx"
+    },
+    {
+      "date": "2025-12-14",
+      "text": "立法院副院長江啟臣宣布爭取國民黨提名，與立委楊瓊瓔形成黨內「姐弟之爭」",
+      "source": "https://www.ettoday.net/news/20251214/3083961.htm"
+    },
+    {
+      "date": "2026-03-31",
+      "text": "國民黨內參全民調結果出爐，江啟臣勝出、楊瓊瓔表態尊重",
+      "source": "https://udn.com/news/story/124652/9413307"
+    },
+    {
+      "date": "2026-09-04",
+      "text": "參選登記（8/31–9/4）截止，共3人登記：何欣純、江啟臣、司法正義黨洪麗華",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5602476"
+    },
+    {
+      "date": "2026-09-14",
+      "text": "國民黨市議會黨團公布委託TVBS民調，江啟臣領先12.6個百分點；之後綠營友好團體民調差距縮到1.9個百分點，雙方民調戰升溫",
+      "source": "https://news.tvbs.com.tw/politics/4022042"
+    },
+    {
+      "date": "2026-10-27",
+      "text": "號次抽籤（因颱風由10/23延期）：何欣純1號、洪麗華2號、江啟臣3號",
+      "source": "https://udn.com/news/story/124652/9838854"
+    }
+  ],
+  "notes": "盧秀燕連任屆滿。民眾黨未在台中提名，曾表示待國民黨人選出爐再談合作，未查到正式共同推薦。中聯毒油案是選戰議題之一（新台灣國策智庫民調稱51%不滿市府處理）。登記人數出自10/11洪麗華競總成立報導。",
+  "updated": "2026-10-28"
+}

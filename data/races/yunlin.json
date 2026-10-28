@@ -1,0 +1,105 @@
+{
+  "raceId": "yunlin",
+  "incumbent": {
+    "name": "張麗善",
+    "party": "kmt",
+    "running": false,
+    "termLimited": true
+  },
+  "candidates": [
+    {
+      "name": "吳炳輝",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": 1967,
+      "currentRole": "執業律師",
+      "bio": "雲林出身，曾參選台南市長、台南與雲林立委、虎尾鎮長補選，均落敗；8/31首日登記，號次抽籤未到場由選委會代抽。",
+      "source": "https://news.ltn.com.tw/news/Yunlin/breakingnews/5557993"
+    },
+    {
+      "name": "張嘉郡",
+      "party": "kmt",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [
+        "kmt"
+      ],
+      "incumbent": false,
+      "born": 1981,
+      "currentRole": "立法委員（全國不分區）",
+      "bio": "雲林張家第二代、現任縣長張麗善姪女，前海線立委；2026年3月國民黨中常會徵召，柯文哲曾到場稱她「咱的新縣長」。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5619791"
+    },
+    {
+      "name": "劉建國",
+      "party": "dpp",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": [
+        "dpp"
+      ],
+      "incumbent": false,
+      "born": 1969,
+      "currentRole": "立法委員（雲林縣第二選區）",
+      "bio": "斗六地區多屆立委，2022年曾以15.3萬票敗給張麗善，2025年底再獲民進黨徵召。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5619791"
+    },
+    {
+      "name": "林佳瑜",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 4,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": "牙醫師",
+      "bio": "報導稱67歲牙醫，過去曾以無黨籍多次參選雲林縣長，選戰中少有競選活動。",
+      "source": "https://udn.com/news/story/124652/9838908"
+    }
+  ],
+  "withdrawn": [
+    {
+      "name": "林宜豊",
+      "party": "tpp",
+      "reason": "民眾黨未提名，柯文哲轉為張嘉郡站台（藍白合）",
+      "date": null,
+      "source": "https://www.mirrormedia.mg/external/mnews_20260419nm004"
+    }
+  ],
+  "keyEvents": [
+    {
+      "date": "2025-12-03",
+      "text": "民進黨選對會建議徵召立委劉建國再戰雲林縣長",
+      "source": "https://www.rti.org.tw/news?uid=3&pid=178877"
+    },
+    {
+      "date": "2025-12-31",
+      "text": "民進黨中執會通過徵召劉建國",
+      "source": "https://www.cna.com.tw/news/aipl/202512310233.aspx"
+    },
+    {
+      "date": "2026-03-04",
+      "text": "國民黨中常會徵召立委張嘉郡參選雲林縣長",
+      "source": "https://www.cna.com.tw/news/aipl/202603040245.aspx"
+    },
+    {
+      "date": "2026-08-31",
+      "text": "律師吳炳輝首日登記參選",
+      "source": "https://news.ltn.com.tw/news/Yunlin/breakingnews/5557993"
+    },
+    {
+      "date": "2026-10-27",
+      "text": "號次抽籤：吳炳輝1號（缺席代抽）、張嘉郡2號、劉建國3號、林佳瑜4號，恰與登記順序相同",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5619791"
+    }
+  ],
+  "notes": "張麗善連任屆滿。實質為張嘉郡、劉建國藍綠對決；地方評估起點約五五波。民眾黨原表態參選的林宜豊未獲提名，林宜豊退出日期查不到；民眾黨對張嘉郡是否正式共同推薦查不到，只有柯文哲站台。林佳瑜出生年查不到。截至10/28只找到一份3月底的網路民調。",
+  "updated": "2026-10-28"
+}

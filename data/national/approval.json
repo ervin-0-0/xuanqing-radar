@@ -1,0 +1,1027 @@
+{
+  "series": [
+    {
+      "fieldStart": "2024-06-11",
+      "fieldEnd": "2024-06-13",
+      "published": "2024-06-18",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1070,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 48.2,
+        "dissatisfied": 25.6
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/2024%e5%b9%b46%e6%9c%88%e3%80%8c%e5%9c%8b%e6%9c%83%e6%94%b9%e9%9d%a9%e3%80%81%e7%b8%bd%e7%b5%b1%e8%81%b2%e6%9c%9b%e8%88%87%e6%94%bf%e9%bb%a8%e7%ab%b6%e7%88%ad%e3%80%8d/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1070人（市話750人、手機320人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2024-06-25",
+      "fieldEnd": "2024-06-27",
+      "published": "2024-07-01",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1074,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 47.6,
+        "dissatisfied": 34.7
+      },
+      "source": "https://my-formosa.com.tw/DOC_207338.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1074人（住宅電話752人、行動電話322人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2024-07-08",
+      "fieldEnd": "2024-07-10",
+      "published": "2024-07-16",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1073,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 49.9,
+        "dissatisfied": 31.2
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/2004%e5%b9%b47%e6%9c%88%e3%80%8c%e6%94%bf%e6%b2%bb%e6%96%b0%e5%b1%80%e3%80%81%e6%86%b2%e6%94%bf%e9%a2%a8%e6%9a%b4%e8%88%87%e5%8f%b0%e7%81%a3%e4%ba%ba%e5%b0%8d%e5%9c%8b%e5%ae%b6%e5%85%ac%e5%8b%99/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1073人（市話753人、手機320人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2024-07-23",
+      "fieldEnd": "2024-07-26",
+      "published": "2024-07-29",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1074,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 52.0,
+        "dissatisfied": 30.1
+      },
+      "source": "https://my-formosa.com.tw/DOC_208335.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1074人（住宅電話752人、行動電話322人）；戴立安規劃、畢肯市場研究公司執行；實際訪問日為7月23日與7月26日（24、25日颱風停班未執行）"
+    },
+    {
+      "fieldStart": "2024-08-12",
+      "fieldEnd": "2024-08-14",
+      "published": "2024-08-20",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1075,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 46.7,
+        "dissatisfied": 31.5
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/2024%e5%b9%b48%e6%9c%88%e3%80%8c%e5%b7%b4%e9%bb%8e%e5%a5%a7%e9%81%8b%e3%80%81%e6%94%bf%e9%bb%a8%e6%84%9f%e6%83%85%e8%88%87%e7%b8%bd%e7%b5%b1%e8%9c%9c%e6%9c%88%e6%9c%9f%e3%80%8d/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1075人（市話755人、手機320人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2024-08-21",
+      "fieldEnd": "2024-08-23",
+      "published": "2024-08-26",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1082,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 54.4,
+        "dissatisfied": 33.2
+      },
+      "source": "https://my-formosa.com.tw/DOC_209323.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1082人（住宅電話757人、行動電話325人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2024-08-20",
+      "fieldEnd": "2024-08-26",
+      "published": "2024-08-27",
+      "pollster": "TVBS民調中心",
+      "sampleSize": 1060,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 40,
+        "dissatisfied": 32
+      },
+      "source": "https://news.tvbs.com.tw/politics/2598703",
+      "notes": "有效樣本1060位（市話532、手機528）；TVBS僅公布整數百分比；就職百日調查"
+    },
+    {
+      "fieldStart": "2024-09-09",
+      "fieldEnd": "2024-09-11",
+      "published": "2024-09-17",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1016,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 46.6,
+        "dissatisfied": 38.5
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/2024%e5%b9%b49%e6%9c%88%e3%80%8c%e5%8f%b8%e6%b3%95%e9%a2%a8%e6%9a%b4%e3%80%81%e6%94%bf%e9%bb%a8%e7%ab%b6%e7%88%ad%e8%88%87%e7%b8%bd%e7%b5%b1%e8%81%b2%e6%9c%9b%e3%80%8d/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1016人（市話710人、手機306人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2024-09-24",
+      "fieldEnd": "2024-09-26",
+      "published": "2024-09-30",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1076,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 50.8,
+        "dissatisfied": 38.6
+      },
+      "source": "https://my-formosa.com.tw/DOC_210409.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1076人（住宅電話752人、行動電話324人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2024-10-11",
+      "fieldEnd": "2024-10-12",
+      "published": "2024-10-15",
+      "pollster": "震傳媒",
+      "sampleSize": 1070,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 54.0,
+        "dissatisfied": 27.5
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/32159",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1070人（加權前家戶535份、手機535份）"
+    },
+    {
+      "fieldStart": "2024-10-13",
+      "fieldEnd": "2024-10-15",
+      "published": "2024-10-22",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1077,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 48.6,
+        "dissatisfied": 37.7
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/2024%e5%b9%b410%e6%9c%88%e3%80%8c%e6%ad%bb%e5%88%91%e9%87%8b%e6%86%b2%e3%80%81%e4%b8%ad%e5%85%b1%e8%bb%8d%e6%bc%94%e8%88%87%e5%8f%b0%e7%81%a3%e6%b0%91%e4%b8%bb%e3%80%8d/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1077人（市話757人、手機320人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2024-10-11",
+      "fieldEnd": "2024-10-18",
+      "published": "2024-10-22",
+      "pollster": "TVBS民調中心",
+      "sampleSize": 861,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 37,
+        "dissatisfied": 35
+      },
+      "source": "https://news.tvbs.com.tw/politics/2659387",
+      "notes": "有效樣本861位（市話428、手機433）；TVBS僅公布整數百分比"
+    },
+    {
+      "fieldStart": "2024-10-22",
+      "fieldEnd": "2024-10-24",
+      "published": "2024-10-28",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1077,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 52.9,
+        "dissatisfied": 38.5
+      },
+      "source": "https://my-formosa.com.tw/DOC_211187.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1077人（住宅電話754人、行動電話323人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2024-11-04",
+      "fieldEnd": "2024-11-05",
+      "published": "2024-11-07",
+      "pollster": "震傳媒",
+      "sampleSize": 1212,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 51.6,
+        "dissatisfied": 31.2
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/32624",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1212人（加權前家戶608份、手機604份）"
+    },
+    {
+      "fieldStart": "2024-11-11",
+      "fieldEnd": "2024-11-13",
+      "published": "2024-11-19",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1017,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 42.8,
+        "dissatisfied": 43.0
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/2024%e5%b9%b411%e6%9c%88%e3%80%8c%e5%8f%b0%e7%81%a3%e6%94%bf%e5%b1%80%e3%80%81%e5%8f%b0%e7%be%8e%e9%97%9c%e4%bf%82%e8%88%87%e7%be%8e%e5%9c%8b%e7%b8%bd%e7%b5%b1%e5%a4%a7%e9%81%b8%e3%80%8d/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1017人（市話712人、手機305人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2024-11-26",
+      "fieldEnd": "2024-11-28",
+      "published": "2024-12-02",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1073,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 53.7,
+        "dissatisfied": 34.9
+      },
+      "source": "https://my-formosa.com.tw/DOC_212148.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1073人（住宅電話753人、行動電話320人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2024-12-09",
+      "fieldEnd": "2024-12-11",
+      "published": "2024-12-17",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1083,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 51.3,
+        "dissatisfied": 35.3
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/2024%e5%b9%b412%e6%9c%88%e3%80%8c%e5%85%83%e9%a6%96%e5%a4%96%e4%ba%a4%e3%80%81%e6%84%9b%e5%9c%8b%e4%b8%bb%e7%be%a9%e8%88%87%e7%ab%8b%e6%b3%95%e8%a1%9d%e7%aa%81%e3%80%8d/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1083人（市話761人、手機322人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2024-12-24",
+      "fieldEnd": "2024-12-26",
+      "published": "2024-12-30",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1074,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 53.4,
+        "dissatisfied": 39.2
+      },
+      "source": "https://my-formosa.com.tw/DOC_212978.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1074人（住宅電話754人、行動電話320人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2024-12-27",
+      "fieldEnd": "2024-12-28",
+      "published": "2024-12-31",
+      "pollster": "震傳媒",
+      "sampleSize": 1071,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 50.3,
+        "dissatisfied": 31.5
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/33663",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1071人（加權前家戶536份、手機535份）"
+    },
+    {
+      "fieldStart": "2025-01-12",
+      "fieldEnd": "2025-01-14",
+      "published": "2025-01-21",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1081,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 48.4,
+        "dissatisfied": 40.2
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/2025%e5%b9%b41%e6%9c%88%e3%80%8c%e6%94%bf%e9%bb%a8%e8%a1%9d%e7%aa%81%e3%80%81%e5%8f%b8%e6%b3%95%e9%a2%a8%e6%9a%b4%e3%80%81%e8%88%87%e5%8f%b0%e7%81%a3%e6%b0%91%e4%b8%bb%e3%80%8d/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1081人（市話762人、手機319人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2025-01-15",
+      "fieldEnd": "2025-01-17",
+      "published": "2025-01-20",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1077,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 50.4,
+        "dissatisfied": 41.2
+      },
+      "source": "https://my-formosa.com.tw/DOC_213478.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1077人（住宅電話755人、行動電話322人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-02-19",
+      "fieldEnd": "2025-02-21",
+      "published": "2025-02-24",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1074,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 48.6,
+        "dissatisfied": 41.7
+      },
+      "source": "https://my-formosa.com.tw/DOC_214330.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1074人（住宅電話753人、行動電話321人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-02-21",
+      "fieldEnd": "2025-02-23",
+      "published": "2025-02-25",
+      "pollster": "震傳媒",
+      "sampleSize": 1071,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 51.1,
+        "dissatisfied": 33.0
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/34535",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1071人（加權前家戶535份、手機536份）"
+    },
+    {
+      "fieldStart": "2025-03-10",
+      "fieldEnd": "2025-03-12",
+      "published": "2025-03-18",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1079,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 48.9,
+        "dissatisfied": 39.1
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/2025%e5%b9%b43%e6%9c%88%e3%80%8c%e5%9c%8b%e9%9a%9b%e6%83%85%e5%8b%a2%e5%b7%a8%e8%ae%8a%e4%b8%8b%e7%9a%84%e5%8f%b0%e7%81%a3%e6%94%bf%e5%b1%80%e3%80%8d/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1079人（市話755人、手機324人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2025-03-18",
+      "fieldEnd": "2025-03-24",
+      "published": "2025-03-26",
+      "pollster": "TVBS民調中心",
+      "sampleSize": 1050,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 40,
+        "dissatisfied": 40
+      },
+      "source": "https://news.tvbs.com.tw/politics/2820131",
+      "notes": "有效樣本1050位（市話522、手機528）；TVBS僅公布整數百分比"
+    },
+    {
+      "fieldStart": "2025-03-25",
+      "fieldEnd": "2025-03-27",
+      "published": "2025-03-31",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1072,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 55.6,
+        "dissatisfied": 40.6
+      },
+      "source": "https://my-formosa.com.tw/DOC_215286.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1072人（住宅電話751人、行動電話321人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-03-25",
+      "fieldEnd": "2025-03-27",
+      "published": "2025-04-01",
+      "pollster": "震傳媒",
+      "sampleSize": 1074,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 51.6,
+        "dissatisfied": 32.1
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/35205",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1074人（加權前家戶536份、手機538份）"
+    },
+    {
+      "fieldStart": "2025-04-07",
+      "fieldEnd": "2025-04-09",
+      "published": "2025-04-15",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1080,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 45.9,
+        "dissatisfied": 45.7
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/%e7%be%8e%e4%b8%ad%e5%85%a9%e5%a4%a7%e5%bc%b7%e6%ac%8a%e8%a1%9d%e6%93%8a%e4%b8%8b%e7%9a%84%e5%8f%b0%e7%81%a3%e6%b0%91%e6%84%8f%ef%bc%882025%e5%b9%b44%e6%9c%8815%e6%97%a5%ef%bc%89/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1080人（市話758人、手機322人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2025-04-21",
+      "fieldEnd": "2025-04-23",
+      "published": "2025-04-25",
+      "pollster": "震傳媒",
+      "sampleSize": 1075,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 44.8,
+        "dissatisfied": 39.9
+      },
+      "source": "https://www.zmedia.com.tw/Document/NewsDetail/35613",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1075人（加權前家戶539份、手機536份）；內文導言誤植32.3%（實為民進黨支持度），採內文明細44.8%滿意、39.9%不滿意"
+    },
+    {
+      "fieldStart": "2025-04-22",
+      "fieldEnd": "2025-04-24",
+      "published": "2025-04-29",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1059,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 47.1,
+        "dissatisfied": 47.3
+      },
+      "source": "https://my-formosa.com.tw/DOC_216034.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1059人（住宅電話683人、行動電話376人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-05-02",
+      "fieldEnd": "2025-05-13",
+      "published": "2025-05-15",
+      "pollster": "TVBS民調中心",
+      "sampleSize": 1048,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 32,
+        "dissatisfied": 55
+      },
+      "source": "https://news.tvbs.com.tw/politics/2871165",
+      "notes": "有效樣本1048位（市話517、手機531）；TVBS僅公布整數百分比；就職周年調查"
+    },
+    {
+      "fieldStart": "2025-05-12",
+      "fieldEnd": "2025-05-14",
+      "published": "2025-05-20",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1080,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 45.7,
+        "dissatisfied": 37.4
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/2025%e5%b9%b45%e6%9c%88%e3%80%8c%e8%b3%b4%e6%b8%85%e5%be%b7%e7%b8%bd%e7%b5%b1%e5%b0%b1%e8%81%b7%e4%b8%80%e9%80%b1%e5%b9%b4%e3%80%8d/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1080人（市話756人、手機324人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2025-05-19",
+      "fieldEnd": "2025-05-20",
+      "published": "2025-05-22",
+      "pollster": "震傳媒",
+      "sampleSize": 1075,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 46.7,
+        "dissatisfied": 39.8
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/36059",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1075人（加權前家戶536份、手機539份）"
+    },
+    {
+      "fieldStart": "2025-05-21",
+      "fieldEnd": "2025-05-23",
+      "published": "2025-05-26",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1075,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 46.3,
+        "dissatisfied": 45.8
+      },
+      "source": "https://my-formosa.com.tw/DOC_216790.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1075人（住宅電話699人、行動電話376人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-06-09",
+      "fieldEnd": "2025-06-11",
+      "published": "2025-06-17",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1085,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 48.7,
+        "dissatisfied": 45.7
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/2025%e5%b9%b46%e6%9c%88%e3%80%8c%e5%a4%a7%e7%bd%b7%e5%85%8d%e3%80%81%e9%9d%9e%e6%a0%b8%e5%ae%b6%e5%9c%92%e8%88%87%e5%8f%b0%e7%81%a3%e4%ba%ba%e7%9c%bc%e4%b8%ad%e7%9a%84%e8%b3%b4%e6%b8%85%e5%be%b7/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1085人（市話762人、手機323人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2025-06-22",
+      "fieldEnd": "2025-06-25",
+      "published": "2025-06-26",
+      "pollster": "震傳媒",
+      "sampleSize": 1075,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 45.9,
+        "dissatisfied": 40.6
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/36693",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1075人（加權前家戶537份、手機538份）"
+    },
+    {
+      "fieldStart": "2025-06-24",
+      "fieldEnd": "2025-06-26",
+      "published": "2025-06-30",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1076,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 44.7,
+        "dissatisfied": 46.8
+      },
+      "source": "https://my-formosa.com.tw/DOC_217710.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1076人（住宅電話699人、行動電話377人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-07-07",
+      "fieldEnd": "2025-07-09",
+      "published": "2025-07-15",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1083,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 42.9,
+        "dissatisfied": 44.5
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/2025%e5%b9%b47%e6%9c%88%e3%80%8c%e5%a4%a7%e7%bd%b7%e5%85%8d%e3%80%81%e5%9c%8b%e5%ae%b6%e8%aa%8d%e5%90%8c%e8%88%87%e5%8f%b0%e7%81%a3%e6%b0%91%e4%b8%bb%e3%80%8d/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1083人（市話757人、手機326人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2025-07-28",
+      "fieldEnd": "2025-07-29",
+      "published": "2025-07-31",
+      "pollster": "震傳媒",
+      "sampleSize": 1074,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 35.5,
+        "dissatisfied": 50.4
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/37277",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1074人（加權前家戶536份、手機538份）"
+    },
+    {
+      "fieldStart": "2025-07-28",
+      "fieldEnd": "2025-07-30",
+      "published": "2025-08-04",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1082,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 34.6,
+        "dissatisfied": 56.6
+      },
+      "source": "https://my-formosa.com.tw/DOC_218675.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1082人（住宅電話705人、行動電話377人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-08-04",
+      "fieldEnd": "2025-08-06",
+      "published": "2025-08-12",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1079,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 33.3,
+        "dissatisfied": 54.4
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/2025%e5%b9%b48%e6%9c%88%e3%80%8c%e5%a4%a7%e7%bd%b7%e5%85%8d%e3%80%81%e6%a0%b8%e4%b8%89%e5%85%ac%e6%8a%95%e8%88%87%e5%8f%b0%e7%81%a3%e6%b0%91%e4%b8%bb%e3%80%8d/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1079人（市話757人、手機322人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2025-08-01",
+      "fieldEnd": "2025-08-08",
+      "published": "2025-08-11",
+      "pollster": "TVBS民調中心",
+      "sampleSize": 1044,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 28,
+        "dissatisfied": 55
+      },
+      "source": "https://news.tvbs.com.tw/politics/2957106",
+      "notes": "有效樣本1044位（市話522、手機522）；TVBS僅公布整數百分比"
+    },
+    {
+      "fieldStart": "2025-08-25",
+      "fieldEnd": "2025-08-26",
+      "published": "2025-08-28",
+      "pollster": "震傳媒",
+      "sampleSize": 1081,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 34.1,
+        "dissatisfied": 53.0
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/37770",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1081人（加權前家戶536份、手機545份）"
+    },
+    {
+      "fieldStart": "2025-08-25",
+      "fieldEnd": "2025-08-27",
+      "published": "2025-09-01",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1080,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 31.0,
+        "dissatisfied": 60.5
+      },
+      "source": "https://my-formosa.com.tw/DOC_219563.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1080人（住宅電話703人、行動電話377人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-09-08",
+      "fieldEnd": "2025-09-10",
+      "published": "2025-09-16",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1077,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 32.7,
+        "dissatisfied": 57.8
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/2025%e5%b9%b49%e6%9c%88%ef%bc%88%e5%be%8c%e5%a4%a7%e7%bd%b7%e5%85%8d%e6%99%82%e6%9c%9f%e5%8f%b0%e7%81%a3%e6%94%bf%e5%b1%80%e7%9a%84%e5%b1%95%e6%9c%9b%ef%bc%89/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1077人（市話753人、手機324人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2025-09-15",
+      "fieldEnd": "2025-09-16",
+      "published": "2025-09-18",
+      "pollster": "震傳媒",
+      "sampleSize": 1076,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 34.2,
+        "dissatisfied": 55.0
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/38125",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1076人（加權前家戶535份、手機541份）；滿意度34.2%取自報導內附之原始圖表（內文僅寫不滿意55.0%）"
+    },
+    {
+      "fieldStart": "2025-09-23",
+      "fieldEnd": "2025-09-25",
+      "published": "2025-09-30",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1077,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 35.5,
+        "dissatisfied": 57.0
+      },
+      "source": "https://my-formosa.com.tw/DOC_220407.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1077人（住宅電話699人、行動電話378人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-10-13",
+      "fieldEnd": "2025-10-15",
+      "published": "2025-10-21",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1070,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 34.9,
+        "dissatisfied": 52.5
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/2025%e5%b9%b410%e6%9c%88%e3%80%8c%e4%bb%a5%e5%93%88%e5%81%9c%e7%81%ab%e3%80%81%e5%b7%9d%e6%99%ae%e9%81%8d%e8%99%95%e8%88%87%e5%85%a9%e5%b2%b8%e9%97%9c%e4%bf%82%e3%80%8d/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1070人（市話750人、手機320人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2025-10-20",
+      "fieldEnd": "2025-10-21",
+      "published": "2025-10-27",
+      "pollster": "震傳媒",
+      "sampleSize": 1085,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 40.7,
+        "dissatisfied": 48.1
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/38695",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1085人（加權前家戶537份、手機548份）"
+    },
+    {
+      "fieldStart": "2025-10-20",
+      "fieldEnd": "2025-10-22",
+      "published": "2025-10-27",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1077,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 40.1,
+        "dissatisfied": 53.3
+      },
+      "source": "https://my-formosa.com.tw/DOC_220952.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1077人（住宅電話700人、行動電話377人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-11-10",
+      "fieldEnd": "2025-11-12",
+      "published": "2025-11-18",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1085,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 37.9,
+        "dissatisfied": 50.2
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/%e5%8f%b0%e7%81%a3%e4%ba%ba%e7%9c%bc%e4%b8%ad%e7%9a%84%e4%b8%ad%e5%9c%8b%e5%9c%8b%e6%b0%91%e9%bb%a82025%e5%b9%b411%e6%9c%8818%e6%97%a5%ef%bc%89/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1085人（市話760人、手機325人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2025-11-24",
+      "fieldEnd": "2025-11-25",
+      "published": "2025-11-27",
+      "pollster": "震傳媒",
+      "sampleSize": 1072,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 44.1,
+        "dissatisfied": 43.3
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/39250",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1072人（加權前家戶535份、手機537份）"
+    },
+    {
+      "fieldStart": "2025-11-24",
+      "fieldEnd": "2025-11-26",
+      "published": "2025-12-01",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1079,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 40.9,
+        "dissatisfied": 53.3
+      },
+      "source": "https://my-formosa.com.tw/DOC_221882.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1079人（住宅電話701人、行動電話378人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2025-12-15",
+      "fieldEnd": "2025-12-17",
+      "published": "2025-12-23",
+      "pollster": "台灣民意基金會",
+      "sampleSize": 1077,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 43.4,
+        "dissatisfied": 48.6
+      },
+      "source": "https://www.tpof.org/%e7%b2%be%e9%81%b8%e6%96%87%e7%ab%a0/2025%e5%b9%b412%e6%9c%88%e3%80%8c%e5%8f%b0%e7%81%a3%e4%ba%ba%e7%9c%bc%e4%b8%ad%e7%9a%84%e6%b0%91%e4%b8%bb%e9%80%b2%e6%ad%a5%e9%bb%a8%e3%80%8d/",
+      "notes": "題目為贊不贊同賴清德總統處理國家大事的方式（總統聲望）：satisfied=非常贊同+還算贊同，dissatisfied=不太贊同+一點也不贊同；數字取自月報圖表；有效樣本1077人（市話752人、手機325人）；山水民意研究公司執行"
+    },
+    {
+      "fieldStart": "2025-12-22",
+      "fieldEnd": "2025-12-24",
+      "published": "2025-12-29",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1083,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 40.6,
+        "dissatisfied": 52.2
+      },
+      "source": "https://my-formosa.com.tw/DOC_222574.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1083人（住宅電話705人、行動電話378人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2026-01-26",
+      "fieldEnd": "2026-01-28",
+      "published": "2026-02-02",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1075,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 46.0,
+        "dissatisfied": 48.0
+      },
+      "source": "https://my-formosa.com.tw/DOC_223441.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1075人（住宅電話698人、行動電話377人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2026-02-07",
+      "fieldEnd": "2026-02-09",
+      "published": "2026-02-11",
+      "pollster": "震傳媒",
+      "sampleSize": 1069,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 45.5,
+        "dissatisfied": 41.5
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/40607",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1069人（加權前家戶535份、手機534份）"
+    },
+    {
+      "fieldStart": "2026-03-26",
+      "fieldEnd": "2026-03-28",
+      "published": "2026-04-01",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1076,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 43.8,
+        "dissatisfied": 47.4
+      },
+      "source": "https://my-formosa.com.tw/DOC_224706.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1076人（住宅電話698人、行動電話378人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2026-03-27",
+      "fieldEnd": "2026-03-28",
+      "published": "2026-03-31",
+      "pollster": "震傳媒",
+      "sampleSize": 1088,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 43.8,
+        "dissatisfied": 44.0
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/41390",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1088人（加權前家戶552份、手機536份）"
+    },
+    {
+      "fieldStart": "2026-04-19",
+      "fieldEnd": "2026-04-20",
+      "published": "2026-04-22",
+      "pollster": "震傳媒",
+      "sampleSize": 1071,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 45.3,
+        "dissatisfied": 43.8
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/41742",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1071人（加權前家戶536份、手機535份）"
+    },
+    {
+      "fieldStart": "2026-04-22",
+      "fieldEnd": "2026-04-24",
+      "published": "2026-04-28",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1074,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 44.5,
+        "dissatisfied": 47.5
+      },
+      "source": "https://my-formosa.com.tw/DOC_225352.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1074人（住宅電話698人、行動電話376人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2026-05-04",
+      "fieldEnd": "2026-05-10",
+      "published": "2026-05-14",
+      "pollster": "TVBS民調中心",
+      "sampleSize": 1138,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 38,
+        "dissatisfied": 45
+      },
+      "source": "https://news.tvbs.com.tw/politics/3203919",
+      "notes": "有效樣本1138位（市話575、手機563）；TVBS僅公布整數百分比；就職兩周年調查"
+    },
+    {
+      "fieldStart": "2026-05-20",
+      "fieldEnd": "2026-05-22",
+      "published": "2026-05-27",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1078,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 45.7,
+        "dissatisfied": 44.9
+      },
+      "source": "https://my-formosa.com.tw/DOC_226123.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1078人（住宅電話699人、行動電話379人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2026-05-24",
+      "fieldEnd": "2026-05-25",
+      "published": "2026-05-27",
+      "pollster": "震傳媒",
+      "sampleSize": 1088,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 47.7,
+        "dissatisfied": 40.0
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/42360",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1088人（加權前家戶543份、手機545份）"
+    },
+    {
+      "fieldStart": "2026-06-22",
+      "fieldEnd": "2026-06-24",
+      "published": "2026-06-29",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1078,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 44.0,
+        "dissatisfied": 47.6
+      },
+      "source": "https://my-formosa.com.tw/DOC_226926.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1078人（住宅電話699人、行動電話379人）；戴立安規劃、畢肯市場研究公司執行"
+    },
+    {
+      "fieldStart": "2026-07-28",
+      "fieldEnd": "2026-07-30",
+      "published": "2026-08-04",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1200,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 44.7,
+        "dissatisfied": 47.4
+      },
+      "source": "https://my-formosa.com.tw/DOC_227893.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1200人（住宅電話840人、行動電話360人）；自2026年7月起改由張佑宗教授規劃、趨勢民意調查公司執行"
+    },
+    {
+      "fieldStart": "2026-08-15",
+      "fieldEnd": "2026-08-17",
+      "published": "2026-08-19",
+      "pollster": "震傳媒",
+      "sampleSize": 1070,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 46.9,
+        "dissatisfied": 42.3
+      },
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/43759",
+      "notes": "山水民意研究公司執行，全國20歲以上；成功完訪1070人（加權前家戶534份、手機536份）"
+    },
+    {
+      "fieldStart": "2026-08-19",
+      "fieldEnd": "2026-08-21",
+      "published": "2026-08-25",
+      "pollster": "台灣民心調查（戴立安）",
+      "sampleSize": 1076,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 51.4,
+        "dissatisfied": 42.3
+      },
+      "source": "https://www.cmmedia.com.tw/home/articles/62518",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；戴立安規劃、畢肯市場研究公司執行；成功完訪1076人（市話699人、手機377人）；來源為新聞報導轉述"
+    },
+    {
+      "fieldStart": "2026-08-24",
+      "fieldEnd": "2026-08-26",
+      "published": "2026-09-01",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1632,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 46.4,
+        "dissatisfied": 43.9
+      },
+      "source": "https://my-formosa.com.tw/DOC_228773.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1632人（住宅電話825人、行動電話807人）；自2026年7月起改由張佑宗教授規劃、趨勢民意調查公司執行"
+    },
+    {
+      "fieldStart": "2026-08-31",
+      "fieldEnd": "2026-09-02",
+      "published": "2026-09-04",
+      "pollster": "TVBS民調中心",
+      "sampleSize": 1127,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 39,
+        "dissatisfied": 38
+      },
+      "source": "https://www.ettoday.net/news/20260904/3231608.htm",
+      "notes": "有效樣本1127位（市話553、手機574）；TVBS僅公布整數百分比；來源為ETtoday轉述TVBS民調中心發布內容"
+    },
+    {
+      "fieldStart": "2026-09-21",
+      "fieldEnd": "2026-09-23",
+      "published": "2026-09-29",
+      "pollster": "台灣民心調查（戴立安）",
+      "sampleSize": 1075,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 51.4,
+        "dissatisfied": 41.1
+      },
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5588997",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；戴立安規劃、畢肯市場研究公司執行；成功完訪1075人（市話698人、手機377人）；來源為新聞報導轉述"
+    },
+    {
+      "fieldStart": "2026-09-29",
+      "fieldEnd": "2026-10-02",
+      "published": "2026-10-06",
+      "pollster": "美麗島電子報",
+      "sampleSize": 1201,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 47.9,
+        "dissatisfied": 41.4
+      },
+      "source": "https://my-formosa.com.tw/DOC_229724.htm",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1201人（住宅電話721人、行動電話480人）；自2026年7月起改由張佑宗教授規劃、趨勢民意調查公司執行；本期為2026年9月國政民調，訪問期間跨至10月2日"
+    },
+    {
+      "fieldStart": "2026-10-20",
+      "fieldEnd": "2026-10-22",
+      "published": "2026-10-27",
+      "pollster": "台灣民心調查（戴立安）",
+      "sampleSize": 1075,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 52.2,
+        "dissatisfied": 37.6
+      },
+      "source": "https://newtalk.tw/news/view/2026-10-27/1067609",
+      "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；戴立安規劃、畢肯市場研究公司執行；成功完訪1075人（市話696人、手機379人）；來源為新聞報導轉述"
+    }
+  ],
+  "notes": "收錄美麗島電子報、台灣民意基金會、TVBS民調中心、震傳媒、台灣民心調查（戴立安）之全國電話民調；政黨委託民調（國民黨、民進黨公布）與單一縣市民調不收。台灣民意基金會2026年起停止發布每月民調。"
+}

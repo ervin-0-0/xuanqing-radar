@@ -1,0 +1,2201 @@
+{
+  "raceId": "kaohsiung",
+  "details": [
+    {
+      "source": "https://newtalk.tw/news/view/2025-03-03/958798",
+      "pollster": "循證民調",
+      "sponsor": "Newtalk新聞",
+      "fieldStart": "2025-02-25",
+      "fieldEnd": "2025-02-27",
+      "published": "2025-03-03",
+      "method": "unknown",
+      "sampleSize": 1070,
+      "moe": 3,
+      "confidence": 95,
+      "population": "戶籍在高雄市且年滿20歲以上民眾",
+      "weighting": "依行政區、年齡、性別加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 46.5
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 32.9
+        }
+      ],
+      "undecided": 20.7,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "賴瑞隆 vs 柯志恩",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 46.5
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 32.9
+            }
+          ],
+          "undecided": 20.7
+        },
+        {
+          "label": "林岱樺 vs 柯志恩",
+          "results": [
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 45.6
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 31.7
+            }
+          ],
+          "undecided": 22.7
+        },
+        {
+          "label": "邱議瑩 vs 柯志恩",
+          "results": [
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 46.7
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 34.6
+            }
+          ],
+          "undecided": 18.8
+        },
+        {
+          "label": "許智傑 vs 柯志恩",
+          "results": [
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 46.4
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 33.4
+            }
+          ],
+          "undecided": 20.2
+        },
+        {
+          "label": "黨內四人互比",
+          "results": [
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 19.1
+            },
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 15
+            },
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 14.3
+            },
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 9.1
+            }
+          ],
+          "undecided": 42.5
+        }
+      ],
+      "notes": "民進黨初選前的早期民調（尚無正式初選期程），同時做對比與互比。對比題型為「分別與國民黨的柯志恩競選，最希望哪一位來當市長」（希望度問法，非投票意向），未決定稱「無法選出」。互比題型為「四位您最可能支持哪一位」，42.5%為未決定或無意見合併數字。抽樣方式原文僅寫「以電話資料庫系統隨機抽樣」，未說明是否含手機，所以 method 填 unknown。交叉分析：純民進黨支持者中賴瑞隆21.4%、邱議瑩19%、林岱樺15.8%、許智傑12.6%（報導原文如此，未說明是哪一題）；林岱樺在泛藍傾向者中支持度遠高於其他人。發布時正值林岱樺涉助理費案。數字與維基一致。",
+      "extraSources": [
+        "https://newtalk.tw/news/view/2025-03-03/958797"
+      ]
+    },
+    {
+      "source": "https://www.mirrormedia.mg/story/20250305edi059",
+      "pollster": "大地民意研究公司",
+      "sponsor": "鏡新聞（鏡電視）",
+      "fieldStart": "2025-03-02",
+      "fieldEnd": "2025-03-04",
+      "published": "2025-03-06",
+      "method": "phone+mobile",
+      "sampleSize": 1088,
+      "moe": 2.97,
+      "confidence": 95,
+      "population": "戶籍於高雄市且年滿20歲以上的民眾",
+      "weighting": "依內政部最新人口資料，針對戶籍地行政區、性別、教育程度及年齡做多重反覆加權（Raking）",
+      "results": [
+        {
+          "name": "林岱樺",
+          "party": "dpp",
+          "pct": 24.6
+        },
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 22.7
+        },
+        {
+          "name": "邱議瑩",
+          "party": "dpp",
+          "pct": 14.7
+        },
+        {
+          "name": "許智傑",
+          "party": "dpp",
+          "pct": 13.3
+        }
+      ],
+      "undecided": 24.7,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "這篇只有黨內四人互比（「民進黨內可能參選高雄市長的立委」支持度），沒有對柯志恩的對比題，所以 results 放互比。有效樣本市話541、手機551。維基來源欄寫「鏡報」，但這筆其實是《鏡新聞》2025年3月政經民調（鏡電視出資），不是9月那筆《鏡報》民調。交叉分析：民進黨支持者中賴瑞隆30.9%、邱議瑩19.3%、林岱樺19.1%、許智傑18.6%；國民黨支持者中林岱樺36.2%、賴瑞隆16.3%、許智傑8.0%、邱議瑩7.9%。陳其邁施政滿意度76.0%（非常滿意39.2%、還算滿意36.8%），不滿意15.9%，未表態8.1%。66.8%認為林岱樺助理費案會影響民進黨高雄選情；對林岱樺「政治干預司法，司法干預初選」說法，贊同36.1%、不贊同42.9%。數字與維基一致。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.mnews.tw/external/mirrordaily20450",
+      "pollster": "山水民意研究",
+      "sponsor": "鏡報",
+      "fieldStart": "2025-09-10",
+      "fieldEnd": "2025-09-12",
+      "published": "2025-09-16",
+      "method": "phone",
+      "sampleSize": 1070,
+      "moe": 3,
+      "confidence": 95,
+      "population": "設籍高雄市、20歲以上成年人",
+      "weighting": "依內政部人口統計資料，按地區、性別、年齡加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 41.8
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 38.5
+        }
+      ],
+      "undecided": 19.7,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "賴瑞隆 vs 柯志恩",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 41.8
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 38.5
+            }
+          ],
+          "undecided": 19.7
+        },
+        {
+          "label": "許智傑 vs 柯志恩",
+          "results": [
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 39.8
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 38.9
+            }
+          ],
+          "undecided": 21.2
+        },
+        {
+          "label": "林岱樺 vs 柯志恩",
+          "results": [
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 38.8
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 38.8
+            }
+          ],
+          "undecided": 22.4
+        },
+        {
+          "label": "邱議瑩 vs 柯志恩",
+          "results": [
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 37.8
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 41.8
+            }
+          ],
+          "undecided": 20.5
+        },
+        {
+          "label": "黨內四人互比",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 25.9
+            },
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 25.2
+            },
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 15.2
+            },
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 11.5
+            }
+          ],
+          "undecided": 22.2
+        },
+        {
+          "label": "看好度：最可能代表民進黨參選高雄市長",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 30.3
+            },
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 18.2
+            },
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 14.5
+            },
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 14
+            }
+          ],
+          "undecided": 23.1
+        }
+      ],
+      "notes": "民進黨初選期間的民調，題型有對比（四人分別對柯志恩）、黨內互比、看好度。抽樣以住宅電話用戶為抽樣架構，系統抽樣加尾兩碼隨機，只有市話。未提示選項的提及率：賴瑞隆29.9%、邱議瑩27.7%、林岱樺27.0%、柯志恩20.1%、許智傑19.4%，48.3%說不出任何名字。政黨傾向：民進黨40.0%、國民黨19.8%、民眾黨10.5%、時代力量2.7%、台灣基進1.4%、其他1.6%，不偏任何政黨24.1%。維基沒列看好度那組，其他數字與維基一致。",
+      "extraSources": []
+    },
+    {
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2025/20250930/47eff2bda3a7f080df5c17a6cc9fffa0.pdf",
+      "pollster": "TVBS民調中心",
+      "sponsor": "TVBS",
+      "fieldStart": "2025-09-12",
+      "fieldEnd": "2025-09-19",
+      "published": "2025-09-24",
+      "method": "phone",
+      "sampleSize": 1117,
+      "moe": 2.9,
+      "confidence": 95,
+      "population": "20歲以上高雄市民",
+      "weighting": "依母體性別、年齡、地區、教育程度等變項加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 41
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 41
+        }
+      ],
+      "undecided": 18,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "賴瑞隆 vs 柯志恩",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 41
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 41
+            }
+          ],
+          "undecided": 18
+        },
+        {
+          "label": "許智傑 vs 柯志恩",
+          "results": [
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 36
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 42
+            }
+          ],
+          "undecided": 21
+        },
+        {
+          "label": "邱議瑩 vs 柯志恩",
+          "results": [
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 36
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 44
+            }
+          ],
+          "undecided": 21
+        },
+        {
+          "label": "林岱樺 vs 柯志恩",
+          "results": [
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 33
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 42
+            }
+          ],
+          "undecided": 25
+        }
+      ],
+      "notes": "只有對比（「如果明天就是投票日，比較可能投票給哪一位」，人名隨機輪替，四題順序隨機輪替），沒有互比。抽樣原文是「電話號碼後四碼隨機抽樣，人員電話訪問」，沒提手機，判定為只有市話。訪問時間每晚18:30-22:00；共接觸1,531人，拒訪414人（拒訪率27.0%）。陳其邁施政滿意度64%（非常滿意28%、還算滿意36%，歷次最高），不滿意26%，沒意見9%。美濃盜採砂石事件：對市府處理滿意38%、不滿意44%。賴瑞隆vs柯志恩依政黨傾向交叉：民進黨認同者86%挺賴，國民黨認同者90%挺柯，民眾黨認同者73%挺柯，中立選民37%挺柯、20%挺賴、42%未決定。2022年投陳其邁者74%挺賴、15%挺柯。PDF 原址回 403，數字讀自 Wayback 存檔。發布日取 TVBS 新聞網報導日 2025-09-24；維基寫 2025-09-30（PDF 資料夾日期）。數字與維基一致。",
+      "extraSources": [
+        "https://web.archive.org/web/20251205144007/https://cc.tvbs.com.tw/portal/file/poll_center/2025/20250930/47eff2bda3a7f080df5c17a6cc9fffa0.pdf",
+        "https://news.tvbs.com.tw/politics/2998222"
+      ]
+    },
+    {
+      "source": "https://www.nownews.com/news/6749393",
+      "pollster": null,
+      "sponsor": null,
+      "fieldStart": "2025-10-27",
+      "fieldEnd": "2025-10-30",
+      "published": "2025-11-02",
+      "method": "unknown",
+      "sampleSize": 1087,
+      "moe": 2.97,
+      "confidence": 95,
+      "population": "年滿20歲、戶籍於高雄的民眾",
+      "weighting": null,
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 44.5
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 36
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "賴瑞隆 vs 柯志恩",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 44.5
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 36
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "林岱樺 vs 柯志恩",
+          "results": [
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 39.8
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 35.1
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "許智傑 vs 柯志恩",
+          "results": [
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 40.4
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 37
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "邱議瑩 vs 柯志恩",
+          "results": [
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 37.4
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 40.5
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "黨內四人互比",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 30.6
+            },
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 23.5
+            },
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 10.1
+            },
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 9.7
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "看好度",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 29.7
+            },
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 19.3
+            },
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 10.6
+            },
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 10.6
+            }
+          ],
+          "undecided": null
+        }
+      ],
+      "notes": "NOWnews 獨家取得、稱為「民進黨內參民調」的初選期間民調，題型有對比、黨內互比、看好度。執行機構、委託單位、調查方式、加權都沒寫，未表態也沒公布（維基寫「不詳」），因此 undecided 填 null。調查日期報導原文是「上月27日與30日」，fieldStart/End 照維基寫 10/27-10/30。陳其邁滿意度73.2%、不滿意17.9%。沒找到民進黨針對這份高雄民調的否認；但民進黨中央 2025-12-26 談台南內參民調爭議時表示黨中央從未執行及發布任何內參民調（不是針對本筆）。維基沒列互比、看好度，對比數字與維基一致。",
+      "extraSources": [
+        "https://news.tvbs.com.tw/politics/3083524"
+      ]
+    },
+    {
+      "source": "https://www.setn.com/News.aspx?NewsID=1748047",
+      "pollster": null,
+      "sponsor": "地下賭盤組頭（據上報報導，未具名）",
+      "fieldStart": "2025-11-03",
+      "fieldEnd": "2025-11-05",
+      "published": "2025-11-07",
+      "method": "phone",
+      "sampleSize": 1069,
+      "moe": 3,
+      "confidence": 95,
+      "population": "高雄市20歲以上成年民眾（以中華電信高雄市住宅電話用戶為抽樣母體）",
+      "weighting": null,
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 47.7
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 33
+        }
+      ],
+      "undecided": 19.3,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "賴瑞隆 vs 柯志恩",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 47.7
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 33
+            }
+          ],
+          "undecided": 19.3
+        },
+        {
+          "label": "邱議瑩 vs 柯志恩",
+          "results": [
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 46
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 32.8
+            }
+          ],
+          "undecided": 21.2
+        },
+        {
+          "label": "許智傑 vs 柯志恩",
+          "results": [
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 41.2
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 36
+            }
+          ],
+          "undecided": 22.8
+        },
+        {
+          "label": "林岱樺 vs 柯志恩",
+          "results": [
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 39.1
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 30.3
+            }
+          ],
+          "undecided": 30.7
+        }
+      ],
+      "notes": "要特別注意：這不是上報委託的民調。最早由《上報》2025-11-07 獨家報導（upmedia 244245），稱是南部地下賭盤組頭在林岱樺11/1造勢後花錢做的「開盤參考」民調；三立這篇是轉述。報導沒寫執行機構，林岱樺批評這份民調「既沒有標示執行和委託單位，而且有鼓勵賭博之嫌」（聯合報）。只有對比題型（四人分別對柯志恩）。抽樣：中華電信高雄市住宅電話用戶，比例配置，加後二碼隨機，只有市話（抽樣說明文字與上報／雨晴指標的民調相同，但這篇沒有具名）。政黨認同：民進黨37%、國民黨12.4%、民眾黨7.6%、台灣基進2.6%、時代力量0.2%、泛綠4.5%、泛藍2.8%、無偏好31.5%、拒答1.5%。與維基不同：邱議瑩組未表態原始報導21.2%，維基寫21.1%。維基來源欄標「上報」。",
+      "extraSources": [
+        "https://www.upmedia.mg/tw/investigation/politics/244245",
+        "https://udn.com/news/story/6656/9126389"
+      ]
+    },
+    {
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2025/20251230/7f85b1bca9aaaba0aa86f0cded95d365.pdf",
+      "pollster": "TVBS民調中心",
+      "sponsor": "TVBS",
+      "fieldStart": "2025-11-20",
+      "fieldEnd": "2025-11-27",
+      "published": "2025-12-01",
+      "method": "phone",
+      "sampleSize": 1014,
+      "moe": 3.1,
+      "confidence": 95,
+      "population": "20歲以上高雄市民",
+      "weighting": "依母體性別、年齡、地區、教育程度等變項加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 42
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 40
+        }
+      ],
+      "undecided": 19,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "賴瑞隆 vs 柯志恩",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 42
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 40
+            }
+          ],
+          "undecided": 19
+        },
+        {
+          "label": "許智傑 vs 柯志恩",
+          "results": [
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 35
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 42
+            }
+          ],
+          "undecided": 22
+        },
+        {
+          "label": "邱議瑩 vs 柯志恩",
+          "results": [
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 35
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 43
+            }
+          ],
+          "undecided": 21
+        },
+        {
+          "label": "林岱樺 vs 柯志恩",
+          "results": [
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 30
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 40
+            }
+          ],
+          "undecided": 29
+        }
+      ],
+      "notes": "只有對比（投票意向，人名隨機輪替）。只有市話（電話號碼後四碼隨機抽樣，人員電話訪問）；共接觸1,283人，拒訪269人（拒訪率21.0%）。陳其邁施政滿意度65%（非常滿意36%、還算滿意29%），不滿意23%，沒意見12%。71%認為市府推動演唱會對高雄經濟有幫助。依政黨傾向交叉（賴vs柯）：民進黨認同者80%挺賴，國民黨認同者89%挺柯，民眾黨認同者79%挺柯，中立選民賴30%、柯33%、38%未決定。PDF 原址回 403，數字讀自 Wayback 存檔。維基的 date 欄寫 2025-11-20（其實是開始訪問日），而且 PDF 網址在 20251230 資料夾；發布日取 TVBS 新聞網首發報導 2025-12-01。數字與維基一致。",
+      "extraSources": [
+        "https://web.archive.org/web/20260117015635/https://cc.tvbs.com.tw/portal/file/poll_center/2025/20251230/7f85b1bca9aaaba0aa86f0cded95d365.pdf",
+        "https://news.tvbs.com.tw/politics/3059587"
+      ]
+    },
+    {
+      "source": "https://www.upmedia.mg/tw/lifestyle/policy/246027",
+      "pollster": "雨晴指標民調",
+      "sponsor": "上報",
+      "fieldStart": "2025-11-24",
+      "fieldEnd": "2025-11-26",
+      "published": "2025-11-29",
+      "method": "phone",
+      "sampleSize": 1074,
+      "moe": 3,
+      "confidence": 95,
+      "population": "高雄市年滿20歲以上成年民眾",
+      "weighting": null,
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 50.4
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 23.1
+        }
+      ],
+      "undecided": 26.4,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "賴瑞隆 vs 柯志恩",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 50.4
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 23.1
+            }
+          ],
+          "undecided": 26.4
+        },
+        {
+          "label": "邱議瑩 vs 柯志恩",
+          "results": [
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 51.9
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 23.7
+            }
+          ],
+          "undecided": 24.5
+        },
+        {
+          "label": "許智傑 vs 柯志恩",
+          "results": [
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 50
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 23.7
+            }
+          ],
+          "undecided": 26.3
+        },
+        {
+          "label": "林岱樺 vs 柯志恩",
+          "results": [
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 43.3
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 19.6
+            }
+          ],
+          "undecided": 37.1
+        }
+      ],
+      "notes": "上報委託雨晴指標，依民進黨初選規則只做對比式（四人分別對柯志恩）。抽樣：分層比例隨機抽樣，中華電信高雄市住宅電話用戶，加後二碼隨機，只有市話。政黨支持：民進黨47.6%、國民黨8.4%、民眾黨4.7%、台灣基進1.4%、時代力量0.7%、無偏好30.3%、拒答1.5%（國民黨支持者表態不到一成）。民進黨支持者在各組的支持：林64%/柯7%、邱84.1%/柯5.9%、賴79.1%/柯7.9%、許80.9%/柯6.1%。注意：維基引用的 246027 這篇是上報 11/29 的評論稿（標題「邱議瑩民調領跑 地方人士：組織戰與蘇貞昌、市長牌發酵」），維基 ref 標題誤植成三立那篇的標題；完整數字和方法在同一份民調的上報報導 246020（頁面時間 2025-11-30）。上報原址被 Cloudflare 擋，讀的是 Wayback 存檔。數字與維基一致。",
+      "extraSources": [
+        "https://www.upmedia.mg/tw/focus/politics/246020",
+        "https://web.archive.org/web/20251227123435/https://www.upmedia.mg/tw/lifestyle/policy/246027"
+      ]
+    },
+    {
+      "source": "https://www.ettoday.net/news/20251204/3078334.htm",
+      "pollster": "精湛民調",
+      "sponsor": null,
+      "fieldStart": "2025-11-27",
+      "fieldEnd": "2025-11-28",
+      "published": "2025-12-04",
+      "method": "phone",
+      "sampleSize": 1228,
+      "moe": 2.8,
+      "confidence": 95,
+      "population": null,
+      "weighting": "依戶籍、年齡、性別加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 47.8
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 34.3
+        }
+      ],
+      "undecided": 17.9,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "賴瑞隆 vs 柯志恩",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 47.8
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 34.3
+            }
+          ],
+          "undecided": 17.9
+        },
+        {
+          "label": "許智傑 vs 柯志恩",
+          "results": [
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 44.2
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 36.3
+            }
+          ],
+          "undecided": 19.5
+        },
+        {
+          "label": "邱議瑩 vs 柯志恩",
+          "results": [
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 44.6
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 34.9
+            }
+          ],
+          "undecided": 20.5
+        },
+        {
+          "label": "林岱樺 vs 柯志恩",
+          "results": [
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 42.2
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 30.4
+            }
+          ],
+          "undecided": 27.4
+        },
+        {
+          "label": "看好度：誰最有可能代表民進黨參選高雄市長",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 41.3
+            },
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 16.5
+            },
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 13.8
+            },
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 11.2
+            }
+          ],
+          "undecided": 17.2
+        }
+      ],
+      "notes": "初選期間的對比式（四人分別對柯志恩）加看好度。報導稱「調查方式比照民進黨初選抽樣方式，以市話進行」。委託單位沒寫，圖表標「精湛民調提供」。內文只寫了賴瑞隆組的未決定（17.9%），其他三組的「無法選出」是從精湛提供的表格圖讀出來的（19.5／20.5／27.4，與維基一致）。政黨支持度：民進黨51.7%、國民黨17.9%、民眾黨10.9%、不偏任何政黨16.3%、其他3.1%。維基沒列看好度，其他數字與維基一致。",
+      "extraSources": [
+        "https://cdn2.ettoday.net/images/8521/8521519.jpg",
+        "https://cdn2.ettoday.net/images/8521/8521520.jpg"
+      ]
+    },
+    {
+      "source": "https://www.nownews.com/news/6765373",
+      "pollster": null,
+      "sponsor": null,
+      "fieldStart": "2025-12-11",
+      "fieldEnd": "2025-12-13",
+      "published": "2025-12-16",
+      "method": "phone",
+      "sampleSize": 1069,
+      "moe": 3,
+      "confidence": 95,
+      "population": "高雄市年滿20歲以上成年民眾",
+      "weighting": null,
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 48.4
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 29.5
+        }
+      ],
+      "undecided": 22,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "賴瑞隆 vs 柯志恩",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 48.4
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 29.5
+            }
+          ],
+          "undecided": 22
+        },
+        {
+          "label": "邱議瑩 vs 柯志恩",
+          "results": [
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 51.4
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 29.1
+            }
+          ],
+          "undecided": 19.5
+        },
+        {
+          "label": "許智傑 vs 柯志恩",
+          "results": [
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 48.5
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 30
+            }
+          ],
+          "undecided": 21.5
+        },
+        {
+          "label": "林岱樺 vs 柯志恩",
+          "results": [
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 48.1
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 25.4
+            }
+          ],
+          "undecided": 26.5
+        },
+        {
+          "label": "黨內四人互比",
+          "results": [
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 20.1
+            },
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 18.9
+            },
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 15.7
+            },
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 8.6
+            }
+          ],
+          "undecided": 36.6
+        }
+      ],
+      "notes": "NOWnews 獨家取得的「綠營內參民調」（報導稱是賴瑞隆兒子校園事件後第一波），沒寫執行機構和委託單位。題型有對比式加互比式。抽樣：中華電信高雄市住宅電話用戶，分層比例隨機抽樣，只有市話（抽樣說明文字與雨晴指標的民調相同，但這篇沒有具名）。民進黨中央 2025-12-26 談台南內參民調爭議時表示黨中央從未執行及發布任何內參民調（不是針對本筆）。維基沒列互比那組，對比數字與維基一致。",
+      "extraSources": []
+    },
+    {
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2025/20251230/1c884e75f849d60fb83311e57f18c352.pdf",
+      "pollster": "TVBS民調中心",
+      "sponsor": "TVBS",
+      "fieldStart": "2025-12-22",
+      "fieldEnd": "2025-12-29",
+      "published": "2025-12-30",
+      "method": "phone",
+      "sampleSize": 998,
+      "moe": 3.1,
+      "confidence": 95,
+      "population": "20歲以上高雄市民",
+      "weighting": "依母體性別、年齡、地區、教育程度等變項加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 41
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 39
+        }
+      ],
+      "undecided": 20,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "賴瑞隆 vs 柯志恩",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 41
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 39
+            }
+          ],
+          "undecided": 20
+        },
+        {
+          "label": "許智傑 vs 柯志恩",
+          "results": [
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 38
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 41
+            }
+          ],
+          "undecided": 21
+        },
+        {
+          "label": "邱議瑩 vs 柯志恩",
+          "results": [
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 38
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 42
+            }
+          ],
+          "undecided": 20
+        },
+        {
+          "label": "林岱樺 vs 柯志恩",
+          "results": [
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 34
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 41
+            }
+          ],
+          "undecided": 25
+        }
+      ],
+      "notes": "只有對比（投票意向，人名隨機輪替），訪問期間在賴瑞隆兒子校園事件之後。只有市話（電話號碼後四碼隨機抽樣，人員電話訪問）；共接觸1,236人，拒訪238人（拒訪率19.3%）。陳其邁施政滿意度67%（非常滿意36%、還算滿意31%，再創新高），不滿意19%，沒意見13%。依政黨傾向交叉（賴vs柯）：民進黨認同者78%挺賴，國民黨認同者91%挺柯，民眾黨認同者70%挺柯、16%挺賴，中立選民賴30%、柯29%、41%未決定。20-29歲支持賴瑞隆從56%掉到34%。PDF 原址回 403，數字讀自 Wayback 存檔（維基的 archive-url 誤指向9月那份 PDF）。數字與維基一致。",
+      "extraSources": [
+        "https://web.archive.org/web/20260102050431/https://cc.tvbs.com.tw/portal/file/poll_center/2025/20251230/1c884e75f849d60fb83311e57f18c352.pdf",
+        "https://news.tvbs.com.tw/politics/3086685"
+      ]
+    },
+    {
+      "source": "https://newtalk.tw/news/view/2025-12-30/1012221",
+      "pollster": "山水民意研究",
+      "sponsor": "Newtalk新聞",
+      "fieldStart": "2025-12-25",
+      "fieldEnd": "2025-12-26",
+      "published": "2025-12-30",
+      "method": "phone",
+      "sampleSize": 1079,
+      "moe": 2.98,
+      "confidence": 95,
+      "population": "設籍高雄市20歲以上的成年人",
+      "weighting": "依內政部人口統計資料，按地區、性別、年齡加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 49.5
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 29.7
+        }
+      ],
+      "undecided": 20.8,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "賴瑞隆 vs 柯志恩",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 49.5
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 29.7
+            }
+          ],
+          "undecided": 20.8
+        },
+        {
+          "label": "邱議瑩 vs 柯志恩",
+          "results": [
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 48.3
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 29.9
+            }
+          ],
+          "undecided": 21.8
+        },
+        {
+          "label": "許智傑 vs 柯志恩",
+          "results": [
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 47.1
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 29.3
+            }
+          ],
+          "undecided": 23.6
+        },
+        {
+          "label": "林岱樺 vs 柯志恩",
+          "results": [
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 43.2
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 29.2
+            }
+          ],
+          "undecided": 27.5
+        },
+        {
+          "label": "黨內四人互比",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 25.9
+            },
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 20.3
+            },
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 18.6
+            },
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 12.5
+            }
+          ],
+          "undecided": 22.6
+        }
+      ],
+      "notes": "初選期間的對比加黨內互比。對比題目是「在這兩個人當中，請問您最希望哪一位來作我們的市長」（希望度問法），未決定稱「選不出」。抽樣以住宅電話用戶為抽樣架構、分層隨機抽樣，只有市話。報導說訪問時間在賴瑞隆澄清兒子校園事件之前。政黨傾向：泛綠573人（53.1%）、泛藍220人（20.4%）、中間選民238人（22%）、其他48人（4.4%）。中間選民交叉（各綠委：柯志恩）：林20.6:23.2、許20.3:22.2、邱21.7:24.7、賴24.1:21.6，只有賴瑞隆在中間選民領先。與維基不同：許智傑vs柯志恩的未決定原始報導是23.6%，維基寫27.5%（疑似誤抄林岱樺組的數字）。其餘與維基一致。",
+      "extraSources": []
+    },
+    {
+      "source": "https://news.ttv.com.tw/news/11501070003600W",
+      "pollster": "雨晴民調（雨晴指標）",
+      "sponsor": null,
+      "fieldStart": "2026-01-05",
+      "fieldEnd": "2026-01-06",
+      "published": "2026-01-07",
+      "method": "phone",
+      "sampleSize": 1071,
+      "moe": 3,
+      "confidence": 95,
+      "population": "高雄市年滿20歲以上成年民眾",
+      "weighting": "依高雄市民政局114年9月底人口統計資料，針對行政區、年齡與性別加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 49.2
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 30.1
+        }
+      ],
+      "undecided": 20.8,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "賴瑞隆 vs 柯志恩",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 49.2
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 30.1
+            }
+          ],
+          "undecided": 20.8
+        },
+        {
+          "label": "邱議瑩 vs 柯志恩",
+          "results": [
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 51.8
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 27.6
+            }
+          ],
+          "undecided": 20.7
+        },
+        {
+          "label": "許智傑 vs 柯志恩",
+          "results": [
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 49.4
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 30.1
+            }
+          ],
+          "undecided": 20.4
+        },
+        {
+          "label": "林岱樺 vs 柯志恩",
+          "results": [
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 46.7
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 23.5
+            }
+          ],
+          "undecided": 29.8
+        },
+        {
+          "label": "黨內四人互比",
+          "results": [
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 20.8
+            },
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 18.5
+            },
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 18
+            },
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 8.3
+            }
+          ],
+          "undecided": 34.4
+        }
+      ],
+      "notes": "初選前的「封關民調」，題型有對比式加互比式。台視這篇沒寫方法，方法和樣本取自同日 Newtalk、鏡週刊、上報的報導：雨晴民調公司執行，中華電信高雄市住宅電話用戶，分層比例隨機抽樣加後二碼隨機，只有市話，每晚18:30-22:00訪問。委託單位沒寫；Newtalk 稱是「綠營內部人士在封關前掌握」，梅花新聞網稱「由雨晴公司實施並發布」。爭議：有學者說受訪問法針對性強，被質疑是「風向民調」；許智傑說他委託趨勢民調做的調查各人差距都在1個百分點內；賴瑞隆回應「參考就好」。維基沒列互比那組，對比數字與維基一致。",
+      "extraSources": [
+        "https://newtalk.tw/news/view/2026-01-07/1013702",
+        "https://www.mirrormedia.mg/story/20260107edi052",
+        "https://www.upmedia.mg/tw/lifestyle/policy/249102",
+        "https://www.i-meihua.com/Article/Detail/40743"
+      ]
+    },
+    {
+      "source": "https://www.cna.com.tw/news/aipl/202601130111.aspx",
+      "pollster": "民進黨中央黨部及2家外部民調單位（未具名）",
+      "sponsor": "民進黨",
+      "fieldStart": "2026-01-12",
+      "fieldEnd": "2026-01-12",
+      "published": "2026-01-13",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 55.9995
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 24.8995
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "scenarios": [
+        {
+          "label": "賴瑞隆 vs 柯志恩",
+          "results": [
+            {
+              "name": "賴瑞隆",
+              "party": "dpp",
+              "pct": 55.9995
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 24.8995
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "邱議瑩 vs 柯志恩",
+          "results": [
+            {
+              "name": "邱議瑩",
+              "party": "dpp",
+              "pct": 55.3807
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 24.6652
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "許智傑 vs 柯志恩",
+          "results": [
+            {
+              "name": "許智傑",
+              "party": "dpp",
+              "pct": 51.9022
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 25.1411
+            }
+          ],
+          "undecided": null
+        },
+        {
+          "label": "林岱樺 vs 柯志恩",
+          "results": [
+            {
+              "name": "林岱樺",
+              "party": "dpp",
+              "pct": 50.5986
+            },
+            {
+              "name": "柯志恩",
+              "party": "kmt",
+              "pct": 21.7547
+            }
+          ],
+          "undecided": null
+        }
+      ],
+      "notes": "民進黨高雄市長初選的正式民調結果，用對比式（四人分別對柯志恩），1/12晚上進行電話民調，1/13開封公布，賴瑞隆以約0.62個百分點勝邱議瑩。數字是三個執行單位（中央黨部加2個外部單位，據公視、工商時報）的平均。樣本數、抽樣誤差、加權、未表態都沒公布。中央社只寫「電話民調」；精湛民調的報導曾稱民進黨初選以市話抽樣，但官方沒說明，所以 method 填 unknown。有民調專家質疑一天內如何完成這麼多樣本，民進黨發言人韓瑩回應這些民調機構具公信力、一天內完成沒問題。與維基不同：維基把百分比四捨五入到一位小數（例如56.0%／24.9%），未表態那欄（27.6／19.1／19.9／23）原始報導沒有，應該是維基用100減出來的。",
+      "extraSources": [
+        "https://news.pts.org.tw/article/790373",
+        "https://www.ctee.com.tw/news/20260113700982-430104"
+      ]
+    },
+    {
+      "source": "https://www.ettoday.net/news/20260119/3103373.htm",
+      "pollster": "ETtoday民調雲",
+      "sponsor": "ETtoday民調雲",
+      "fieldStart": "2026-01-14",
+      "fieldEnd": "2026-01-16",
+      "published": "2026-01-19",
+      "method": "unknown",
+      "sampleSize": 1078,
+      "moe": 2.98,
+      "confidence": 95,
+      "population": "設籍高雄市且年滿20歲以上民眾",
+      "weighting": null,
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 37.7
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 44
+        }
+      ],
+      "undecided": 11.9,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "題目：若明天即舉行高雄市長選舉，柯志恩與賴瑞隆對決情境。圖表回答人數1,078人（全樣本）：柯志恩44.0%、賴瑞隆37.7%、不投票/投廢票6.4%、不知道/沒意見11.9%；undecided只填不知道/沒意見，維基的11.9%同樣未含不投票6.4%，與維基一致。報導未寫調查方法、加權與執行單位全名；ETtoday民調雲6月、8月兩波都寫明是會員資料庫的封閉式網路問卷，這波很可能相同，但原文沒寫所以 method 填 unknown（當時有高雄市議員參選人批評這是「會員制投票」）。交叉分析：不支持任何政黨者 柯37.5%、賴23.2%；國民黨支持者97.2%、泛藍92.2%、民眾黨支持者75.8%支持柯志恩；民進黨支持者87.7%、台灣基進100%、泛綠69.8%、時代力量58.5%支持賴瑞隆。陳其邁施政滿意64.4%、不滿意31.8%、不知道3.8%。高雄發展最成功面向：大型演唱會與城市行銷66.3%、交通建設33.8%、市容公園32.3%、招商引資24.6%。下任市長應改善：空氣品質與工業污染52.0%、美濃大峽谷開發爭議36.3%、光電與農地衝突32.5%、財政負債32.1%。這是民進黨初選（1/13揭曉）後第一份藍綠對決民調。",
+      "extraSources": [
+        "https://cdn2.ettoday.net/images/8586/d8586972.png"
+      ]
+    },
+    {
+      "source": "https://newtalk.tw/news/view/2026-02-02/1017969",
+      "pollster": "山水民意研究股份有限公司",
+      "sponsor": "新頭殼（Newtalk）",
+      "fieldStart": "2026-01-29",
+      "fieldEnd": "2026-01-30",
+      "published": "2026-02-02",
+      "method": "phone",
+      "sampleSize": 1083,
+      "moe": 2.98,
+      "confidence": 95,
+      "population": "高雄市20歲以上民眾",
+      "weighting": "依內政部人口統計資料，進行地區、性別、年齡層加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 43.9
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 32.3
+        }
+      ],
+      "undecided": 23.8,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "維基寫「其他/未表態」33.3%，原始報導是無明確意見23.8%（43.9+32.3+23.8=100），維基應為誤植。題目為希望度問法：「在民進黨的賴瑞隆、國民黨的柯志恩【人選隨機順序唸出】這兩個人當中，請問您最希望哪一位來做我們的市長？」。CATI電話訪問，抽樣架構為住宅電話（系統抽樣加尾2碼隨機），未提手機，所以填 phone。看好度：賴瑞隆55.8%、柯志恩23.9%；民進黨支持者87.7%看好賴，國民黨支持者僅63.8%看好柯，民眾黨支持者看好賴48.7%、看好柯42%。陳其邁施政滿意度75.5%。政黨傾向：民進黨42.7%、國民黨21.4%；泛綠46.5%、泛藍24.0%、中間選民20.9%。立委選區：賴瑞隆在第3選區（左營楠梓）最高51.5%，柯志恩在第7選區（鳳山）最高43.6%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.nownews.com/news/6785609",
+      "pollster": "雨晴指標行銷公司",
+      "sponsor": "東森新聞",
+      "fieldStart": "2026-02-03",
+      "fieldEnd": "2026-02-09",
+      "published": "2026-02-10",
+      "method": "phone",
+      "sampleSize": 1070,
+      "moe": 3,
+      "confidence": 95,
+      "population": "高雄市年滿20歲以上市民",
+      "weighting": "依高雄市人口統計資料針對行政區、年齡與性別進行加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 45.5
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 26.2
+        }
+      ],
+      "undecided": 28.3,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "東森新聞2/10公布，NOWnews在2/11轉述（source是NOWnews這篇）。題目為「市長選舉若在2人中抉擇」，未表態28.3%是「無法選出／拒答」。採住宅電話分層比例隨機抽樣加後二碼隨機，未提手機，所以填 phone；抽樣誤差原文為「約±3個百分點」。看好度：賴瑞隆47.2%、柯志恩20.3%、未表態32.8%；賴支持者有84.1%看好賴當選，柯支持者有65.1%看好柯當選。與維基一致。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.upmedia.mg/tw/lifestyle/policy/257777",
+      "pollster": "山水民意研究股份有限公司",
+      "sponsor": "上報",
+      "fieldStart": "2026-04-27",
+      "fieldEnd": "2026-04-29",
+      "published": "2026-05-05",
+      "method": "phone+mobile",
+      "sampleSize": 2027,
+      "moe": 2.18,
+      "confidence": 95,
+      "population": "設籍高雄市、年滿20歲以上市民",
+      "weighting": "依內政部人口統計資料進行地區、性別及年齡加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 47
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 30.7
+        }
+      ],
+      "undecided": 22.3,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "原網址被 Cloudflare 擋，數字從 web.archive.org 版本讀到。市話與手機雙軌：市話住宅電話隨機抽樣1,013份，手機電信門號隨機抽樣1,014份。看好度：賴瑞隆60.2%、柯志恩19.6%；民進黨支持者84.6%看好賴，國民黨支持者57.5%看好柯，民眾黨支持者看好賴55%、看好柯35.9%，無政黨傾向者看好賴33%、看好柯13.2%。知名度：賴91%、柯91.3%。欣賞度：賴欣賞48.8%、不欣賞23.9%；柯欣賞40.3%、不欣賞33.8%。立委選區支持度賴全部領先：第1選區37.6:27.4、第2選區40.7:31.7、第3選區46.2:31.3、第4選區50.8:29.1、第5及6選區48.1:32、第7選區47.2:32.7、第8選區54.3:28.3；原高雄市區49.1:30.9，原縣區44.5:30.4。市長選舉關心度：關心66.8%、不關心29.6%。陳其邁滿意度78.9%。與維基一致。",
+      "extraSources": [
+        "https://web.archive.org/web/20260518040034/https://www.upmedia.mg/tw/lifestyle/policy/257777"
+      ]
+    },
+    {
+      "source": "https://news.tvbs.com.tw/politics/3221242",
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "柯志恩（國民黨高雄市長參選人）",
+      "fieldStart": "2026-05-27",
+      "fieldEnd": "2026-06-02",
+      "published": "2026-06-04",
+      "method": "phone",
+      "sampleSize": 1207,
+      "moe": 2.8,
+      "confidence": 95,
+      "population": "20歲以上、戶籍設在高雄市的民眾",
+      "weighting": "依內政部114年底高雄市人口結構進行性別、年齡、地區及教育程度加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 40.3
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 39.7
+        }
+      ],
+      "undecided": 19.9,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "候選人自己委託的民調：由柯志恩委託TVBS民調中心執行。TVBS網頁起初沒標明委託者，後來才加上「由柯志恩委託」，賴瑞隆陣營批評這是「自產自銷」（自由時報6/5等報導）。CATI市內電話隨機撥號（RDD），訪問時段為5/27至6/2晚間加5/30下午。88.8%表示年底會去投票，但沒有公布投票者子樣本的支持度。喜好度：柯志恩36.5%（非常喜歡8.6%、還算喜歡27.9%），賴瑞隆31.0%（7.9%、23.1%），兩人各約4成表示沒意見。陳其邁施政滿意68.1%（非常35.3%、還算32.8%），不滿意19.7%。最需加強（複選）：青年低薪24.8%、居住與房價22.6%、經濟與就業22.1%；56.9%認為市府負債問題嚴重。與維基一致。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.mirrormedia.mg/external/setn_1855498",
+      "pollster": "大地民意研究股份有限公司",
+      "sponsor": "鏡新聞",
+      "fieldStart": "2026-06-08",
+      "fieldEnd": "2026-06-09",
+      "published": "2026-06-15",
+      "method": "phone",
+      "sampleSize": 1116,
+      "moe": 2.93,
+      "confidence": 95,
+      "population": "戶籍於高雄市年滿20歲以上民眾",
+      "weighting": "依內政部最新人口資料，針對戶籍地行政區、性別、教育程度及年齡採用多重反覆加權（Raking）",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 45.1
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 24.8
+        }
+      ],
+      "undecided": 29.3,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "source是三立轉載到鏡週刊的版本；鏡新聞原始報導是鏡週刊 story/20260615edi029（6/15 10:00）。只用市話訪問，依行政區母體比例抽號。交叉分析：民進黨支持者82.7%支持賴、4.9%支持柯；國民黨支持者83.5%支持柯、7.3%支持賴；民眾黨支持者68.3%支持柯、7.1%支持賴；台灣基進支持者78.6%支持賴；其他政黨傾向者61.6%未表態。男性50.5:22.8，女性39.9:26.6（女性32.7%未表態）。30-34歲賴60.2%、柯6.2%。陳其邁團隊施政滿意78.5%（非常42.1%、有些36.4%），不滿意12.4%。國民黨議員李雅靜引述的樣本政黨結構：民進黨43.2%、國民黨16.1%、民眾黨5.3%，柯陣營據此質疑樣本偏綠。三立整理文把柯誤寫成23.8%，原文是24.8%。與維基一致。",
+      "extraSources": [
+        "https://www.mirrormedia.mg/story/20260615edi029",
+        "https://www.mnews.tw/story/20260615sot1817001",
+        "https://leho.com.tw/archives/335585"
+      ]
+    },
+    {
+      "source": "https://www.ettoday.net/news/20260612/3182106.htm",
+      "pollster": "新台灣國策智庫民調中心（Newtalk、鉅聞稱委託趨勢民調執行）",
+      "sponsor": "財團法人凱達格蘭基金會",
+      "fieldStart": "2026-06-09",
+      "fieldEnd": "2026-06-10",
+      "published": "2026-06-12",
+      "method": "phone",
+      "sampleSize": 1094,
+      "moe": 2.96,
+      "confidence": 95,
+      "population": "戶籍於高雄市，且年滿20歲的一般民眾",
+      "weighting": "依內政部最新人口資料，針對戶籍地、性別、年齡、教育程度採用多重反覆加權（Raking）",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 46.2
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 28.4
+        }
+      ],
+      "undecided": 25.4,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "親綠智庫民調，經費來自凱達格蘭基金會，由執行長陳致中召開記者會公布。執行單位說法不一：自由時報、ETtoday寫新台灣國策智庫民調中心執行；Newtalk、鉅聞天下寫委託趨勢民調執行。母體清冊為中華電信市內號碼簿，尾數兩位隨機撥號、分層比例隨機抽樣（只有市話）。看好度：賴53.6%、柯25.3%、未表態21.1%。欣賞度：賴44.8%、不欣賞26.1%、無意見29.1%；柯35.2%、不欣賞38.6%、無意見26.2%。立委表現滿意度：賴48.0%（不滿20.9%）、柯32.4%（不滿36.3%）。陳其邁施政滿意76.2%、不滿15.4%、無意見8.4%（評論人曾冠球書面寫76.3%）。政黨傾向：民進黨45.7%、國民黨15.5%、民眾黨7.9%、時代力量1.9%、台灣基進1.4%。無政黨傾向者59.6%無法選出；民眾黨支持者75.5%支持柯，但看好賴43.8%、看好柯43.9%。20-29歲支持賴41.8%，30-39歲39.4%。同份調查：賴清德滿意55.6%、不滿33.1%；卓榮泰滿意50.5%；鄭麗文滿意23.9%、不滿58.4%。與維基一致。",
+      "extraSources": [
+        "https://braintrust.tw/2026%E5%85%AD%E9%83%BD%E5%B8%82%E9%95%B7%E7%88%AD%E9%9C%B8%E6%88%B0-%E9%AB%98%E9%9B%84%E5%B8%82%E9%95%B7%E5%8F%83%E9%81%B8%E4%BA%BA%E6%B0%91%E8%AA%BF%E7%99%BC%E4%BD%88%E8%A8%98%E8%80%85/",
+        "https://newtalk.tw/news/view/2026-06-12/1040918",
+        "https://news.ltn.com.tw/news/politics/breakingnews/5469680"
+      ]
+    },
+    {
+      "source": "https://www.ettoday.net/news/20260623/3187875.htm",
+      "pollster": "東森民調雲股份有限公司（ETtoday民調雲）",
+      "sponsor": "東森民調雲股份有限公司",
+      "fieldStart": "2026-06-16",
+      "fieldEnd": "2026-06-19",
+      "published": "2026-06-23",
+      "method": "online",
+      "sampleSize": 1070,
+      "moe": 3,
+      "confidence": 95,
+      "population": "設籍於高雄市且年滿20歲以上民眾（限ETtoday民調雲自建會員資料庫中已標記設籍高雄者，母體數406,101人）",
+      "weighting": "比例估計法（raking），依115年5月底高雄市38區性別、年齡、行政區人口統計，以及114年12月教育程度逐項反覆修正",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 42
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 46.8
+        }
+      ],
+      "undecided": 10.9,
+      "likelyVoters": {
+        "sampleSize": 1000,
+        "results": [
+          {
+            "name": "賴瑞隆",
+            "pct": 42
+          },
+          {
+            "name": "柯志恩",
+            "pct": 46.8
+          }
+        ]
+      },
+      "scenarios": null,
+      "notes": "主數字本身就是會投票者子樣本：支持度圖表註明「回答人數：1,000位會投票者」（全樣本1,070），所以 likelyVoters 與 results 相同。圖表：柯志恩46.8%、賴瑞隆42.0%、不投票/投廢票0.3%、尚未決定/不知道/沒意見10.9%。維基寫11.2%，是10.9%加上不投票0.3%。題目：「如果明天就是高雄市長選舉，在國民黨柯志恩與民進黨賴瑞隆這兩人之中，請問您會投給誰？」。以EDM與手機簡訊通知會員，做封閉式網路問卷，分層比例抽樣。看好度：賴47.4%、柯43.0%。校園安全：非常嚴重34.9%、還算嚴重35.3%（合計70.2%），不嚴重22.4%。最需加強施政（複選）：治安59.7%、青年低薪34.3%、房價31.0%、環保25.9%、交通21.0%。能力評比全部柯領先：教育品質47.2:30.8、控管負債40.5:33.4、決策透明41.7:36.6、取締盜採砂石45.1:29.9、文化素養42.6:33.4。陳其邁滿意66.8%（非常40.8%、還算26.0%），不滿意30.8%。政黨支持：民進黨34.8%、國民黨19.4%、民眾黨7.5%、不支持任何政黨24.6%。",
+      "extraSources": [
+        "https://cdn2.ettoday.net/images/8797/8797393.jpg"
+      ]
+    },
+    {
+      "source": "https://www.cnma.org.tw/page/news/show.aspx?num=52457",
+      "pollster": "新台灣民調研究中心",
+      "sponsor": "新台灣民調研究中心",
+      "fieldStart": "2026-06-26",
+      "fieldEnd": "2026-06-28",
+      "published": "2026-07-03",
+      "method": "unknown",
+      "sampleSize": 1108,
+      "moe": 2.94,
+      "confidence": 95,
+      "population": "20歲以上高雄市民，刻意集中在偏藍社區／社群取樣（官網寫目標總體為高雄2026年投票人口約232萬人）",
+      "weighting": "依高雄人口統計對性別、年齡段（20-39、40-59、60歲以上）、教育程度加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 40.52
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 31.77
+        }
+      ],
+      "undecided": 20.22,
+      "likelyVoters": null,
+      "scenarios": null,
+      "excluded": true,
+      "excludeReason": "不是全市代表性的科學民調：官網寫調查方法是「多層隨機訪談問卷調查（集中偏藍的社區/社群）」，CNMA配圖是街頭擺攤面訪，刻意只在偏藍社區取樣，不是電話或網路抽樣",
+      "notes": "精確數字取自該中心官網 ntwpoll.org：賴40.52%、柯31.77%、還沒決定20.22%、誰都不投6.14%、投給其他候選人1.35%。CNMA內文寫40.5% vs 31.7%；維基的41%／32%／20%是圓餅圖的四捨五入值。經費自有；負責人朱磊，是CNMA新聞聯合網南高雄分社社長。其他題：國民黨今年在高雄表現 滿意合計48.20%、無感39.26%；柯志恩整體評價 優秀16.34%、還好18.77%、一般23.92%、很差4.87%、無感36.10%；柯志恩政見認知 非常瞭解10.92%、有點印象22.56%、不太瞭解28.97%、不瞭解16.52%、沒有印象21.03%。民眾黨支持者占受訪者約3.16%，其中約八成投賴。",
+      "extraSources": [
+        "https://www.ntwpoll.org/%E6%9C%80%E6%96%B0%E6%B0%91%E8%AA%BF/9-steps-to-starting-a-business",
+        "https://www.cnma.org.tw/upload/web/IMG_20260703_133237.jpg"
+      ]
+    },
+    {
+      "source": "https://www.upmedia.mg/tw/investigation/politics/265557",
+      "pollster": "皮爾森數據",
+      "sponsor": null,
+      "fieldStart": "2026-07-13",
+      "fieldEnd": "2026-07-19",
+      "published": "2026-08-06",
+      "method": "online",
+      "sampleSize": 1891,
+      "moe": 2.3,
+      "confidence": 95,
+      "population": "高雄市年滿20歲以上之網路人口（網路分層隨機抽樣）",
+      "weighting": null,
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 46.01
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 46.67
+        }
+      ],
+      "undecided": 5.03,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "維基 ref 的標題寫錯了（照抄成ETtoday 6月那篇「柯志恩46.8％領先賴瑞隆 7成市民憂校安問題」）。這個網址實際是上報2026-08-06的調查報導〈【獨家】賴瑞隆未能拉大差距 地下賭盤下注看好「女生」變多〉。原網址被 Cloudflare 擋，從 web.archive.org 讀到。報導轉述網路上流傳、多位綠營輔選人士都收到的一份52頁「2026高雄市長選舉調查報告」，由皮爾森數據製作；報告沒有公開委託單位，所以 sponsor 填 null。內容：有效樣本1,891份、抽樣誤差±2.30%，柯志恩46.67%、賴瑞隆46.01%、尚未決定5.03%、不會去投票2.29%。綠營質疑網路問卷無法確認受訪者居住地、有帶風向之嫌；上報也提到有菱傳媒背景的新興網媒過去委託皮爾森做過新北、台南調查。這份不是媒體正式發布，是報告外流後被報導；published 填上報報導日期。",
+      "extraSources": [
+        "https://web.archive.org/web/20260915195853/https://www.upmedia.mg/tw/investigation/politics/265557",
+        "https://pic.upmedia.mg/upfile/img/2026/0806/202608061506287146.webp"
+      ]
+    },
+    {
+      "source": "http://survey.eracom.com.tw/detail.jsp?resultId=566",
+      "pollster": "年代民調中心",
+      "sponsor": "年代民調中心",
+      "fieldStart": "2026-07-16",
+      "fieldEnd": "2026-07-18",
+      "published": "2026-07-20",
+      "method": "phone",
+      "sampleSize": 1071,
+      "moe": 3,
+      "confidence": 95,
+      "population": "設籍高雄且年滿20歲以上民眾",
+      "weighting": "依高雄市20歲以上母體性別、年齡、行政區等人口結構加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 36.2
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 23.6
+        }
+      ],
+      "undecided": 32.8,
+      "likelyVoters": {
+        "sampleSize": 780,
+        "results": [
+          {
+            "name": "賴瑞隆",
+            "pct": 44.8
+          },
+          {
+            "name": "柯志恩",
+            "pct": 27.1
+          }
+        ]
+      },
+      "scenarios": null,
+      "notes": "數字取自網頁連結的PDF（標題「115年7月19日高雄市長選情調查」）。題目：「在國民黨柯志恩、民進黨賴瑞隆，這二人當中您可能會投票支持哪一位當高雄市長？」。全體：賴36.2%、柯23.6%、不投票/投廢票7.4%、不知道/尚未決定32.8%；維基32.8%未含不投票，與維基一致。likelyVoters 是表2-1投票意願「會」（一定會+可能會）的子樣本，加權後780人：賴44.8%、柯27.1%、不投票0.1%、未決定28.1%；報告沒有單獨列出「一定會」者的支持度。CATI，以住宅電話號碼簿分層隨機抽樣加後兩碼隨機，只有市話。投票意願：一定會54.4%、可能會18.4%、不會10.1%、不一定17.1%。看好度：賴40.4%、柯16.2%、不知道43.4%。陳其邁施政：非常滿意32.6%、還算滿意48.4%（合計81.0%），不太滿意7.2%、非常不滿意3.4%，無意見8.5%。政治傾向交叉（加權人數）：泛藍126人 柯84.9%；泛綠402人 賴81.8%；白53人 柯83.8%；中立474人 賴10.6%、柯17.4%、未決定58.4%。柯志恩質疑藍白樣本數不到綠的一半。",
+      "extraSources": [
+        "http://survey.eracom.com.tw/pdf/115%E5%B9%B47%E6%9C%8819%E6%97%A5%E9%AB%98%E9%9B%84%E5%B8%82%E9%95%B7%E9%81%B8%E6%83%85%E8%AA%BF%E6%9F%A5.pdf"
+      ]
+    },
+    {
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/43287",
+      "pollster": "山水民意研究股份有限公司",
+      "sponsor": "震傳媒",
+      "fieldStart": "2026-07-18",
+      "fieldEnd": "2026-07-20",
+      "published": "2026-07-23",
+      "method": "phone",
+      "sampleSize": 1069,
+      "moe": 3,
+      "confidence": 95,
+      "population": "設籍高雄市、年滿20歲的民眾",
+      "weighting": "依內政部人口統計資料，進行地區、性別、年齡層、教育程度加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 39.6
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 31.6
+        }
+      ],
+      "undecided": 28.8,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "CATI，抽樣架構為住宅電話（系統抽樣加尾2碼），只有市話；未表態28.8%為「無明確意見」。看好度：賴50.3%、柯22.8%、無意見26.9%。支持度交叉：民進黨支持者79.6%挺賴；國民黨支持者90.6%挺柯；民眾黨支持者賴16.9%、柯69.6%；不偏任何政黨者賴12.2%、柯24.3%。第三選區（左營楠梓）是柯唯一領先的立委選區（柯39.1%）；賴在第四選區（大寮仁武）最高44.3%。政黨傾向：民進黨41.1%、國民黨19.8%、民眾黨5.2%；泛綠43.3%、泛藍22.9%、中間29.3%。同一波還公布陳其邁施政滿意度78.5%（民調二）、賴清德在高雄的施政滿意度54.5%（民調三），以及毒油事件責任歸屬（民調四）。與維基一致。",
+      "extraSources": [
+        "https://www.zmedia.com.tw/Document/PoolDetail/43290",
+        "https://www.zmedia.com.tw/Document/PoolDetail/43291"
+      ]
+    },
+    {
+      "source": "https://www.bigmedia.com.tw/article/1786278801544",
+      "pollster": "皮爾森數據",
+      "sponsor": "鉅聞天下新聞網",
+      "fieldStart": "2026-07-27",
+      "fieldEnd": "2026-08-01",
+      "published": "2026-08-10",
+      "method": "online",
+      "sampleSize": 1608,
+      "moe": 2.4,
+      "confidence": 95,
+      "population": "高雄市年滿20歲以上之網路人口",
+      "weighting": "比率估計法，母群體參數依內政部2026年5月年齡、性別、戶籍資料，並以皮爾森數據DMP修正網路人口特徵值，逐項反覆修正",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 47.78
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 46.14
+        }
+      ],
+      "undecided": 4.24,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "維基寫 work=上報、date=2026-08-11；實際刊登在鉅聞天下（BigMedia），2026-08-10發布。網路主動發放問卷：經資料管理平台（DMP）依性別、年齡、居住地比例分層隨機抽樣。尚未決定4.24%，另有都不支持或不會去投票1.84%。政黨認同：民進黨41.43%、國民黨25.19%；「選人不選黨／中立」占23.14%，其中柯59.79%、賴24.58%。民眾黨認同者95.02%支持柯；2024年投柯文哲者82.60%流向柯。年齡：20-29歲賴52.72:36.38；40-49歲柯45.31:43.66；50-59歲柯48.33、賴48.52；60歲以上柯50.19:46.49。議員選區：第9區（鳳山）柯52.07:39.05（n=210）；第2區賴58.35:35.69（n=60）。陳其邁施政滿意63.32%（非常45.49%、滿意17.83%）。賴清德滿意48.62%、不滿意51.38%（非常不滿意41.26%）。賴瑞隆回應「尊重網媒特殊調查方式」。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.ettoday.net/news/20260911/3233581.htm",
+      "pollster": "東森民調雲股份有限公司（ETtoday民調雲）",
+      "sponsor": "東森民調雲股份有限公司",
+      "fieldStart": "2026-08-22",
+      "fieldEnd": "2026-08-30",
+      "published": "2026-09-11",
+      "method": "online",
+      "sampleSize": 1283,
+      "moe": 2.74,
+      "confidence": 95,
+      "population": "設籍於高雄市且年滿20歲以上民眾（限ETtoday民調雲自建會員資料庫中已標記設籍高雄者，母體數406,434人）",
+      "weighting": "比例估計法（raking），依115年7月底高雄市38區性別、年齡、行政區人口統計，以及114年12月教育程度逐項反覆修正",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 43.5
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 43.8
+        }
+      ],
+      "undecided": 12.5,
+      "likelyVoters": {
+        "sampleSize": 1172,
+        "results": [
+          {
+            "name": "賴瑞隆",
+            "pct": 43.5
+          },
+          {
+            "name": "柯志恩",
+            "pct": 43.8
+          }
+        ]
+      },
+      "scenarios": null,
+      "notes": "主數字本身就是會投票者子樣本：支持度圖表註明「回答人數：1,172位會投票者」（全樣本1,283；一定會加可能會共91.3%），所以 likelyVoters 與 results 相同。圖表：柯43.8%、賴43.5%、不投票/投廢票0.2%、尚未決定/不知道/沒意見12.5%。題目與6月相同。報導稱這是「第二波」。投票意願：一定會78.8%、可能會12.5%、不一定5.6%、不會2.6%、不知道0.4%。看好度：賴49.4%、柯40.0%、不知道10.6%；不支持任何政黨者看好柯40.4%、賴30.3%。誰最有能力解決高雄問題：柯43.6%、賴42.5%、不知道13.9%。陳其邁施政：非常滿意41.9%、還算滿意24.6%（合計66.5%），不太滿意17.2%、非常不滿意12.4%（合計29.6%），不知道3.9%。最需解決（複選）：治安46.4%、房價38.1%、社福醫療35.6%、就業低薪32.4%、環保30.9%、交通26.3%。無人機條例：較支持2,400億元、納入軍用及商業的版本36.6%，較支持2,100億元、以軍用為主的版本15.4%。與維基一致。這是目前已公開、有樣本數的最新一份賴柯民調。",
+      "extraSources": [
+        "https://cdn2.ettoday.net/images/8911/8911565.jpg"
+      ]
+    }
+  ],
+  "extraPolls": [
+    {
+      "source": "https://www.setn.com/news/1867171",
+      "pollster": "美麗島電子報（戴立安操刀）",
+      "sponsor": "美麗島電子報",
+      "fieldStart": null,
+      "fieldEnd": null,
+      "published": null,
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [],
+      "undecided": null,
+      "likelyVoters": null,
+      "scenarios": null,
+      "excluded": true,
+      "excludeReason": "未公開的民調，沒有任何數字與樣本資訊",
+      "notes": "2026年7月初，長期操刀美麗島電子報國政民調的戴立安宣布結束與該報合作。媒體人王瑞德等人指稱，起因是美麗島已完成的一份高雄市長民調被吳子嘉扣住不公布；粉專傳言數據是賴瑞隆大贏15%以上（未證實）。戴立安在陳東豪節目中證實美麗島近期做過高雄民調，但不便透露數字；被問到差距大不大時笑答「大」。報導日期為2026-07-03至07-05。",
+      "extraSources": []
+    },
+    {
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5538051",
+      "pollster": "民進黨／賴瑞隆陣營內部民調",
+      "sponsor": null,
+      "fieldStart": null,
+      "fieldEnd": null,
+      "published": "2026-08-13",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [],
+      "undecided": null,
+      "likelyVoters": null,
+      "scenarios": null,
+      "excluded": true,
+      "excludeReason": "內參傳聞，沒有樣本數，也沒有公布具體支持度",
+      "notes": "自由時報〈幕後〉與太報等報導綠營輔選幹部說法：內部民調賴瑞隆穩定領先柯志恩約10%上下（兩位數）。同一時間（8/12民進黨行動中常會），賴清德稱「賴瑞隆贏不到對手1%」是中共介選的假民調，但沒有點名是哪一份。藍營（陳冠安等人）則反批綠營內參與半年前相比流失14個百分點。",
+      "extraSources": []
+    },
+    {
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5598067",
+      "pollster": "國民黨／柯志恩陣營內部民調（傳聞）",
+      "sponsor": null,
+      "fieldStart": null,
+      "fieldEnd": null,
+      "published": "2026-10-07",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": null,
+      "results": [],
+      "undecided": null,
+      "likelyVoters": null,
+      "scenarios": null,
+      "excluded": true,
+      "excludeReason": "二手傳聞：廣播節目忘關麥克風錄到的談話，沒有樣本數或數字出處，當事人否認",
+      "notes": "2026-10-06起，報導指廣播節目忘關麥克風時，受訪者提到「老王」私下承認藍營在高雄落後綠營10個百分點以上，外界解讀「老王」為王金平。王金平否認說過，柯志恩競辦稱「不是事實」、「勿以訛傳訛」；賴瑞隆回應所有民調都會參考。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.gvm.com.tw/article/130553",
+      "pollster": "遠見民意研究調查",
+      "sponsor": "遠見雜誌",
+      "fieldStart": "2026-03-02",
+      "fieldEnd": "2026-04-14",
+      "published": "2026-06-01",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": null,
+      "weighting": "對各縣市受訪者的性別、年齡、教育程度、戶籍選區進行樣本代表性檢定並加權",
+      "results": [
+        {
+          "name": "國民黨（候選人）",
+          "party": "kmt",
+          "pct": 15.6
+        },
+        {
+          "name": "民進黨（候選人）",
+          "party": "dpp",
+          "pct": 39.8
+        },
+        {
+          "name": "民眾黨（候選人）",
+          "party": "tpp",
+          "pct": 1.6
+        },
+        {
+          "name": "其他",
+          "party": "other",
+          "pct": 0.1
+        }
+      ],
+      "undecided": 42.9,
+      "likelyVoters": null,
+      "scenarios": null,
+      "notes": "《遠見》2026縣市長選舉支持度調查，22縣市共訪問14,251人，只公布各縣市的政黨別支持度（藍／綠／白／其他／未表態），不是候選人對決，也沒有公布各縣市樣本數、調查方式與抽樣誤差。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "政黨別支持度，不是候選人對決；未公布各縣市樣本數與調查方式"
+    },
+    {
+      "source": "https://www.mnews.tw/story/20261028nm007",
+      "pollster": "TPOC台灣議題研究中心（AI民意模擬）",
+      "sponsor": "TPOC台灣議題研究中心（自籌）",
+      "fieldStart": "2026-10-26",
+      "fieldEnd": "2026-10-26",
+      "published": "2026-10-28",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": "以大型語言模型（OpenAI GPT-5.4 mini）依高雄市選舉人結構生成的20,299個AI虛擬受眾",
+      "weighting": null,
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 45
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 35.7
+        }
+      ],
+      "undecided": null,
+      "likelyVoters": null,
+      "scenarios": null,
+      "excluded": true,
+      "excludeReason": "AI模擬，不是對真實選民的抽樣調查（報告自己也聲明不適用抽樣誤差、不代表實際投票行為）",
+      "notes": "鏡新聞從9月起每週刊出「AI民意模擬高雄市選戰」系列，這是第VI份報告：賴45.0%、柯35.7%。前幾份：9/30賴48.1%；10/6賴48.6%、領先7.4點；10/14賴47.6%、領先10.5點；10/21賴45.2%、領先約10點。只是因為媒體大量報導而記錄，不應當作民調使用。",
+      "extraSources": []
+    }
+  ]
+}

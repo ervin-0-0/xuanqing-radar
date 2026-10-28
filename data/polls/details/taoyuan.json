@@ -1,0 +1,118 @@
+{
+  "raceId": "taoyuan",
+  "details": [
+    {
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2025/20251215/fcec2c7a4c138f591e0a2ce680a491da.pdf",
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "fieldStart": "2025-12-05",
+      "fieldEnd": "2025-12-12",
+      "published": "2025-12-15",
+      "method": "phone",
+      "sampleSize": 953,
+      "moe": 3.2,
+      "confidence": 95,
+      "population": "20 歲以上桃園市民",
+      "weighting": "依母體性別、年齡、地區、教育程度加權",
+      "results": [
+        { "name": "張善政", "party": "kmt", "pct": 61 },
+        { "name": "黃世杰", "party": "dpp", "pct": 19 }
+      ],
+      "undecided": 21,
+      "likelyVoters": null,
+      "notes": "results 放黃世杰對張善政的情境（最終對決組合）。題目：「明年底的桃園市長選舉，如果國民黨推派現任市長張善政、民進黨推派○○○，在這兩位人選中，假如明天就是投票日，請問您比較可能投票給哪一位？（人名隨機輪替）」。其他情境：張善政 59% 對王義川 20%（未決定 21%）；張善政 59% 對何志偉 20%（未決定 21%）。與 2025-01 調查比較，張對黃由 59:24 變 61:19。張善政施政滿意度 61%（非常滿意 19%、還算滿意 42%），不滿意 18%，沒意見 20%。方法為「電話後四碼電腦隨機抽樣，人員電話訪問」，未說明是否含手機；接觸 1,153 人，拒訪率 17.3%。原 PDF 網址現在回 AccessDenied，內容由 Wayback 存檔讀取。",
+      "extraSources": []
+    },
+    {
+      "source": "https://cnews.com.tw/145260312a01/",
+      "pollster": "CNEWS匯流新聞網民調中心",
+      "sponsor": "CNEWS匯流新聞網",
+      "fieldStart": "2026-03-02",
+      "fieldEnd": "2026-03-03",
+      "published": "2026-03-12",
+      "method": "phone",
+      "sampleSize": 1068,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "戶籍在桃園市、年滿 20 歲的桃園市民",
+      "weighting": "依內政部最新人口資料，對戶籍地、性別、年齡、教育程度加權",
+      "results": [
+        { "name": "張善政", "party": "kmt", "pct": 41.8 },
+        { "name": "王義川", "party": "dpp", "pct": 34.4 }
+      ],
+      "undecided": 23.8,
+      "likelyVoters": null,
+      "notes": "這份沒有問黃世杰（當時民進黨尚未徵召），results 放維基第一列王義川對張善政。家戶電話、分層比例隨機抽樣。另一情境：張善政 40.8% 對何志偉 35.7%（未表態 23.5%）。民進黨內互比：何志偉 27.0%、王義川 24.3%、無法選出 48.7%。欣賞度：何志偉 27.8%／不欣賞 17.7%；王義川 27.5%／不欣賞 19.3%。張善政施政滿意度：滿意 55.3%（非常 13.4%、還算 41.9%），不滿意 23.7%，無意見 21.0%。政黨支持：民進黨 38.5%、國民黨 21.5%、民眾黨 6.6%、時代力量 3.5%、不偏任何政黨 15.7%、未表態 13.6%（綠營比例偏高）。",
+      "extraSources": []
+    },
+    {
+      "source": "https://newtalk.tw/news/view/2026-09-22/1061231",
+      "pollster": null,
+      "sponsor": "新台灣國策智庫（經費來源：財團法人凱達格蘭基金會）",
+      "fieldStart": "2026-09-15",
+      "fieldEnd": "2026-09-17",
+      "published": "2026-09-22",
+      "method": "phone",
+      "sampleSize": 1082,
+      "moe": 2.98,
+      "confidence": 95,
+      "population": "設籍桃園市、年滿 20 歲的一般民眾",
+      "weighting": "依內政部人口資料，對戶籍地、性別、年齡、教育程度多重反覆加權",
+      "results": [
+        { "name": "張善政", "party": "kmt", "pct": 47.0 },
+        { "name": "黃世杰", "party": "dpp", "pct": 25.9 }
+      ],
+      "undecided": 27.1,
+      "likelyVoters": null,
+      "notes": "綠營智庫（陳致中任執行長）委託，市話隨機抽樣。報導未寫執行公司（記者會有趨勢民調分析師車成緯出席，但沒寫是執行單位）。未表態 27.1% 是「無法選出任一人」。當選看好度：張 64.0%、黃 16.4%、無法選出 19.6%。不提示知名度（題目：「請問您知不知道目前有誰想要參選桃園市長選舉？您知道他們的名字嗎？」複選）：張 40.6%、黃 22.5%、55.5% 無明確意見。欣賞度：張 53.1%／不欣賞 23.6%；黃 30.3%／不欣賞 20.1%。張善政市長滿意度：滿意 58.2%、不滿意 26.8%、無明確意見 15.0%。與前市長鄭文燦比較：44.8% 認為鄭較好、30.0% 認為張較好、11.7% 都不錯。民進黨傾向者（原始樣本 357 人）62.8% 挺黃、15.2% 挺張、22.0% 無法選出。",
+      "extraSources": ["https://news.ltn.com.tw/news/politics/breakingnews/5582112"]
+    }
+  ],
+  "extraPolls": [
+    {
+      "source": "https://newtalk.tw/news/view/2026-10-27/1067619",
+      "pollster": "畢肯市場研究公司",
+      "sponsor": "戴立安（自籌經費）",
+      "fieldStart": "2026-10-20",
+      "fieldEnd": "2026-10-22",
+      "published": "2026-10-27",
+      "method": "phone+mobile",
+      "sampleSize": 1075,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "全國 22 縣市設籍、年滿 20 歲民眾",
+      "weighting": "比例估計法（raking），依性別、戶籍縣市、年齡、教育程度",
+      "results": null,
+      "undecided": null,
+      "likelyVoters": null,
+      "notes": "全國電訪（住宅電話 696 人、手機 379 人）。縣市長題目是「想讓哪個政黨執政」，不是候選人支持度；報導引用的桃園子樣本為國民黨 41.6%、民進黨 27.7%，桃園子樣本人數未載。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "全國樣本的桃園子樣本（人數未載），且問的是政黨偏好，不是市長候選人支持度"
+    },
+    {
+      "source": "https://tw.news.yahoo.com/ai%E6%B0%91%E6%84%8F%E6%A8%A1%E6%93%AC%E6%A1%83%E5%9C%92%E5%B8%82%E9%81%B8%E6%88%B0-%E5%BC%B5%E5%96%84%E6%94%BF%E9%A0%98%E5%85%88%E9%BB%83%E4%B8%96%E6%9D%B012-9%E5%80%8B%E7%99%BE%E5%88%86%E9%BB%9E-ai%E6%A8%A1%E6%93%AC%E6%A1%83%E5%9C%9213%E5%8D%80%E6%94%AF%E6%8C%81%E5%BA%A6%E5%85%A8%E6%95%B8%E5%B1%85%E5%89%8D-061000440.html",
+      "pollster": "TPOC台灣議題研究中心",
+      "sponsor": "鏡新聞報導（研究方法列影響力數據股份有限公司，正文稱經費自籌）",
+      "fieldStart": "2026-10-26",
+      "fieldEnd": "2026-10-26",
+      "published": "2026-10-28",
+      "method": "unknown",
+      "sampleSize": null,
+      "moe": null,
+      "confidence": null,
+      "population": "桃園市約 184.9 萬選舉人（以 13,789 個 AI 虛擬代理人模擬）",
+      "weighting": null,
+      "results": [
+        { "name": "張善政", "party": "kmt", "pct": 47.2 },
+        { "name": "黃世杰", "party": "dpp", "pct": 34.3 }
+      ],
+      "undecided": 15.0,
+      "likelyVoters": null,
+      "notes": "用 GPT-5.4 mini 生成 AI 虛擬受眾，報導明言「並非針對真實選民進行之抽樣民意調查」。另有 3.5% 都不支持或投廢票。TPOC 9/16 也發過一版 AI 模擬（張 37.9%、領先黃 8.5 個百分點），10/21 又一版（張 46.8%、領先 12.5）。",
+      "extraSources": [],
+      "excluded": true,
+      "excludeReason": "AI 模擬，不是真人抽樣民調"
+    }
+  ]
+}

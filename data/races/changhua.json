@@ -1,0 +1,141 @@
+{
+  "raceId": "changhua",
+  "incumbent": {
+    "name": "王惠美",
+    "party": "kmt",
+    "running": false,
+    "termLimited": true
+  },
+  "candidates": [
+    {
+      "name": "陳素月",
+      "party": "dpp",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 1,
+      "endorsedBy": [
+        "dpp"
+      ],
+      "incumbent": false,
+      "born": 1966,
+      "currentRole": "立法委員（彰化縣第四選區）",
+      "bio": "前彰化縣議員，2015年立委補選起連任立委；2025年12月黨內民調領先林世賢、邱建富、黃秀芳，12/31經中執會徵召。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5619778"
+    },
+    {
+      "name": "魏平政",
+      "party": "kmt",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 2,
+      "endorsedBy": [
+        "kmt"
+      ],
+      "incumbent": false,
+      "born": 1969,
+      "currentRole": "律師（政和律師事務所主持律師）",
+      "bio": "彰化社頭人，前國民黨考紀會主委、前彰化縣選委會委員，母親曾任社頭鄉長；獲蕭景田背書，2026年5月國民黨不辦初選直接徵召，被謝衣鳳等人批「空降」。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5619778"
+    },
+    {
+      "name": "邱建富",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 3,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": 1960,
+      "currentRole": "前彰化市長",
+      "bio": "前民進黨彰化縣黨部主委、縣議員，兩任彰化市長；不滿黨內提名結果，2026年6月退黨以無黨籍參選，形成綠營分裂。",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5619778"
+    },
+    {
+      "name": "陳重嘉",
+      "party": "ind",
+      "partyName": null,
+      "status": "registered",
+      "ballotNumber": 4,
+      "endorsedBy": [],
+      "incumbent": false,
+      "born": null,
+      "currentRole": "彰化縣議員（連任3屆）",
+      "bio": "前立委陳朝容、游月霞之子，曾以民眾黨籍當選議員後退黨；8/31第一個登記，批藍綠白提名只顧政黨利益。號次抽籤未到場。",
+      "source": "https://cna.com.tw/news/aipl/202608310116.aspx"
+    }
+  ],
+  "withdrawn": [
+    {
+      "name": "蔡壁如",
+      "party": "tpp",
+      "reason": "民眾黨以藍白合優先，決定不徵召",
+      "date": "2026-06-03",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5459361"
+    },
+    {
+      "name": "謝衣鳳",
+      "party": "kmt",
+      "reason": "國民黨未辦初選，改徵召魏平政",
+      "date": "2026-05-13",
+      "source": "https://newtalk.tw/news/view/2026-05-13/1034893"
+    },
+    {
+      "name": "林世賢",
+      "party": "dpp",
+      "reason": "民進黨黨內民調落後陳素月",
+      "date": "2025-12-31",
+      "source": "https://www.cna.com.tw/news/aipl/202512310233.aspx"
+    },
+    {
+      "name": "黃秀芳",
+      "party": "dpp",
+      "reason": "民進黨黨內民調落後陳素月",
+      "date": "2025-12-31",
+      "source": "https://www.cna.com.tw/news/aipl/202512310233.aspx"
+    }
+  ],
+  "keyEvents": [
+    {
+      "date": "2025-12-31",
+      "text": "民進黨中執會徵召陳素月參選彰化縣長（黨內民調領先林世賢、邱建富、黃秀芳）",
+      "source": "https://www.cna.com.tw/news/aipl/202512310233.aspx"
+    },
+    {
+      "date": "2026-05-13",
+      "text": "國民黨正式徵召前考紀會主委魏平政，不用謝衣鳳；柯呈枋、洪榮章、謝衣鳳批空降",
+      "source": "https://newtalk.tw/news/view/2026-05-13/1034893"
+    },
+    {
+      "date": "2026-06-03",
+      "text": "民眾黨宣布彰化縣不徵召蔡壁如，以藍白合為優先",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5459361"
+    },
+    {
+      "date": "2026-06-16",
+      "text": "前彰化市長邱建富退出民進黨，宣布以無黨籍參選，形成三腳督",
+      "source": "https://news.cts.com.tw/cts/politics/202606/202606163044554.html"
+    },
+    {
+      "date": "2026-08-31",
+      "text": "無黨籍縣議員陳重嘉第一個登記參選，形成四人競逐",
+      "source": "https://cna.com.tw/news/aipl/202608310116.aspx"
+    },
+    {
+      "date": "2026-09-18",
+      "text": "議長謝典霖涉賄選與父親一同遭羈押，地方評估衝擊魏平政選情",
+      "source": "https://www.cmmedia.com.tw/home/articles/62914"
+    },
+    {
+      "date": "2026-10-19",
+      "text": "聯合報民調：陳素月32%、魏平政16%、邱建富10%，42%未決定",
+      "source": "https://udn.com/vote2026/story/124652/9822866"
+    },
+    {
+      "date": "2026-10-27",
+      "text": "號次抽籤：陳素月1號、魏平政2號、邱建富3號、陳重嘉4號（陳重嘉未到場由主持人代抽）",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5619778"
+    }
+  ],
+  "notes": "王惠美連任屆滿，未明確表態挺魏平政；魏平政競總主委由黨主席鄭麗文擔任。邱建富稱陳素月是徵召而非初選，陳素月則表示民調她最高。民眾黨未在彰化提名，未查到對魏平政的正式共同推薦。彰化過去30多年有「綠一藍二」輪替慣例。",
+  "updated": "2026-10-28"
+}
