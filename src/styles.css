@@ -49,6 +49,9 @@
   --dpp-soft: #eef6e1;
   --tpp-soft: #def4f6;
   --ind-soft: #e7eef1;
+  /* 施政滿意度：跟政黨色分開，用冷色 */
+  --approve: #06a3b8;
+  --disapprove: #6a6cf0;
   color-scheme: light;
 }
 
@@ -74,6 +77,8 @@
     --dpp-soft: #233220;
     --tpp-soft: #153539;
     --ind-soft: #22303a;
+    --approve: #12aebd;
+    --disapprove: #8486f2;
     color-scheme: dark;
   }
 }

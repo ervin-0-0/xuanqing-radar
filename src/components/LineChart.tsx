@@ -25,12 +25,13 @@ interface Props {
   /** 水平參考線，例如 50% */
   refY?: number;
   onDotClick?: (key: string) => void;
+  lineWidth?: number;
 }
 
 const t = (d: string) => Date.parse(d);
 const M = { l: 36, r: 12, t: 10, b: 24 };
 
-export function LineChart({ series, dots = [], yDomain, yTicks, yFormat = (v) => `${v}`, xDomain, height = 220, markers = [], refY, onDotClick }: Props) {
+export function LineChart({ series, dots = [], yDomain, yTicks, yFormat = (v) => `${v}`, xDomain, height = 220, markers = [], refY, onDotClick, lineWidth = 2 }: Props) {
   const ref = useRef<SVGSVGElement>(null);
   const view = useInView<HTMLDivElement>();
   const [hx, setHx] = useState<number | null>(null);
@@ -102,13 +103,13 @@ export function LineChart({ series, dots = [], yDomain, yTicks, yFormat = (v) =>
             onClick={() => onDotClick?.(d.key)} style={{ cursor: onDotClick ? "pointer" : "default" }} />
         ))}
         {series.map((s) => (
-          <path key={s.key} d={line(s.points)} fill="none" stroke={s.color} strokeWidth={2} strokeLinejoin="round" strokeLinecap="round"
-            strokeDasharray={s.dashed ? "5 4" : undefined} className={!s.dashed ? (view.seen ? "draw-in" : "draw-wait") : undefined} pathLength={s.dashed ? undefined : 1} />
+          <path key={s.key} d={line(s.points)} fill="none" stroke={s.color} strokeWidth={lineWidth} strokeLinejoin="round" strokeLinecap="round"
+            strokeDasharray={s.dashed ? `${lineWidth * 2.5} ${lineWidth * 2}` : undefined} className={!s.dashed ? (view.seen ? "draw-in" : "draw-wait") : undefined} pathLength={s.dashed ? undefined : 1} />
         ))}
         {hxSnap != null && !hDot && (
           <g pointerEvents="none">
             <line x1={xs(hxSnap)} x2={xs(hxSnap)} y1={M.t} y2={H - M.b} stroke="var(--ink-2)" strokeWidth={0.8} />
-            {nearest.map(({ s, p }) => <circle key={s.key} cx={xs(t(p.x))} cy={ys(p.y)} r={4} fill={s.color} stroke="var(--card)" strokeWidth={2} />)}
+            {nearest.map(({ s, p }) => <circle key={s.key} cx={xs(t(p.x))} cy={ys(p.y)} r={lineWidth + 2} fill={s.color} stroke="var(--card)" strokeWidth={2} />)}
           </g>
         )}
       </svg>
@@ -119,7 +120,7 @@ export function LineChart({ series, dots = [], yDomain, yTicks, yFormat = (v) =>
           <div className="mb-1 text-xs text-ink-3 num">{nearest[0].p.x}</div>
           {[...nearest].sort((a, b) => b.p.y - a.p.y).map(({ s, p }) => (
             <div key={s.key} className="flex items-center gap-2 text-sm">
-              <span className="inline-block h-0.5 w-3" style={{ background: s.color }} />
+              <span className="inline-block h-1 w-3 rounded-full" style={{ background: s.color }} />
               <span className="text-ink-2">{s.label}</span>
               <span className="num ml-auto font-semibold text-ink">{yFormat(Math.round(p.y * 10) / 10)}</span>
             </div>

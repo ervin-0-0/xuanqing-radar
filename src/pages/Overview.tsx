@@ -160,21 +160,21 @@ function NationalCharts() {
   return (
     <div className="grid gap-6 lg:grid-cols-2">
       {approval.length > 0 && (
-        <Card kicker={`${main}・每月`} title="賴清德施政滿意度">
+        <Card kicker={`${main}・每月`} title="施政滿意度">
           <LineChart
-            yDomain={[25, 65]} yTicks={[30, 40, 50, 60]} yFormat={(v) => `${v}%`}
+            yDomain={[25, 65]} yTicks={[30, 40, 50, 60]} yFormat={(v) => `${v}%`} lineWidth={3.5}
             series={[
-              { key: "s", label: "滿意", color: "var(--dpp)", points: byPollster(approval.filter((p) => p.pollster === main), "satisfied").map((p) => ({ x: p.fieldEnd, y: p.values.satisfied! })) },
-              { key: "d", label: "不滿意", color: "var(--ind)", dashed: true, points: byPollster(approval.filter((p) => p.pollster === main), "dissatisfied").map((p) => ({ x: p.fieldEnd, y: p.values.dissatisfied! })) },
+              { key: "s", label: "滿意", color: "var(--approve)", points: byPollster(approval.filter((p) => p.pollster === main), "satisfied").map((p) => ({ x: p.fieldEnd, y: p.values.satisfied! })) },
+              { key: "d", label: "不滿意", color: "var(--disapprove)", dashed: true, points: byPollster(approval.filter((p) => p.pollster === main), "dissatisfied").map((p) => ({ x: p.fieldEnd, y: p.values.dissatisfied! })) },
             ]}
           />
-          <p className="mt-2 text-xs text-ink-3">實線滿意、虛線不滿意。其他機構的數字在模型說明頁。</p>
+          <p className="mt-2 text-xs text-ink-3">青色實線是滿意，紫色虛線是不滿意。其他機構的數字在模型說明頁。</p>
         </Card>
       )}
       {fav.length > 0 && (
         <Card kicker={`${favMain}・每月`} title="政黨好感度">
           <LineChart
-            yDomain={[10, 60]} yTicks={[20, 30, 40, 50]} yFormat={(v) => `${v}%`}
+            yDomain={[10, 60]} yTicks={[20, 30, 40, 50]} yFormat={(v) => `${v}%`} lineWidth={3.5}
             series={[
               { key: "d", label: "民進黨好感", color: "var(--dpp)", points: byPollster(favSeries, "dppLike").map((p) => ({ x: p.fieldEnd, y: p.values.dppLike! })) },
               { key: "k", label: "國民黨好感", color: "var(--kmt)", points: byPollster(favSeries, "kmtLike").map((p) => ({ x: p.fieldEnd, y: p.values.kmtLike! })) },
