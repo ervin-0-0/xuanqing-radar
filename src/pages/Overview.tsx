@@ -3,12 +3,10 @@ import { TaiwanMap } from "../components/TaiwanMap.tsx";
 import { Card } from "../components/Layout.tsx";
 import { SeatBar, SeatHistogram, atLeast } from "../components/Seats.tsx";
 import { TimeMachine } from "../components/Controls.tsx";
-import { CandName, PartyChip, PollLine, ProbBars, RatingBadge } from "../components/RaceBits.tsx";
+import { CandName, PartyChip, PollCard, ProbBars, RatingBadge } from "../components/RaceBits.tsx";
 import { LineChart } from "../components/LineChart.tsx";
 import { useSite } from "../lib/store.tsx";
-import { PARTY_FILL, PARTY_SOFT, PARTY_VAR, METHOD_LABEL, probFill, prob, md } from "../lib/format.ts";
-import { isPartisan } from "../lib/calibration.ts";
-import type { PublicPoll } from "../lib/data.ts";
+import { PARTY_VAR, probFill, prob } from "../lib/format.ts";
 import { RACE_BY_ID, RACES, PARTY_NAME, type RaceId } from "../lib/types.ts";
 import type { RaceForecast } from "../lib/model.ts";
 
@@ -76,9 +74,9 @@ export function Overview() {
             <Card kicker={`${tierLabel(RACE_BY_ID[selected].tier)}${raceData[selected]?.pvi != null ? ` · 基本盤 ${pviText(raceData[selected].pvi)}` : ""}`}
               title={RACE_BY_ID[selected].name} right={<RatingBadge f={sel} />}>
               <ProbBars f={sel} candidates={raceData[selected].candidates} />
-              <div className="mt-4 space-y-1.5 border-t hairline pt-3">
+              <div className="mt-4 space-y-2 border-t hairline pt-3">
                 <div className="text-xs text-ink-3">最近民調</div>
-                {usable.filter((p) => p.raceId === selected && p.variant === 0 && p.fieldEnd <= asOf).slice(0, 3).map((p) => <PollLine key={p.id} p={p} />)}
+                {usable.filter((p) => p.raceId === selected && p.variant === 0 && p.fieldEnd <= asOf).slice(0, 3).map((p) => <PollCard key={p.id} p={p} showRace={false} />)}
                 {sel.pollCount === 0 && <div className="text-sm text-ink-3">還沒有公開民調，預測完全靠基本盤。</div>}
               </div>
               <a href={`#/race/${selected}`} className="mt-4 inline-flex rounded-md bg-ink px-4 py-2 text-sm font-medium text-paper hover:opacity-90">
@@ -132,7 +130,7 @@ export function Overview() {
 
       <Card kicker="依調查結束日" title="最新入庫民調" right={<a href="#/polls" className="text-sm text-ink-2 underline underline-offset-2">全部民調</a>}>
         <div className="grid gap-3 md:grid-cols-2">
-          {recent.map((p) => <LatestPoll key={p.id} p={p} />)}
+          {recent.map((p) => <PollCard key={p.id} p={p} />)}
         </div>
       </Card>
 
@@ -179,57 +177,6 @@ function NationalCharts() {
         </Card>
       )}
     </div>
-  );
-}
-
-/** 一筆民調：標題列是縣市、日期、機構與領先幅度，下面是得票條、候選人與來源 */
-function LatestPoll({ p }: { p: PublicPoll }) {
-  const rs = [...p.results].sort((a, b) => b.pct - a.pct);
-  const [a, b] = rs;
-  const lead = a && b ? Math.round((a.pct - b.pct) * 10) / 10 : null;
-  const undecided = p.undecided ?? Math.max(0, 100 - rs.reduce((s, r) => s + r.pct, 0));
-  // 媒體自己做的不重複寫委託；陣營或政黨委託另外標出來
-  const sponsor = p.sponsor && !p.sponsor.includes(p.pollster) && !p.pollster.includes(p.sponsor) ? p.sponsor.replace(/（.*?）/g, "") : null;
-  const partisan = !!p.sponsor && isPartisan(p.sponsor);
-  const meta = [
-    p.sampleSize && `${p.sampleSize.toLocaleString()} 人`,
-    p.method !== "unknown" && METHOD_LABEL[p.method],
-    sponsor && (/公布$/.test(sponsor) ? sponsor : `${sponsor}委託`),
-  ].filter(Boolean).join("・");
-  return (
-    <a href={`#/race/${p.raceId}`} className="lift block min-w-0 rounded-lg border hairline bg-card px-4 py-3 hover:bg-wash">
-      <div className="flex items-center gap-2">
-        <span className="shrink-0 font-serif text-lg font-black leading-none">{RACE_BY_ID[p.raceId].short}</span>
-        <span className="num shrink-0 text-xs text-ink-3">{md(p.fieldEnd)}</span>
-        <span className="truncate text-sm text-ink-2">{p.pollster}</span>
-        {lead != null && (
-          <span className="num ml-auto shrink-0 rounded-full px-2 text-[11px] font-semibold leading-5"
-            style={{ background: PARTY_SOFT[a.party], color: PARTY_VAR[a.party] }}>
-            {lead === 0 ? "平手" : `領先 ${lead}`}
-          </span>
-        )}
-      </div>
-      <div className="mt-2.5 flex h-2.5 overflow-hidden rounded-full bg-rule" title={`未表態 ${undecided.toFixed(1)}%`}>
-        {rs.map((r) => (
-          <div key={r.name} className="h-full border-r-2 border-card" style={{ width: `${r.pct}%`, background: PARTY_FILL[r.party] }} />
-        ))}
-      </div>
-      <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
-        {rs.filter((r, i) => i < 2 || r.pct >= 1).slice(0, 4).map((r) => (
-          <span key={r.name} className="inline-flex items-center gap-1.5">
-            <CandName raceId={p.raceId} name={r.name} />
-            <span className="num font-semibold" style={{ color: PARTY_VAR[r.party] }}>{r.pct}%</span>
-          </span>
-        ))}
-        {undecided >= 1 && <span className="num text-xs text-ink-3">未表態 {Math.round(undecided)}%</span>}
-      </div>
-      {(meta || partisan) && (
-        <div className="mt-1 flex items-center gap-1.5 text-[11px] text-ink-3" title={p.sponsor ?? meta}>
-          {partisan && <span className="shrink-0 rounded border hairline px-1 leading-4">陣營委託</span>}
-          <span className="truncate">{meta}</span>
-        </div>
-      )}
-    </a>
   );
 }
 

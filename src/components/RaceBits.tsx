@@ -1,7 +1,8 @@
 import type { Candidate, RaceForecast } from "../lib/model.ts";
 import { useTween } from "../lib/motion.ts";
 import { PARTY_FILL, PARTY_SOFT, PARTY_VAR, prob, ratingText, METHOD_LABEL, md, pct } from "../lib/format.ts";
-import { PARTY_NAME, type Party } from "../lib/types.ts";
+import { PARTY_NAME, RACE_BY_ID, type Party } from "../lib/types.ts";
+import { isPartisan } from "../lib/calibration.ts";
 import type { PublicPoll } from "../lib/data.ts";
 import { useSite } from "../lib/store.tsx";
 
@@ -85,22 +86,53 @@ function TweenProb({ p }: { p: number }) {
   return <>{prob(v)}</>;
 }
 
-export function PollLine({ p }: { p: PublicPoll }) {
-  const top = [...p.results].sort((a, b) => b.pct - a.pct).slice(0, 3);
+/** 一筆民調：標題列是縣市、日期、機構與領先幅度，下面是得票條、候選人與來源；縣市頁內可省略縣市名 */
+export function PollCard({ p, showRace = true }: { p: PublicPoll; showRace?: boolean }) {
+  const rs = [...p.results].sort((a, b) => b.pct - a.pct);
+  const [a, b] = rs;
+  const lead = a && b ? Math.round((a.pct - b.pct) * 10) / 10 : null;
+  const undecided = p.undecided ?? Math.max(0, 100 - rs.reduce((s, r) => s + r.pct, 0));
+  // 媒體自己做的不重複寫委託；陣營或政黨委託另外標出來
+  const sponsor = p.sponsor && !p.sponsor.includes(p.pollster) && !p.pollster.includes(p.sponsor) ? p.sponsor.replace(/（.*?）/g, "") : null;
+  const partisan = !!p.sponsor && isPartisan(p.sponsor);
+  const meta = [
+    p.sampleSize && `${p.sampleSize.toLocaleString()} 人`,
+    p.method !== "unknown" && METHOD_LABEL[p.method],
+    sponsor && (/公布$/.test(sponsor) ? sponsor : `${sponsor}委託`),
+  ].filter(Boolean).join("・");
   return (
-    <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5 text-sm">
-      <span className="num text-xs text-ink-3 w-10">{md(p.fieldEnd)}</span>
-      <span className="text-ink-2">{p.pollster}</span>
-      <span className="text-ink">
-        {top.map((r, i) => (
-          <span key={r.name}>{i > 0 && "／"}<CandName raceId={p.raceId} name={r.name} /> <span className="num" style={{ color: PARTY_VAR[r.party] }}>{r.pct}%</span></span>
+    <a href={`#/race/${p.raceId}`} className="lift block min-w-0 rounded-lg border hairline bg-card px-4 py-3 hover:bg-wash">
+      <div className="flex items-center gap-2">
+        {showRace && <span className="shrink-0 font-serif text-lg font-black leading-none">{RACE_BY_ID[p.raceId].short}</span>}
+        <span className="num shrink-0 text-xs text-ink-3">{md(p.fieldEnd)}</span>
+        <span className="truncate text-sm text-ink-2">{p.pollster}</span>
+        {lead != null && (
+          <span className="num ml-auto shrink-0 rounded-full px-2 text-[11px] font-semibold leading-5"
+            style={{ background: PARTY_SOFT[a.party], color: PARTY_VAR[a.party] }}>
+            {lead === 0 ? "平手" : `領先 ${lead}`}
+          </span>
+        )}
+      </div>
+      <div className="mt-2.5 flex h-2.5 overflow-hidden rounded-full bg-rule" title={`未表態 ${undecided.toFixed(1)}%`}>
+        {rs.map((r) => (
+          <div key={r.name} className="h-full border-r-2 border-card" style={{ width: `${r.pct}%`, background: PARTY_FILL[r.party] }} />
         ))}
-      </span>
-      {(p.sponsor || p.method === "online" || p.excluded) && (
-        <span className="text-[11px] text-ink-3">
-          {[p.sponsor && `${p.sponsor}委託`, p.method === "online" && METHOD_LABEL.online, p.excluded && "不採用"].filter(Boolean).join("・")}
-        </span>
+      </div>
+      <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
+        {rs.filter((r, i) => i < 2 || r.pct >= 1).slice(0, 4).map((r) => (
+          <span key={r.name} className="inline-flex items-center gap-1.5">
+            <CandName raceId={p.raceId} name={r.name} />
+            <span className="num font-semibold" style={{ color: PARTY_VAR[r.party] }}>{r.pct}%</span>
+          </span>
+        ))}
+        {undecided >= 1 && <span className="num text-xs text-ink-3">未表態 {Math.round(undecided)}%</span>}
+      </div>
+      {(meta || partisan) && (
+        <div className="mt-1 flex items-center gap-1.5 text-[11px] text-ink-3" title={p.sponsor ?? meta}>
+          {partisan && <span className="shrink-0 rounded border hairline px-1 leading-4">陣營委託</span>}
+          <span className="truncate">{meta}</span>
+        </div>
       )}
-    </div>
+    </a>
   );
 }
