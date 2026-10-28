@@ -5,12 +5,13 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { feature } from "topojson-client";
 import type { Topology, GeometryCollection } from "topojson-specification";
-import { computePrior, pvi, type MayorResults, type PresidentialResults } from "../src/lib/fundamentals.ts";
+import { computePrior, pvi, relativeLean, type MayorResults, type PresidentialResults } from "../src/lib/fundamentals.ts";
 import { forecast, forecastHistory, type Candidate, type Method, type ModelRace } from "../src/lib/model.ts";
 import { canonicalPollster, classifyPoll, EXCLUDED_POLLSTERS, POLLSTER_QUALITY } from "../src/lib/pollsters.ts";
 import { RACES, type Party, type RaceId } from "../src/lib/types.ts";
 import { RACE_BY_HEADING, type WikiPollRow, type WikiSection } from "../src/lib/wikitable.ts";
 import type { PublicPoll } from "../src/lib/data.ts";
+import { backtest, pollErrors, pollsterAccuracy, type HistFile } from "../src/lib/calibration.ts";
 
 const ELECTION_DAY = "2026-11-28";
 const HISTORY_FROM = "2026-06-01";
@@ -62,7 +63,20 @@ if (!wiki) throw new Error("缺 data/polls/wiki.json，先跑 npm run data:wiki"
 const mayor2022 = read<MayorResults & { source?: string }>("data/base/results-mayor-2022.json");
 const mayor2018 = read<MayorResults & { source?: string }>("data/base/results-mayor-2018.json");
 const pres = read<PresidentialResults>("data/base/presidential-by-county.json");
-const partyList = read<{ elections: Record<string, { byRace: Record<string, Record<string, number>> }> }>("data/base/party-list-by-county.json");
+type ByRace = Record<string, Record<string, number | null>>;
+const partyList = read<{ elections: Record<string, { national: Record<string, number>; byRace: ByRace }> }>("data/base/party-list-by-county.json");
+interface RecentVotes {
+  council2022?: { national: Record<string, number>; byRace: ByRace; source?: string };
+  legislative2024?: { national: Record<string, number>; byRace: ByRace; source?: string };
+  recall2025?: { districts: unknown[]; byRace: Record<string, { agreePct: number | null; turnout: number | null; districts: number }>; rounds?: unknown[] };
+  referendum2025?: { date: string; question: string; national: { agreePct: number; turnout: number }; byRace: Record<string, { agreePct: number | null; turnout: number | null }>; source?: string };
+}
+const recent = read<RecentVotes>("data/base/recent-votes.json");
+interface PartySupportSurvey {
+  pollster: string; title?: string; fieldStart?: string | null; fieldEnd: string; published?: string | null; source: string;
+  byRace: Record<string, { kmt: number | null; dpp: number | null; tpp?: number | null; none?: number | null; sampleSize?: number | null }>;
+}
+const partySupport = read<{ surveys: PartySupportSurvey[] }>("data/base/party-support-county.json");
 const national = Object.fromEntries(
   ["approval", "party-favorability", "party-id", "party-id-nccu"].map((k) => [k, read<{ series: unknown[] }>(`data/national/${k}.json`)?.series ?? []]),
 );
@@ -186,9 +200,40 @@ function candidatesFor(id: RaceId): Candidate[] {
   return (section?.candidates ?? []).map((c) => ({ name: c.name, party: c.party, incumbent: c.name === elected22, ballotNumber: null }));
 }
 
+// ── 基本盤的近期指標：各項都換成「比全國偏藍幾點」 ─────────────────
+// 各縣市政黨支持度：跟同一份調查的全國平均比（用 2022 有效票加權），再依未表態比例放大成選票尺度
+const latestSupport = (id: RaceId) =>
+  [...(partySupport?.surveys ?? [])].filter((s) => s.byRace[id]?.kmt != null && s.byRace[id]?.dpp != null).sort((a, b) => b.fieldEnd.localeCompare(a.fieldEnd))[0];
+function supportLean(id: RaceId): { lean: number | null; label: string } {
+  const sv = latestSupport(id);
+  if (!sv) return { lean: null, label: "政黨支持度" };
+  let k = 0, d = 0, w = 0;
+  for (const [rid, v] of Object.entries(sv.byRace)) {
+    const wt = mayor2022?.races[rid as RaceId]?.validVotes ?? 0;
+    if (rid === "zhubei" || v.kmt == null || v.dpp == null || !wt) continue;
+    k += v.kmt * wt; d += v.dpp * wt; w += wt;
+  }
+  if (w === 0) return { lean: null, label: "政黨支持度" };
+  const r = sv.byRace[id]!;
+  const scale = Math.min(2, Math.max(1, 1 / (1 - (r.none ?? 0) / 100)));
+  return { lean: relativeLean({ [id]: r as Record<string, number> }, { kmt: k / w, dpp: d / w }, id, scale), label: `${sv.fieldEnd.slice(0, 4)} ${sv.pollster}政黨支持度` };
+}
+const leansFor = (id: RaceId) => {
+  const sup = supportLean(id);
+  const ref = recent?.referendum2025;
+  return [
+    { label: "2024 不分區政黨票", lean: relativeLean(partyList?.elections["2024"]?.byRace, partyList?.elections["2024"]?.national, id), weight: 0.8 },
+    { label: "2022 議員政黨票", lean: relativeLean(recent?.council2022?.byRace, recent?.council2022?.national, id), weight: 0.6 },
+    { label: "2024 區域立委", lean: relativeLean(recent?.legislative2024?.byRace, recent?.legislative2024?.national, id), weight: 0.6 },
+    { label: sup.label, lean: sup.lean, weight: 0.8 },
+    // 核三延役公投「同意」跟藍營立場一致；只當弱指標
+    { label: "2025 核三公投", lean: ref?.byRace[id]?.agreePct != null ? ref.byRace[id].agreePct! - ref.national.agreePct : null, weight: 0.3 },
+  ];
+};
+
 const races = RACES.map((meta) => {
   const candidates = candidatesFor(meta.id);
-  const prior = computePrior(meta.id, candidates, { mayor2022, pres });
+  const prior = computePrior(meta.id, candidates, { mayorPrev: mayor2022, pres, leans: leansFor(meta.id) });
   const file = raceFiles.get(meta.id);
   return {
     ...meta,
@@ -204,16 +249,42 @@ const races = RACES.map((meta) => {
     pvi: pvi(pres, meta.id),
     presidential: Object.fromEntries(Object.entries(pres?.elections ?? {}).map(([y, e]) => [y, e.byRace[meta.id] ?? null])),
     partyList: Object.fromEntries(Object.entries(partyList?.elections ?? {}).map(([y, e]) => [y, e.byRace[meta.id] ?? null])),
+    recent: {
+      council2022: recent?.council2022?.byRace[meta.id] ?? null,
+      legislative2024: recent?.legislative2024?.byRace[meta.id] ?? null,
+      recall2025: recent?.recall2025?.byRace[meta.id] ?? null,
+      referendum2025: recent?.referendum2025?.byRace[meta.id] ?? null,
+    },
+    partySupport: latestSupport(meta.id)
+      ? { ...latestSupport(meta.id)!.byRace[meta.id], pollster: latestSupport(meta.id)!.pollster, fieldEnd: latestSupport(meta.id)!.fieldEnd, source: latestSupport(meta.id)!.source }
+      : null,
   };
 });
+
+// ── 校準：歷屆選前民調 vs 開票 ──────────────────────────────
+const hist2018 = read<HistFile>("data/history/polls-2018.json");
+const hist2022 = read<HistFile>("data/history/polls-2022.json");
+const errors2018 = hist2018 && mayor2018 ? pollErrors(hist2018, mayor2018) : [];
+const errors2022 = hist2022 && mayor2022 ? pollErrors(hist2022, mayor2022) : [];
+const toHouse = (a: ReturnType<typeof pollsterAccuracy> | null) =>
+  Object.fromEntries((a?.pollsters ?? []).filter((p) => p.bias != null && p.biasN > 0).map((p) => [p.pollster, { bias: p.bias!, n: p.biasN }]));
+const accuracy = errors2018.length + errors2022.length ? pollsterAccuracy([...errors2018, ...errors2022]) : null;
+const houseHistory = toHouse(accuracy);
+// 回測 2022：只能用 2018 以前就有的資料（2018 縣市長、2016／2020 總統、2020 不分區、2018 的機構紀錄）
+const backtests = hist2022 && mayor2022
+  ? [backtest({
+      file: hist2022, results: mayor2022, mayorPrev: mayor2018, pres, presWeights: { "2016": 0.4, "2020": 0.6 },
+      partyList: partyList?.elections["2020"], house: toHouse(errors2018.length ? pollsterAccuracy(errors2018) : null),
+    })]
+  : [];
 
 // ── 預測 ─────────────────────────────────────────────────
 const modelRaces: ModelRace[] = races
   .filter((r) => r.candidates.length >= 2)
   .map((r) => ({ id: r.id, tier: r.tier, candidates: r.candidates, priorShares: r.prior.priorShares, priorSigma: r.prior.priorSigma }));
 const modelPolls = polls.map((p) => ({ ...p, published: p.published }));
-const today_ = forecast(modelRaces, modelPolls, { asOf: AS_OF, electionDay: ELECTION_DAY });
-const history = forecastHistory(modelRaces, modelPolls, HISTORY_FROM, AS_OF, ELECTION_DAY, 3);
+const today_ = forecast(modelRaces, modelPolls, { asOf: AS_OF, electionDay: ELECTION_DAY, houseHistory });
+const history = forecastHistory(modelRaces, modelPolls, HISTORY_FROM, AS_OF, ELECTION_DAY, 3, 2000, houseHistory);
 
 // ── 地圖：用 taiwan-atlas 已投影好的版本（金門、連江、澎湖已排成插圖），瀏覽器端不用再投影 ──
 const counties = JSON.parse(readFileSync("node_modules/taiwan-atlas/counties-mercator-10t.json", "utf8")) as Topology;
@@ -238,6 +309,12 @@ out("national", national);
 out("forecast", today_);
 out("history", history);
 out("map", { type: "FeatureCollection", features: mapFeatures });
+out("calibration", {
+  years: { "2018": errors2018.length, "2022": errors2022.length },
+  accuracy,
+  houseHistory,
+  backtests,
+});
 const latest = polls.filter((p) => !p.excluded).map((p) => p.fieldEnd).sort().at(-1);
 out("meta", {
   built: new Date().toISOString(),
@@ -255,3 +332,5 @@ console.log(`民調 ${polls.length} 筆（細節 ${usedDetails.size}、維基外
 console.log(`席次期望：藍 ${today_.seats.expected.kmt.toFixed(1)}／綠 ${today_.seats.expected.dpp.toFixed(1)}／白 ${today_.seats.expected.tpp.toFixed(1)}／無 ${today_.seats.expected.ind.toFixed(1)}`);
 if (missing.length) console.log(`尚無選區檔（候選人暫用維基）：${missing.join("、")}`);
 if (!mayor2022 || !pres) console.log("尚無歷屆結果，基本盤暫用預設值");
+if (accuracy) console.log(`校準：2018 ${errors2018.length} 筆、2022 ${errors2022.length} 筆，前兩名差距 RMSE ${accuracy.rmse.toFixed(1)}（最後三週 ${accuracy.rmseLast3Weeks.toFixed(1)}），業界偏差 ${JSON.stringify(Object.fromEntries(Object.entries(accuracy.industryBias).map(([y, v]) => [y, +v.toFixed(1)])))}`);
+for (const b of backtests) console.log(`回測 ${b.year}：猜中 ${b.correct}/${b.total}，Brier ${b.brier.toFixed(3)}`);

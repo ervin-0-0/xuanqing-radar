@@ -5,7 +5,6 @@ import { Layout } from "./components/Layout.tsx";
 import { Overview } from "./pages/Overview.tsx";
 import { RacePage } from "./pages/RacePage.tsx";
 import { PollsPage } from "./pages/PollsPage.tsx";
-import { MyMapPage } from "./pages/MyMapPage.tsx";
 import { ModelPage } from "./pages/ModelPage.tsx";
 import type { RaceId } from "./lib/types.ts";
 
@@ -50,7 +49,6 @@ function Routes() {
     <Layout page={page}>
       {page === "race" ? <RacePage key={id} id={id as RaceId} /> :
        page === "polls" ? <PollsPage /> :
-       page === "mymap" ? <MyMapPage arg={id} /> :
        page === "model" ? <ModelPage /> :
        <Overview />}
     </Layout>

@@ -54,6 +54,8 @@ export interface ModelOptions {
   swing?: number;
   sims?: number;
   seed?: number;
+  /** 歷屆選舉估出的機構偏差（已扣當年業界平均），當成這次估計的先驗 */
+  houseHistory?: Record<string, { bias: number; n: number }>;
 }
 
 export const PARAMS = {
@@ -75,6 +77,9 @@ export const PARAMS = {
   nationalError: 1.5,
   houseShrink: 6,
   houseClamp: 5,
+  /** 歷屆偏差當幾筆「虛擬觀測」：每筆歷史民調算 0.5，最多 3 */
+  houseHistoryWeight: 0.5,
+  houseHistoryMax: 3,
   /** 全國風向估計的縮減：選區數少時不要全信 */
   environmentShrink: 2,
 };
@@ -144,7 +149,7 @@ const pollWeight = (p: Poll, asOf: string) =>
  * 機構效應（house effect）：某機構的藍綠差距，平均比同選區、前後 30 天內其他機構偏多少。
  * 正值＝偏藍。用 (筆數＋3) 當分母縮減，避免只做過一兩次的機構被誤判。
  */
-export function houseEffects(races: ModelRace[], polls: Poll[], asOf: string): Record<string, number> {
+export function houseEffects(races: ModelRace[], polls: Poll[], asOf: string, history: Record<string, { bias: number; n: number }> = {}): Record<string, number> {
   const sum: Record<string, number> = {};
   const count: Record<string, number> = {};
   for (const race of races) {
@@ -160,9 +165,13 @@ export function houseEffects(races: ModelRace[], polls: Poll[], asOf: string): R
       count[p.pollster] = (count[p.pollster] ?? 0) + 1;
     }
   }
+  // 歷屆紀錄當先驗：做過越多次的機構，歷史偏差越有份量；這次的資料多了就以這次為主
   const out: Record<string, number> = {};
-  for (const k of Object.keys(sum)) {
-    const v = sum[k] / (count[k] + PARAMS.houseShrink);
+  for (const k of new Set([...Object.keys(sum), ...Object.keys(history)])) {
+    const h = history[k];
+    const hw = h ? Math.min(PARAMS.houseHistoryMax, h.n * PARAMS.houseHistoryWeight) : 0;
+    const v = ((sum[k] ?? 0) + hw * (h?.bias ?? 0)) / ((count[k] ?? 0) + hw + PARAMS.houseShrink);
+    if (!count[k] && !hw) continue;
     out[k] = Math.max(-PARAMS.houseClamp, Math.min(PARAMS.houseClamp, v));
   }
   return out;
@@ -269,7 +278,7 @@ export function forecast(races: ModelRace[], polls: Poll[], opts: ModelOptions):
   const sims = opts.sims ?? 10_000;
   const swing = opts.swing ?? 0;
   const days = Math.max(0, daysBetween(asOf, electionDay));
-  const house = houseEffects(races, polls, asOf);
+  const house = houseEffects(races, polls, asOf, opts.houseHistory);
 
   const avgs = new Map<RaceId, PollAverage | null>();
   for (const r of races) avgs.set(r.id, pollAverage(r, usablePolls(r, polls, asOf), house, asOf));
@@ -352,10 +361,10 @@ export function forecast(races: ModelRace[], polls: Poll[], opts: ModelOptions):
 }
 
 /** 時光機：從 from 到 to 每 step 天算一次，回傳每個選區領先者的當選機率走勢。 */
-export function forecastHistory(races: ModelRace[], polls: Poll[], from: string, to: string, electionDay: string, step = 3, sims = 2000) {
+export function forecastHistory(races: ModelRace[], polls: Poll[], from: string, to: string, electionDay: string, step = 3, sims = 2000, houseHistory?: ModelOptions["houseHistory"]) {
   const out: { date: string; races: Record<string, { winProb: Record<string, number>; shares: Record<string, number> }>; seats: Record<Party, number> }[] = [];
   for (let d = from; d <= to; d = addDays(d, step)) {
-    const f = forecast(races, polls, { asOf: d, electionDay, sims });
+    const f = forecast(races, polls, { asOf: d, electionDay, sims, houseHistory });
     out.push({
       date: d,
       races: Object.fromEntries(f.races.map((r) => [r.id, { winProb: round(r.winProb), shares: round(r.shares) }])),

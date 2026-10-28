@@ -61,7 +61,7 @@ export function useSite() {
   return c;
 }
 
-/** 極簡 hash 路由：#/race/taipei、#/polls、#/model、#/mymap */
+/** 極簡 hash 路由：#/race/taipei、#/polls、#/model */
 export function useRoute() {
   const parse = () => {
     const [, page = "", id = ""] = window.location.hash.replace(/^#/, "").split("/");

@@ -129,7 +129,7 @@ it("基本盤：今年的候選人若 2022 以別的黨籍參選，當年的票�
     { name: "藍系無黨", party: "kmt" as const, incumbent: true, ballotNumber: 2 },
     { name: "新綠", party: "dpp" as const, incumbent: false, ballotNumber: 1 },
   ];
-  const p = computePrior("miaoli", cands, { mayor2022, pres: null });
+  const p = computePrior("miaoli", cands, { mayorPrev: mayor2022, pres: null });
   expect(p.baseMargin).toBeGreaterThan(20); // 42.7 + 11.0 − 31.2
   expect(p.priorShares["藍系無黨"]).toBeGreaterThan(60);
 });

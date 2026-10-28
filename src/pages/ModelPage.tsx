@@ -3,6 +3,8 @@ import { LineChart } from "../components/LineChart.tsx";
 import { useSite } from "../lib/store.tsx";
 import { PARAMS } from "../lib/model.ts";
 import { INCUMBENCY_MARGIN } from "../lib/fundamentals.ts";
+import { PARTY_VAR } from "../lib/format.ts";
+import { RACE_BY_ID } from "../lib/types.ts";
 
 export function ModelPage() {
   const { data } = useSite();
@@ -38,9 +40,11 @@ export function ModelPage() {
           全部從資料估，分母加 {PARAMS.houseShrink} 讓做得少的機構往 0 收斂，上限 ±{PARAMS.houseClamp} 點。下面有目前估出來的表。
         </Step>
         <Step n="04" title="基本盤">
-          2020、2024 總統選舉這個縣市比全國偏藍或偏綠多少（各佔 4 成、6 成），跟 2022 縣市長結果平均；2022 若是現任參選，先扣掉現任優勢。
-          今年現任參選再加 {INCUMBENCY_MARGIN} 個百分點的藍綠差距。最後加上「全國風向」：各縣市民調平均比基本盤偏多少，用有效民調數加權後縮減，
-          目前估計 <b>{f.environment >= 0 ? "偏藍" : "偏綠"} {Math.abs(f.environment).toFixed(1)}</b> 點。沒有民調的縣市就靠這個值。
+          把好幾種投票都換成「這裡比全國偏藍或偏綠幾點」再加權平均：2020／2024 總統選舉、2022 縣市長（有現任參選先扣掉現任優勢）、
+          2024 不分區政黨票、2022 議員政黨票、2024 區域立委、最新的各縣市政黨支持度，以及 2025 核三公投（弱指標）。
+          今年的候選人如果上屆以別的黨籍參選，當年的票算進他現在的陣營。現任參選再加 {INCUMBENCY_MARGIN} 個百分點的藍綠差距。
+          最後加上「全國風向」：各縣市民調平均比基本盤偏多少，目前估計 <b>{f.environment >= 0 ? "偏藍" : "偏綠"} {Math.abs(f.environment).toFixed(1)}</b> 點。
+          2025 罷免投票只在國民黨立委選區舉行，不能代表整個縣市，只列在縣市頁參考。
         </Step>
         <Step n="05" title="民調跟基本盤怎麼合">
           兩者都有不確定度：民調平均的誤差＝單筆非抽樣誤差 {PARAMS.pollError} 點 ÷ 有效筆數，加上整個業界一起偏的 {PARAMS.industryError} 點，
@@ -72,6 +76,8 @@ export function ModelPage() {
         </div>
         <p className="mt-3 text-xs text-ink-3">單位是藍綠差距的百分點。只做過一兩次的機構估計很不穩，所以縮減得多。</p>
       </Card>
+
+      <TrackRecord />
 
       {Object.keys(approvalBy).length > 0 && (
         <Card title="各機構的總統滿意度">
@@ -124,6 +130,74 @@ export function ModelPage() {
         </ul>
       </Card>
     </div>
+  );
+}
+
+/** 歷屆民調準確度與回測 */
+function TrackRecord() {
+  const { data } = useSite();
+  const c = data.calibration;
+  if (!c?.accuracy) return null;
+  const a = c.accuracy;
+  const bt = c.backtests[0];
+  const top = a.pollsters.filter((p) => p.n >= 3);
+  return (
+    <Card kicker={`2018 ${c.years["2018"] ?? 0} 筆・2022 ${c.years["2022"] ?? 0} 筆選前民調`} title="這套方法以前準不準">
+      <div className="grid gap-6 lg:grid-cols-2">
+        <div>
+          {bt && (
+            <div className="mb-4 rounded-lg bg-wash p-4">
+              <div className="text-xs text-ink-3">回測 {bt.year}：只用當年選前就有的資料，在封關前一天（{bt.asOf}）跑同一套模型</div>
+              <div className="mt-1 font-serif text-3xl font-black">猜中 <span className="num">{bt.correct}</span><span className="text-lg text-ink-3"> / {bt.total} 縣市</span></div>
+              <div className="text-xs text-ink-2">Brier 分數 <span className="num">{bt.brier.toFixed(3)}</span>（0 最好；全部丟銅板是 0.25）</div>
+            </div>
+          )}
+          <dl className="space-y-1.5 text-sm">
+            <div className="flex justify-between gap-3"><dt className="text-ink-2">單筆民調前兩名差距的誤差（均方根）</dt><dd className="num">{a.rmse.toFixed(1)} 點</dd></div>
+            <div className="flex justify-between gap-3"><dt className="text-ink-2">　其中投票前三週內</dt><dd className="num">{a.rmseLast3Weeks.toFixed(1)} 點</dd></div>
+            <div className="flex justify-between gap-3"><dt className="text-ink-2">單筆民調猜中當選人</dt><dd className="num">{Math.round(a.hitRate * 100)}%</dd></div>
+            {Object.entries(a.industryBias).map(([y, v]) => (
+              <div key={y} className="flex justify-between gap-3"><dt className="text-ink-2">{y} 整體偏差（藍綠差距）</dt><dd className="num">{v >= 0 ? "偏藍" : "偏綠"} {Math.abs(v).toFixed(1)} 點</dd></div>
+            ))}
+          </dl>
+          <p className="mt-3 text-xs leading-relaxed text-ink-3">
+            整體偏差每屆方向不一定，所以不拿來修正今年的民調，而是放進全國誤差裡。各機構跟同業比的偏差，則當成今年估機構效應的起點。
+          </p>
+        </div>
+        <div className="-mx-2 overflow-x-auto">
+          <table className="w-full min-w-[360px] text-sm">
+            <thead><tr className="text-left text-xs text-ink-3"><th className="px-2 py-1 font-normal">機構（3 筆以上）</th><th className="px-2 text-right font-normal">筆數</th><th className="px-2 text-right font-normal">相對偏差</th><th className="px-2 text-right font-normal">誤差</th><th className="px-2 text-right font-normal">猜中</th></tr></thead>
+            <tbody className="divide-y hairline">
+              {top.map((p) => (
+                <tr key={p.pollster}>
+                  <td className="px-2 py-1.5">{p.pollster}</td>
+                  <td className="num px-2 text-right">{p.n}</td>
+                  <td className="num px-2 text-right" style={{ color: p.bias == null ? undefined : p.bias > 0 ? "var(--kmt)" : "var(--dpp)" }}>{p.bias == null ? "—" : `${p.bias > 0 ? "藍" : "綠"} ${Math.abs(p.bias).toFixed(1)}`}</td>
+                  <td className="num px-2 text-right">{p.rmse.toFixed(1)}</td>
+                  <td className="num px-2 text-right">{Math.round(p.hitRate * 100)}%</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      {bt && (
+        <div className="mt-5 border-t hairline pt-4">
+          <div className="mb-2 text-xs text-ink-3">{bt.year} 回測逐縣市</div>
+          <div className="grid gap-x-6 gap-y-1 text-sm sm:grid-cols-2 lg:grid-cols-3">
+            {bt.races.map((r) => (
+              <div key={r.id} className="flex items-center gap-2">
+                <span className={`w-4 text-center font-bold ${r.correct ? "text-accent" : "text-ink-3"}`}>{r.correct ? "✓" : "✗"}</span>
+                <span className="w-10">{RACE_BY_ID[r.id].short}</span>
+                <span className="truncate" style={{ color: PARTY_VAR[r.predictedParty] }}>{r.predicted}</span>
+                <span className="num text-ink-3">{Math.round(r.prob * 100)}%</span>
+                {!r.correct && <span className="truncate text-[11px] text-ink-3">實際 {r.winner}</span>}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </Card>
   );
 }
 

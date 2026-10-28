@@ -46,6 +46,13 @@ export interface RaceData extends RaceMeta {
   pvi: number | null;
   presidential: Record<string, Record<string, number> | null>;
   partyList: Record<string, Record<string, number> | null>;
+  recent: {
+    council2022: Record<string, number | null> | null;
+    legislative2024: Record<string, number | null> | null;
+    recall2025: { agreePct: number | null; turnout: number | null; districts: number } | null;
+    referendum2025: { agreePct: number | null; turnout: number | null } | null;
+  };
+  partySupport: { kmt: number | null; dpp: number | null; tpp?: number | null; none?: number | null; sampleSize?: number | null; pollster: string; fieldEnd: string; source: string } | null;
 }
 
 export interface SeriesPoint {
@@ -82,6 +89,22 @@ export interface Meta {
   counts: { polls: number; extraPolls: number; detailed: number; races: number };
 }
 
+export interface Calibration {
+  years: Record<string, number>;
+  accuracy: {
+    pollsters: { pollster: string; n: number; bias: number | null; biasN: number; rmse: number; hitRate: number }[];
+    industryBias: Record<string, number>;
+    rmse: number;
+    rmseLast3Weeks: number;
+    hitRate: number;
+  } | null;
+  houseHistory: Record<string, { bias: number; n: number }>;
+  backtests: {
+    year: number; asOf: string; correct: number; total: number; brier: number;
+    races: { id: RaceId; predicted: string; predictedParty: Party; prob: number; winner: string; winnerParty: Party; correct: boolean; pollCount: number }[];
+  }[];
+}
+
 export interface SiteData {
   races: RaceData[];
   polls: PublicPoll[];
@@ -89,6 +112,7 @@ export interface SiteData {
   forecast: Forecast;
   history: HistoryPoint[];
   map: GeoJSON.FeatureCollection;
+  calibration: Calibration;
   meta: Meta;
 }
 
@@ -104,7 +128,7 @@ export async function loadSiteData(): Promise<SiteData | { blackout: true }> {
   };
   const meta = await get("meta");
   if (meta.blackout) return { blackout: true };
-  const names = ["races", "polls", "national", "forecast", "history", "map"] as const;
+  const names = ["races", "polls", "national", "forecast", "history", "map", "calibration"] as const;
   const parts = await Promise.all(names.map(get));
   return { ...(Object.fromEntries(names.map((n, i) => [n, parts[i]])) as unknown as SiteData), meta };
 }

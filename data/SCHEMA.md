@@ -149,3 +149,57 @@
 - `details`：維基已列、你補細節的民調。
 - `extraPolls`：維基沒列、但你在新聞找到的科學民調（電話或網路調查，有樣本數）。格式同 `details`。
 - 不收：壹蘋投票、網路即時投票、AI 預測、街頭調查、沒有樣本數的「內參」傳聞。真的遇到值得記錄的，放進 `extraPolls` 並加 `"excluded": true, "excludeReason": "..."`。
+
+## data/history/polls-{2018,2022}.json（歷屆選前民調，用來校準）
+
+選舉日：2018-11-24、2022-11-26。只收投票日前 75 天內、封關前的候選人對決民調。
+
+```json
+{
+  "year": 2022,
+  "electionDay": "2022-11-26",
+  "polls": [
+    {
+      "raceId": "taipei",
+      "pollster": "TVBS", "sponsor": null,
+      "fieldStart": "2022-10-20", "fieldEnd": "2022-10-24", "published": "2022-10-26",
+      "method": "phone+mobile", "sampleSize": 1068,
+      "results": [{ "name": "蔣萬安", "party": "kmt", "pct": 38 }, { "name": "陳時中", "party": "dpp", "pct": 26 }, { "name": "黃珊珊", "party": "ind", "pct": 27 }],
+      "undecided": 9,
+      "source": "https://...", "via": "wikipedia | news", "notes": null
+    }
+  ]
+}
+```
+`party` 用當年登記黨籍（2018 柯文哲＝ind、2022 黃珊珊＝ind、高虹安＝tpp）。名字要跟 data/base/results-mayor-{年}.json 裡的寫法一致。
+
+## data/base/recent-votes.json（較新的投票）
+
+```json
+{
+  "council2022": { "national": { "kmt": 37.0, "dpp": 30.0, "tpp": 3.0, "ind": 25.0, "other": 5.0 }, "byRace": { "taipei": { "kmt": 0, "dpp": 0, "tpp": 0, "npp": 0, "ind": 0, "other": 0, "validVotes": 0 } }, "source": "..." },
+  "legislative2024": { "national": {...}, "byRace": {...}, "source": "..." },
+  "recall2025": {
+    "rounds": [{ "date": "2025-07-26", "source": "..." }, { "date": "2025-08-23", "source": "..." }],
+    "districts": [{ "date": "2025-07-26", "raceId": "taipei", "district": "臺北市第3選舉區", "target": "王鴻薇", "targetParty": "kmt", "agree": 0, "disagree": 0, "agreePct": 0, "electorate": 0, "turnout": 0, "passed": false, "source": "..." }],
+    "byRace": { "taipei": { "agreePct": 0, "turnout": 0, "districts": 0 } }
+  },
+  "referendum2025": { "date": "2025-08-23", "question": "核三延役", "national": { "agreePct": 0, "turnout": 0 }, "byRace": { "taipei": { "agreePct": 0, "turnout": 0 } }, "source": "..." }
+}
+```
+各項百分比是佔有效票的比例。`byRace` 用 raceId，竹北用鄉鎮市區層級。
+
+## data/base/party-support-county.json（各縣市政黨支持度）
+
+```json
+{
+  "surveys": [
+    {
+      "pollster": "遠見雜誌", "title": "2026 縣市長施政滿意度暨政黨支持度調查",
+      "fieldStart": "2026-03-02", "fieldEnd": "2026-04-14", "published": "2026-05-xx",
+      "method": "phone+mobile", "source": "https://...",
+      "byRace": { "taipei": { "kmt": 0, "dpp": 0, "tpp": 0, "none": 0, "sampleSize": null } }
+    }
+  ]
+}
+```

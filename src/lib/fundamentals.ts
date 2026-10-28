@@ -12,7 +12,7 @@ export interface PresidentialResults {
 
 /** 現任參選的優勢：藍綠差距約 8 個百分點（每人約 4 個百分點得票率） */
 export const INCUMBENCY_MARGIN = 8;
-const PRES_WEIGHTS: Record<string, number> = { "2020": 0.4, "2024": 0.6 };
+export const PRES_WEIGHTS_2026: Record<string, number> = { "2020": 0.4, "2024": 0.6 };
 
 const margin = (shares: Record<string, number> | undefined) =>
   shares && shares.kmt != null && shares.dpp != null ? shares.kmt - shares.dpp : null;
@@ -51,10 +51,10 @@ export function nationalLocalMargin(res: MayorResults): number {
 }
 
 /** 台灣版 PVI：總統選舉時這個選區比全國偏藍幾個百分點（正＝偏藍，負＝偏綠） */
-export function pvi(pres: PresidentialResults | null, raceId: RaceId): number | null {
+export function pvi(pres: PresidentialResults | null, raceId: RaceId, weights = PRES_WEIGHTS_2026): number | null {
   if (!pres) return null;
   let sum = 0, w = 0;
-  for (const [year, wt] of Object.entries(PRES_WEIGHTS)) {
+  for (const [year, wt] of Object.entries(weights)) {
     const e = pres.elections[year];
     const m = margin(e?.byRace[raceId]);
     const n = margin(e?.national);
@@ -65,31 +65,61 @@ export function pvi(pres: PresidentialResults | null, raceId: RaceId): number | 
   return w ? sum / w : null;
 }
 
+/**
+ * 某個「比全國偏藍幾點」的指標：byRace 的藍綠差距減全國的藍綠差距。
+ * 用在不分區政黨票、議員政黨票、區域立委、各縣市政黨支持度。
+ */
+export function relativeLean(
+  byRace: Partial<Record<string, Record<string, number | null>>> | undefined,
+  national: Record<string, number | null> | undefined,
+  raceId: RaceId,
+  scale = 1,
+): number | null {
+  const r = byRace?.[raceId];
+  if (!r || r.kmt == null || r.dpp == null || !national || national.kmt == null || national.dpp == null) return null;
+  return ((r.kmt - r.dpp) - (national.kmt - national.dpp)) * scale;
+}
+
+export interface PriorComponent { label: string; margin: number | null; weight: number }
+
 export interface Prior {
   priorShares: Record<string, number>;
   priorSigma: number;
   pvi: number | null;
-  /** 不含現任優勢、不含全國風向的藍綠差距 */
+  /** 不含現任優勢、不含全國風向的藍綠差距（各項加權平均） */
   baseMargin: number | null;
+  /** 基本盤由哪些指標組成（換算成地方選舉尺度的藍綠差距） */
+  components: PriorComponent[];
 }
 
-export function computePrior(
-  raceId: RaceId,
-  candidates: Candidate[],
-  data: { mayor2022: MayorResults | null; pres: PresidentialResults | null },
-): Prior {
-  const r22 = data.mayor2022?.races[raceId];
-  const p = pvi(data.pres, raceId);
-  const local = localMargin(r22, candidates);
-  const natLocal = data.mayor2022 ? nationalLocalMargin(data.mayor2022) : 0;
+export interface PriorInputs {
+  /** 上一屆縣市長選舉 */
+  mayorPrev: MayorResults | null;
+  pres: PresidentialResults | null;
+  presWeights?: Record<string, number>;
+  /** 其他「比全國偏藍幾點」的指標，會加上上一屆縣市長的全國藍綠差距換成同一尺度 */
+  leans?: { label: string; lean: number | null; weight: number }[];
+}
 
-  // 2022 若有現任參選，先把現任優勢扣掉
+export function computePrior(raceId: RaceId, candidates: Candidate[], data: PriorInputs): Prior {
+  const r22 = data.mayorPrev?.races[raceId];
+  const p = pvi(data.pres, raceId, data.presWeights);
+  const local = localMargin(r22, candidates);
+  const natLocal = data.mayorPrev ? nationalLocalMargin(data.mayorPrev) : 0;
+
+  // 上一屆若有現任參選，先把現任優勢扣掉
   let local22 = local;
   const inc22 = r22?.candidates.find((c) => c.incumbent);
   if (local22 != null && inc22) local22 += inc22.party === "kmt" ? -INCUMBENCY_MARGIN : inc22.party === "dpp" ? INCUMBENCY_MARGIN : 0;
 
-  const parts = [p != null ? p + natLocal : null, local22].filter((x): x is number => x != null);
-  const baseMargin = parts.length ? parts.reduce((a, b) => a + b, 0) / parts.length : null;
+  const components: PriorComponent[] = [
+    { label: "總統選舉", margin: p != null ? p + natLocal : null, weight: 1 },
+    { label: `${data.mayorPrev?.year ?? "上屆"} 縣市長`, margin: local22, weight: 1 },
+    ...(data.leans ?? []).map((l) => ({ label: l.label, margin: l.lean != null ? l.lean + natLocal : null, weight: l.weight })),
+  ];
+  const parts = components.filter((c): c is PriorComponent & { margin: number } => c.margin != null);
+  const wSum = parts.reduce((s, c) => s + c.weight, 0);
+  const baseMargin = wSum ? parts.reduce((s, c) => s + c.margin * c.weight, 0) / wSum : null;
 
   const kmt = blocCandidate(candidates, "kmt");
   const dpp = blocCandidate(candidates, "dpp");
@@ -128,8 +158,9 @@ export function computePrior(
   const standard = !!(kmt && dpp && baseMargin != null);
   return {
     priorShares: shares,
-    priorSigma: standard ? (parts.length === 2 ? 6 : 8) : 10,
+    priorSigma: standard ? (parts.length >= 3 ? 6 : parts.length === 2 ? 7 : 8) : 10,
     pvi: p,
     baseMargin,
+    components,
   };
 }

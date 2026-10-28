@@ -6,7 +6,6 @@ import { md } from "../lib/format.ts";
 const NAV = [
   { href: "#/", label: "總覽", page: "" },
   { href: "#/polls", label: "民調庫", page: "polls" },
-  { href: "#/mymap", label: "自己畫地圖", page: "mymap" },
   { href: "#/model", label: "模型說明", page: "model" },
 ];
 
