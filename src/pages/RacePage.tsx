@@ -141,7 +141,7 @@ export function RacePage({ id }: { id: RaceId }) {
         <Card kicker="模型怎麼算的" title="民調 × 基本盤">
           <table className="w-full text-sm">
             <thead><tr className="text-left text-xs text-ink-3"><th className="py-1 font-normal">候選人</th><th className="font-normal text-right">民調平均</th><th className="font-normal text-right">基本盤</th><th className="font-normal text-right">預估</th></tr></thead>
-            <tbody className="divide-y hairline">
+            <tbody className="divide-y divide-rule">
               {race.candidates.filter((c) => f.shares[c.name] >= 1).map((c) => (
                 <tr key={c.name}>
                   <td className="py-1.5"><CandName raceId={id} name={c.name} /></td>

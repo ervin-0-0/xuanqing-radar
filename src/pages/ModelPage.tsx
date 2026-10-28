@@ -171,7 +171,7 @@ function TrackRecord() {
         <div className="-mx-2 overflow-x-auto">
           <table className="w-full min-w-[360px] text-sm">
             <thead><tr className="text-left text-xs text-ink-3"><th className="px-2 py-1 font-normal">機構（3 筆以上）</th><th className="px-2 text-right font-normal">筆數</th><th className="px-2 text-right font-normal">相對偏差</th><th className="px-2 text-right font-normal">誤差</th><th className="px-2 text-right font-normal">猜中</th></tr></thead>
-            <tbody className="divide-y hairline">
+            <tbody className="divide-y divide-rule">
               {top.map((p) => (
                 <tr key={p.pollster}>
                   <td className="px-2 py-1.5">{p.pollster}</td>

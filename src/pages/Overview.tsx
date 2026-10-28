@@ -6,7 +6,9 @@ import { TimeMachine } from "../components/Controls.tsx";
 import { CandName, PartyChip, PollLine, ProbBars, RatingBadge } from "../components/RaceBits.tsx";
 import { LineChart } from "../components/LineChart.tsx";
 import { useSite } from "../lib/store.tsx";
-import { PARTY_VAR, probFill, prob, md } from "../lib/format.ts";
+import { PARTY_FILL, PARTY_SOFT, PARTY_VAR, METHOD_LABEL, probFill, prob, md } from "../lib/format.ts";
+import { isPartisan } from "../lib/calibration.ts";
+import type { PublicPoll } from "../lib/data.ts";
 import { RACE_BY_ID, RACES, PARTY_NAME, type RaceId } from "../lib/types.ts";
 import type { RaceForecast } from "../lib/model.ts";
 
@@ -111,36 +113,28 @@ export function Overview() {
         </div>
       </Card>
 
-      <div className="grid gap-6 lg:grid-cols-2">
-        <Card kicker="跟 2022 當選人不同黨" title="模型預估變天">
-          {flips.length === 0 ? <p className="text-sm text-ink-3">目前沒有預估換黨的縣市。</p> : (
-            <ul className="divide-y hairline">
-              {flips.map(({ f, w }) => {
-                return (
-                  <li key={f.id} className="flex items-center gap-3 py-2">
-                    <a href={`#/race/${f.id}`} className="w-16 font-medium hover:underline">{RACE_BY_ID[f.id].short}</a>
-                    <span className="text-sm text-ink-3">{PARTY_NAME[w!.party]}</span>
-                    <span className="text-ink-3">→</span>
-                    <PartyChip party={f.leaderParty} />
-                    <CandName raceId={f.id} name={f.leader} className="text-sm" />
-                    <span className="ml-auto num text-sm">{prob(f.winProb[f.leader])}</span>
-                  </li>
-                );
-              })}
-            </ul>
-          )}
-        </Card>
-        <Card kicker="依調查結束日" title="最新入庫民調" right={<a href="#/polls" className="text-sm text-ink-2 underline underline-offset-2">全部民調</a>}>
-          <div className="space-y-2">
-            {recent.map((p) => (
-              <div key={p.id} className="flex gap-2">
-                <a href={`#/race/${p.raceId}`} className="w-10 shrink-0 text-sm font-medium hover:underline">{RACE_BY_ID[p.raceId].short}</a>
-                <PollLine p={p} />
-              </div>
+      <Card kicker="跟 2022 當選人不同黨" title="模型預估變天">
+        {flips.length === 0 ? <p className="text-sm text-ink-3">目前沒有預估換黨的縣市。</p> : (
+          <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">
+            {flips.map(({ f, w }) => (
+              <a key={f.id} href={`#/race/${f.id}`} className="lift flex items-center gap-2 rounded-lg border hairline bg-card px-3 py-2.5 hover:bg-wash">
+                <span className="w-10 shrink-0 font-medium">{RACE_BY_ID[f.id].short}</span>
+                <span className="shrink-0 text-xs text-ink-3">{PARTY_NAME[w!.party]}</span>
+                <span className="text-ink-3">→</span>
+                <PartyChip party={f.leaderParty} />
+                <CandName raceId={f.id} name={f.leader} className="shrink-0 whitespace-nowrap text-sm" />
+                <span className="num ml-auto font-semibold" style={{ color: PARTY_VAR[f.leaderParty] }}>{prob(f.winProb[f.leader])}</span>
+              </a>
             ))}
           </div>
-        </Card>
-      </div>
+        )}
+      </Card>
+
+      <Card kicker="依調查結束日" title="最新入庫民調" right={<a href="#/polls" className="text-sm text-ink-2 underline underline-offset-2">全部民調</a>}>
+        <div className="grid gap-3 md:grid-cols-2">
+          {recent.map((p) => <LatestPoll key={p.id} p={p} />)}
+        </div>
+      </Card>
 
       <NationalCharts />
     </div>
@@ -185,6 +179,57 @@ function NationalCharts() {
         </Card>
       )}
     </div>
+  );
+}
+
+/** 一筆民調：標題列是縣市、日期、機構與領先幅度，下面是得票條、候選人與來源 */
+function LatestPoll({ p }: { p: PublicPoll }) {
+  const rs = [...p.results].sort((a, b) => b.pct - a.pct);
+  const [a, b] = rs;
+  const lead = a && b ? Math.round((a.pct - b.pct) * 10) / 10 : null;
+  const undecided = p.undecided ?? Math.max(0, 100 - rs.reduce((s, r) => s + r.pct, 0));
+  // 媒體自己做的不重複寫委託；陣營或政黨委託另外標出來
+  const sponsor = p.sponsor && !p.sponsor.includes(p.pollster) && !p.pollster.includes(p.sponsor) ? p.sponsor.replace(/（.*?）/g, "") : null;
+  const partisan = !!p.sponsor && isPartisan(p.sponsor);
+  const meta = [
+    p.sampleSize && `${p.sampleSize.toLocaleString()} 人`,
+    p.method !== "unknown" && METHOD_LABEL[p.method],
+    sponsor && (/公布$/.test(sponsor) ? sponsor : `${sponsor}委託`),
+  ].filter(Boolean).join("・");
+  return (
+    <a href={`#/race/${p.raceId}`} className="lift block min-w-0 rounded-lg border hairline bg-card px-4 py-3 hover:bg-wash">
+      <div className="flex items-center gap-2">
+        <span className="shrink-0 font-serif text-lg font-black leading-none">{RACE_BY_ID[p.raceId].short}</span>
+        <span className="num shrink-0 text-xs text-ink-3">{md(p.fieldEnd)}</span>
+        <span className="truncate text-sm text-ink-2">{p.pollster}</span>
+        {lead != null && (
+          <span className="num ml-auto shrink-0 rounded-full px-2 text-[11px] font-semibold leading-5"
+            style={{ background: PARTY_SOFT[a.party], color: PARTY_VAR[a.party] }}>
+            {lead === 0 ? "平手" : `領先 ${lead}`}
+          </span>
+        )}
+      </div>
+      <div className="mt-2.5 flex h-2.5 overflow-hidden rounded-full bg-rule" title={`未表態 ${undecided.toFixed(1)}%`}>
+        {rs.map((r) => (
+          <div key={r.name} className="h-full border-r-2 border-card" style={{ width: `${r.pct}%`, background: PARTY_FILL[r.party] }} />
+        ))}
+      </div>
+      <div className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
+        {rs.filter((r, i) => i < 2 || r.pct >= 1).slice(0, 4).map((r) => (
+          <span key={r.name} className="inline-flex items-center gap-1.5">
+            <CandName raceId={p.raceId} name={r.name} />
+            <span className="num font-semibold" style={{ color: PARTY_VAR[r.party] }}>{r.pct}%</span>
+          </span>
+        ))}
+        {undecided >= 1 && <span className="num text-xs text-ink-3">未表態 {Math.round(undecided)}%</span>}
+      </div>
+      {(meta || partisan) && (
+        <div className="mt-1 flex items-center gap-1.5 text-[11px] text-ink-3" title={p.sponsor ?? meta}>
+          {partisan && <span className="shrink-0 rounded border hairline px-1 leading-4">陣營委託</span>}
+          <span className="truncate">{meta}</span>
+        </div>
+      )}
+    </a>
   );
 }
 
