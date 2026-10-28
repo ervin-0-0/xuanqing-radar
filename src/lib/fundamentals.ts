@@ -84,6 +84,11 @@ export interface PriorComponent { label: string; margin: number | null; weight: 
 
 export interface Prior {
   priorShares: Record<string, number>;
+  /**
+   * 這個候選人的基本盤有沒有根據（藍綠陣營代表、上屆同一人參選、現任）。
+   * 沒根據的（例如第一次參選的無黨籍、第三黨）在有民調時改用民調數字當起點，避免被預設值拖累。
+   */
+  known: Record<string, boolean>;
   priorSigma: number;
   pvi: number | null;
   /** 不含現任優勢、不含全國風向的藍綠差距（各項加權平均） */
@@ -123,7 +128,11 @@ export function computePrior(raceId: RaceId, candidates: Candidate[], data: Prio
 
   const kmt = blocCandidate(candidates, "kmt");
   const dpp = blocCandidate(candidates, "dpp");
-  const others = candidates.filter((c) => c !== kmt && c !== dpp);
+  // 同陣營有兩個以上（例如 2022 連江兩位國民黨籍），陣營的票要分給他們，不能全給第一個
+  const sameBloc = (b: "kmt" | "dpp", rep: Candidate | undefined) =>
+    rep ? candidates.filter((c) => c !== rep && (c.party === b || c.endorsedBy?.includes(b)) && c.party !== (b === "kmt" ? "dpp" : "kmt")) : [];
+  const kmtMates = sameBloc("kmt", kmt), dppMates = sameBloc("dpp", dpp);
+  const others = candidates.filter((c) => c !== kmt && c !== dpp && !kmtMates.includes(c) && !dppMates.includes(c));
 
   // 非藍綠候選人：同一人或同黨 2022 的得票率，沒有就給小黨預設值
   const otherShare = (c: Candidate) => {
@@ -139,8 +148,8 @@ export function computePrior(raceId: RaceId, candidates: Candidate[], data: Prio
 
   if (kmt && dpp && baseMargin != null) {
     let m = baseMargin;
-    if (kmt.incumbent) m += INCUMBENCY_MARGIN;
-    if (dpp.incumbent) m -= INCUMBENCY_MARGIN;
+    if (kmt.incumbent || kmtMates.some((c) => c.incumbent)) m += INCUMBENCY_MARGIN;
+    if (dpp.incumbent || dppMates.some((c) => c.incumbent)) m -= INCUMBENCY_MARGIN;
     m = Math.max(-60, Math.min(60, m));
     shares[kmt.name] = (rest * (50 + m / 2)) / 100;
     shares[dpp.name] = (rest * (50 - m / 2)) / 100;
@@ -152,12 +161,30 @@ export function computePrior(raceId: RaceId, candidates: Candidate[], data: Prio
     }
   }
 
+  // 把陣營的票平分給同陣營的人（現任多拿現任優勢）
+  for (const [rep, mates] of [[kmt, kmtMates], [dpp, dppMates]] as const) {
+    if (!rep || !mates.length) continue;
+    const group = [rep, ...mates];
+    const pool = shares[rep.name] ?? 0;
+    const w = group.map((c) => 1 + (c.incumbent ? INCUMBENCY_MARGIN / 25 : 0));
+    const wSum2 = w.reduce((a, b) => a + b, 0);
+    group.forEach((c, i) => { shares[c.name] = (pool * w[i]) / wSum2; });
+  }
+
   const total = Object.values(shares).reduce((a, b) => a + b, 0);
   for (const k of Object.keys(shares)) shares[k] = (shares[k] / total) * 100;
+
+  const prevSame = (c: Candidate) => !!r22?.candidates.some((x) => x.name === c.name);
+  const known: Record<string, boolean> = {};
+  for (const c of candidates) {
+    const isRep = (c === kmt || c === dpp) && baseMargin != null && !(c === kmt ? kmtMates : dppMates).length;
+    known[c.name] = isRep || prevSame(c) || c.incumbent;
+  }
 
   const standard = !!(kmt && dpp && baseMargin != null);
   return {
     priorShares: shares,
+    known,
     priorSigma: standard ? (parts.length >= 3 ? 6 : parts.length === 2 ? 7 : 8) : 10,
     pvi: p,
     baseMargin,

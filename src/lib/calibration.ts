@@ -21,6 +21,9 @@ export interface HistPoll {
 }
 export interface HistFile { year: number; electionDay: string; polls: HistPoll[] }
 
+/** 政黨或陣營自己公布的民調：不算進機構準確度，回測時當委託民調降權 */
+export const isPartisan = (pollster: string) => /國民黨|民進黨|民眾黨|團隊|競選|陣營|總部|黨部/.test(pollster);
+
 /** 中選會與維基的異體字 */
 export const normName = (n: string) => n.replace(/黄/g, "黃").replace(/\s+/g, "");
 
@@ -48,10 +51,14 @@ export function pollErrors(file: HistFile, results: MayorResults): PollError[] {
     const actual = r.candidates.map((c) => ({ ...c, key: normName(c.name) }));
     const listed = p.results.map((x) => ({ ...x, key: normName(x.name) })).filter((x) => actual.some((a) => a.key === x.key));
     if (listed.length < 2) continue;
-    const pollSum = listed.reduce((s, x) => s + x.pct, 0);
+    // 跟模型一樣：未表態平均分給 5% 以上的候選人
+    const und = Math.max(0, Math.min(60, p.undecided ?? 100 - p.results.reduce((s, x) => s + x.pct, 0)));
+    const majors = listed.filter((x) => x.pct >= 5);
+    const adj = (x: { pct: number }) => x.pct + (majors.includes(x as (typeof listed)[number]) ? und / majors.length : 0);
+    const pollSum = listed.reduce((s, x) => s + adj(x), 0);
     const actSum = listed.reduce((s, x) => s + (actual.find((a) => a.key === x.key)!.pct ?? 0), 0);
     if (!pollSum || !actSum) continue;
-    const ps = (k: string) => ((listed.find((x) => x.key === k)?.pct ?? 0) / pollSum) * 100;
+    const ps = (k: string) => { const x = listed.find((y) => y.key === k); return x ? (adj(x) / pollSum) * 100 : 0; };
     const as = (k: string) => ((actual.find((a) => a.key === k)?.pct ?? 0) / actSum) * 100;
 
     const top = [...actual].sort((a, b) => (b.pct ?? 0) - (a.pct ?? 0));
@@ -86,7 +93,7 @@ export interface PollsterRecord {
   hitRate: number;
 }
 
-export function pollsterAccuracy(errors: PollError[]): { pollsters: PollsterRecord[]; industryBias: Record<string, number>; rmse: number; rmseLast3Weeks: number; hitRate: number } {
+export function pollsterAccuracy(errors: PollError[]): { pollsters: PollsterRecord[]; industryBias: Record<string, number>; rmse: number; rmseLast3Weeks: number; medianAbs: number; hitRate: number } {
   // 當年業界平均偏差（藍綠）
   const industryBias: Record<string, number> = {};
   for (const y of new Set(errors.map((e) => e.year))) {
@@ -94,7 +101,7 @@ export function pollsterAccuracy(errors: PollError[]): { pollsters: PollsterReco
     industryBias[y] = xs.length ? xs.reduce((a, b) => a + b, 0) / xs.length : 0;
   }
   const by = new Map<string, PollError[]>();
-  for (const e of errors) by.set(e.pollster, [...(by.get(e.pollster) ?? []), e]);
+  for (const e of errors) if (!isPartisan(e.pollster)) by.set(e.pollster, [...(by.get(e.pollster) ?? []), e]);
   const pollsters = [...by].map(([pollster, es]) => {
     const b = es.filter((e) => e.blocError != null).map((e) => e.blocError! - industryBias[e.year]);
     return {
@@ -112,6 +119,7 @@ export function pollsterAccuracy(errors: PollError[]): { pollsters: PollsterReco
     industryBias,
     rmse: rms(errors),
     rmseLast3Weeks: rms(errors.filter((e) => e.daysOut <= 21)),
+    medianAbs: [...errors].map((e) => Math.abs(e.error)).sort((a, b) => a - b)[Math.floor(errors.length / 2)] ?? 0,
     hitRate: errors.length ? errors.filter((e) => e.calledWinner).length / errors.length : 0,
   };
 }
@@ -151,13 +159,13 @@ export function backtest(opts: {
       .map((c) => ({ name: normName(c.name), party: c.party, incumbent: c.incumbent, ballotNumber: null }));
     const leans = [{ label: "不分區政黨票", lean: relativeLean(opts.partyList?.byRace, opts.partyList?.national, meta.id), weight: 0.8 }];
     const prior = computePrior(meta.id, candidates, { mayorPrev: opts.mayorPrev, pres: opts.pres, presWeights: opts.presWeights, leans });
-    races.push({ id: meta.id, tier: meta.tier, candidates, priorShares: prior.priorShares, priorSigma: prior.priorSigma });
+    races.push({ id: meta.id, tier: meta.tier, candidates, priorShares: prior.priorShares, priorSigma: prior.priorSigma, priorKnown: prior.known });
   }
   const polls: Poll[] = file.polls.map((p, i) => ({
     id: `h${file.year}-${i}`,
     raceId: p.raceId,
     pollster: canonicalPollster(p.pollster),
-    sponsor: p.sponsor,
+    sponsor: p.sponsor ?? (isPartisan(p.pollster) ? p.pollster : null),
     method: p.method ?? "unknown",
     sampleSize: p.sampleSize,
     fieldEnd: p.fieldEnd,

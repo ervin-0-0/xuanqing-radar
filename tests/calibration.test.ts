@@ -43,7 +43,8 @@ describe("pollErrors", () => {
   it("中選會「黄」跟維基「黃」對得上；沒有藍綠對決時 blocError 為 null", () => {
     expect(es).toHaveLength(2);
     expect(es[1].blocError).toBeNull();
-    expect(es[1].error).toBeCloseTo(25 - 20, 5);
+    // 未表態 20 平均分給兩人：60／40 → 差距 20，跟開票 60／40 一樣
+    expect(es[1].error).toBeCloseTo(0, 5);
   });
 });
 

@@ -26,6 +26,8 @@ export interface ModelRace {
   priorShares: Record<string, number>;
   /** 基本盤的不確定度（得票率百分點） */
   priorSigma: number;
+  /** 基本盤沒根據的候選人（false）有民調時改用民調數字當起點 */
+  priorKnown?: Record<string, boolean>;
 }
 
 export interface PollResult { name: string; party: Party; pct: number }
@@ -73,8 +75,8 @@ export const PARAMS = {
   raceError: 1.0,
   /** 未表態越多越不確定：每 10% 未表態加 0.8 個百分點誤差 */
   undecidedError: 0.08,
-  /** 全國連動誤差（所有選區一起往同一邊偏） */
-  nationalError: 1.5,
+  /** 全國連動誤差（所有選區一起往同一邊偏）。2018、2022 業界整體藍綠偏差 5.5、3.7 點 → 得票率約 2.3 點 */
+  nationalError: 2.3,
   houseShrink: 6,
   houseClamp: 5,
   /** 歷屆偏差當幾筆「虛擬觀測」：每筆歷史民調算 0.5，最多 3 */
@@ -123,12 +125,17 @@ export function usablePolls(race: ModelRace, polls: Poll[], asOf: string): Usabl
     const inRace = p.results.filter((r) => names.has(r.name));
     const extra = p.results.filter((r) => !names.has(r.name)).reduce((s, r) => s + r.pct, 0);
     if (extra > 5 || !core.every((c) => inRace.some((r) => r.name === c.name))) continue;
-    const known = inRace.reduce((s, r) => s + r.pct, 0);
+    // 未表態平均分給 5% 以上的候選人。2018／2022 回測：比按比例分配準（誤差 15.9 → 12.1 點），
+    // 因為台灣地方選舉的未表態常倒向落後的一方
+    const undecided = Math.max(0, Math.min(60, p.undecided ?? 100 - p.results.reduce((s, r) => s + r.pct, 0)));
+    const majors = inRace.filter((r) => r.pct >= 5);
+    const adj = inRace.map((r) => ({ name: r.name, v: r.pct + (majors.includes(r) ? undecided / majors.length : 0) }));
+    const known = adj.reduce((s, r) => s + r.v, 0);
     if (known <= 0) continue;
     const missing = race.candidates.filter((c) => !inRace.some((r) => r.name === c.name));
     const missingPrior = missing.reduce((s, c) => s + (race.priorShares[c.name] ?? 0), 0);
     const shares: Record<string, number> = {};
-    for (const r of inRace) shares[r.name] = (r.pct / known) * (100 - missingPrior);
+    for (const r of adj) shares[r.name] = (r.v / known) * (100 - missingPrior);
     for (const c of missing) shares[c.name] = race.priorShares[c.name] ?? 0;
     const key = `${p.pollster}|${p.fieldEnd}`;
     const score = inRace.length * 10 - extra;
@@ -287,10 +294,28 @@ export function forecast(races: ModelRace[], polls: Poll[], opts: ModelOptions):
   // 每個選區：基本盤加上全國風向，再跟民調平均做精確度加權
   const setup = races.map((race) => {
     const prior: Record<string, number> = { ...race.priorShares };
-    const k = blocCandidate(race.candidates, "kmt")?.name;
-    const d = blocCandidate(race.candidates, "dpp")?.name;
-    if (k && d) { prior[k] += env / 2; prior[d] -= env / 2; }
+    // 全國風向加到整個陣營：同陣營有兩人時按各自比例分，不能只加給其中一個
+    const kmtBloc = race.candidates.filter((c) => bloc(c) === "kmt");
+    const dppBloc = race.candidates.filter((c) => bloc(c) === "dpp");
+    if (kmtBloc.length && dppBloc.length) {
+      for (const [group, sign] of [[kmtBloc, 1], [dppBloc, -1]] as const) {
+        const tot = group.reduce((s, c) => s + prior[c.name], 0);
+        for (const c of group) prior[c.name] += (sign * env) / 2 * (tot ? prior[c.name] / tot : 1 / group.length);
+      }
+    }
     const a = avgs.get(race.id) ?? null;
+    // 沒有前例的候選人（新竹市 2022 的高虹安、苗栗 2022 的鍾東錦這類），基本盤的預設值不可信：
+    // 有民調就改用民調數字當起點，其餘有根據的候選人按原比例分剩下的票
+    if (a && race.priorKnown) {
+      const unknown = race.candidates.filter((c) => race.priorKnown![c.name] === false);
+      if (unknown.length && unknown.length < race.candidates.length) {
+        const fixed = unknown.reduce((s, c) => s + (a.shares[c.name] ?? 0), 0);
+        const knownSum = race.candidates.filter((c) => race.priorKnown![c.name] !== false).reduce((s, c) => s + prior[c.name], 0);
+        for (const c of race.candidates) {
+          prior[c.name] = race.priorKnown[c.name] === false ? a.shares[c.name] ?? 0 : knownSum ? (prior[c.name] / knownSum) * (100 - fixed) : 0;
+        }
+      }
+    }
     const sp2 = race.priorSigma ** 2;
     const lambda = a ? sp2 / (sp2 + a.sigma ** 2) : 0;
     const mean: Record<string, number> = {};

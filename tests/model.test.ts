@@ -24,9 +24,9 @@ const opts = { asOf: "2026-10-28", electionDay: "2026-11-28", sims: 4000 };
 
 describe("usablePolls", () => {
   const r = race("keelung", 50);
-  it("未表態按比例分配", () => {
+  it("未表態平均分給 5% 以上的候選人", () => {
     const [u] = usablePolls(r, [poll(r, 40, 30, "2026-10-20")], opts.asOf);
-    expect(u.shares["keelung藍"]).toBeCloseTo(57.14, 1);
+    expect(u.shares["keelung藍"]).toBeCloseTo(55, 1); // (40+15)/(40+15+30+15)
   });
   it("有已退選者且超過 5% 的情境不用；調查結束日在 asOf 之後也不用", () => {
     const withdrawn = poll(r, 30, 30, "2026-10-20", { results: [...poll(r, 30, 30, "x").results, { name: "退選者", party: "tpp", pct: 20 }] });
@@ -43,10 +43,11 @@ describe("usablePolls", () => {
 });
 
 describe("forecast", () => {
-  it("民調領先 10 點、選前一個月 → 當選機率九成以上", () => {
+  it("民調領先 10 點、選前一個月 → 當選機率約八到九成（歷屆單筆民調誤差中位數 8.5 點）", () => {
     const r = race("taipei", 50);
     const f = forecast([r], [poll(r, 50, 40, "2026-10-20"), poll(r, 49, 41, "2026-10-10", { pollster: "乙" })], opts);
-    expect(f.races[0].winProb["taipei藍"]).toBeGreaterThan(0.9);
+    expect(f.races[0].winProb["taipei藍"]).toBeGreaterThan(0.8);
+    expect(f.races[0].winProb["taipei藍"]).toBeLessThan(0.97);
     expect(f.races[0].pollWeight).toBeGreaterThan(0.6);
   });
 

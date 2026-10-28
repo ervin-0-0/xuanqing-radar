@@ -281,7 +281,7 @@ const backtests = hist2022 && mayor2022
 // ── 預測 ─────────────────────────────────────────────────
 const modelRaces: ModelRace[] = races
   .filter((r) => r.candidates.length >= 2)
-  .map((r) => ({ id: r.id, tier: r.tier, candidates: r.candidates, priorShares: r.prior.priorShares, priorSigma: r.prior.priorSigma }));
+  .map((r) => ({ id: r.id, tier: r.tier, candidates: r.candidates, priorShares: r.prior.priorShares, priorSigma: r.prior.priorSigma, priorKnown: r.prior.known }));
 const modelPolls = polls.map((p) => ({ ...p, published: p.published }));
 const today_ = forecast(modelRaces, modelPolls, { asOf: AS_OF, electionDay: ELECTION_DAY, houseHistory });
 const history = forecastHistory(modelRaces, modelPolls, HISTORY_FROM, AS_OF, ELECTION_DAY, 3, 2000, houseHistory);

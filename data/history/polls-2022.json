@@ -1,0 +1,3072 @@
+{
+  "year": 2022,
+  "electionDay": "2022-11-26",
+  "polls": [
+    {
+      "raceId": "changhua",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-09-24",
+      "fieldEnd": "2022-09-24",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "王惠美", "party": "kmt", "pct": 55.48},
+        {"name": "黃秀芳", "party": "dpp", "pct": 29.09},
+        {"name": "蕭仁正", "party": "ind", "pct": 0.61}
+      ],
+      "undecided": 14.82,
+      "source": "https://rwnews.tw/article.php?news=4820",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "chiayi-city",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-10-22",
+      "fieldEnd": "2022-10-22",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "黃敏惠", "party": "kmt", "pct": 58.21},
+        {"name": "李俊俋", "party": "dpp", "pct": 26.63}
+      ],
+      "undecided": 8.48,
+      "source": "https://rwnews.tw/article.php?news=5297",
+      "via": "wikipedia",
+      "notes": "其他候選人合計3.28%；嘉義市因候選人過世，投票延至 2022-12-18；本筆依該日計算 75 天與封關"
+    },
+    {
+      "raceId": "chiayi-city",
+      "pollster": "TVBS",
+      "sponsor": null,
+      "fieldStart": "2022-12-04",
+      "fieldEnd": "2022-12-04",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "黃敏惠", "party": "kmt", "pct": 59},
+        {"name": "李俊俋", "party": "dpp", "pct": 22},
+        {"name": "黃宏成台灣阿成世界偉人財神總統", "party": "ind", "pct": 2},
+        {"name": "陳泰山", "party": "ind", "pct": 0.3},
+        {"name": "鄭凱升", "party": "ind", "pct": 0.2}
+      ],
+      "undecided": 17,
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2022/20221207/e4c510acc6d12a8e4f1e95b092ad5cdd.pdf",
+      "via": "wikipedia",
+      "notes": "嘉義市因候選人過世，投票延至 2022-12-18；本筆依該日計算 75 天與封關"
+    },
+    {
+      "raceId": "chiayi-county",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-10-22",
+      "fieldEnd": "2022-10-22",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "翁章梁", "party": "dpp", "pct": 48.42},
+        {"name": "王育敏", "party": "kmt", "pct": 32.26}
+      ],
+      "undecided": 14.44,
+      "source": "https://rwnews.tw/article.php?news=5301",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "hsinchu-city",
+      "pollster": "美麗島電子報",
+      "sponsor": null,
+      "fieldStart": "2022-09-21",
+      "fieldEnd": "2022-09-21",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "高虹安", "party": "tpp", "pct": 29.9},
+        {"name": "沈慧虹", "party": "dpp", "pct": 24.9},
+        {"name": "林耕仁", "party": "kmt", "pct": 21.2}
+      ],
+      "undecided": 22.0,
+      "source": "https://www.my-formosa.com/DOC_188386.htm",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "hsinchu-city",
+      "pollster": "蓋洛普",
+      "sponsor": null,
+      "fieldStart": "2022-09-21",
+      "fieldEnd": "2022-09-21",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "高虹安", "party": "tpp", "pct": 26.01},
+        {"name": "沈慧虹", "party": "dpp", "pct": 18.22},
+        {"name": "林耕仁", "party": "kmt", "pct": 14.25},
+        {"name": "黃源甫", "party": "ind", "pct": 0.09}
+      ],
+      "undecided": 32.05,
+      "source": "https://udn.com/news/story/122682/6640889",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "hsinchu-city",
+      "pollster": "中華亞太菁英交流協會",
+      "sponsor": null,
+      "fieldStart": "2022-09-29",
+      "fieldEnd": "2022-09-29",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "高虹安", "party": "tpp", "pct": 27.3},
+        {"name": "沈慧虹", "party": "dpp", "pct": 30.4},
+        {"name": "林耕仁", "party": "kmt", "pct": 17.9}
+      ],
+      "undecided": 24.4,
+      "source": "https://www.ettoday.net/news/20221003/2350445.htm",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "hsinchu-city",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-10-08",
+      "fieldEnd": "2022-10-08",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "高虹安", "party": "tpp", "pct": 37.38},
+        {"name": "沈慧虹", "party": "dpp", "pct": 29.68},
+        {"name": "林耕仁", "party": "kmt", "pct": 25.08},
+        {"name": "黃源甫", "party": "ind", "pct": 0.33},
+        {"name": "李驥羣", "party": "ind", "pct": 0.22},
+        {"name": "龔偉綸", "party": "ind", "pct": 0.11}
+      ],
+      "undecided": 7.2,
+      "source": "https://rwnews.tw/article.php?news=5042",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "hsinchu-city",
+      "pollster": "自由時報",
+      "sponsor": null,
+      "fieldStart": "2022-10-17",
+      "fieldEnd": "2022-10-17",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "高虹安", "party": "tpp", "pct": 26.39},
+        {"name": "沈慧虹", "party": "dpp", "pct": 28.98},
+        {"name": "林耕仁", "party": "kmt", "pct": 13.44},
+        {"name": "黃源甫", "party": "ind", "pct": 1.25},
+        {"name": "李驥羣", "party": "ind", "pct": 0.77},
+        {"name": "龔偉綸", "party": "ind", "pct": 0.48}
+      ],
+      "undecided": 28.69,
+      "source": "https://news.ltn.com.tw/news/politics/paper/1546262",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "hsinchu-city",
+      "pollster": "山水",
+      "sponsor": null,
+      "fieldStart": "2022-10-21",
+      "fieldEnd": "2022-10-21",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "高虹安", "party": "tpp", "pct": 26.2},
+        {"name": "沈慧虹", "party": "dpp", "pct": 26.2},
+        {"name": "林耕仁", "party": "kmt", "pct": 17.0}
+      ],
+      "undecided": 30.6,
+      "source": "https://udn.com/news/story/122682/6708634",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "hsinchu-city",
+      "pollster": "ETtoday",
+      "sponsor": null,
+      "fieldStart": "2022-10-24",
+      "fieldEnd": "2022-10-24",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "高虹安", "party": "tpp", "pct": 37.8},
+        {"name": "沈慧虹", "party": "dpp", "pct": 31.7},
+        {"name": "林耕仁", "party": "kmt", "pct": 18.2}
+      ],
+      "undecided": 11.6,
+      "source": "https://www.ettoday.net/news/20221026/2366718.htm",
+      "via": "wikipedia",
+      "notes": "其他候選人合計0.7%"
+    },
+    {
+      "raceId": "hsinchu-city",
+      "pollster": "TVBS",
+      "sponsor": null,
+      "fieldStart": "2022-10-26",
+      "fieldEnd": "2022-10-26",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "高虹安", "party": "tpp", "pct": 34},
+        {"name": "沈慧虹", "party": "dpp", "pct": 27},
+        {"name": "林耕仁", "party": "kmt", "pct": 21},
+        {"name": "黃源甫", "party": "ind", "pct": 1}
+      ],
+      "undecided": 17,
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2022/20221027/8643a3f7f22c96f341f8b597a5268507.pdf",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "hsinchu-city",
+      "pollster": "蓋洛普",
+      "sponsor": null,
+      "fieldStart": "2022-10-30",
+      "fieldEnd": "2022-10-30",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "高虹安", "party": "tpp", "pct": 25.96},
+        {"name": "沈慧虹", "party": "dpp", "pct": 25.96},
+        {"name": "林耕仁", "party": "kmt", "pct": 14.04},
+        {"name": "黃源甫", "party": "ind", "pct": 0.18},
+        {"name": "龔偉綸", "party": "ind", "pct": 0.04},
+        {"name": "李驥羣", "party": "ind", "pct": 0.03}
+      ],
+      "undecided": 26.46,
+      "source": "https://www.chinatimes.com/realtimenews/20221031001480-260407?chdtv",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "hsinchu-city",
+      "pollster": "負數票協會",
+      "sponsor": null,
+      "fieldStart": "2022-11-09",
+      "fieldEnd": "2022-11-09",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "高虹安", "party": "tpp", "pct": 27.6},
+        {"name": "沈慧虹", "party": "dpp", "pct": 26.3},
+        {"name": "林耕仁", "party": "kmt", "pct": 16.5}
+      ],
+      "undecided": 16.2,
+      "source": "https://www.storm.mg/article/4608379",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "hsinchu-city",
+      "pollster": "年代",
+      "sponsor": null,
+      "fieldStart": "2022-11-10",
+      "fieldEnd": "2022-11-10",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "高虹安", "party": "tpp", "pct": 29.5},
+        {"name": "沈慧虹", "party": "dpp", "pct": 25.5},
+        {"name": "林耕仁", "party": "kmt", "pct": 16.2}
+      ],
+      "undecided": 28.8,
+      "source": "https://m.facebook.com/story.php?story_fbid=pfbid02bJXX4bqwCPxLb2vap1gWETRUfUxv1AxqkXCgPYXQLuDeGXVcS8ghipRbijXYniHsl&id=100071277446034",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "hsinchu-city",
+      "pollster": "聯合報",
+      "sponsor": null,
+      "fieldStart": "2022-11-10",
+      "fieldEnd": "2022-11-10",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "高虹安", "party": "tpp", "pct": 30},
+        {"name": "沈慧虹", "party": "dpp", "pct": 28},
+        {"name": "林耕仁", "party": "kmt", "pct": 19}
+      ],
+      "undecided": 23,
+      "source": "https://udn.com/news/story/122682/6759198",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "hsinchu-city",
+      "pollster": "蓋洛普",
+      "sponsor": null,
+      "fieldStart": "2022-11-11",
+      "fieldEnd": "2022-11-11",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "高虹安", "party": "tpp", "pct": 25.6},
+        {"name": "沈慧虹", "party": "dpp", "pct": 23.38},
+        {"name": "林耕仁", "party": "kmt", "pct": 17.35}
+      ],
+      "undecided": 26.29,
+      "source": "https://www.youtube.com/watch?v=XSae1YJiPms",
+      "via": "wikipedia",
+      "notes": "維基來源為 YouTube 影片"
+    },
+    {
+      "raceId": "hsinchu-city",
+      "pollster": "TVBS",
+      "sponsor": null,
+      "fieldStart": "2022-11-12",
+      "fieldEnd": "2022-11-12",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "高虹安", "party": "tpp", "pct": 33},
+        {"name": "沈慧虹", "party": "dpp", "pct": 28},
+        {"name": "林耕仁", "party": "kmt", "pct": 19},
+        {"name": "黃源甫", "party": "ind", "pct": 1}
+      ],
+      "undecided": 19,
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2022/20221114/4af05c9447c19759d361282cecf85344.pdf",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "hsinchu-county",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-10-08",
+      "fieldEnd": "2022-10-08",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "楊文科", "party": "kmt", "pct": 45.04},
+        {"name": "周江杰", "party": "dpp", "pct": 29.67},
+        {"name": "范振揆", "party": "ind", "pct": 2},
+        {"name": "劉復嵐", "party": "ind", "pct": 0.44},
+        {"name": "黃秀龍", "party": "ind", "pct": 0.39}
+      ],
+      "undecided": 22.46,
+      "source": "https://rwnews.tw/article.php?news=5050",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "hualien",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-10-15",
+      "fieldEnd": "2022-10-15",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "徐榛蔚", "party": "kmt", "pct": 53.16},
+        {"name": "谷辣斯．尤達卡 Kolas Yotaka", "party": "dpp", "pct": 33.02},
+        {"name": "黄師鵬", "party": "ind", "pct": 0.94}
+      ],
+      "undecided": 13.87,
+      "source": "https://rwnews.tw/article.php?news=5165",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "hualien",
+      "pollster": "TVBS",
+      "sponsor": null,
+      "fieldStart": "2022-11-13",
+      "fieldEnd": "2022-11-13",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "徐榛蔚", "party": "kmt", "pct": 51},
+        {"name": "谷辣斯．尤達卡 Kolas Yotaka", "party": "dpp", "pct": 16},
+        {"name": "黄師鵬", "party": "ind", "pct": 2}
+      ],
+      "undecided": 30,
+      "source": "https://www.upmedia.mg/news_info.php?Type=24&SerialNo=159070",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "hualien",
+      "pollster": "匯流",
+      "sponsor": null,
+      "fieldStart": "2022-11-13",
+      "fieldEnd": "2022-11-13",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "徐榛蔚", "party": "kmt", "pct": 56.1},
+        {"name": "谷辣斯．尤達卡 Kolas Yotaka", "party": "dpp", "pct": 17.4},
+        {"name": "黄師鵬", "party": "ind", "pct": 2.6}
+      ],
+      "undecided": 23.9,
+      "source": "https://cnews.com.tw/212221114a01/",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "kaohsiung",
+      "pollster": "匯流",
+      "sponsor": null,
+      "fieldStart": "2022-09-14",
+      "fieldEnd": "2022-09-14",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "陳其邁", "party": "dpp", "pct": 62.8},
+        {"name": "柯志恩", "party": "kmt", "pct": 15.7}
+      ],
+      "undecided": 21.5,
+      "source": "https://cnews.com.tw/212220918a01/",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "kaohsiung",
+      "pollster": "ETtoday",
+      "sponsor": null,
+      "fieldStart": "2022-09-30",
+      "fieldEnd": "2022-09-30",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "陳其邁", "party": "dpp", "pct": 53.9},
+        {"name": "柯志恩", "party": "kmt", "pct": 31.3},
+        {"name": "曾尹儷", "party": "ind", "pct": 1.6},
+        {"name": "鄭宇翔", "party": "ind", "pct": 0.9}
+      ],
+      "undecided": 12.4,
+      "source": "https://www.ettoday.net/news/20221005/2351827.htm",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "kaohsiung",
+      "pollster": "自由時報",
+      "sponsor": null,
+      "fieldStart": "2022-09-30",
+      "fieldEnd": "2022-09-30",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "陳其邁", "party": "dpp", "pct": 52.01},
+        {"name": "柯志恩", "party": "kmt", "pct": 20.3},
+        {"name": "曾尹儷", "party": "ind", "pct": 2.15},
+        {"name": "鄭宇翔", "party": "ind", "pct": 1.12}
+      ],
+      "undecided": 24.42,
+      "source": "https://news.ltn.com.tw/news/politics/paper/1543600",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "kaohsiung",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-10-01",
+      "fieldEnd": "2022-10-01",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "陳其邁", "party": "dpp", "pct": 53.7},
+        {"name": "柯志恩", "party": "kmt", "pct": 36.9},
+        {"name": "鄭宇翔", "party": "ind", "pct": 0.42},
+        {"name": "曾尹儷", "party": "ind", "pct": 0.14}
+      ],
+      "undecided": 8.84,
+      "source": "https://rwnews.tw/article.php?news=4941",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "kaohsiung",
+      "pollster": "中華亞太菁英交流協會",
+      "sponsor": null,
+      "fieldStart": "2022-10-05",
+      "fieldEnd": "2022-10-05",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "陳其邁", "party": "dpp", "pct": 51},
+        {"name": "柯志恩", "party": "kmt", "pct": 13.4}
+      ],
+      "undecided": 35.6,
+      "source": "https://www.storm.mg/article/4555534",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "kaohsiung",
+      "pollster": "三立",
+      "sponsor": null,
+      "fieldStart": "2022-10-16",
+      "fieldEnd": "2022-10-16",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "陳其邁", "party": "dpp", "pct": 56.4},
+        {"name": "柯志恩", "party": "kmt", "pct": 16.9},
+        {"name": "鄭宇翔", "party": "ind", "pct": 0.8},
+        {"name": "曾尹儷", "party": "ind", "pct": 0.7}
+      ],
+      "undecided": 25.2,
+      "source": "https://www.setn.com/news.aspx?newsid=1193125",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "kaohsiung",
+      "pollster": "中華亞太菁英交流協會",
+      "sponsor": null,
+      "fieldStart": "2022-11-06",
+      "fieldEnd": "2022-11-06",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "陳其邁", "party": "dpp", "pct": 51.7},
+        {"name": "柯志恩", "party": "kmt", "pct": 19.4}
+      ],
+      "undecided": 28.9,
+      "source": "https://newtalk.tw/news/view/2022-11-09/842191",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "kaohsiung",
+      "pollster": "ETtoday",
+      "sponsor": null,
+      "fieldStart": "2022-11-11",
+      "fieldEnd": "2022-11-14",
+      "published": null,
+      "method": "mixed",
+      "sampleSize": null,
+      "results": [
+        {"name": "陳其邁", "party": "dpp", "pct": 52.2},
+        {"name": "柯志恩", "party": "kmt", "pct": 30.7}
+      ],
+      "undecided": 17.1,
+      "source": "https://www.ettoday.net/news/20221115/2380360.htm",
+      "via": "wikipedia",
+      "notes": "ETtoday 六都封關民調；調查期間 11/11–11/14、網路＋電話混合、六都各 1,242 至 2,197 份樣本，據 ETtoday 原文"
+    },
+    {
+      "raceId": "keelung",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-09-17",
+      "fieldEnd": "2022-09-17",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "謝國樑", "party": "kmt", "pct": 44.0},
+        {"name": "蔡適應", "party": "dpp", "pct": 37.13},
+        {"name": "陳薇仲", "party": "npp", "pct": 5.77},
+        {"name": "黃希賢", "party": "ind", "pct": 1.54},
+        {"name": "曾國民", "party": "ind", "pct": 0.2}
+      ],
+      "undecided": 8.91,
+      "source": "https://rwnews.tw/article.php?news=4690",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "keelung",
+      "pollster": "蓋洛普",
+      "sponsor": null,
+      "fieldStart": "2022-09-19",
+      "fieldEnd": "2022-09-19",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "謝國樑", "party": "kmt", "pct": 27.22},
+        {"name": "蔡適應", "party": "dpp", "pct": 28.48},
+        {"name": "陳薇仲", "party": "npp", "pct": 2.89},
+        {"name": "黃希賢", "party": "ind", "pct": 1.62}
+      ],
+      "undecided": 32.41,
+      "source": "https://udn.com/news/story/122682/6640889",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "keelung",
+      "pollster": "年代",
+      "sponsor": null,
+      "fieldStart": "2022-10-02",
+      "fieldEnd": "2022-10-02",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "謝國樑", "party": "kmt", "pct": 31.3},
+        {"name": "蔡適應", "party": "dpp", "pct": 25.6},
+        {"name": "陳薇仲", "party": "npp", "pct": 3.9},
+        {"name": "黃希賢", "party": "ind", "pct": 0.9},
+        {"name": "曾國民", "party": "ind", "pct": 0.8}
+      ],
+      "undecided": 31.5,
+      "source": "https://www.youtube.com/watch?v=IJRNoNceorU",
+      "via": "wikipedia",
+      "notes": "維基來源為 YouTube 影片"
+    },
+    {
+      "raceId": "keelung",
+      "pollster": "艾普羅",
+      "sponsor": null,
+      "fieldStart": "2022-10-05",
+      "fieldEnd": "2022-10-05",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "謝國樑", "party": "kmt", "pct": 31.3},
+        {"name": "蔡適應", "party": "dpp", "pct": 30.2},
+        {"name": "陳薇仲", "party": "npp", "pct": 3.1},
+        {"name": "黃希賢", "party": "ind", "pct": 3.6}
+      ],
+      "undecided": 30.45,
+      "source": "https://www.ctwant.com/article/211791",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "keelung",
+      "pollster": "台灣指標",
+      "sponsor": null,
+      "fieldStart": "2022-10-07",
+      "fieldEnd": "2022-10-07",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "謝國樑", "party": "kmt", "pct": 31.0},
+        {"name": "蔡適應", "party": "dpp", "pct": 27.6},
+        {"name": "陳薇仲", "party": "npp", "pct": 5.4},
+        {"name": "黃希賢", "party": "ind", "pct": 1.0}
+      ],
+      "undecided": 35.0,
+      "source": "http://www.tisr.com.tw/wp-content/uploads/2022/10/%E5%9F%BA%E9%9A%86%E5%B8%82%E9%95%B7%E9%81%B8%E6%83%85%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A_20221009.pdf",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "keelung",
+      "pollster": "自由時報",
+      "sponsor": null,
+      "fieldStart": "2022-10-07",
+      "fieldEnd": "2022-10-07",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "謝國樑", "party": "kmt", "pct": 26.75},
+        {"name": "蔡適應", "party": "dpp", "pct": 33.27},
+        {"name": "陳薇仲", "party": "npp", "pct": 3.82},
+        {"name": "黃希賢", "party": "ind", "pct": 0.84}
+      ],
+      "undecided": 35.13,
+      "source": "https://news.ltn.com.tw/news/politics/paper/1545093",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "keelung",
+      "pollster": "年代",
+      "sponsor": null,
+      "fieldStart": "2022-10-18",
+      "fieldEnd": "2022-10-18",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "謝國樑", "party": "kmt", "pct": 30.1},
+        {"name": "蔡適應", "party": "dpp", "pct": 26.7},
+        {"name": "陳薇仲", "party": "npp", "pct": 5.1},
+        {"name": "黃希賢", "party": "ind", "pct": 0.8},
+        {"name": "曾國民", "party": "ind", "pct": 0.2}
+      ],
+      "undecided": 31.7,
+      "source": "https://www.upmedia.mg/news_info.php?Type=3&SerialNo=157037",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "keelung",
+      "pollster": "中華亞太菁英交流協會",
+      "sponsor": null,
+      "fieldStart": "2022-10-26",
+      "fieldEnd": "2022-10-26",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "謝國樑", "party": "kmt", "pct": 31.9},
+        {"name": "蔡適應", "party": "dpp", "pct": 35.3},
+        {"name": "陳薇仲", "party": "npp", "pct": 5.3},
+        {"name": "黃希賢", "party": "ind", "pct": 2.1}
+      ],
+      "undecided": 25.4,
+      "source": "https://www.setn.com/News.aspx?NewsID=1199437",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "kinmen",
+      "pollster": "全國公信力",
+      "sponsor": null,
+      "fieldStart": "2022-09-13",
+      "fieldEnd": "2022-09-13",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "楊鎮浯", "party": "kmt", "pct": 39.3},
+        {"name": "陳福海", "party": "ind", "pct": 25.5},
+        {"name": "李應文", "party": "ind", "pct": 6.8}
+      ],
+      "undecided": 28.4,
+      "source": "https://www.storm.mg/article/4516504",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "kinmen",
+      "pollster": "中華民國兩岸青年交流協會",
+      "sponsor": null,
+      "fieldStart": "2022-10-21",
+      "fieldEnd": "2022-10-21",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "楊鎮浯", "party": "kmt", "pct": 34.2},
+        {"name": "陳福海", "party": "ind", "pct": 17.9},
+        {"name": "李應文", "party": "ind", "pct": 5.0},
+        {"name": "洪志恒", "party": "ind", "pct": 3.7},
+        {"name": "朱紀瑋", "party": "other", "partyName": "龍黨", "pct": 0.7},
+        {"name": "林志錦", "party": "ind", "pct": 0.4}
+      ],
+      "undecided": 38.1,
+      "source": "https://www.chinatimes.com/realtimenews/20221024001528-260407",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "kinmen",
+      "pollster": "全國公信力",
+      "sponsor": null,
+      "fieldStart": "2022-11-13",
+      "fieldEnd": "2022-11-13",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "楊鎮浯", "party": "kmt", "pct": 37.3},
+        {"name": "陳福海", "party": "ind", "pct": 24.9},
+        {"name": "李應文", "party": "ind", "pct": 3.9}
+      ],
+      "undecided": 33.9,
+      "source": "https://www.ctwant.com/article/219852",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "miaoli",
+      "pollster": "蓋洛普",
+      "sponsor": null,
+      "fieldStart": "2022-09-20",
+      "fieldEnd": "2022-09-20",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "鍾東錦", "party": "ind", "pct": 15.11},
+        {"name": "徐定禎", "party": "dpp", "pct": 15.44},
+        {"name": "謝福弘", "party": "kmt", "pct": 7.5},
+        {"name": "宋國鼎", "party": "npp", "pct": 5.76},
+        {"name": "吳盛聖", "party": "ind", "pct": 0.83}
+      ],
+      "undecided": 40.57,
+      "source": "https://www.chinatimes.com/realtimenews/20220926002152-260407?chdtv",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "miaoli",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-09-24",
+      "fieldEnd": "2022-09-24",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "鍾東錦", "party": "ind", "pct": 33.57},
+        {"name": "徐定禎", "party": "dpp", "pct": 25.06},
+        {"name": "謝福弘", "party": "kmt", "pct": 11.84},
+        {"name": "宋國鼎", "party": "npp", "pct": 17.64},
+        {"name": "吳盛聖", "party": "ind", "pct": 0.88}
+      ],
+      "undecided": 11.01,
+      "source": "https://rwnews.tw/article.php?news=4814",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "miaoli",
+      "pollster": "中華亞太菁英交流協會",
+      "sponsor": null,
+      "fieldStart": "2022-10-05",
+      "fieldEnd": "2022-10-05",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "鍾東錦", "party": "ind", "pct": 21.8},
+        {"name": "徐定禎", "party": "dpp", "pct": 20.7},
+        {"name": "謝福弘", "party": "kmt", "pct": 8.7},
+        {"name": "宋國鼎", "party": "npp", "pct": 11.5}
+      ],
+      "undecided": 37.4,
+      "source": "https://newtalk.tw/news/view/2022-10-07/828164",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "miaoli",
+      "pollster": "三立",
+      "sponsor": null,
+      "fieldStart": "2022-10-08",
+      "fieldEnd": "2022-10-08",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "鍾東錦", "party": "ind", "pct": 22.9},
+        {"name": "徐定禎", "party": "dpp", "pct": 15.3},
+        {"name": "謝福弘", "party": "kmt", "pct": 11.1},
+        {"name": "宋國鼎", "party": "npp", "pct": 12.0}
+      ],
+      "undecided": 37.7,
+      "source": "https://www.setn.com/News.aspx?NewsID=1190866",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "miaoli",
+      "pollster": "年代",
+      "sponsor": null,
+      "fieldStart": "2022-10-12",
+      "fieldEnd": "2022-10-12",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "鍾東錦", "party": "ind", "pct": 18.9},
+        {"name": "徐定禎", "party": "dpp", "pct": 17.2},
+        {"name": "謝福弘", "party": "kmt", "pct": 9.7},
+        {"name": "宋國鼎", "party": "npp", "pct": null}
+      ],
+      "undecided": 54.2,
+      "source": "https://www.eracom.com.tw/EraNews/election2022/2022-10-11/931319.html",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "miaoli",
+      "pollster": "皮爾森數據",
+      "sponsor": null,
+      "fieldStart": "2022-10-28",
+      "fieldEnd": "2022-10-28",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "鍾東錦", "party": "ind", "pct": 37.75},
+        {"name": "徐定禎", "party": "dpp", "pct": 25.84},
+        {"name": "謝福弘", "party": "kmt", "pct": 11.42},
+        {"name": "宋國鼎", "party": "npp", "pct": 16.57},
+        {"name": "吳盛聖", "party": "ind", "pct": 0.65}
+      ],
+      "undecided": 7.77,
+      "source": "https://www.storm.mg/localarticle/4594810",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "miaoli",
+      "pollster": "自由時報",
+      "sponsor": null,
+      "fieldStart": "2022-10-28",
+      "fieldEnd": "2022-10-28",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "鍾東錦", "party": "ind", "pct": 21.26},
+        {"name": "徐定禎", "party": "dpp", "pct": 24.4},
+        {"name": "謝福弘", "party": "kmt", "pct": 8.87},
+        {"name": "宋國鼎", "party": "npp", "pct": 10.87}
+      ],
+      "undecided": 33.56,
+      "source": "https://news.ltn.com.tw/news/politics/paper/1548839",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "miaoli",
+      "pollster": "TVBS",
+      "sponsor": null,
+      "fieldStart": "2022-11-03",
+      "fieldEnd": "2022-11-03",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "鍾東錦", "party": "ind", "pct": 27},
+        {"name": "徐定禎", "party": "dpp", "pct": 22},
+        {"name": "謝福弘", "party": "kmt", "pct": 14},
+        {"name": "宋國鼎", "party": "npp", "pct": 13}
+      ],
+      "undecided": 24,
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2022/20221107/2240f9a6cc5948c98dcadaa157acc158.pdf",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "miaoli",
+      "pollster": "聯合報",
+      "sponsor": null,
+      "fieldStart": "2022-11-07",
+      "fieldEnd": "2022-11-07",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "鍾東錦", "party": "ind", "pct": 25},
+        {"name": "徐定禎", "party": "dpp", "pct": 20},
+        {"name": "謝福弘", "party": "kmt", "pct": 9},
+        {"name": "宋國鼎", "party": "npp", "pct": 10},
+        {"name": "吳盛聖", "party": "ind", "pct": 2}
+      ],
+      "undecided": 35,
+      "source": "https://udn.com/news/story/122682/6750152",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "miaoli",
+      "pollster": "艾普羅",
+      "sponsor": null,
+      "fieldStart": "2022-11-13",
+      "fieldEnd": "2022-11-13",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "鍾東錦", "party": "ind", "pct": 24.3},
+        {"name": "徐定禎", "party": "dpp", "pct": 19.1},
+        {"name": "謝福弘", "party": "kmt", "pct": 11.0},
+        {"name": "宋國鼎", "party": "npp", "pct": 10.2}
+      ],
+      "undecided": 35.4,
+      "source": "https://www.ctwant.com/article/219914",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "miaoli",
+      "pollster": "年代",
+      "sponsor": null,
+      "fieldStart": "2022-11-14",
+      "fieldEnd": "2022-11-14",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "鍾東錦", "party": "ind", "pct": 23.1},
+        {"name": "徐定禎", "party": "dpp", "pct": 22.6},
+        {"name": "謝福弘", "party": "kmt", "pct": 8.7},
+        {"name": "宋國鼎", "party": "npp", "pct": 9.2}
+      ],
+      "undecided": 36.4,
+      "source": "https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7%E5%8F%8A%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89#%E8%8B%97%E6%A0%97%E7%B8%A3",
+      "via": "wikipedia",
+      "notes": "維基未附來源連結，source 暫填維基條目"
+    },
+    {
+      "raceId": "miaoli",
+      "pollster": "蓋洛普",
+      "sponsor": null,
+      "fieldStart": "2022-11-14",
+      "fieldEnd": "2022-11-14",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "鍾東錦", "party": "ind", "pct": 20.85},
+        {"name": "徐定禎", "party": "dpp", "pct": 16.73},
+        {"name": "謝福弘", "party": "kmt", "pct": 7.49},
+        {"name": "宋國鼎", "party": "npp", "pct": 8.55},
+        {"name": "吳盛聖", "party": "ind", "pct": 0.64}
+      ],
+      "undecided": 37.21,
+      "source": "https://www.youtube.com/watch?v=NqIlIqTga_M",
+      "via": "wikipedia",
+      "notes": "維基來源為 YouTube 影片"
+    },
+    {
+      "raceId": "nantou",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-09-24",
+      "fieldEnd": "2022-09-24",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "許淑華", "party": "kmt", "pct": 51.82},
+        {"name": "蔡培慧", "party": "dpp", "pct": 36.27},
+        {"name": "王永慶", "party": "ind", "pct": 0.5}
+      ],
+      "undecided": 11.41,
+      "source": "https://rwnews.tw/article.php?news=4821",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "nantou",
+      "pollster": "中華亞太菁英交流協會",
+      "sponsor": null,
+      "fieldStart": "2022-10-12",
+      "fieldEnd": "2022-10-12",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "許淑華", "party": "kmt", "pct": 37.3},
+        {"name": "蔡培慧", "party": "dpp", "pct": 32.3}
+      ],
+      "undecided": 30.4,
+      "source": "https://newtalk.tw/news/view/2022-10-14/831563",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "nantou",
+      "pollster": "年代",
+      "sponsor": null,
+      "fieldStart": "2022-11-05",
+      "fieldEnd": "2022-11-05",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "許淑華", "party": "kmt", "pct": 38.2},
+        {"name": "蔡培慧", "party": "dpp", "pct": 25.9},
+        {"name": "王永慶", "party": "ind", "pct": 3.0}
+      ],
+      "undecided": 32.9,
+      "source": "https://www.taiwanhot.net/news/1012660/%E5%8D%97%E6%8A%95%E5%B0%81%E9%97%9C%E5%89%8D%E6%B0%91%E8%AA%BF+%E8%A8%B1%E6%B7%91%E8%8F%AF%E6%94%AF%E6%8C%81%E5%BA%A6%E9%A0%98%E5%85%88%E8%94%A1%E5%9F%B9%E6%85%A712-14%EF%BC%85",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "nantou",
+      "pollster": "艾普羅",
+      "sponsor": null,
+      "fieldStart": "2022-11-08",
+      "fieldEnd": "2022-11-08",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "許淑華", "party": "kmt", "pct": 39.5},
+        {"name": "蔡培慧", "party": "dpp", "pct": 24.8},
+        {"name": "王永慶", "party": "ind", "pct": 2.3}
+      ],
+      "undecided": 30.9,
+      "source": "https://www.ettoday.net/news/20221113/2379157.htm",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "new-taipei",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-09-17",
+      "fieldEnd": "2022-09-17",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "侯友宜", "party": "kmt", "pct": 57.53},
+        {"name": "林佳龍", "party": "dpp", "pct": 36.35}
+      ],
+      "undecided": 3.99,
+      "source": "https://rwnews.tw/article.php?news=4692",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "new-taipei",
+      "pollster": "蓋洛普",
+      "sponsor": null,
+      "fieldStart": "2022-09-21",
+      "fieldEnd": "2022-09-21",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "侯友宜", "party": "kmt", "pct": 47.5},
+        {"name": "林佳龍", "party": "dpp", "pct": 17.9}
+      ],
+      "undecided": 25.37,
+      "source": "https://udn.com/news/story/122682/6640889",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "new-taipei",
+      "pollster": "自由時報",
+      "sponsor": null,
+      "fieldStart": "2022-09-23",
+      "fieldEnd": "2022-09-23",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "侯友宜", "party": "kmt", "pct": 51.96},
+        {"name": "林佳龍", "party": "dpp", "pct": 21.74}
+      ],
+      "undecided": 26.31,
+      "source": "https://news.ltn.com.tw/news/politics/paper/1542212",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "new-taipei",
+      "pollster": "ETtoday",
+      "sponsor": null,
+      "fieldStart": "2022-10-17",
+      "fieldEnd": "2022-10-17",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "侯友宜", "party": "kmt", "pct": 54.7},
+        {"name": "林佳龍", "party": "dpp", "pct": 31.9}
+      ],
+      "undecided": 13.4,
+      "source": "https://www.ettoday.net/news/20221018/2361016.htm",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "new-taipei",
+      "pollster": "ETtoday",
+      "sponsor": null,
+      "fieldStart": "2022-11-11",
+      "fieldEnd": "2022-11-14",
+      "published": null,
+      "method": "mixed",
+      "sampleSize": null,
+      "results": [
+        {"name": "侯友宜", "party": "kmt", "pct": 51.2},
+        {"name": "林佳龍", "party": "dpp", "pct": 31.7}
+      ],
+      "undecided": 17.1,
+      "source": "https://www.ettoday.net/news/20221115/2380360.htm",
+      "via": "wikipedia",
+      "notes": "ETtoday 六都封關民調；調查期間 11/11–11/14、網路＋電話混合、六都各 1,242 至 2,197 份樣本，據 ETtoday 原文"
+    },
+    {
+      "raceId": "penghu",
+      "pollster": "蓋洛普",
+      "sponsor": null,
+      "fieldStart": "2022-09-20",
+      "fieldEnd": "2022-09-20",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "賴峰偉", "party": "kmt", "pct": 18.15},
+        {"name": "陳光復", "party": "dpp", "pct": 21.02},
+        {"name": "葉竹林", "party": "ind", "pct": 17.23}
+      ],
+      "undecided": 34.93,
+      "source": "https://www.chinatimes.com/realtimenews/20220926002152-260407?chdtv",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "penghu",
+      "pollster": "艾普羅",
+      "sponsor": null,
+      "fieldStart": "2022-10-14",
+      "fieldEnd": "2022-10-14",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "賴峰偉", "party": "kmt", "pct": 29.5},
+        {"name": "陳光復", "party": "dpp", "pct": 24.9},
+        {"name": "葉竹林", "party": "ind", "pct": 21.3}
+      ],
+      "undecided": 21.9,
+      "source": "https://udn.com/news/story/122682/6727870",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "penghu",
+      "pollster": "視拓商業資訊",
+      "sponsor": null,
+      "fieldStart": "2022-10-25",
+      "fieldEnd": "2022-10-25",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "賴峰偉", "party": "kmt", "pct": 21},
+        {"name": "陳光復", "party": "dpp", "pct": 20.8},
+        {"name": "葉竹林", "party": "ind", "pct": 21.2}
+      ],
+      "undecided": 37,
+      "source": "https://news.ltn.com.tw/news/Penghu/paper/1549046",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "pingtung",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-10-01",
+      "fieldEnd": "2022-10-01",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "周春米", "party": "dpp", "pct": 37.28},
+        {"name": "蘇清泉", "party": "kmt", "pct": 34.89},
+        {"name": "詹智鈞", "party": "npp", "pct": 3.83}
+      ],
+      "undecided": 24.0,
+      "source": "https://rwnews.tw/article.php?news=4942",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "pingtung",
+      "pollster": "匯流",
+      "sponsor": null,
+      "fieldStart": "2022-10-06",
+      "fieldEnd": "2022-10-06",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "周春米", "party": "dpp", "pct": 50.3},
+        {"name": "蘇清泉", "party": "kmt", "pct": 18.7},
+        {"name": "詹智鈞", "party": "npp", "pct": 2.5}
+      ],
+      "undecided": 28.4,
+      "source": "https://cnews.com.tw/【獨家取得屏東縣民調】最新大樣本屏東縣民調-83-4//",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "pingtung",
+      "pollster": "民進黨",
+      "sponsor": null,
+      "fieldStart": "2022-11-05",
+      "fieldEnd": "2022-11-05",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "周春米", "party": "dpp", "pct": 49.6},
+        {"name": "蘇清泉", "party": "kmt", "pct": 24.6},
+        {"name": "詹智鈞", "party": "npp", "pct": 2.4}
+      ],
+      "undecided": 23.3,
+      "source": "https://udn.com/news/story/7327/6752159",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taichung",
+      "pollster": "ETtoday",
+      "sponsor": null,
+      "fieldStart": "2022-09-14",
+      "fieldEnd": "2022-09-14",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "盧秀燕", "party": "kmt", "pct": 56.8},
+        {"name": "蔡其昌", "party": "dpp", "pct": 28.8},
+        {"name": "陳美妃", "party": "ind", "pct": 1.7}
+      ],
+      "undecided": 12.7,
+      "source": "https://www.ettoday.net/news/20220917/2339971.htm",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taichung",
+      "pollster": "美麗島電子報",
+      "sponsor": null,
+      "fieldStart": "2022-09-17",
+      "fieldEnd": "2022-09-17",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "盧秀燕", "party": "kmt", "pct": 59.4},
+        {"name": "蔡其昌", "party": "dpp", "pct": 19.8},
+        {"name": "陳美妃", "party": "ind", "pct": 2.3}
+      ],
+      "undecided": 19.5,
+      "source": "https://www.chinatimes.com/realtimenews/20220917003382-260407?chdtv",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taichung",
+      "pollster": "台灣指標",
+      "sponsor": null,
+      "fieldStart": "2022-09-26",
+      "fieldEnd": "2022-09-26",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "盧秀燕", "party": "kmt", "pct": 50.3},
+        {"name": "蔡其昌", "party": "dpp", "pct": 20.1},
+        {"name": "陳美妃", "party": "ind", "pct": 1.9}
+      ],
+      "undecided": 24.7,
+      "source": "http://www.tisr.com.tw/wp-content/uploads/2022/10/%E5%8F%B0%E4%B8%AD%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E5%8F%8A%E6%96%BD%E6%94%BF%E7%9B%B8%E9%97%9C%E8%AD%B0%E9%A1%8C%E8%AA%BF%E6%9F%A5%E5%A0%B1%E5%91%8A_20221003.pdf",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taichung",
+      "pollster": "美麗島電子報",
+      "sponsor": null,
+      "fieldStart": "2022-10-13",
+      "fieldEnd": "2022-10-13",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "盧秀燕", "party": "kmt", "pct": 62.6},
+        {"name": "蔡其昌", "party": "dpp", "pct": 18.0},
+        {"name": "陳美妃", "party": "ind", "pct": 1.6}
+      ],
+      "undecided": 17.8,
+      "source": "https://www.chinatimes.com/realtimenews/20221016003523-260407?chdtv",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taichung",
+      "pollster": "民進黨",
+      "sponsor": null,
+      "fieldStart": "2022-10-15",
+      "fieldEnd": "2022-10-15",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "盧秀燕", "party": "kmt", "pct": 47.4},
+        {"name": "蔡其昌", "party": "dpp", "pct": 33.7}
+      ],
+      "undecided": 18.9,
+      "source": "https://newtalk.tw/news/view/2022-10-17/832819",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taichung",
+      "pollster": "大台中市政發展協會",
+      "sponsor": null,
+      "fieldStart": "2022-10-30",
+      "fieldEnd": "2022-10-30",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "盧秀燕", "party": "kmt", "pct": 46.7},
+        {"name": "蔡其昌", "party": "dpp", "pct": 19.4}
+      ],
+      "undecided": 33.9,
+      "source": "https://www.ettoday.net/news/20221104/2373108.htm",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taichung",
+      "pollster": "周刊王",
+      "sponsor": null,
+      "fieldStart": "2022-11-13",
+      "fieldEnd": "2022-11-13",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "盧秀燕", "party": "kmt", "pct": 47.1},
+        {"name": "蔡其昌", "party": "dpp", "pct": 37.4}
+      ],
+      "undecided": 15.5,
+      "source": "https://www.ctwant.com/article/220036",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taichung",
+      "pollster": "美麗島電子報",
+      "sponsor": null,
+      "fieldStart": "2022-11-13",
+      "fieldEnd": "2022-11-13",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "盧秀燕", "party": "kmt", "pct": 60.8},
+        {"name": "蔡其昌", "party": "dpp", "pct": 18.2},
+        {"name": "陳美妃", "party": "ind", "pct": 0.8}
+      ],
+      "undecided": 20.2,
+      "source": "https://www.chinatimes.com/realtimenews/20221113003288-260407?chdtv",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taichung",
+      "pollster": "ETtoday",
+      "sponsor": null,
+      "fieldStart": "2022-11-11",
+      "fieldEnd": "2022-11-14",
+      "published": null,
+      "method": "mixed",
+      "sampleSize": null,
+      "results": [
+        {"name": "盧秀燕", "party": "kmt", "pct": 54.6},
+        {"name": "蔡其昌", "party": "dpp", "pct": 29.8}
+      ],
+      "undecided": 25.6,
+      "source": "https://www.ettoday.net/news/20221115/2380360.htm",
+      "via": "wikipedia",
+      "notes": "ETtoday 六都封關民調；調查期間 11/11–11/14、網路＋電話混合、六都各 1,242 至 2,197 份樣本，據 ETtoday 原文；維基未表態 25.6% 使加總達 110%，疑誤植；原文內文未列未表態比例"
+    },
+    {
+      "raceId": "tainan",
+      "pollster": "美麗島電子報",
+      "sponsor": null,
+      "fieldStart": "2022-09-18",
+      "fieldEnd": "2022-09-18",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "黃偉哲", "party": "dpp", "pct": 62.8},
+        {"name": "謝龍介", "party": "kmt", "pct": 14.6},
+        {"name": "林義豐", "party": "ind", "pct": 3.2},
+        {"name": "許忠信", "party": "ind", "pct": 1.7},
+        {"name": "吳炳輝", "party": "ind", "pct": 0.4}
+      ],
+      "undecided": 17.3,
+      "source": "https://www.my-formosa.com/DOC_187942.htm",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "tainan",
+      "pollster": "ETtoday",
+      "sponsor": null,
+      "fieldStart": "2022-09-29",
+      "fieldEnd": "2022-09-29",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "黃偉哲", "party": "dpp", "pct": 50.1},
+        {"name": "謝龍介", "party": "kmt", "pct": 29.3},
+        {"name": "林義豐", "party": "ind", "pct": 3.3},
+        {"name": "許忠信", "party": "ind", "pct": 1.2},
+        {"name": "吳炳輝", "party": "ind", "pct": 0}
+      ],
+      "undecided": 14.1,
+      "source": "https://www.chinatimes.com/realtimenews/20220930004196-260407?chdtv",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "tainan",
+      "pollster": "匯流",
+      "sponsor": null,
+      "fieldStart": "2022-09-29",
+      "fieldEnd": "2022-09-29",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "黃偉哲", "party": "dpp", "pct": 56.6},
+        {"name": "謝龍介", "party": "kmt", "pct": 19.9},
+        {"name": "林義豐", "party": "ind", "pct": 2.1},
+        {"name": "許忠信", "party": "ind", "pct": 1.2}
+      ],
+      "undecided": 20.2,
+      "source": "https://cnews.com.tw/212221004a01/",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "tainan",
+      "pollster": "崑山科大",
+      "sponsor": null,
+      "fieldStart": "2022-10-02",
+      "fieldEnd": "2022-10-02",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "黃偉哲", "party": "dpp", "pct": 57.0},
+        {"name": "謝龍介", "party": "kmt", "pct": 17.1},
+        {"name": "林義豐", "party": "ind", "pct": 3.2},
+        {"name": "許忠信", "party": "ind", "pct": 1.5},
+        {"name": "吳炳輝", "party": "ind", "pct": 0.02}
+      ],
+      "undecided": 21.18,
+      "source": "https://udn.com/news/story/122682/6668772",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "tainan",
+      "pollster": "民進黨",
+      "sponsor": null,
+      "fieldStart": "2022-10-15",
+      "fieldEnd": "2022-10-15",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "黃偉哲", "party": "dpp", "pct": 54.4},
+        {"name": "謝龍介", "party": "kmt", "pct": 17.3},
+        {"name": "許忠信", "party": "ind", "pct": 2.3},
+        {"name": "林義豐", "party": "ind", "pct": 1.1},
+        {"name": "吳炳輝", "party": "ind", "pct": 0.3}
+      ],
+      "undecided": 24.6,
+      "source": "https://news.tvbs.com.tw/politics/1944526",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "tainan",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-10-22",
+      "fieldEnd": "2022-10-22",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "黃偉哲", "party": "dpp", "pct": 44.0},
+        {"name": "謝龍介", "party": "kmt", "pct": 36.38},
+        {"name": "林義豐", "party": "ind", "pct": 4.34},
+        {"name": "許忠信", "party": "ind", "pct": 2.82},
+        {"name": "吳炳輝", "party": "ind", "pct": 0.55}
+      ],
+      "undecided": 7.66,
+      "source": "https://rwnews.tw/article.php?news=5296",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "tainan",
+      "pollster": "美麗島電子報",
+      "sponsor": null,
+      "fieldStart": "2022-11-05",
+      "fieldEnd": "2022-11-05",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "黃偉哲", "party": "dpp", "pct": 61.1},
+        {"name": "謝龍介", "party": "kmt", "pct": 15.7},
+        {"name": "許忠信", "party": "ind", "pct": 2.4},
+        {"name": "林義豐", "party": "ind", "pct": 2.1},
+        {"name": "吳炳輝", "party": "ind", "pct": 0.0}
+      ],
+      "undecided": 18.7,
+      "source": "https://www.my-formosa.com/DOC_189703.htm",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "tainan",
+      "pollster": "匯流",
+      "sponsor": null,
+      "fieldStart": "2022-11-13",
+      "fieldEnd": "2022-11-13",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "黃偉哲", "party": "dpp", "pct": 55.0},
+        {"name": "謝龍介", "party": "kmt", "pct": 19.4},
+        {"name": "許忠信", "party": "ind", "pct": 1.4},
+        {"name": "林義豐", "party": "ind", "pct": 0.5},
+        {"name": "吳炳輝", "party": "ind", "pct": 0.1}
+      ],
+      "undecided": 23.6,
+      "source": "https://cnews.com.tw/204221113a02/",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "tainan",
+      "pollster": "ETtoday",
+      "sponsor": null,
+      "fieldStart": "2022-11-11",
+      "fieldEnd": "2022-11-14",
+      "published": null,
+      "method": "mixed",
+      "sampleSize": null,
+      "results": [
+        {"name": "黃偉哲", "party": "dpp", "pct": 48.0},
+        {"name": "謝龍介", "party": "kmt", "pct": 30.9}
+      ],
+      "undecided": 21.1,
+      "source": "https://www.ettoday.net/news/20221115/2380360.htm",
+      "via": "wikipedia",
+      "notes": "ETtoday 六都封關民調；調查期間 11/11–11/14、網路＋電話混合、六都各 1,242 至 2,197 份樣本，據 ETtoday 原文"
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "震傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-09-13",
+      "fieldEnd": "2022-09-13",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 32.7},
+        {"name": "陳時中", "party": "dpp", "pct": 26.3},
+        {"name": "黃珊珊", "party": "ind", "pct": 23.7},
+        {"name": "童文薰", "party": "ind", "pct": 0.5},
+        {"name": "蘇煥智", "party": "other", "partyName": "台灣維新", "pct": 0.2}
+      ],
+      "undecided": 16.6,
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/15758",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-09-17",
+      "fieldEnd": "2022-09-17",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 35.24},
+        {"name": "陳時中", "party": "dpp", "pct": 34.94},
+        {"name": "黃珊珊", "party": "ind", "pct": 24.79}
+      ],
+      "undecided": 3.26,
+      "source": "https://rwnews.tw/article.php?news=4691",
+      "via": "wikipedia",
+      "notes": "其他候選人合計1.1%"
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "匯流",
+      "sponsor": null,
+      "fieldStart": "2022-09-19",
+      "fieldEnd": "2022-09-19",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 29.6},
+        {"name": "陳時中", "party": "dpp", "pct": 25.6},
+        {"name": "黃珊珊", "party": "ind", "pct": 28.2}
+      ],
+      "undecided": 16.6,
+      "source": "https://cnews.com.tw/212220927a01",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "蓋洛普",
+      "sponsor": null,
+      "fieldStart": "2022-09-19",
+      "fieldEnd": "2022-09-19",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 27.76},
+        {"name": "陳時中", "party": "dpp", "pct": 19.72},
+        {"name": "黃珊珊", "party": "ind", "pct": 20.9},
+        {"name": "蘇煥智", "party": "other", "partyName": "台灣維新", "pct": 0.06}
+      ],
+      "undecided": 23.42,
+      "source": "https://udn.com/news/story/122682/6640889",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "ETtoday",
+      "sponsor": null,
+      "fieldStart": "2022-09-20",
+      "fieldEnd": "2022-09-20",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 36.9},
+        {"name": "陳時中", "party": "dpp", "pct": 29.4},
+        {"name": "黃珊珊", "party": "ind", "pct": 22.8}
+      ],
+      "undecided": 6.1,
+      "source": "https://www.ettoday.net/news/20220922/2343665.htm",
+      "via": "wikipedia",
+      "notes": "其他候選人合計1.5%"
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "TVBS",
+      "sponsor": null,
+      "fieldStart": "2022-10-02",
+      "fieldEnd": "2022-10-02",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 40},
+        {"name": "陳時中", "party": "dpp", "pct": 22},
+        {"name": "黃珊珊", "party": "ind", "pct": 23},
+        {"name": "張家豪", "party": "other", "partyName": "台灣動物保護黨", "pct": 1.0},
+        {"name": "童文薰", "party": "ind", "pct": 0.1},
+        {"name": "鄭匡宇", "party": "ind", "pct": 0.1},
+        {"name": "謝立康", "party": "ind", "pct": 0.1}
+      ],
+      "undecided": 15,
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2022/20221003/1860f7a060eaa96d881b7754422c5463.pdf",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "ETtoday",
+      "sponsor": null,
+      "fieldStart": "2022-10-05",
+      "fieldEnd": "2022-10-05",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 39.6},
+        {"name": "陳時中", "party": "dpp", "pct": 27.0},
+        {"name": "黃珊珊", "party": "ind", "pct": 23.3}
+      ],
+      "undecided": 9.0,
+      "source": "https://www.ettoday.net/news/20221007/2353416.htm",
+      "via": "wikipedia",
+      "notes": "其他候選人合計1.2%"
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "美麗島電子報",
+      "sponsor": null,
+      "fieldStart": "2022-10-07",
+      "fieldEnd": "2022-10-07",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 29.6},
+        {"name": "陳時中", "party": "dpp", "pct": 27.8},
+        {"name": "黃珊珊", "party": "ind", "pct": 28.1}
+      ],
+      "undecided": 14.5,
+      "source": "https://www.my-formosa.com/DOC_188691.htm",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "震傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-10-18",
+      "fieldEnd": "2022-10-18",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 31.3},
+        {"name": "陳時中", "party": "dpp", "pct": 23.4},
+        {"name": "黃珊珊", "party": "ind", "pct": 26.2},
+        {"name": "童文薰", "party": "ind", "pct": 0.5},
+        {"name": "張家豪", "party": "other", "partyName": "台灣動物保護黨", "pct": 0.2},
+        {"name": "蘇煥智", "party": "other", "partyName": "台灣維新", "pct": 0.1}
+      ],
+      "undecided": 18.3,
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/16630",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "三立",
+      "sponsor": null,
+      "fieldStart": "2022-10-20",
+      "fieldEnd": "2022-10-20",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 26.9},
+        {"name": "陳時中", "party": "dpp", "pct": 28.8},
+        {"name": "黃珊珊", "party": "ind", "pct": 20.0}
+      ],
+      "undecided": 24.3,
+      "source": "https://www.setn.com/News.aspx?NewsID=1195224",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "中華亞太菁英交流協會",
+      "sponsor": null,
+      "fieldStart": "2022-10-20",
+      "fieldEnd": "2022-10-20",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 30},
+        {"name": "陳時中", "party": "dpp", "pct": 27.5},
+        {"name": "黃珊珊", "party": "ind", "pct": 24.3}
+      ],
+      "undecided": 18.2,
+      "source": "https://newtalk.tw/news/view/2022-10-22/835696",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "QuickseeK",
+      "sponsor": null,
+      "fieldStart": "2022-10-22",
+      "fieldEnd": "2022-10-22",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 33.2},
+        {"name": "陳時中", "party": "dpp", "pct": 27.3},
+        {"name": "黃珊珊", "party": "ind", "pct": 33.7}
+      ],
+      "undecided": 5.8,
+      "source": "https://www.quickseek.com.tw/public_policy/487",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "蓋洛普",
+      "sponsor": null,
+      "fieldStart": "2022-10-23",
+      "fieldEnd": "2022-10-23",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 29.67},
+        {"name": "陳時中", "party": "dpp", "pct": 22.13},
+        {"name": "黃珊珊", "party": "ind", "pct": 17.42},
+        {"name": "蘇煥智", "party": "other", "partyName": "台灣維新", "pct": 0.7},
+        {"name": "童文薰", "party": "ind", "pct": 0.38}
+      ],
+      "undecided": 25.87,
+      "source": "https://www.chinatimes.com/realtimenews/20221024001997-260407?chdtv",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "ETtoday",
+      "sponsor": null,
+      "fieldStart": "2022-10-26",
+      "fieldEnd": "2022-10-26",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 40.2},
+        {"name": "陳時中", "party": "dpp", "pct": 28.8},
+        {"name": "黃珊珊", "party": "ind", "pct": 20.9}
+      ],
+      "undecided": 6.9,
+      "source": "https://www.ettoday.net/news/20221028/2367834.htm",
+      "via": "wikipedia",
+      "notes": "其他候選人合計2.2%"
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "TVBS",
+      "sponsor": null,
+      "fieldStart": "2022-10-30",
+      "fieldEnd": "2022-10-30",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 37},
+        {"name": "陳時中", "party": "dpp", "pct": 27},
+        {"name": "黃珊珊", "party": "ind", "pct": 21},
+        {"name": "童文薰", "party": "ind", "pct": 0.3},
+        {"name": "蘇煥智", "party": "other", "partyName": "台灣維新", "pct": 0.1}
+      ],
+      "undecided": 14,
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2022/20221102/59bcb38394674fa11b78714d073a3e92.pdf",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "國民黨",
+      "sponsor": null,
+      "fieldStart": "2022-10-30",
+      "fieldEnd": "2022-10-30",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 31},
+        {"name": "陳時中", "party": "dpp", "pct": 25},
+        {"name": "黃珊珊", "party": "ind", "pct": 19}
+      ],
+      "undecided": 25,
+      "source": "https://www.chinatimes.com/realtimenews/20221030000604-260407?chdtv",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "匯流",
+      "sponsor": null,
+      "fieldStart": "2022-10-31",
+      "fieldEnd": "2022-10-31",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 32.4},
+        {"name": "陳時中", "party": "dpp", "pct": 23.2},
+        {"name": "黃珊珊", "party": "ind", "pct": 26.2}
+      ],
+      "undecided": 18.2,
+      "source": "https://cnews.com.tw/212221104a01/",
+      "via": "wikipedia",
+      "notes": "其他候選人合計0.7%"
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "民進黨",
+      "sponsor": null,
+      "fieldStart": "2022-11-01",
+      "fieldEnd": "2022-11-01",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 30.7},
+        {"name": "陳時中", "party": "dpp", "pct": 29.1},
+        {"name": "黃珊珊", "party": "ind", "pct": 21.6}
+      ],
+      "undecided": 18.7,
+      "source": "https://www.ettoday.net/news/20221103/2372354.htm",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "美麗島電子報",
+      "sponsor": null,
+      "fieldStart": "2022-11-02",
+      "fieldEnd": "2022-11-02",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 34.3},
+        {"name": "陳時中", "party": "dpp", "pct": 27.7},
+        {"name": "黃珊珊", "party": "ind", "pct": 22.4},
+        {"name": "蘇煥智", "party": "other", "partyName": "台灣維新", "pct": 0.2},
+        {"name": "童文薰", "party": "ind", "pct": 0.2},
+        {"name": "張家豪", "party": "other", "partyName": "台灣動物保護黨", "pct": 0.1}
+      ],
+      "undecided": 15,
+      "source": "https://my-formosa.com/DOC_189619.htm",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "TVBS",
+      "sponsor": null,
+      "fieldStart": "2022-11-05",
+      "fieldEnd": "2022-11-05",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 35},
+        {"name": "陳時中", "party": "dpp", "pct": 26},
+        {"name": "黃珊珊", "party": "ind", "pct": 20},
+        {"name": "蘇煥智", "party": "other", "partyName": "台灣維新", "pct": 0.5},
+        {"name": "童文薰", "party": "ind", "pct": 0.1}
+      ],
+      "undecided": 18,
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2022/20221105/779e5f3ef28e2858affaa4f5048d6e45.pdf",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-11-05",
+      "fieldEnd": "2022-11-05",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 36.48},
+        {"name": "陳時中", "party": "dpp", "pct": 33.47},
+        {"name": "黃珊珊", "party": "ind", "pct": 27.97}
+      ],
+      "undecided": 1.44,
+      "source": "https://rwnews.tw/article.php?news=5535",
+      "via": "wikipedia",
+      "notes": "其他候選人合計0.47%"
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "蓋洛普",
+      "sponsor": null,
+      "fieldStart": "2022-11-05",
+      "fieldEnd": "2022-11-05",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 28.5},
+        {"name": "陳時中", "party": "dpp", "pct": 20.18},
+        {"name": "黃珊珊", "party": "ind", "pct": 16.02},
+        {"name": "童文薰", "party": "ind", "pct": 0.15},
+        {"name": "謝立康", "party": "ind", "pct": 0.07}
+      ],
+      "undecided": 27.97,
+      "source": "https://www.setn.com/news.aspx?newsid=1203637",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "台灣民意基金會",
+      "sponsor": null,
+      "fieldStart": "2022-11-07",
+      "fieldEnd": "2022-11-07",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 29.8},
+        {"name": "陳時中", "party": "dpp", "pct": 21.8},
+        {"name": "黃珊珊", "party": "ind", "pct": 26.6},
+        {"name": "童文薰", "party": "ind", "pct": 0.4},
+        {"name": "蘇煥智", "party": "other", "partyName": "台灣維新", "pct": 0.3}
+      ],
+      "undecided": 21,
+      "source": "https://www.tpof.org/%e9%81%b8%e8%88%89/2022%e5%b9%b411%e6%9c%8810%e6%97%a5%e3%80%8c2022%e5%8f%b0%e5%8c%97%e5%b8%82%e9%95%b7%e9%81%b8%e8%88%89%e7%9a%84%e6%9c%80%e6%96%b0%e7%99%bc%e5%b1%95%e3%80%8d/",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "ETtoday",
+      "sponsor": null,
+      "fieldStart": "2022-11-08",
+      "fieldEnd": "2022-11-08",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 41.5},
+        {"name": "陳時中", "party": "dpp", "pct": 33.2},
+        {"name": "黃珊珊", "party": "ind", "pct": 22.7},
+        {"name": "蘇煥智", "party": "other", "partyName": "台灣維新", "pct": 0.1},
+        {"name": "童文薰", "party": "ind", "pct": 0.1},
+        {"name": "黃聖峰", "party": "other", "partyName": "台澎黨", "pct": 0.1},
+        {"name": "王文娟", "party": "ind", "pct": 0.1}
+      ],
+      "undecided": 2.3,
+      "source": "https://www.ettoday.net/news/20221112/2378177.htm",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "中華亞太菁英交流協會",
+      "sponsor": null,
+      "fieldStart": "2022-11-08",
+      "fieldEnd": "2022-11-08",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 27.8},
+        {"name": "陳時中", "party": "dpp", "pct": 29.1},
+        {"name": "黃珊珊", "party": "ind", "pct": 28.8}
+      ],
+      "undecided": 14.3,
+      "source": "https://www.setn.com/news.aspx?newsid=1205789",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "匯流",
+      "sponsor": null,
+      "fieldStart": "2022-11-10",
+      "fieldEnd": "2022-11-10",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 30.6},
+        {"name": "陳時中", "party": "dpp", "pct": 26.8},
+        {"name": "黃珊珊", "party": "ind", "pct": 27.0}
+      ],
+      "undecided": 14.6,
+      "source": "https://cnews.com.tw/215221113a01/",
+      "via": "wikipedia",
+      "notes": "其他候選人合計1.0%"
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "震傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-11-10",
+      "fieldEnd": "2022-11-10",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 34.7},
+        {"name": "陳時中", "party": "dpp", "pct": 26.2},
+        {"name": "黃珊珊", "party": "ind", "pct": 21.7},
+        {"name": "蘇煥智", "party": "other", "partyName": "台灣維新", "pct": 0.6},
+        {"name": "童文薰", "party": "ind", "pct": 0.2},
+        {"name": "張家豪", "party": "other", "partyName": "台灣動物保護黨", "pct": 0.2},
+        {"name": "王文娟", "party": "ind", "pct": 0.1}
+      ],
+      "undecided": 12.9,
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/17338",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "自由時報",
+      "sponsor": null,
+      "fieldStart": "2022-11-11",
+      "fieldEnd": "2022-11-11",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 28.71},
+        {"name": "陳時中", "party": "dpp", "pct": 34.8},
+        {"name": "黃珊珊", "party": "ind", "pct": 23.45},
+        {"name": "蘇煥智", "party": "other", "partyName": "台灣維新", "pct": 0.47},
+        {"name": "童文薰", "party": "ind", "pct": 0.19},
+        {"name": "謝立康", "party": "ind", "pct": 0.19},
+        {"name": "王文娟", "party": "ind", "pct": 0.09},
+        {"name": "施奉先", "party": "ind", "pct": 0.09}
+      ],
+      "undecided": 12.01,
+      "source": "https://news.ltn.com.tw/news/politics/paper/1551391",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "三立",
+      "sponsor": null,
+      "fieldStart": "2022-11-12",
+      "fieldEnd": "2022-11-12",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 29.5},
+        {"name": "陳時中", "party": "dpp", "pct": 32.0},
+        {"name": "黃珊珊", "party": "ind", "pct": 17.6}
+      ],
+      "undecided": 20.8,
+      "source": "https://www.setn.com/News.aspx?NewsID=1207626",
+      "via": "wikipedia",
+      "notes": "其他候選人合計0.1%"
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "聯合報",
+      "sponsor": null,
+      "fieldStart": "2022-11-13",
+      "fieldEnd": "2022-11-13",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 36},
+        {"name": "陳時中", "party": "dpp", "pct": 20},
+        {"name": "黃珊珊", "party": "ind", "pct": 27}
+      ],
+      "undecided": 17,
+      "source": "https://udn.com/news/story/122682/6765343",
+      "via": "wikipedia",
+      "notes": "其他候選人合計1%"
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "蓋洛普",
+      "sponsor": null,
+      "fieldStart": "2022-11-13",
+      "fieldEnd": "2022-11-13",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 34.25},
+        {"name": "陳時中", "party": "dpp", "pct": 22.79},
+        {"name": "黃珊珊", "party": "ind", "pct": 15.6},
+        {"name": "蘇煥智", "party": "other", "partyName": "台灣維新", "pct": 0.54}
+      ],
+      "undecided": 22.9,
+      "source": "https://www.setn.com/News.aspx?NewsID=1207662",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "ETtoday",
+      "sponsor": null,
+      "fieldStart": "2022-11-11",
+      "fieldEnd": "2022-11-14",
+      "published": null,
+      "method": "mixed",
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 37.9},
+        {"name": "陳時中", "party": "dpp", "pct": 29.4},
+        {"name": "黃珊珊", "party": "ind", "pct": 22.5}
+      ],
+      "undecided": 10.2,
+      "source": "https://www.ettoday.net/news/20221115/2380360.htm",
+      "via": "wikipedia",
+      "notes": "ETtoday 六都封關民調；調查期間 11/11–11/14、網路＋電話混合、六都各 1,242 至 2,197 份樣本，據 ETtoday 原文"
+    },
+    {
+      "raceId": "taipei",
+      "pollster": "TVBS",
+      "sponsor": null,
+      "fieldStart": "2022-11-14",
+      "fieldEnd": "2022-11-14",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "蔣萬安", "party": "kmt", "pct": 36},
+        {"name": "陳時中", "party": "dpp", "pct": 25},
+        {"name": "黃珊珊", "party": "ind", "pct": 24}
+      ],
+      "undecided": null,
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2022/20221115/45934fde0e465f3e54984f01ecf58387.pdf",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taitung",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-10-15",
+      "fieldEnd": "2022-10-15",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "饒慶鈴", "party": "kmt", "pct": 55.57},
+        {"name": "劉櫂豪", "party": "dpp", "pct": 30.7},
+        {"name": "陳長宏", "party": "ind", "pct": 0.96}
+      ],
+      "undecided": 12.76,
+      "source": "https://rwnews.tw/article.php?news=5169",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "中華亞太菁英交流協會",
+      "sponsor": null,
+      "fieldStart": "2022-09-15",
+      "fieldEnd": "2022-09-15",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 28.9},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 29.7},
+        {"name": "賴香伶", "party": "tpp", "pct": 7.8},
+        {"name": "鄭寶清", "party": "ind", "pct": 9.1}
+      ],
+      "undecided": 24.4,
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/4062581",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "自由時報",
+      "sponsor": null,
+      "fieldStart": "2022-09-16",
+      "fieldEnd": "2022-09-16",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 24.61},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 29.1},
+        {"name": "賴香伶", "party": "tpp", "pct": 4.59},
+        {"name": "鄭寶清", "party": "ind", "pct": 6.84}
+      ],
+      "undecided": 34.86,
+      "source": "https://news.ltn.com.tw/news/politics/paper/1541095",
+      "via": "wikipedia",
+      "notes": "維基註：中華傳播管理學會對該民調支持度和性別支持度進行交叉分析推算，提出疑似有比例不一致之質疑。"
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "張善政團隊",
+      "sponsor": null,
+      "fieldStart": "2022-09-18",
+      "fieldEnd": "2022-09-18",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 32.3},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 28.6},
+        {"name": "賴香伶", "party": "tpp", "pct": 4.5},
+        {"name": "鄭寶清", "party": "ind", "pct": 9.9}
+      ],
+      "undecided": 24.7,
+      "source": "https://tw.news.yahoo.com/%E6%A1%83%E5%9C%92%E5%B8%82%E9%95%B7%E6%9C%80%E6%96%B0%E6%B0%91%E8%AA%BF%E5%87%BA%E7%88%90-%E5%BC%B5%E5%96%84%E6%94%BF%E9%80%99%E6%95%B8%E5%AD%97%E5%87%BA%E4%B9%8E%E6%84%8F%E6%96%99-125503083.html",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "桃園公正監督民意基金會",
+      "sponsor": null,
+      "fieldStart": "2022-09-18",
+      "fieldEnd": "2022-09-18",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 28.8},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 36.7},
+        {"name": "賴香伶", "party": "tpp", "pct": 2.2},
+        {"name": "鄭寶清", "party": "ind", "pct": 26.4}
+      ],
+      "undecided": 5.9,
+      "source": "https://www.chinatimes.com/realtimenews/20220920004590-260407?chdtv",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "蓋洛普",
+      "sponsor": null,
+      "fieldStart": "2022-09-20",
+      "fieldEnd": "2022-09-20",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 21.38},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 24.77},
+        {"name": "賴香伶", "party": "tpp", "pct": 2.96},
+        {"name": "鄭寶清", "party": "ind", "pct": 4.49}
+      ],
+      "undecided": 36.5,
+      "source": "https://udn.com/news/story/122682/6640889",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "放言",
+      "sponsor": null,
+      "fieldStart": "2022-09-24",
+      "fieldEnd": "2022-09-24",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 23.1},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 24.9},
+        {"name": "賴香伶", "party": "tpp", "pct": 6.4},
+        {"name": "鄭寶清", "party": "ind", "pct": 7.3}
+      ],
+      "undecided": 38.3,
+      "source": "https://www.fountmedia.io/article/162824",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "關鍵調查",
+      "sponsor": null,
+      "fieldStart": "2022-09-29",
+      "fieldEnd": "2022-09-29",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 27},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 26.2},
+        {"name": "賴香伶", "party": "tpp", "pct": 4.5},
+        {"name": "鄭寶清", "party": "ind", "pct": 6.5}
+      ],
+      "undecided": 35.8,
+      "source": "https://udn.com/news/story/122682/6665939",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "匯流",
+      "sponsor": null,
+      "fieldStart": "2022-10-06",
+      "fieldEnd": "2022-10-06",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 34.6},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 27.7},
+        {"name": "賴香伶", "party": "tpp", "pct": 8.9},
+        {"name": "鄭寶清", "party": "ind", "pct": 8.2}
+      ],
+      "undecided": 20.6,
+      "source": "https://cnews.com.tw/222171008a01/",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "國民黨",
+      "sponsor": null,
+      "fieldStart": "2022-10-10",
+      "fieldEnd": "2022-10-10",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 39.2},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 31.3},
+        {"name": "賴香伶", "party": "tpp", "pct": 4.3},
+        {"name": "鄭寶清", "party": "ind", "pct": 4.8}
+      ],
+      "undecided": 19.4,
+      "source": "https://udn.com/news/story/6656/6680536",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "展欣科技",
+      "sponsor": null,
+      "fieldStart": "2022-10-17",
+      "fieldEnd": "2022-10-17",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 32.4},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 26.37},
+        {"name": "賴香伶", "party": "tpp", "pct": 5.21},
+        {"name": "鄭寶清", "party": "ind", "pct": 20.84}
+      ],
+      "undecided": 15.18,
+      "source": "https://www.chinatimes.com/newspapers/20221019000434-260118?chdtv",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "TVBS",
+      "sponsor": null,
+      "fieldStart": "2022-10-20",
+      "fieldEnd": "2022-10-20",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 38},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 27},
+        {"name": "賴香伶", "party": "tpp", "pct": 5},
+        {"name": "鄭寶清", "party": "ind", "pct": 6}
+      ],
+      "undecided": 24,
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2022/20221021/9eea29d70aed55cbf8fa6d19938246ae.pdf",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "展欣科技",
+      "sponsor": null,
+      "fieldStart": "2022-10-25",
+      "fieldEnd": "2022-10-25",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 35},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 24},
+        {"name": "賴香伶", "party": "tpp", "pct": 4},
+        {"name": "鄭寶清", "party": "ind", "pct": 22}
+      ],
+      "undecided": 15,
+      "source": "https://times.hinet.net/news/24230360",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "蓋洛普",
+      "sponsor": null,
+      "fieldStart": "2022-10-27",
+      "fieldEnd": "2022-10-27",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 27.88},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 24.25},
+        {"name": "賴香伶", "party": "tpp", "pct": 4.07},
+        {"name": "鄭寶清", "party": "ind", "pct": 4.81}
+      ],
+      "undecided": 33.36,
+      "source": "https://www.setn.com/News.aspx?NewsID=1199341",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "負數票協會",
+      "sponsor": null,
+      "fieldStart": "2022-10-28",
+      "fieldEnd": "2022-10-28",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 29.7},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 24.5},
+        {"name": "賴香伶", "party": "tpp", "pct": 5.2},
+        {"name": "鄭寶清", "party": "ind", "pct": 5.2}
+      ],
+      "undecided": 16.1,
+      "source": "https://www.chinatimes.com/realtimenews/20221103002158-260407",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-10-29",
+      "fieldEnd": "2022-10-29",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 46.35},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 41.3},
+        {"name": "賴香伶", "party": "tpp", "pct": 3.99},
+        {"name": "鄭寶清", "party": "ind", "pct": 3.52}
+      ],
+      "undecided": 4.84,
+      "source": "https://rwnews.tw/article.php?news=5418",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "台灣民意基金會",
+      "sponsor": null,
+      "fieldStart": "2022-10-30",
+      "fieldEnd": "2022-10-30",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 30.6},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 26.6},
+        {"name": "賴香伶", "party": "tpp", "pct": 4.1},
+        {"name": "鄭寶清", "party": "ind", "pct": 7.2}
+      ],
+      "undecided": 15.1,
+      "source": "https://www.tpof.org/%e9%81%b8%e8%88%89/%e5%85%ad%e9%83%bd%e5%b8%82%e9%95%b7%e9%81%b8%e8%88%89/2022%e5%b9%b411%e6%9c%884%e6%97%a5%e3%80%8c2022%e5%b9%b4%e6%a1%83%e5%9c%92%e5%b8%82%e9%95%b7%e9%81%b8%e8%88%89%e5%9f%ba%e6%9c%ac%e8%aa%bf%e6%9f%a5%e3%80%8d/",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "ETtoday",
+      "sponsor": null,
+      "fieldStart": "2022-10-31",
+      "fieldEnd": "2022-10-31",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 43.6},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 33.6},
+        {"name": "賴香伶", "party": "tpp", "pct": 3.8},
+        {"name": "鄭寶清", "party": "ind", "pct": 5.7}
+      ],
+      "undecided": 11.4,
+      "source": "https://www.ettoday.net/news/20221103/2372070.htm",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "QuickseeK",
+      "sponsor": null,
+      "fieldStart": "2022-11-04",
+      "fieldEnd": "2022-11-04",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 38.7},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 38.2},
+        {"name": "賴香伶", "party": "tpp", "pct": 8.2},
+        {"name": "鄭寶清", "party": "ind", "pct": 5.9}
+      ],
+      "undecided": 8.9,
+      "source": "https://www.quickseek.com.tw/public_policy/489",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "聯合報",
+      "sponsor": null,
+      "fieldStart": "2022-11-04",
+      "fieldEnd": "2022-11-04",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 36},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 30},
+        {"name": "賴香伶", "party": "tpp", "pct": 4},
+        {"name": "鄭寶清", "party": "ind", "pct": 4}
+      ],
+      "undecided": 26,
+      "source": "https://udn.com/news/story/122682/6742874",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "自由時報",
+      "sponsor": null,
+      "fieldStart": "2022-11-04",
+      "fieldEnd": "2022-11-04",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 30.59},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 33.42},
+        {"name": "賴香伶", "party": "tpp", "pct": 6.12},
+        {"name": "鄭寶清", "party": "ind", "pct": 5.84}
+      ],
+      "undecided": 24.02,
+      "source": "https://news.ltn.com.tw/news/politics/paper/1550086",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "民進黨",
+      "sponsor": null,
+      "fieldStart": "2022-11-06",
+      "fieldEnd": "2022-11-06",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 39.7},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 38.6},
+        {"name": "賴香伶", "party": "tpp", "pct": 5.5},
+        {"name": "鄭寶清", "party": "ind", "pct": 3.5}
+      ],
+      "undecided": 12.6,
+      "source": "https://www.nownews.com/news/5965079",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "匯流",
+      "sponsor": null,
+      "fieldStart": "2022-11-07",
+      "fieldEnd": "2022-11-07",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 36.2},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 30.1},
+        {"name": "賴香伶", "party": "tpp", "pct": 5.2},
+        {"name": "鄭寶清", "party": "ind", "pct": 10.3}
+      ],
+      "undecided": 18.2,
+      "source": "https://cnews.com.tw/212221111a03/",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "國民黨",
+      "sponsor": null,
+      "fieldStart": "2022-11-07",
+      "fieldEnd": "2022-11-07",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 46.5},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 36.3},
+        {"name": "賴香伶", "party": "tpp", "pct": 1.4},
+        {"name": "鄭寶清", "party": "ind", "pct": 2.7}
+      ],
+      "undecided": 13.1,
+      "source": "https://www.storm.mg/article/4607152",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "展欣科技",
+      "sponsor": null,
+      "fieldStart": "2022-11-10",
+      "fieldEnd": "2022-11-10",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 23},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 12},
+        {"name": "賴香伶", "party": "tpp", "pct": 8},
+        {"name": "鄭寶清", "party": "ind", "pct": 49}
+      ],
+      "undecided": 8,
+      "source": "https://www.taiwanhot.net/news/focus/1012604/%E6%9C%80%E9%81%A9%E5%90%88%E9%80%99%E4%B8%80%E5%B1%86%E7%9A%84%E6%A1%83%E5%9C%92%E5%B8%82%E9%95%B7%EF%BC%9F+%E6%A9%9F%E5%99%A8%E4%BA%BA%E9%9B%BB%E8%A8%AA%E9%84%AD%E5%AF%B6%E6%B8%85%E6%B0%91%E8%AA%BF%E6%9C%80%E9%AB%98/77/%E6%A1%83%E5%9C%92",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "蓋洛普",
+      "sponsor": null,
+      "fieldStart": "2022-11-10",
+      "fieldEnd": "2022-11-10",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 31.24},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 25.77},
+        {"name": "賴香伶", "party": "tpp", "pct": 3.1},
+        {"name": "鄭寶清", "party": "ind", "pct": 4.7}
+      ],
+      "undecided": 28.03,
+      "source": "https://www.setn.com/news.aspx?newsid=1206418",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "QuickseeK",
+      "sponsor": null,
+      "fieldStart": "2022-11-12",
+      "fieldEnd": "2022-11-12",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 38.5},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 39.2},
+        {"name": "賴香伶", "party": "tpp", "pct": 7.2},
+        {"name": "鄭寶清", "party": "ind", "pct": 5.7}
+      ],
+      "undecided": 9.4,
+      "source": "https://www.ettoday.net/news/20221113/2379455.htm",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "中華亞太菁英交流協會",
+      "sponsor": null,
+      "fieldStart": "2022-11-12",
+      "fieldEnd": "2022-11-12",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 33.9},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 39.4},
+        {"name": "賴香伶", "party": "tpp", "pct": 4.4},
+        {"name": "鄭寶清", "party": "ind", "pct": 5.3}
+      ],
+      "undecided": 16.9,
+      "source": "https://www.ettoday.net/news/20221114/2379447.htm",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "國民黨",
+      "sponsor": null,
+      "fieldStart": "2022-11-13",
+      "fieldEnd": "2022-11-13",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 42.6},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 35.5},
+        {"name": "賴香伶", "party": "tpp", "pct": 1.7},
+        {"name": "鄭寶清", "party": "ind", "pct": 4.8}
+      ],
+      "undecided": 14.9,
+      "source": "https://udn.com/vote2022/story/122682/6765839",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "taoyuan",
+      "pollster": "ETtoday",
+      "sponsor": null,
+      "fieldStart": "2022-11-11",
+      "fieldEnd": "2022-11-14",
+      "published": null,
+      "method": "mixed",
+      "sampleSize": null,
+      "results": [
+        {"name": "張善政", "party": "kmt", "pct": 38.2},
+        {"name": "鄭運鵬", "party": "dpp", "pct": 35.3},
+        {"name": "賴香伶", "party": "tpp", "pct": null},
+        {"name": "鄭寶清", "party": "ind", "pct": null}
+      ],
+      "undecided": 26.5,
+      "source": "https://tw.news.yahoo.com/%E5%85%AD%E9%83%BD%E5%B0%81%E9%97%9C%E6%B0%91%E8%AA%BF%E5%87%BA%E7%88%90-%E8%97%8D%E7%B6%A0%E7%8F%BE%E4%BB%BB%E5%B8%82%E9%95%B7%E9%81%B8%E6%83%85%E7%A9%A9%E5%9B%BA-%E5%8F%B0%E5%8C%97-%E6%A1%83%E5%9C%92%E6%88%90%E6%BF%80%E6%88%B0%E5%8D%80-095251266.html",
+      "via": "wikipedia",
+      "notes": "ETtoday 六都封關民調；調查期間 11/11–11/14、網路＋電話混合、六都各 1,242 至 2,197 份樣本，據 ETtoday 原文"
+    },
+    {
+      "raceId": "yilan",
+      "pollster": "蓋洛普",
+      "sponsor": null,
+      "fieldStart": "2022-09-20",
+      "fieldEnd": "2022-09-20",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "林姿妙", "party": "kmt", "pct": 30.47},
+        {"name": "江聰淵", "party": "dpp", "pct": 20.97},
+        {"name": "陳琬惠", "party": "tpp", "pct": 4.31},
+        {"name": "陳秋境", "party": "ind", "pct": 0.66},
+        {"name": "朱振東", "party": "other", "partyName": "天一黨", "pct": 0.33}
+      ],
+      "undecided": 33.92,
+      "source": "https://udn.com/news/story/122682/6640889",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "yilan",
+      "pollster": "菱傳媒",
+      "sponsor": null,
+      "fieldStart": "2022-10-15",
+      "fieldEnd": "2022-10-15",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "林姿妙", "party": "kmt", "pct": 52.93},
+        {"name": "江聰淵", "party": "dpp", "pct": 31.03},
+        {"name": "陳琬惠", "party": "tpp", "pct": 5.55}
+      ],
+      "undecided": 10.24,
+      "source": "https://rwnews.tw/article.php?news=5163",
+      "via": "wikipedia",
+      "notes": "其他候選人合計0.52%"
+    },
+    {
+      "raceId": "yilan",
+      "pollster": "自由時報",
+      "sponsor": null,
+      "fieldStart": "2022-10-21",
+      "fieldEnd": "2022-10-21",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "林姿妙", "party": "kmt", "pct": 37.08},
+        {"name": "江聰淵", "party": "dpp", "pct": 30.26},
+        {"name": "陳琬惠", "party": "tpp", "pct": 3.6},
+        {"name": "陳秋境", "party": "ind", "pct": 0.46},
+        {"name": "朱振東", "party": "other", "partyName": "天一黨", "pct": 0.46},
+        {"name": "許鋐哲", "party": "ind", "pct": 0.18}
+      ],
+      "undecided": 27.95,
+      "source": "https://news.ltn.com.tw/news/politics/paper/1547454",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "yilan",
+      "pollster": "中華亞太菁英交流協會",
+      "sponsor": null,
+      "fieldStart": "2022-11-02",
+      "fieldEnd": "2022-11-02",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "林姿妙", "party": "kmt", "pct": 30.7},
+        {"name": "江聰淵", "party": "dpp", "pct": 34.9},
+        {"name": "陳琬惠", "party": "tpp", "pct": 7.7}
+      ],
+      "undecided": 26.7,
+      "source": "https://www.setn.com/News.aspx?NewsID=1202870",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "yilan",
+      "pollster": "TVBS",
+      "sponsor": null,
+      "fieldStart": "2022-11-08",
+      "fieldEnd": "2022-11-08",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "林姿妙", "party": "kmt", "pct": 43},
+        {"name": "江聰淵", "party": "dpp", "pct": 32},
+        {"name": "陳琬惠", "party": "tpp", "pct": 3},
+        {"name": "陳秋境", "party": "ind", "pct": 1}
+      ],
+      "undecided": 22,
+      "source": "https://cc.tvbs.com.tw/portal/file/poll_center/2022/20221109/89881fe2718b1c8466f2bc28e8ebbc1d.pdf",
+      "via": "wikipedia",
+      "notes": null
+    },
+    {
+      "raceId": "yunlin",
+      "pollster": "三立",
+      "sponsor": null,
+      "fieldStart": "2022-09-25",
+      "fieldEnd": "2022-09-25",
+      "published": null,
+      "method": null,
+      "sampleSize": null,
+      "results": [
+        {"name": "張麗善", "party": "kmt", "pct": 36.7},
+        {"name": "劉建國", "party": "dpp", "pct": 23.0},
+        {"name": "林佳瑜", "party": "ind", "pct": 2.3}
+      ],
+      "undecided": 38.0,
+      "source": "https://www.setn.com/News.aspx?NewsID=1184995P",
+      "via": "wikipedia",
+      "notes": null
+    }
+  ]
+}

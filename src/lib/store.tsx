@@ -23,7 +23,7 @@ const C = createContext<Ctx | null>(null);
 export function SiteProvider({ data, children }: { data: SiteData; children: ReactNode }) {
   const modelRaces = useMemo<ModelRace[]>(
     () => data.races.filter((r) => r.candidates.length >= 2).map((r) => ({
-      id: r.id, tier: r.tier, candidates: r.candidates, priorShares: r.prior.priorShares, priorSigma: r.prior.priorSigma,
+      id: r.id, tier: r.tier, candidates: r.candidates, priorShares: r.prior.priorShares, priorSigma: r.prior.priorSigma, priorKnown: r.prior.known,
     })),
     [data],
   );

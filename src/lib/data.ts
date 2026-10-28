@@ -96,6 +96,7 @@ export interface Calibration {
     industryBias: Record<string, number>;
     rmse: number;
     rmseLast3Weeks: number;
+    medianAbs: number;
     hitRate: number;
   } | null;
   houseHistory: Record<string, { bias: number; n: number }>;

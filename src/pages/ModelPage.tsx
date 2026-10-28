@@ -153,16 +153,19 @@ function TrackRecord() {
             </div>
           )}
           <dl className="space-y-1.5 text-sm">
-            <div className="flex justify-between gap-3"><dt className="text-ink-2">單筆民調前兩名差距的誤差（均方根）</dt><dd className="num">{a.rmse.toFixed(1)} 點</dd></div>
-            <div className="flex justify-between gap-3"><dt className="text-ink-2">　其中投票前三週內</dt><dd className="num">{a.rmseLast3Weeks.toFixed(1)} 點</dd></div>
+            <div className="flex justify-between gap-3"><dt className="text-ink-2">單筆民調前兩名差距的誤差（中位數）</dt><dd className="num">{a.medianAbs.toFixed(1)} 點</dd></div>
+            <div className="flex justify-between gap-3"><dt className="text-ink-2">　均方根（含少數離譜的）</dt><dd className="num">{a.rmse.toFixed(1)} 點</dd></div>
             <div className="flex justify-between gap-3"><dt className="text-ink-2">單筆民調猜中當選人</dt><dd className="num">{Math.round(a.hitRate * 100)}%</dd></div>
             {Object.entries(a.industryBias).map(([y, v]) => (
-              <div key={y} className="flex justify-between gap-3"><dt className="text-ink-2">{y} 整體偏差（藍綠差距）</dt><dd className="num">{v >= 0 ? "偏藍" : "偏綠"} {Math.abs(v).toFixed(1)} 點</dd></div>
+              <div key={y} className="flex justify-between gap-3"><dt className="text-ink-2">{y} 民調整體{v < 0 ? "低估國民黨" : "低估民進黨"}</dt><dd className="num">{Math.abs(v).toFixed(1)} 點</dd></div>
             ))}
           </dl>
-          <p className="mt-3 text-xs leading-relaxed text-ink-3">
-            整體偏差每屆方向不一定，所以不拿來修正今年的民調，而是放進全國誤差裡。各機構跟同業比的偏差，則當成今年估機構效應的起點。
-          </p>
+          <div className="mt-3 space-y-2 text-xs leading-relaxed text-ink-3">
+            <p>從這些紀錄學到、已經改進模型的兩件事：</p>
+            <p>1. 未表態的人<b className="text-ink-2">平均分給主要候選人</b>，比按支持度比例分配準（誤差從 15.9 降到 12.1 點）。台灣地方選舉的未表態常倒向落後的一方，例如 2022 台南、高雄、屏東，民調都把領先差距高估了二、三十點。</p>
+            <p>2. 第一次參選、沒有前例的無黨籍或第三黨候選人（像 2022 的高虹安、鍾東錦），基本盤不可信，<b className="text-ink-2">有民調就改用民調數字當起點</b>。這讓 2022 回測從猜中 17 個變成 20 個。</p>
+            <p>兩屆民調都低估國民黨，但只有兩屆、而且都是藍營大勝的年份，方向不一定延續，所以不直接修正今年的民調，而是把全國誤差加大到 ±{PARAMS.nationalError} 個百分點（得票率）。各機構跟同業比的偏差，則當成今年估機構效應的起點。</p>
+          </div>
         </div>
         <div className="-mx-2 overflow-x-auto">
           <table className="w-full min-w-[360px] text-sm">
