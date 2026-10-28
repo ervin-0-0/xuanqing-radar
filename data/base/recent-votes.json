@@ -1,0 +1,1230 @@
+{
+  "council2022": {
+    "national": {
+      "kmt": 37.75,
+      "dpp": 33.28,
+      "tpp": 4.0,
+      "npp": 1.56,
+      "ind": 19.69,
+      "other": 3.72,
+      "validVotes": 11408183
+    },
+    "byRace": {
+      "taipei": {
+        "kmt": 41.11,
+        "dpp": 31.98,
+        "tpp": 9.24,
+        "npp": 0.88,
+        "ind": 11.19,
+        "other": 5.6,
+        "validVotes": 1337091
+      },
+      "new-taipei": {
+        "kmt": 45.77,
+        "dpp": 37.97,
+        "tpp": 4.38,
+        "npp": 1.19,
+        "ind": 7.59,
+        "other": 3.11,
+        "validVotes": 1829315
+      },
+      "taoyuan": {
+        "kmt": 40.92,
+        "dpp": 34.77,
+        "tpp": 3.06,
+        "npp": 2.31,
+        "ind": 16.93,
+        "other": 2.01,
+        "validVotes": 1057336
+      },
+      "taichung": {
+        "kmt": 41.79,
+        "dpp": 32.96,
+        "tpp": 4.72,
+        "npp": 1.99,
+        "ind": 16.11,
+        "other": 2.43,
+        "validVotes": 1331410
+      },
+      "tainan": {
+        "kmt": 25.88,
+        "dpp": 41.92,
+        "tpp": 2.33,
+        "npp": 1.11,
+        "ind": 19.45,
+        "other": 9.31,
+        "validVotes": 889189
+      },
+      "kaohsiung": {
+        "kmt": 39.51,
+        "dpp": 41.05,
+        "tpp": 1.85,
+        "npp": 2.1,
+        "ind": 8.15,
+        "other": 7.34,
+        "validVotes": 1309687
+      },
+      "keelung": {
+        "kmt": 43.95,
+        "dpp": 29.86,
+        "tpp": 2.87,
+        "npp": 1.44,
+        "ind": 16.38,
+        "other": 5.51,
+        "validVotes": 181138
+      },
+      "hsinchu-city": {
+        "kmt": 29.44,
+        "dpp": 24.18,
+        "tpp": 11.76,
+        "npp": 8.13,
+        "ind": 24.61,
+        "other": 1.89,
+        "validVotes": 214381
+      },
+      "hsinchu-county": {
+        "kmt": 45.88,
+        "dpp": 13.76,
+        "tpp": 4.73,
+        "npp": 1.66,
+        "ind": 30.28,
+        "other": 3.69,
+        "validVotes": 256859
+      },
+      "miaoli": {
+        "kmt": 15.13,
+        "dpp": 15.13,
+        "tpp": 4.21,
+        "npp": 3.73,
+        "ind": 61.4,
+        "other": 0.4,
+        "validVotes": 289108
+      },
+      "changhua": {
+        "kmt": 41.09,
+        "dpp": 31.9,
+        "tpp": 4.06,
+        "npp": 1.99,
+        "ind": 20.87,
+        "other": 0.09,
+        "validVotes": 646468
+      },
+      "nantou": {
+        "kmt": 35.52,
+        "dpp": 22.43,
+        "tpp": 1.58,
+        "npp": 0.0,
+        "ind": 40.28,
+        "other": 0.19,
+        "validVotes": 273431
+      },
+      "yunlin": {
+        "kmt": 17.48,
+        "dpp": 25.87,
+        "tpp": 4.04,
+        "npp": 0.0,
+        "ind": 49.97,
+        "other": 2.63,
+        "validVotes": 365299
+      },
+      "chiayi-city": {
+        "kmt": 29.63,
+        "dpp": 24.88,
+        "tpp": 0.76,
+        "npp": 2.39,
+        "ind": 37.57,
+        "other": 4.76,
+        "validVotes": 114088
+      },
+      "chiayi-county": {
+        "kmt": 21.47,
+        "dpp": 49.3,
+        "tpp": 0.0,
+        "npp": 0.0,
+        "ind": 29.23,
+        "other": 0.0,
+        "validVotes": 274815
+      },
+      "pingtung": {
+        "kmt": 27.74,
+        "dpp": 29.24,
+        "tpp": 0.56,
+        "npp": 0.17,
+        "ind": 40.55,
+        "other": 1.74,
+        "validVotes": 443347
+      },
+      "yilan": {
+        "kmt": 31.52,
+        "dpp": 34.46,
+        "tpp": 1.26,
+        "npp": 1.04,
+        "ind": 27.47,
+        "other": 4.25,
+        "validVotes": 230838
+      },
+      "hualien": {
+        "kmt": 47.75,
+        "dpp": 11.24,
+        "tpp": 2.35,
+        "npp": 1.4,
+        "ind": 37.25,
+        "other": 0.0,
+        "validVotes": 147707
+      },
+      "taitung": {
+        "kmt": 54.62,
+        "dpp": 10.76,
+        "tpp": 0.53,
+        "npp": 0.0,
+        "ind": 34.0,
+        "other": 0.08,
+        "validVotes": 110575
+      },
+      "penghu": {
+        "kmt": 23.59,
+        "dpp": 13.21,
+        "tpp": 2.54,
+        "npp": 0.0,
+        "ind": 57.31,
+        "other": 3.34,
+        "validVotes": 50762
+      },
+      "kinmen": {
+        "kmt": 31.64,
+        "dpp": 4.19,
+        "tpp": 2.47,
+        "npp": 0.0,
+        "ind": 61.71,
+        "other": 0.0,
+        "validVotes": 46880
+      },
+      "lienchiang": {
+        "kmt": 65.11,
+        "dpp": 1.79,
+        "tpp": 0.0,
+        "npp": 0.0,
+        "ind": 33.1,
+        "other": 0.0,
+        "validVotes": 8459
+      },
+      "zhubei": {
+        "kmt": 35.01,
+        "dpp": 15.63,
+        "tpp": 7.05,
+        "npp": 3.99,
+        "ind": 34.71,
+        "other": 3.61,
+        "validVotes": 80205
+      }
+    },
+    "source": "https://db.cec.gov.tw/ElecTable/Election/ElecTickets?dataType=tickets&typeId=ELC&subjectId=T2&legisId=T1&themeId=72976331a1ea6b85cfb1ed3380ae5f35&dataLevel=A&prvCode=00&cityCode=000&areaCode=00&deptCode=000&liCode=0000",
+    "sources": [
+      "https://db.cec.gov.tw/static/elections/data/tickets/ELC/T1/T1/25e12c45f9f5641aab4193598d5aff6e/A/{prv}_{city}_00_000_0000.json（直轄市議員・區域）",
+      "https://db.cec.gov.tw/static/elections/data/tickets/ELC/T1/T2/44cf35b1708568b94bb3b4c38a3fc74c/A/{prv}_{city}_00_000_0000.json（直轄市議員・平地原住民）",
+      "https://db.cec.gov.tw/static/elections/data/tickets/ELC/T1/T3/699b1ece9739edf4ec4662cea25a0bb3/A/{prv}_{city}_00_000_0000.json（直轄市議員・山地原住民）",
+      "https://db.cec.gov.tw/static/elections/data/tickets/ELC/T2/T1/72976331a1ea6b85cfb1ed3380ae5f35/A/{prv}_{city}_00_000_0000.json（縣市議員・區域）",
+      "https://db.cec.gov.tw/static/elections/data/tickets/ELC/T2/T2/c8f4dc82f282bed4ebcdf0f52552cf58/A/{prv}_{city}_00_000_0000.json（縣市議員・平地原住民）",
+      "https://db.cec.gov.tw/static/elections/data/tickets/ELC/T2/T3/4ad215cf6c4ef28b25278bd1a13bc7bf/A/{prv}_{city}_00_000_0000.json（縣市議員・山地原住民）"
+    ],
+    "notes": "2022-11-26 直轄市議員＋縣市議員選舉，區域、平地原住民、山地原住民選區全部合計（每位選民只投其中一種，合計＝全縣市議員選舉有效票）；各黨得票＝該黨候選人得票加總÷有效票。other 含親民黨、台灣基進、新黨等其他政黨。竹北市用鄉鎮市區層級：新竹縣議員第01選舉區（＝竹北市全區）加上平地、山地原住民選區在竹北市的得票。national 不含竹北（已含在新竹縣）。"
+  },
+  "legislative2024": {
+    "national": {
+      "kmt": 40.42,
+      "dpp": 45.17,
+      "tpp": 2.97,
+      "npp": 0.72,
+      "ind": 7.36,
+      "other": 3.36,
+      "validVotes": 13363780
+    },
+    "byRace": {
+      "taipei": {
+        "kmt": 45.33,
+        "dpp": 39.31,
+        "tpp": 1.88,
+        "npp": 0.0,
+        "ind": 5.02,
+        "other": 8.45,
+        "validVotes": 1504080
+      },
+      "new-taipei": {
+        "kmt": 44.89,
+        "dpp": 45.45,
+        "tpp": 5.37,
+        "npp": 0.0,
+        "ind": 1.28,
+        "other": 3.01,
+        "validVotes": 2367674
+      },
+      "taoyuan": {
+        "kmt": 47.42,
+        "dpp": 35.12,
+        "tpp": 6.11,
+        "npp": 0.0,
+        "ind": 8.98,
+        "other": 2.37,
+        "validVotes": 1291878
+      },
+      "taichung": {
+        "kmt": 46.18,
+        "dpp": 45.87,
+        "tpp": 4.37,
+        "npp": 0.0,
+        "ind": 1.44,
+        "other": 2.13,
+        "validVotes": 1661893
+      },
+      "tainan": {
+        "kmt": 15.91,
+        "dpp": 60.78,
+        "tpp": 0.0,
+        "npp": 0.0,
+        "ind": 18.1,
+        "other": 5.21,
+        "validVotes": 1064818
+      },
+      "kaohsiung": {
+        "kmt": 37.02,
+        "dpp": 55.22,
+        "tpp": 1.39,
+        "npp": 0.0,
+        "ind": 3.63,
+        "other": 2.73,
+        "validVotes": 1592936
+      },
+      "keelung": {
+        "kmt": 43.62,
+        "dpp": 33.07,
+        "tpp": 0.0,
+        "npp": 0.0,
+        "ind": 18.3,
+        "other": 5.0,
+        "validVotes": 210871
+      },
+      "hsinchu-city": {
+        "kmt": 35.22,
+        "dpp": 31.89,
+        "tpp": 0.0,
+        "npp": 12.64,
+        "ind": 19.93,
+        "other": 0.31,
+        "validVotes": 261218
+      },
+      "hsinchu-county": {
+        "kmt": 50.04,
+        "dpp": 23.6,
+        "tpp": 0.0,
+        "npp": 19.69,
+        "ind": 0.0,
+        "other": 6.68,
+        "validVotes": 322875
+      },
+      "miaoli": {
+        "kmt": 29.53,
+        "dpp": 20.0,
+        "tpp": 0.0,
+        "npp": 0.0,
+        "ind": 50.46,
+        "other": 0.0,
+        "validVotes": 301739
+      },
+      "changhua": {
+        "kmt": 46.93,
+        "dpp": 50.59,
+        "tpp": 0.0,
+        "npp": 0.0,
+        "ind": 1.44,
+        "other": 1.04,
+        "validVotes": 721886
+      },
+      "nantou": {
+        "kmt": 51.38,
+        "dpp": 43.44,
+        "tpp": 0.0,
+        "npp": 0.0,
+        "ind": 2.74,
+        "other": 2.45,
+        "validVotes": 270347
+      },
+      "yunlin": {
+        "kmt": 43.98,
+        "dpp": 53.07,
+        "tpp": 0.0,
+        "npp": 0.0,
+        "ind": 2.0,
+        "other": 0.95,
+        "validVotes": 371367
+      },
+      "chiayi-city": {
+        "kmt": 43.34,
+        "dpp": 50.64,
+        "tpp": 0.0,
+        "npp": 0.0,
+        "ind": 0.79,
+        "other": 5.23,
+        "validVotes": 154171
+      },
+      "chiayi-county": {
+        "kmt": 19.23,
+        "dpp": 54.08,
+        "tpp": 0.0,
+        "npp": 0.0,
+        "ind": 25.37,
+        "other": 1.32,
+        "validVotes": 281337
+      },
+      "pingtung": {
+        "kmt": 20.65,
+        "dpp": 50.77,
+        "tpp": 0.0,
+        "npp": 0.0,
+        "ind": 25.33,
+        "other": 3.25,
+        "validVotes": 428683
+      },
+      "yilan": {
+        "kmt": 33.7,
+        "dpp": 41.99,
+        "tpp": 20.94,
+        "npp": 0.0,
+        "ind": 0.69,
+        "other": 2.68,
+        "validVotes": 255529
+      },
+      "hualien": {
+        "kmt": 53.79,
+        "dpp": 40.45,
+        "tpp": 0.0,
+        "npp": 0.0,
+        "ind": 5.08,
+        "other": 0.69,
+        "validVotes": 127890
+      },
+      "taitung": {
+        "kmt": 34.79,
+        "dpp": 31.6,
+        "tpp": 0.0,
+        "npp": 0.0,
+        "ind": 31.68,
+        "other": 1.93,
+        "validVotes": 74103
+      },
+      "penghu": {
+        "kmt": 41.77,
+        "dpp": 50.95,
+        "tpp": 0.0,
+        "npp": 0.0,
+        "ind": 7.28,
+        "other": 0.0,
+        "validVotes": 48420
+      },
+      "kinmen": {
+        "kmt": 65.28,
+        "dpp": 0.0,
+        "tpp": 29.82,
+        "npp": 0.0,
+        "ind": 4.91,
+        "other": 0.0,
+        "validVotes": 44191
+      },
+      "lienchiang": {
+        "kmt": 53.08,
+        "dpp": 23.53,
+        "tpp": 23.39,
+        "npp": 0.0,
+        "ind": 0.0,
+        "other": 0.0,
+        "validVotes": 5874
+      },
+      "zhubei": {
+        "kmt": 41.04,
+        "dpp": 21.98,
+        "tpp": 0.0,
+        "npp": 34.02,
+        "ind": 0.0,
+        "other": 2.96,
+        "validVotes": 116099
+      }
+    },
+    "source": "https://db.cec.gov.tw/ElecTable/Election/ElecTickets?dataType=tickets&typeId=ELC&subjectId=L0&legisId=L1&themeId=9c96a2080bfc199c590ec54f3a2bda7b&dataLevel=A&prvCode=00&cityCode=000&areaCode=00&deptCode=000&liCode=0000",
+    "notes": "2024-01-13 第11屆立法委員區域選舉，不含平地／山地原住民立委與不分區。各黨得票＝該黨區域候選人得票加總÷有效票；政黨沒提名的選區該黨就是 0（例如民眾黨只在少數選區提名），比例會受提名策略影響。竹北市用鄉鎮市區層級：竹北市分屬新竹縣第1、第2選舉區，兩區在竹北市的得票合計。"
+  },
+  "recall2025": {
+    "rounds": [
+      {
+        "date": "2025-07-26",
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf",
+        "title": "中央選舉委員會 114-08-01 中選務字第1143150602號公告"
+      },
+      {
+        "date": "2025-08-23",
+        "source": "https://web.cec.gov.tw/api/file/014afdf7-0209-4598-a1f1-9a2b23ae501c.pdf",
+        "title": "中央選舉委員會 114-08-29 中選務字第1143150700號公告"
+      }
+    ],
+    "districts": [
+      {
+        "date": "2025-07-26",
+        "raceId": "taipei",
+        "district": "臺北市第3選舉區",
+        "target": "王鴻薇",
+        "targetParty": "kmt",
+        "agree": 76463,
+        "disagree": 86311,
+        "agreePct": 46.97,
+        "electorate": 274312,
+        "turnout": 59.59,
+        "passed": false,
+        "ballotsCast": 163452,
+        "validVotes": 162774,
+        "agreeToElectorate": 27.87,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "taipei",
+        "district": "臺北市第4選舉區",
+        "target": "李彥秀",
+        "targetParty": "kmt",
+        "agree": 78560,
+        "disagree": 105169,
+        "agreePct": 42.76,
+        "electorate": 311887,
+        "turnout": 59.14,
+        "passed": false,
+        "ballotsCast": 184454,
+        "validVotes": 183729,
+        "agreeToElectorate": 25.19,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "taipei",
+        "district": "臺北市第6選舉區",
+        "target": "羅智強",
+        "targetParty": "kmt",
+        "agree": 56726,
+        "disagree": 74808,
+        "agreePct": 43.13,
+        "electorate": 228981,
+        "turnout": 57.69,
+        "passed": false,
+        "ballotsCast": 132103,
+        "validVotes": 131534,
+        "agreeToElectorate": 24.77,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "taipei",
+        "district": "臺北市第7選舉區",
+        "target": "徐巧芯",
+        "targetParty": "kmt",
+        "agree": 62633,
+        "disagree": 75401,
+        "agreePct": 45.38,
+        "electorate": 231139,
+        "turnout": 59.98,
+        "passed": false,
+        "ballotsCast": 138630,
+        "validVotes": 138034,
+        "agreeToElectorate": 27.1,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "taipei",
+        "district": "臺北市第8選舉區",
+        "target": "賴士葆",
+        "targetParty": "kmt",
+        "agree": 55958,
+        "disagree": 86907,
+        "agreePct": 39.17,
+        "electorate": 244753,
+        "turnout": 58.63,
+        "passed": false,
+        "ballotsCast": 143489,
+        "validVotes": 142865,
+        "agreeToElectorate": 22.86,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "new-taipei",
+        "district": "新北市第1選舉區",
+        "target": "洪孟楷",
+        "targetParty": "kmt",
+        "agree": 94808,
+        "disagree": 121592,
+        "agreePct": 43.81,
+        "electorate": 405060,
+        "turnout": 53.71,
+        "passed": false,
+        "ballotsCast": 217546,
+        "validVotes": 216400,
+        "agreeToElectorate": 23.41,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "new-taipei",
+        "district": "新北市第7選舉區",
+        "target": "葉元之",
+        "targetParty": "kmt",
+        "agree": 63357,
+        "disagree": 66917,
+        "agreePct": 48.63,
+        "electorate": 231042,
+        "turnout": 56.68,
+        "passed": false,
+        "ballotsCast": 130961,
+        "validVotes": 130274,
+        "agreeToElectorate": 27.42,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "new-taipei",
+        "district": "新北市第8選舉區",
+        "target": "張智倫",
+        "targetParty": "kmt",
+        "agree": 67131,
+        "disagree": 95319,
+        "agreePct": 41.32,
+        "electorate": 288291,
+        "turnout": 56.71,
+        "passed": false,
+        "ballotsCast": 163480,
+        "validVotes": 162450,
+        "agreeToElectorate": 23.29,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "new-taipei",
+        "district": "新北市第9選舉區",
+        "target": "林德福",
+        "targetParty": "kmt",
+        "agree": 51288,
+        "disagree": 84058,
+        "agreePct": 37.89,
+        "electorate": 237380,
+        "turnout": 57.32,
+        "passed": false,
+        "ballotsCast": 136061,
+        "validVotes": 135346,
+        "agreeToElectorate": 21.61,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "new-taipei",
+        "district": "新北市第12選舉區",
+        "target": "廖先翔",
+        "targetParty": "kmt",
+        "agree": 60632,
+        "disagree": 79110,
+        "agreePct": 43.39,
+        "electorate": 266243,
+        "turnout": 52.75,
+        "passed": false,
+        "ballotsCast": 140456,
+        "validVotes": 139742,
+        "agreeToElectorate": 22.77,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "taoyuan",
+        "district": "桃園市第1選舉區",
+        "target": "牛煦庭",
+        "targetParty": "kmt",
+        "agree": 86734,
+        "disagree": 106637,
+        "agreePct": 44.85,
+        "electorate": 354065,
+        "turnout": 54.89,
+        "passed": false,
+        "ballotsCast": 194359,
+        "validVotes": 193371,
+        "agreeToElectorate": 24.5,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "taoyuan",
+        "district": "桃園市第2選舉區",
+        "target": "涂權吉",
+        "targetParty": "kmt",
+        "agree": 70310,
+        "disagree": 101419,
+        "agreePct": 40.94,
+        "electorate": 316423,
+        "turnout": 54.57,
+        "passed": false,
+        "ballotsCast": 172665,
+        "validVotes": 171729,
+        "agreeToElectorate": 22.22,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "taoyuan",
+        "district": "桃園市第3選舉區",
+        "target": "魯明哲",
+        "targetParty": "kmt",
+        "agree": 66301,
+        "disagree": 105323,
+        "agreePct": 38.63,
+        "electorate": 309001,
+        "turnout": 55.79,
+        "passed": false,
+        "ballotsCast": 172395,
+        "validVotes": 171624,
+        "agreeToElectorate": 21.46,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "taoyuan",
+        "district": "桃園市第4選舉區",
+        "target": "萬美玲",
+        "targetParty": "kmt",
+        "agree": 72626,
+        "disagree": 97544,
+        "agreePct": 42.68,
+        "electorate": 306688,
+        "turnout": 55.76,
+        "passed": false,
+        "ballotsCast": 170995,
+        "validVotes": 170170,
+        "agreeToElectorate": 23.68,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "taoyuan",
+        "district": "桃園市第5選舉區",
+        "target": "呂玉玲",
+        "targetParty": "kmt",
+        "agree": 59756,
+        "disagree": 98042,
+        "agreePct": 37.87,
+        "electorate": 282711,
+        "turnout": 56.11,
+        "passed": false,
+        "ballotsCast": 158627,
+        "validVotes": 157798,
+        "agreeToElectorate": 21.14,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "taoyuan",
+        "district": "桃園市第6選舉區",
+        "target": "邱若華",
+        "targetParty": "kmt",
+        "agree": 61635,
+        "disagree": 92049,
+        "agreePct": 40.11,
+        "electorate": 285041,
+        "turnout": 54.24,
+        "passed": false,
+        "ballotsCast": 154607,
+        "validVotes": 153684,
+        "agreeToElectorate": 21.62,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "taichung",
+        "district": "臺中市第4選舉區",
+        "target": "廖偉翔",
+        "targetParty": "kmt",
+        "agree": 83812,
+        "disagree": 106534,
+        "agreePct": 44.03,
+        "electorate": 337718,
+        "turnout": 56.66,
+        "passed": false,
+        "ballotsCast": 191337,
+        "validVotes": 190346,
+        "agreeToElectorate": 24.82,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "taichung",
+        "district": "臺中市第5選舉區",
+        "target": "黃健豪",
+        "targetParty": "kmt",
+        "agree": 88914,
+        "disagree": 119540,
+        "agreePct": 42.65,
+        "electorate": 374348,
+        "turnout": 55.95,
+        "passed": false,
+        "ballotsCast": 209430,
+        "validVotes": 208454,
+        "agreeToElectorate": 23.75,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "taichung",
+        "district": "臺中市第6選舉區",
+        "target": "羅廷瑋",
+        "targetParty": "kmt",
+        "agree": 74012,
+        "disagree": 86422,
+        "agreePct": 46.13,
+        "electorate": 277436,
+        "turnout": 58.14,
+        "passed": false,
+        "ballotsCast": 161305,
+        "validVotes": 160434,
+        "agreeToElectorate": 26.68,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "yunlin",
+        "district": "雲林縣第1選舉區",
+        "target": "丁學忠",
+        "targetParty": "kmt",
+        "agree": 57331,
+        "disagree": 77164,
+        "agreePct": 42.63,
+        "electorate": 271663,
+        "turnout": 49.87,
+        "passed": false,
+        "ballotsCast": 135470,
+        "validVotes": 134495,
+        "agreeToElectorate": 21.1,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "hualien",
+        "district": "花蓮縣選舉區",
+        "target": "傅崐萁",
+        "targetParty": "kmt",
+        "agree": 48969,
+        "disagree": 65300,
+        "agreePct": 42.85,
+        "electorate": 191367,
+        "turnout": 60.1,
+        "passed": false,
+        "ballotsCast": 115006,
+        "validVotes": 114269,
+        "agreeToElectorate": 25.59,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "taitung",
+        "district": "臺東縣選舉區",
+        "target": "黃建賓",
+        "targetParty": "kmt",
+        "agree": 21105,
+        "disagree": 34907,
+        "agreePct": 37.68,
+        "electorate": 113385,
+        "turnout": 49.62,
+        "passed": false,
+        "ballotsCast": 56258,
+        "validVotes": 56012,
+        "agreeToElectorate": 18.61,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "keelung",
+        "district": "基隆市選舉區",
+        "target": "林沛祥",
+        "targetParty": "kmt",
+        "agree": 65143,
+        "disagree": 96294,
+        "agreePct": 40.35,
+        "electorate": 303980,
+        "turnout": 53.38,
+        "passed": false,
+        "ballotsCast": 162263,
+        "validVotes": 161437,
+        "agreeToElectorate": 21.43,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-07-26",
+        "raceId": "hsinchu-city",
+        "district": "新竹市選舉區",
+        "target": "鄭正鈐",
+        "targetParty": "kmt",
+        "agree": 89970,
+        "disagree": 119305,
+        "agreePct": 42.99,
+        "electorate": 357063,
+        "turnout": 59.0,
+        "passed": false,
+        "ballotsCast": 210685,
+        "validVotes": 209275,
+        "agreeToElectorate": 25.2,
+        "source": "https://web.cec.gov.tw/api/file/b35ac130-d35d-4a9e-a145-cee7b7c4b8d2.pdf"
+      },
+      {
+        "date": "2025-08-23",
+        "raceId": "new-taipei",
+        "district": "新北市第11選舉區",
+        "target": "羅明才",
+        "targetParty": "kmt",
+        "agree": 49990,
+        "disagree": 96691,
+        "agreePct": 34.08,
+        "electorate": 299652,
+        "turnout": 49.38,
+        "passed": false,
+        "ballotsCast": 147959,
+        "validVotes": 146681,
+        "agreeToElectorate": 16.68,
+        "source": "https://web.cec.gov.tw/api/file/014afdf7-0209-4598-a1f1-9a2b23ae501c.pdf"
+      },
+      {
+        "date": "2025-08-23",
+        "raceId": "taichung",
+        "district": "臺中市第2選舉區",
+        "target": "顏寬恒",
+        "targetParty": "kmt",
+        "agree": 54396,
+        "disagree": 98809,
+        "agreePct": 35.51,
+        "electorate": 307742,
+        "turnout": 50.34,
+        "passed": false,
+        "ballotsCast": 154912,
+        "validVotes": 153205,
+        "agreeToElectorate": 17.68,
+        "source": "https://web.cec.gov.tw/api/file/014afdf7-0209-4598-a1f1-9a2b23ae501c.pdf"
+      },
+      {
+        "date": "2025-08-23",
+        "raceId": "taichung",
+        "district": "臺中市第3選舉區",
+        "target": "楊瓊瓔",
+        "targetParty": "kmt",
+        "agree": 43677,
+        "disagree": 83511,
+        "agreePct": 34.34,
+        "electorate": 260599,
+        "turnout": 49.33,
+        "passed": false,
+        "ballotsCast": 128563,
+        "validVotes": 127188,
+        "agreeToElectorate": 16.76,
+        "source": "https://web.cec.gov.tw/api/file/014afdf7-0209-4598-a1f1-9a2b23ae501c.pdf"
+      },
+      {
+        "date": "2025-08-23",
+        "raceId": "taichung",
+        "district": "臺中市第8選舉區",
+        "target": "江啟臣",
+        "targetParty": "kmt",
+        "agree": 33977,
+        "disagree": 69796,
+        "agreePct": 32.74,
+        "electorate": 208849,
+        "turnout": 50.24,
+        "passed": false,
+        "ballotsCast": 104924,
+        "validVotes": 103773,
+        "agreeToElectorate": 16.27,
+        "source": "https://web.cec.gov.tw/api/file/014afdf7-0209-4598-a1f1-9a2b23ae501c.pdf"
+      },
+      {
+        "date": "2025-08-23",
+        "raceId": "hsinchu-county",
+        "district": "新竹縣第2選舉區",
+        "target": "林思銘",
+        "targetParty": "kmt",
+        "agree": 33813,
+        "disagree": 76239,
+        "agreePct": 30.72,
+        "electorate": 238499,
+        "turnout": 46.68,
+        "passed": false,
+        "ballotsCast": 111335,
+        "validVotes": 110052,
+        "agreeToElectorate": 14.18,
+        "source": "https://web.cec.gov.tw/api/file/014afdf7-0209-4598-a1f1-9a2b23ae501c.pdf"
+      },
+      {
+        "date": "2025-08-23",
+        "raceId": "nantou",
+        "district": "南投縣第1選舉區",
+        "target": "馬文君",
+        "targetParty": "kmt",
+        "agree": 29914,
+        "disagree": 59828,
+        "agreePct": 33.33,
+        "electorate": 184153,
+        "turnout": 49.24,
+        "passed": false,
+        "ballotsCast": 90686,
+        "validVotes": 89742,
+        "agreeToElectorate": 16.24,
+        "source": "https://web.cec.gov.tw/api/file/014afdf7-0209-4598-a1f1-9a2b23ae501c.pdf"
+      },
+      {
+        "date": "2025-08-23",
+        "raceId": "nantou",
+        "district": "南投縣第2選舉區",
+        "target": "游顥",
+        "targetParty": "kmt",
+        "agree": 33853,
+        "disagree": 61443,
+        "agreePct": 35.52,
+        "electorate": 195068,
+        "turnout": 49.44,
+        "passed": false,
+        "ballotsCast": 96436,
+        "validVotes": 95296,
+        "agreeToElectorate": 17.35,
+        "source": "https://web.cec.gov.tw/api/file/014afdf7-0209-4598-a1f1-9a2b23ae501c.pdf"
+      }
+    ],
+    "byRace": {
+      "taipei": {
+        "agreePct": 43.53,
+        "turnout": 59.03,
+        "districts": 5,
+        "agree": 330340,
+        "disagree": 428596,
+        "electorate": 1291072
+      },
+      "new-taipei": {
+        "agreePct": 41.6,
+        "turnout": 54.2,
+        "districts": 6,
+        "agree": 387206,
+        "disagree": 543687,
+        "electorate": 1727668
+      },
+      "taoyuan": {
+        "agreePct": 40.98,
+        "turnout": 55.22,
+        "districts": 6,
+        "agree": 417362,
+        "disagree": 601014,
+        "electorate": 1853929
+      },
+      "taichung": {
+        "agreePct": 40.15,
+        "turnout": 53.8,
+        "districts": 6,
+        "agree": 378788,
+        "disagree": 564612,
+        "electorate": 1766692
+      },
+      "keelung": {
+        "agreePct": 40.35,
+        "turnout": 53.38,
+        "districts": 1,
+        "agree": 65143,
+        "disagree": 96294,
+        "electorate": 303980
+      },
+      "hsinchu-city": {
+        "agreePct": 42.99,
+        "turnout": 59.0,
+        "districts": 1,
+        "agree": 89970,
+        "disagree": 119305,
+        "electorate": 357063
+      },
+      "hsinchu-county": {
+        "agreePct": 30.72,
+        "turnout": 46.68,
+        "districts": 1,
+        "agree": 33813,
+        "disagree": 76239,
+        "electorate": 238499
+      },
+      "nantou": {
+        "agreePct": 34.46,
+        "turnout": 49.34,
+        "districts": 2,
+        "agree": 63767,
+        "disagree": 121271,
+        "electorate": 379221
+      },
+      "yunlin": {
+        "agreePct": 42.63,
+        "turnout": 49.87,
+        "districts": 1,
+        "agree": 57331,
+        "disagree": 77164,
+        "electorate": 271663
+      },
+      "hualien": {
+        "agreePct": 42.85,
+        "turnout": 60.1,
+        "districts": 1,
+        "agree": 48969,
+        "disagree": 65300,
+        "electorate": 191367
+      },
+      "taitung": {
+        "agreePct": 37.68,
+        "turnout": 49.62,
+        "districts": 1,
+        "agree": 21105,
+        "disagree": 34907,
+        "electorate": 113385
+      }
+    },
+    "notes": "第11屆區域立委罷免案，2025-07-26 共 24 案、2025-08-23 共 7 案，全部否決。中選會選舉資料庫（db.cec.gov.tw）罷免類別列有這 31 案但 has_data=false、沒有開票明細，所以數字取自中選會罷免投票結果公告（PDF）。agreePct＝同意÷（同意＋不同意）；公告沒有分列有效票與無效票，validVotes＝同意＋不同意，無效票＝ballotsCast−validVotes。turnout、agreeToElectorate 照公告原值。byRace 以票數加總計算，只涵蓋有罷免案的選區（不是全縣市），新北市、臺中市兩波合計。同日（2025-07-26）另有新竹市長高虹安罷免案，非立委，未列入。竹北市大部分屬新竹縣第2選舉區（林思銘案），但公告沒有鄉鎮市區層級數字，所以 byRace 沒有 zhubei。"
+  },
+  "referendum2025": {
+    "date": "2025-08-23",
+    "question": "核三延役",
+    "caseNo": 21,
+    "topic": "您是否同意第三核能發電廠經主管機關同意確認無安全疑慮後，繼續運轉？",
+    "national": {
+      "agreePct": 74.17,
+      "turnout": 29.53,
+      "validVotes": 5853125,
+      "agree": 4341432,
+      "disagree": 1511693,
+      "electorate": 20002091,
+      "ballotsCast": 5906370,
+      "agreeToElectorate": 21.7,
+      "passed": false
+    },
+    "byRace": {
+      "taipei": {
+        "agreePct": 76.0,
+        "turnout": 30.17,
+        "validVotes": 625557
+      },
+      "new-taipei": {
+        "agreePct": 74.73,
+        "turnout": 29.93,
+        "validVotes": 1039830
+      },
+      "taoyuan": {
+        "agreePct": 81.28,
+        "turnout": 26.99,
+        "validVotes": 528192
+      },
+      "taichung": {
+        "agreePct": 75.19,
+        "turnout": 35.98,
+        "validVotes": 858438
+      },
+      "tainan": {
+        "agreePct": 66.52,
+        "turnout": 26.62,
+        "validVotes": 423240
+      },
+      "kaohsiung": {
+        "agreePct": 64.85,
+        "turnout": 27.86,
+        "validVotes": 653230
+      },
+      "keelung": {
+        "agreePct": 79.8,
+        "turnout": 28.01,
+        "validVotes": 88598
+      },
+      "hsinchu-city": {
+        "agreePct": 80.92,
+        "turnout": 30.05,
+        "validVotes": 110708
+      },
+      "hsinchu-county": {
+        "agreePct": 80.54,
+        "turnout": 38.54,
+        "validVotes": 185651
+      },
+      "miaoli": {
+        "agreePct": 86.56,
+        "turnout": 28.95,
+        "validVotes": 131089
+      },
+      "changhua": {
+        "agreePct": 79.84,
+        "turnout": 26.96,
+        "validVotes": 278206
+      },
+      "nantou": {
+        "agreePct": 71.75,
+        "turnout": 47.4,
+        "validVotes": 190802
+      },
+      "yunlin": {
+        "agreePct": 76.94,
+        "turnout": 22.66,
+        "validVotes": 127594
+      },
+      "chiayi-city": {
+        "agreePct": 71.65,
+        "turnout": 27.69,
+        "validVotes": 60953
+      },
+      "chiayi-county": {
+        "agreePct": 72.14,
+        "turnout": 23.43,
+        "validVotes": 98860
+      },
+      "pingtung": {
+        "agreePct": 57.16,
+        "turnout": 31.0,
+        "validVotes": 211180
+      },
+      "yilan": {
+        "agreePct": 70.48,
+        "turnout": 22.83,
+        "validVotes": 88078
+      },
+      "hualien": {
+        "agreePct": 86.36,
+        "turnout": 27.19,
+        "validVotes": 72996
+      },
+      "taitung": {
+        "agreePct": 84.04,
+        "turnout": 25.12,
+        "validVotes": 45049
+      },
+      "penghu": {
+        "agreePct": 76.66,
+        "turnout": 18.36,
+        "validVotes": 17192
+      },
+      "kinmen": {
+        "agreePct": 94.21,
+        "turnout": 12.38,
+        "validVotes": 15417
+      },
+      "lienchiang": {
+        "agreePct": 94.0,
+        "turnout": 19.23,
+        "validVotes": 2265
+      },
+      "zhubei": {
+        "agreePct": 75.94,
+        "turnout": 42.48,
+        "validVotes": 70270
+      }
+    },
+    "source": "https://db.cec.gov.tw/static/referendums/data/tickets/N/67e0b4764145bc1edb0eb02f11b383ff/C/00_000_00_000_0000.json",
+    "sources": [
+      "https://db.cec.gov.tw/static/referendums/data/profiles/N/67e0b4764145bc1edb0eb02f11b383ff/C/00_000_00_000_0000.json",
+      "https://db.cec.gov.tw/static/referendums/data/tickets/N/67e0b4764145bc1edb0eb02f11b383ff/N/00_000_00_000_0000.json",
+      "https://db.cec.gov.tw/static/referendums/data/profiles/N/67e0b4764145bc1edb0eb02f11b383ff/N/00_000_00_000_0000.json",
+      "https://db.cec.gov.tw/static/referendums/data/tickets/N/67e0b4764145bc1edb0eb02f11b383ff/D/10_004_00_000_0000.json（竹北市）"
+    ],
+    "notes": "2025-08-23 全國性公民投票只有這一案（第21案），同日另有 7 件立委罷免投票。同意票數多於不同意票數，但同意票未達投票權人總數四分之一（agreeToElectorate 21.7%），依公投法不通過。agreePct＝同意÷有效票；turnout＝投票數÷投票權人數，照中選會原值。"
+  }
+}
