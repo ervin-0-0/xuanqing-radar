@@ -201,31 +201,69 @@ function candidatesFor(id: RaceId): Candidate[] {
 }
 
 // ── 基本盤的近期指標：各項都換成「比全國偏藍幾點」 ─────────────────
-// 各縣市政黨支持度：跟同一份調查的全國平均比（用 2022 有效票加權），再依未表態比例放大成選票尺度
-const latestSupport = (id: RaceId) =>
-  [...(partySupport?.surveys ?? [])].filter((s) => s.byRace[id]?.kmt != null && s.byRace[id]?.dpp != null).sort((a, b) => b.fieldEnd.localeCompare(a.fieldEnd))[0];
-function supportLean(id: RaceId): { lean: number | null; label: string } {
-  const sv = latestSupport(id);
-  if (!sv) return { lean: null, label: "政黨支持度" };
+// 藍營候選人若是藍白合推（或本身是民眾黨、國民黨支持），民眾黨的支持者也算進藍營
+const blueWithTpp = (cands: Candidate[]) => {
+  const b = cands.find((c) => c.party === "kmt" || c.endorsedBy?.includes("kmt"));
+  return !!b && (b.party === "tpp" || !!b.endorsedBy?.includes("tpp"));
+};
+const withTpp = (v: Record<string, number | null> | undefined, on: boolean) =>
+  v && on && v.kmt != null ? { ...v, kmt: v.kmt + (v.tpp ?? 0) } : v;
+const mapWithTpp = (byRace: ByRace | undefined, on: boolean) =>
+  byRace && on ? Object.fromEntries(Object.entries(byRace).map(([k, v]) => [k, withTpp(v, true)!])) : byRace;
+
+// 各縣市政黨支持度：只用涵蓋 10 縣市以上的調查（目前是遠見），同一份調查、同一種問法才能比「比全國偏多少」。
+// 全國平均用 2022 有效票加權；再依未表態比例放大成選票尺度
+const multiSurveys = (partySupport?.surveys ?? []).filter((s) => Object.keys(s.byRace).length >= 10);
+const latestMulti = (id: RaceId) =>
+  [...multiSurveys].filter((s) => s.byRace[id]?.kmt != null && s.byRace[id]?.dpp != null).sort((a, b) => b.fieldEnd.localeCompare(a.fieldEnd))[0];
+// 單一縣市民調裡的受訪者政黨傾向：只在縣市頁參考，不進基本盤
+const latestLocal = (id: RaceId) =>
+  [...(partySupport?.surveys ?? [])].filter((s) => !multiSurveys.includes(s) && s.byRace[id]?.kmt != null && s.byRace[id]?.dpp != null)
+    .sort((a, b) => b.fieldEnd.localeCompare(a.fieldEnd))[0];
+/** 調查裡某縣市比全國偏藍幾點（未換算）；全國用 2022 有效票加權 */
+function rawSupportLean(sv: PartySupportSurvey, id: RaceId, tpp: boolean): number | null {
   let k = 0, d = 0, w = 0;
-  for (const [rid, v] of Object.entries(sv.byRace)) {
+  for (const [rid, v0] of Object.entries(sv.byRace)) {
+    const v = withTpp(v0 as Record<string, number | null>, tpp)!;
     const wt = mayor2022?.races[rid as RaceId]?.validVotes ?? 0;
     if (rid === "zhubei" || v.kmt == null || v.dpp == null || !wt) continue;
     k += v.kmt * wt; d += v.dpp * wt; w += wt;
   }
-  if (w === 0) return { lean: null, label: "政黨支持度" };
-  const r = sv.byRace[id]!;
-  const scale = Math.min(2, Math.max(1, 1 / (1 - (r.none ?? 0) / 100)));
-  return { lean: relativeLean({ [id]: r as Record<string, number> }, { kmt: k / w, dpp: d / w }, id, scale), label: `${sv.fieldEnd.slice(0, 4)} ${sv.pollster}政黨支持度` };
+  if (w === 0) return null;
+  return relativeLean({ [id]: withTpp(sv.byRace[id] as Record<string, number | null>, tpp)! }, { kmt: k / w, dpp: d / w }, id);
 }
-const leansFor = (id: RaceId) => {
-  const sup = supportLean(id);
+// 換算係數：政黨支持度的縣市差距，跟實際投票的縣市差距（總統、不分區）不同尺度。
+// 用 22 縣市橫斷面回歸（過原點）估出來，而不是假設未表態照比例分
+const supportScale = (() => {
+  const sv = [...multiSurveys].sort((a, b) => b.fieldEnd.localeCompare(a.fieldEnd))[0];
+  if (!sv) return 1;
+  let xy = 0, xx = 0;
+  for (const meta of RACES) {
+    if (meta.tier === "township") continue;
+    const x = rawSupportLean(sv, meta.id, false);
+    const ys = [pvi(pres, meta.id), relativeLean(partyList?.elections["2024"]?.byRace, partyList?.elections["2024"]?.national, meta.id)].filter((v): v is number => v != null);
+    if (x == null || !ys.length) continue;
+    const y = ys.reduce((a, b) => a + b, 0) / ys.length;
+    xy += x * y; xx += x * x;
+  }
+  return xx ? Math.max(0.3, Math.min(2, xy / xx)) : 1;
+})();
+function supportLean(id: RaceId, tpp: boolean): { lean: number | null; label: string } {
+  const sv = latestMulti(id);
+  if (!sv) return { lean: null, label: "縣市政黨支持度" };
+  const raw = rawSupportLean(sv, id, tpp);
+  return { lean: raw == null ? null : raw * supportScale, label: `${sv.fieldEnd.slice(0, 4)} ${sv.pollster.replace(/民意研究調查|雜誌/g, "")}縣市政黨支持` };
+}
+const leansFor = (id: RaceId, cands: Candidate[]) => {
+  const tpp = blueWithTpp(cands);
+  const sup = supportLean(id, tpp);
   const ref = recent?.referendum2025;
+  const pl24 = partyList?.elections["2024"];
   return [
-    { label: "2024 不分區政黨票", lean: relativeLean(partyList?.elections["2024"]?.byRace, partyList?.elections["2024"]?.national, id), weight: 0.8 },
+    { label: `2024 不分區政黨票${tpp ? "（藍＋白）" : ""}`, lean: relativeLean(mapWithTpp(pl24?.byRace, tpp), withTpp(pl24?.national, tpp), id), weight: 0.8 },
     { label: "2022 議員政黨票", lean: relativeLean(recent?.council2022?.byRace, recent?.council2022?.national, id), weight: 0.6 },
     { label: "2024 區域立委", lean: relativeLean(recent?.legislative2024?.byRace, recent?.legislative2024?.national, id), weight: 0.6 },
-    { label: sup.label, lean: sup.lean, weight: 0.8 },
+    { label: sup.label + (tpp ? "（藍＋白）" : ""), lean: sup.lean, weight: 0.8 },
     // 核三延役公投「同意」跟藍營立場一致；只當弱指標
     { label: "2025 核三公投", lean: ref?.byRace[id]?.agreePct != null ? ref.byRace[id].agreePct! - ref.national.agreePct : null, weight: 0.3 },
   ];
@@ -233,7 +271,7 @@ const leansFor = (id: RaceId) => {
 
 const races = RACES.map((meta) => {
   const candidates = candidatesFor(meta.id);
-  const prior = computePrior(meta.id, candidates, { mayorPrev: mayor2022, pres, leans: leansFor(meta.id) });
+  const prior = computePrior(meta.id, candidates, { mayorPrev: mayor2022, pres, leans: leansFor(meta.id, candidates) });
   const file = raceFiles.get(meta.id);
   return {
     ...meta,
@@ -255,9 +293,8 @@ const races = RACES.map((meta) => {
       recall2025: recent?.recall2025?.byRace[meta.id] ?? null,
       referendum2025: recent?.referendum2025?.byRace[meta.id] ?? null,
     },
-    partySupport: latestSupport(meta.id)
-      ? { ...latestSupport(meta.id)!.byRace[meta.id], pollster: latestSupport(meta.id)!.pollster, fieldEnd: latestSupport(meta.id)!.fieldEnd, source: latestSupport(meta.id)!.source }
-      : null,
+    partySupport: supportView(latestMulti(meta.id), meta.id),
+    localPartyId: supportView(latestLocal(meta.id), meta.id),
   };
 });
 
@@ -277,6 +314,10 @@ const backtests = hist2022 && mayor2022
       partyList: partyList?.elections["2020"], house: toHouse(errors2018.length ? pollsterAccuracy(errors2018) : null),
     })]
   : [];
+
+function supportView(sv: PartySupportSurvey | undefined, id: RaceId) {
+  return sv ? { ...sv.byRace[id], pollster: sv.pollster, fieldEnd: sv.fieldEnd, source: sv.source } : null;
+}
 
 // ── 預測 ─────────────────────────────────────────────────
 const modelRaces: ModelRace[] = races
@@ -321,6 +362,7 @@ out("meta", {
   asOf: AS_OF,
   electionDay: ELECTION_DAY,
   latestPoll: latest,
+  supportScale: +supportScale.toFixed(2),
   wikiFetched: wiki.fetched,
   wikiSource: wiki.source,
   counts: { polls: polls.length, extraPolls: polls.filter((p) => p.origin === "extra").length, detailed: usedDetails.size, races: races.length },
@@ -334,3 +376,4 @@ if (missing.length) console.log(`尚無選區檔（候選人暫用維基）：${
 if (!mayor2022 || !pres) console.log("尚無歷屆結果，基本盤暫用預設值");
 if (accuracy) console.log(`校準：2018 ${errors2018.length} 筆、2022 ${errors2022.length} 筆，前兩名差距 RMSE ${accuracy.rmse.toFixed(1)}（最後三週 ${accuracy.rmseLast3Weeks.toFixed(1)}），業界偏差 ${JSON.stringify(Object.fromEntries(Object.entries(accuracy.industryBias).map(([y, v]) => [y, +v.toFixed(1)])))}`);
 for (const b of backtests) console.log(`回測 ${b.year}：猜中 ${b.correct}/${b.total}，Brier ${b.brier.toFixed(3)}`);
+if (multiSurveys.length) console.log(`縣市政黨支持度換算係數 ${supportScale.toFixed(2)}（${multiSurveys.length} 份跨縣市調查）`);

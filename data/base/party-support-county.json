@@ -1,0 +1,2584 @@
+{
+  "notes": "各縣市政黨支持度。byRace 欄位：kmt/dpp/tpp＝國民黨／民進黨／民眾黨（百分比照原文，不換算）；none＝中立／不偏任何政黨／看人不看黨（遠見為「未表態」）；other＝原文列的「其他」類（定義各家不同，見各筆 notes）；undeclared＝原文另列的不知道／拒答／未明確回答；panBlue/panGreen＝原文另列的泛藍／泛綠；查不到填 null。measure：party-id＝受訪者政黨傾向；mayor-party-vote＝縣市長選舉支持哪一黨（遠見）；preferred-local-ruling-party＝希望哪黨在本縣市執政。TVBS 數字是交叉表表頭的整數比例。2021–2022 年的 TVBS 只收苗栗、南投、嘉義縣、屏東這幾個缺近期資料的縣。",
+  "surveys": [
+    {
+      "pollster": "遠見民意研究調查",
+      "sponsor": "遠見雜誌",
+      "title": "2026《遠見》縣市長施政滿意度調查：2026縣市長選舉支持度（政黨別）",
+      "measure": "mayor-party-vote",
+      "fieldStart": "2026-03-02",
+      "fieldEnd": "2026-04-14",
+      "published": "2026-06-01",
+      "method": "phone+mobile",
+      "source": "https://www.gvm.com.tw/article/130553",
+      "extraSources": [
+        "https://www.gvm.com.tw/article/130411"
+      ],
+      "byRace": {
+        "taipei": {
+          "kmt": 35.2,
+          "dpp": 17.6,
+          "tpp": 3.5,
+          "none": 43.2,
+          "other": 0.5,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "new-taipei": {
+          "kmt": 31.9,
+          "dpp": 19.3,
+          "tpp": 6.2,
+          "none": 42.4,
+          "other": 0.3,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "taoyuan": {
+          "kmt": 33.3,
+          "dpp": 14.1,
+          "tpp": 3.9,
+          "none": 48.7,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "taichung": {
+          "kmt": 33.7,
+          "dpp": 16.8,
+          "tpp": 2.4,
+          "none": 46.0,
+          "other": 1.0,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "tainan": {
+          "kmt": 15.5,
+          "dpp": 46.8,
+          "tpp": 0.7,
+          "none": 37.0,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "kaohsiung": {
+          "kmt": 15.6,
+          "dpp": 39.8,
+          "tpp": 1.6,
+          "none": 42.9,
+          "other": 0.1,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "keelung": {
+          "kmt": 37.4,
+          "dpp": 20.7,
+          "tpp": 1.4,
+          "none": 40.2,
+          "other": 0.2,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "yilan": {
+          "kmt": 20.0,
+          "dpp": 27.4,
+          "tpp": 2.2,
+          "none": 50.4,
+          "other": 0.1,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "hsinchu-county": {
+          "kmt": 43.5,
+          "dpp": 13.4,
+          "tpp": 3.9,
+          "none": 39.2,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "hsinchu-city": {
+          "kmt": 14.1,
+          "dpp": 16.5,
+          "tpp": 14.9,
+          "none": 53.2,
+          "other": 1.4,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "miaoli": {
+          "kmt": 34.4,
+          "dpp": 12.4,
+          "tpp": 2.5,
+          "none": 48.4,
+          "other": 2.3,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "changhua": {
+          "kmt": 26.2,
+          "dpp": 20.8,
+          "tpp": 2.5,
+          "none": 50.3,
+          "other": 0.2,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "nantou": {
+          "kmt": 37.4,
+          "dpp": 13.1,
+          "tpp": 0.7,
+          "none": 48.6,
+          "other": 0.3,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "yunlin": {
+          "kmt": 21.7,
+          "dpp": 15.8,
+          "tpp": 1.6,
+          "none": 60.9,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "chiayi-county": {
+          "kmt": 8.0,
+          "dpp": 42.7,
+          "tpp": 2.2,
+          "none": 46.5,
+          "other": 0.4,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "chiayi-city": {
+          "kmt": 17.4,
+          "dpp": 25.1,
+          "tpp": 6.3,
+          "none": 50.9,
+          "other": 0.3,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "pingtung": {
+          "kmt": 12.0,
+          "dpp": 41.2,
+          "tpp": 1.6,
+          "none": 44.9,
+          "other": 0.1,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "penghu": {
+          "kmt": 13.6,
+          "dpp": 26.2,
+          "tpp": 0.7,
+          "none": 58.5,
+          "other": 1.1,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "hualien": {
+          "kmt": 30.8,
+          "dpp": 7.0,
+          "tpp": 1.4,
+          "none": 50.8,
+          "other": 10.1,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "taitung": {
+          "kmt": 37.6,
+          "dpp": 15.3,
+          "tpp": 1.3,
+          "none": 45.1,
+          "other": 0.7,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "kinmen": {
+          "kmt": 44.1,
+          "dpp": 3.3,
+          "tpp": 1.2,
+          "none": 49.8,
+          "other": 1.5,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "lienchiang": {
+          "kmt": 40.8,
+          "dpp": 2.9,
+          "tpp": 1.4,
+          "none": 55.0,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        }
+      },
+      "notes": "表格標題「2026縣市長選舉支持度」：問今年縣市長選舉支持哪一黨（藍／綠／白／其他／未表態），是政黨別的投票傾向，不是一般政黨認同，也不是候選人對決。none＝未表態；other＝其他（原表沒列的填 null：桃園、台南、新竹縣、雲林、連江）。數字是網頁文字表格，已逐一核對原文。全國22縣市共完訪14,251人，各縣市樣本數未公布，所以 sampleSize 填 null；調查說明（https://www.gvm.com.tw/article/130411）寫：本島13縣市抽樣誤差±3.7%、澎湖與金門±4.9%、連江±9.3%（95%信賴水準），六都各完成市話約550份、手機約150份，用洪永泰組合估計合併；依性別、年齡、教育程度、戶籍選區加權。雲林未表態：表格60.9%，內文寫60.0%；內文另拆出雲林未表態者中「看人不看黨」10.9%、「看情形」21.9%、不知道或未答28.1%。同系列的2025、2024年縣市長施政滿意度調查（https://www.gvm.com.tw/article/121618 等）查不到有公布分縣市政黨支持度。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "苗栗縣長徐耀昌連任兩年滿意度調查",
+      "measure": "party-id",
+      "fieldStart": "2021-01-15",
+      "fieldEnd": "2021-01-19",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2021/20210208/9dd4973c7a1100357a7a78734cbbaf01.pdf",
+      "byRace": {
+        "miaoli": {
+          "kmt": 23,
+          "dpp": 13,
+          "tpp": 6,
+          "none": 39,
+          "other": 17,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 805
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。這份把時代力量（2%）、台灣基進（1%）另列，other 17% 不含這兩黨。資料較舊（2021年1月），僅因苗栗缺少近期縣級資料而收。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "南投縣長林明溱連任兩年滿意度調查",
+      "measure": "party-id",
+      "fieldStart": "2021-01-20",
+      "fieldEnd": "2021-01-21",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2021/20210208/a0e3702465261c52b40f1a1a445eeb2d.pdf",
+      "byRace": {
+        "nantou": {
+          "kmt": 21,
+          "dpp": 16,
+          "tpp": 2,
+          "none": 36,
+          "other": 23,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 808
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。這份把時代力量（2%）、台灣基進（1%）另列，other 23% 不含這兩黨。資料較舊（2021年1月），僅因南投缺少近期縣級資料而收。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "嘉義縣長翁章梁就任兩年滿意度調查",
+      "measure": "party-id",
+      "fieldStart": "2021-01-25",
+      "fieldEnd": "2021-01-29",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2021/20210208/c42e5ada0332bffb9bf57fdc9d2e616a.pdf",
+      "byRace": {
+        "chiayi-county": {
+          "kmt": 15,
+          "dpp": 23,
+          "tpp": 2,
+          "none": 36,
+          "other": 21,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 806
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。這份把時代力量（2%）、台灣基進（1%）另列，other 21% 不含這兩黨。資料較舊（2021年1月），僅因嘉義縣缺少近期縣級資料而收。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "屏東縣長潘孟安連任兩年滿意度調查",
+      "measure": "party-id",
+      "fieldStart": "2021-01-28",
+      "fieldEnd": "2021-02-01",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2021/20210208/0649678b3e22e44cae191f4fb4921d03.pdf",
+      "byRace": {
+        "pingtung": {
+          "kmt": 18,
+          "dpp": 23,
+          "tpp": 2,
+          "none": 37,
+          "other": 17,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 802
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。這份把時代力量（2%）、台灣基進（1%）另列，other 17% 不含這兩黨。資料較舊（2021年初），僅因屏東缺少近期縣級資料而收。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "選前三周，苗栗縣長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2022-10-31",
+      "fieldEnd": "2022-11-03",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2022/20221107/2240f9a6cc5948c98dcadaa157acc158.pdf",
+      "byRace": {
+        "miaoli": {
+          "kmt": 24,
+          "dpp": 20,
+          "tpp": 11,
+          "none": 27,
+          "other": 12,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 907
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。政黨比例的基數是「會去投票」的苗栗縣民（人數未載；sampleSize 為全體有效樣本）。另列時代力量5%、台灣基進0.5%，other 12% 不含這兩黨。2022年選前資料。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "台北市長上任周年滿意度調查",
+      "measure": "party-id",
+      "fieldStart": "2024-01-15",
+      "fieldEnd": "2024-01-17",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2024/20240206/bca5c04230cf4421da9a612f1caf620c.pdf",
+      "byRace": {
+        "taipei": {
+          "kmt": 28,
+          "dpp": 25,
+          "tpp": 18,
+          "none": 17,
+          "other": 9,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 907
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。另列時代力量3%、台灣基進1%，other 9% 不含這兩黨。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "桃園市長上任周年滿意度調查",
+      "measure": "party-id",
+      "fieldStart": "2024-01-18",
+      "fieldEnd": "2024-01-19",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2024/20240206/70b096af6bebe959243212910de6501e.pdf",
+      "byRace": {
+        "taoyuan": {
+          "kmt": 25,
+          "dpp": 21,
+          "tpp": 19,
+          "none": 22,
+          "other": 11,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 904
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。另列時代力量1%，other 11% 不含時代力量。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "台中市長連任周年滿意度調查",
+      "measure": "party-id",
+      "fieldStart": "2024-01-19",
+      "fieldEnd": "2024-01-25",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2024/20240206/9fa442ee7a44b83994c5a6431d11854a.pdf",
+      "byRace": {
+        "taichung": {
+          "kmt": 25,
+          "dpp": 20,
+          "tpp": 17,
+          "none": 21,
+          "other": 15,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 909
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。另列時代力量2%、台灣基進1%，other 15% 不含這兩黨。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "台南市長連任周年滿意度調查",
+      "measure": "party-id",
+      "fieldStart": "2024-01-25",
+      "fieldEnd": "2024-01-29",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2024/20240206/6a9ee51f930ce234faa23286b589e0d6.pdf",
+      "byRace": {
+        "tainan": {
+          "kmt": 18,
+          "dpp": 32,
+          "tpp": 15,
+          "none": 21,
+          "other": 12,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 924
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。另列時代力量1%、台灣基進1%，other 12% 不含這兩黨。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "高雄市長連任周年滿意度調查",
+      "measure": "party-id",
+      "fieldStart": "2024-01-29",
+      "fieldEnd": "2024-01-31",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2024/20240206/470c0588af208b01408b6c6a90b22027.pdf",
+      "byRace": {
+        "kaohsiung": {
+          "kmt": 21,
+          "dpp": 33,
+          "tpp": 13,
+          "none": 19,
+          "other": 12,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 926
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。另列台灣基進2%，other 12% 不含台灣基進。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "新北市長連任周年滿意度調查",
+      "measure": "party-id",
+      "fieldStart": "2024-01-31",
+      "fieldEnd": "2024-02-05",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2024/20240206/4cc4483926fe896a84563ab713f02057.pdf",
+      "byRace": {
+        "new-taipei": {
+          "kmt": 27,
+          "dpp": 25,
+          "tpp": 15,
+          "none": 19,
+          "other": 14,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 927
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026新北市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2024-08-13",
+      "fieldEnd": "2024-08-19",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2024/20240820/3ac53274b385629005c27ffb473cbaf0.pdf",
+      "byRace": {
+        "new-taipei": {
+          "kmt": 29,
+          "dpp": 28,
+          "tpp": 13,
+          "none": 20,
+          "other": 10,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1006
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026台南市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2024-08-27",
+      "fieldEnd": "2024-08-30",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2024/20240903/6c2839a8f76e61992f6a1ce3a37e8575.pdf",
+      "byRace": {
+        "tainan": {
+          "kmt": 23,
+          "dpp": 36,
+          "tpp": 6,
+          "none": 22,
+          "other": 13,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 902
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026高雄市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2024-09-02",
+      "fieldEnd": "2024-09-10",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2024/20240912/b4c68059e65c55dae72c9fc22bfca5bf.pdf",
+      "byRace": {
+        "kaohsiung": {
+          "kmt": 22,
+          "dpp": 34,
+          "tpp": 9,
+          "none": 20,
+          "other": 13,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 940
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "台北市長上任兩年滿意度民調",
+      "measure": "party-id",
+      "fieldStart": "2024-11-07",
+      "fieldEnd": "2024-11-13",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2024/20241209/e18a991fca460f5192dd5d34da44af5a.pdf",
+      "byRace": {
+        "taipei": {
+          "kmt": 27,
+          "dpp": 25,
+          "tpp": 8,
+          "none": 27,
+          "other": 14,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 912
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "新北市長連任兩年滿意度民調",
+      "measure": "party-id",
+      "fieldStart": "2024-11-13",
+      "fieldEnd": "2024-11-19",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2024/20241210/d6abd74c17fe7ac5e8a4b2edaab74b4a.pdf",
+      "byRace": {
+        "new-taipei": {
+          "kmt": 24,
+          "dpp": 24,
+          "tpp": 9,
+          "none": 33,
+          "other": 11,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 929
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "桃園市長上任兩年滿意度民調",
+      "measure": "party-id",
+      "fieldStart": "2024-11-20",
+      "fieldEnd": "2024-11-26",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2024/20241211/84e68d19bf961ac198766888635c390c.pdf",
+      "byRace": {
+        "taoyuan": {
+          "kmt": 24,
+          "dpp": 20,
+          "tpp": 8,
+          "none": 36,
+          "other": 12,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 919
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "台中市長連任兩年滿意度民調",
+      "measure": "party-id",
+      "fieldStart": "2024-11-26",
+      "fieldEnd": "2024-12-03",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2024/20241212/c0c3531fd11a13076882f7506826b98e.pdf",
+      "byRace": {
+        "taichung": {
+          "kmt": 25,
+          "dpp": 20,
+          "tpp": 8,
+          "none": 34,
+          "other": 14,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 909
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "高雄市長連任兩年滿意度民調",
+      "measure": "party-id",
+      "fieldStart": "2024-12-03",
+      "fieldEnd": "2024-12-07",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2024/20241212/1bb295cf5f8a46026f216f36a9937b5b.pdf",
+      "byRace": {
+        "kaohsiung": {
+          "kmt": 24,
+          "dpp": 33,
+          "tpp": 5,
+          "none": 24,
+          "other": 14,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 912
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "台南市長連任兩年滿意度民調",
+      "measure": "party-id",
+      "fieldStart": "2024-12-09",
+      "fieldEnd": "2024-12-10",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2024/20241213/c46a2551b4a585dbd605f7b4fc45e7e7.pdf",
+      "byRace": {
+        "tainan": {
+          "kmt": 18,
+          "dpp": 28,
+          "tpp": 5,
+          "none": 31,
+          "other": 17,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 919
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026台北市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2024-12-16",
+      "fieldEnd": "2024-12-24",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2024/20241227/7ca4bea92e3cf1c782f5d70c792fb5ec.pdf",
+      "byRace": {
+        "taipei": {
+          "kmt": 30,
+          "dpp": 26,
+          "tpp": 9,
+          "none": 22,
+          "other": 12,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1048
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026台中市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2024-12-26",
+      "fieldEnd": "2025-01-06",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2025/20250109/abb03aec6b88e58bfb8dc5a742f711f6.pdf",
+      "byRace": {
+        "taichung": {
+          "kmt": 29,
+          "dpp": 26,
+          "tpp": 9,
+          "none": 26,
+          "other": 11,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 806
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "美麗島電子報（戴立安規劃，畢肯市場研究公司執行）",
+      "sponsor": "美麗島電子報",
+      "title": "美麗島民調：新北市長施政滿意度民調",
+      "measure": "party-id",
+      "fieldStart": "2025-01-08",
+      "fieldEnd": "2025-01-09",
+      "published": "2025-01-16",
+      "method": "phone",
+      "source": "https://my-formosa.com.tw/DOC_213371.htm",
+      "byRace": {
+        "new-taipei": {
+          "kmt": 23.0,
+          "dpp": 18.0,
+          "tpp": 7.1,
+          "none": 32.3,
+          "other": null,
+          "undeclared": 4.0,
+          "panBlue": 31.9,
+          "panGreen": 24.7,
+          "sampleSize": 1071
+        }
+      },
+      "notes": "數字讀自原文附的交叉分析表圖片（政黨傾向列的「直行%」），網頁文字沒有這些數字。none＝中立／看人不看黨，undeclared＝未明確回答；panBlue/panGreen 為同表「政治立場」列（泛藍＝國民黨＋其他泛藍，泛綠＝民進黨＋時代力量＋基進＋其他泛綠）。另有其他泛藍8.9%、時代力量0.2%、基進黨0.4%、其他泛綠6.2%。住宅電話。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026桃園市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2025-01-08",
+      "fieldEnd": "2025-01-16",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2025/20250120/5d6200eb4993f8a96cbe12f45ca6245d.pdf",
+      "byRace": {
+        "taoyuan": {
+          "kmt": 32,
+          "dpp": 29,
+          "tpp": 13,
+          "none": 18,
+          "other": 10,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 804
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026台南市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2025-02-04",
+      "fieldEnd": "2025-02-10",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2025/20250212/284bf6e3a4b002c99b4bedb2fbdc9512.pdf",
+      "byRace": {
+        "tainan": {
+          "kmt": 24,
+          "dpp": 33,
+          "tpp": 9,
+          "none": 18,
+          "other": 15,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 883
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026台南市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2025-09-08",
+      "fieldEnd": "2025-09-12",
+      "published": "2025-09-15",
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2025/20250917/b821fdad1c8903f8437d790b84d6d5de.pdf",
+      "byRace": {
+        "tainan": {
+          "kmt": 21,
+          "dpp": 31,
+          "tpp": 11,
+          "none": 21,
+          "other": 16,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1007
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "山水民意研究",
+      "sponsor": "鏡報",
+      "title": "高雄市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2025-09-10",
+      "fieldEnd": "2025-09-12",
+      "published": "2025-09-16",
+      "method": "phone",
+      "source": "https://www.mnews.tw/external/mirrordaily20450",
+      "byRace": {
+        "kaohsiung": {
+          "kmt": 19.8,
+          "dpp": 40.0,
+          "tpp": 10.5,
+          "none": 24.1,
+          "other": 1.6,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1070
+        }
+      },
+      "notes": "另有時代力量2.7%、台灣基進1.4%；none＝不偏向任何政黨。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026高雄市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2025-09-12",
+      "fieldEnd": "2025-09-19",
+      "published": "2025-09-24",
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2025/20250930/47eff2bda3a7f080df5c17a6cc9fffa0.pdf",
+      "byRace": {
+        "kaohsiung": {
+          "kmt": 24,
+          "dpp": 35,
+          "tpp": 10,
+          "none": 17,
+          "other": 14,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1117
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "循證民調有限公司",
+      "sponsor": "鋒燦傳媒",
+      "title": "2026台南初選民調（第1波）",
+      "measure": "party-id",
+      "fieldStart": "2025-10-27",
+      "fieldEnd": "2025-10-28",
+      "published": "2025-10-31",
+      "method": "phone",
+      "source": "https://www.ftnn.com.tw/news/495955",
+      "extraSources": [
+        "https://i01.ftnn.com.tw/a/25/303/25303144604090338ce92e.jpg"
+      ],
+      "byRace": {
+        "tainan": {
+          "kmt": 15.7,
+          "dpp": 43.2,
+          "tpp": 11.7,
+          "none": null,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1201
+        }
+      },
+      "notes": "報導只公布三黨比例。樣本數 n=1201 取自報導附圖（電話資料庫系統隨機抽樣）。"
+    },
+    {
+      "pollster": "CNEWS匯流新聞網民調中心",
+      "sponsor": "CNEWS匯流新聞網",
+      "title": "2026新北市長三黨競逐民調",
+      "measure": "party-id",
+      "fieldStart": "2025-11-09",
+      "fieldEnd": "2025-11-12",
+      "published": "2025-11-21",
+      "method": "phone+mobile",
+      "source": "https://cnews.com.tw/%E5%8C%AF%E6%B5%81%E6%B0%91%E8%AA%BF-2026%E6%96%B0%E5%8C%97%E5%B8%82%E9%95%B7-%E4%B8%89%E9%BB%A8%E7%AB%B6%E9%80%90/",
+      "extraSources": [
+        "https://cnews.com.tw/%E5%8C%AF%E6%B5%81%E6%B0%91%E8%AA%BF-2026%E6%96%B0%E5%8C%97%E5%B8%82%E9%95%B7-%E8%97%8D%E7%B6%A0%E5%B0%8D%E6%B1%BA/"
+      ],
+      "byRace": {
+        "new-taipei": {
+          "kmt": 31.2,
+          "dpp": 28.4,
+          "tpp": 15.5,
+          "none": 11.5,
+          "other": null,
+          "undeclared": 8.3,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1200
+        }
+      },
+      "notes": "另有時代力量3.3%、台灣基進1.4%；none＝不偏任何政黨，undeclared＝未表態。市話851、手機349。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026台南市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2025-11-17",
+      "fieldEnd": "2025-11-20",
+      "published": "2025-11-24",
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2025/20251124/b598691bc21b681281b8b75489a1deef.pdf",
+      "byRace": {
+        "tainan": {
+          "kmt": 22,
+          "dpp": 35,
+          "tpp": 9,
+          "none": 23,
+          "other": 10,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1013
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "雨晴指標民調",
+      "sponsor": "上報",
+      "title": "高雄市長初選對比民調",
+      "measure": "party-id",
+      "fieldStart": "2025-11-24",
+      "fieldEnd": "2025-11-26",
+      "published": "2025-11-29",
+      "method": "phone",
+      "source": "https://www.upmedia.mg/tw/focus/politics/246020",
+      "extraSources": [
+        "https://web.archive.org/web/2025/https://www.upmedia.mg/tw/focus/politics/246020"
+      ],
+      "byRace": {
+        "kaohsiung": {
+          "kmt": 8.4,
+          "dpp": 47.6,
+          "tpp": 4.7,
+          "none": 30.3,
+          "other": null,
+          "undeclared": 1.5,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1074
+        }
+      },
+      "notes": "另有台灣基進1.4%、時代力量0.7%；none＝無任何偏好，undeclared＝拒答。上報原網址被 Cloudflare 擋，數字讀自 Wayback 存檔。國民黨支持者比例特別低，偏綠樣本。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026高雄市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2025-11-20",
+      "fieldEnd": "2025-11-27",
+      "published": "2025-12-01",
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2025/20251230/7f85b1bca9aaaba0aa86f0cded95d365.pdf",
+      "byRace": {
+        "kaohsiung": {
+          "kmt": 24,
+          "dpp": 37,
+          "tpp": 9,
+          "none": 21,
+          "other": 9,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1014
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "民意調查協會",
+      "sponsor": null,
+      "title": "澎湖縣長選情民調（第1波）",
+      "measure": "party-id",
+      "fieldStart": "2025-11-24",
+      "fieldEnd": "2025-11-27",
+      "published": "2025-11-30",
+      "method": "phone",
+      "source": "https://news.tvbs.com.tw/politics/3059332",
+      "byRace": {
+        "penghu": {
+          "kmt": 17.41,
+          "dpp": 15.01,
+          "tpp": 5.96,
+          "none": null,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1069
+        }
+      },
+      "notes": "報導只公布三黨比例。住宅電話隨機抽樣。"
+    },
+    {
+      "pollster": "精湛民調",
+      "sponsor": null,
+      "title": "高雄市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2025-11-27",
+      "fieldEnd": "2025-11-28",
+      "published": "2025-12-04",
+      "method": "phone",
+      "source": "https://www.ettoday.net/news/20251204/3078334.htm",
+      "byRace": {
+        "kaohsiung": {
+          "kmt": 17.9,
+          "dpp": 51.7,
+          "tpp": 10.9,
+          "none": 16.3,
+          "other": 3.1,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1228
+        }
+      },
+      "notes": "none＝不偏任何政黨，other＝其餘。比照民進黨初選方式只打市話，偏綠樣本。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026台北市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2025-11-27",
+      "fieldEnd": "2025-12-04",
+      "published": "2025-12-08",
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2025/20251208/f76262efaa46dd37ae3df58e65b2d1eb.pdf",
+      "byRace": {
+        "taipei": {
+          "kmt": 33,
+          "dpp": 27,
+          "tpp": 12,
+          "none": 17,
+          "other": 10,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1006
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026桃園市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2025-12-05",
+      "fieldEnd": "2025-12-12",
+      "published": "2025-12-15",
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2025/20251215/fcec2c7a4c138f591e0a2ce680a491da.pdf",
+      "byRace": {
+        "taoyuan": {
+          "kmt": 28,
+          "dpp": 25,
+          "tpp": 13,
+          "none": 22,
+          "other": 11,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 953
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "山水民意研究",
+      "sponsor": "Newtalk新聞",
+      "title": "高雄市長初選民調",
+      "measure": "party-id",
+      "fieldStart": "2025-12-25",
+      "fieldEnd": "2025-12-26",
+      "published": "2025-12-30",
+      "method": "phone",
+      "source": "https://newtalk.tw/news/view/2025-12-30/1012221",
+      "byRace": {
+        "kaohsiung": {
+          "kmt": null,
+          "dpp": null,
+          "tpp": null,
+          "none": 22,
+          "other": 4.4,
+          "undeclared": null,
+          "panBlue": 20.4,
+          "panGreen": 53.1,
+          "sampleSize": 1079
+        }
+      },
+      "notes": "這份只公布藍綠光譜：泛綠573人（53.1%）、泛藍220人（20.4%）、中間選民238人（22%）、其他（有支持政黨但不偏藍綠）48人（4.4%）；沒有個別政黨比例。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026高雄市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2025-12-22",
+      "fieldEnd": "2025-12-29",
+      "published": "2025-12-30",
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2025/20251230/1c884e75f849d60fb83311e57f18c352.pdf",
+      "byRace": {
+        "kaohsiung": {
+          "kmt": 24,
+          "dpp": 40,
+          "tpp": 11,
+          "none": 15,
+          "other": 11,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 998
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "美麗島電子報（戴立安規劃，畢肯市場研究公司執行）",
+      "sponsor": "美麗島電子報",
+      "title": "美麗島民調：2026新竹縣長選舉可能人選支持度民調",
+      "measure": "party-id",
+      "fieldStart": "2025-12-30",
+      "fieldEnd": "2026-01-02",
+      "published": "2026-01-05",
+      "method": "phone",
+      "source": "https://my-formosa.com.tw/DOC_222740.htm",
+      "byRace": {
+        "hsinchu-county": {
+          "kmt": 35.4,
+          "dpp": 18.5,
+          "tpp": 10.7,
+          "none": 23.7,
+          "other": null,
+          "undeclared": 3.6,
+          "panBlue": 40.2,
+          "panGreen": 21.8,
+          "sampleSize": 1068
+        }
+      },
+      "notes": "數字讀自原文附的交叉分析表圖片（政黨傾向列的「直行%」），網頁文字沒有這些數字。none＝中立／看人不看黨，undeclared＝未明確回答；panBlue/panGreen 為同表「政治立場」列（泛藍＝國民黨＋其他泛藍，泛綠＝民進黨＋時代力量＋基進＋其他泛綠）。另有其他泛藍4.8%、時代力量1.3%、基進黨0.2%、其他泛綠1.9%。調查日為2025-12-30、31與2026-01-02。住宅電話。"
+    },
+    {
+      "pollster": "皮爾森數據",
+      "sponsor": "鉅聞天下新聞網",
+      "title": "新竹市長選舉網路民調",
+      "measure": "party-id",
+      "fieldStart": "2026-01-06",
+      "fieldEnd": "2026-01-11",
+      "published": "2026-01-19",
+      "method": "online",
+      "source": "https://www.bigmedia.com.tw/article/1768708815496",
+      "byRace": {
+        "hsinchu-city": {
+          "kmt": 16.7,
+          "dpp": 28.98,
+          "tpp": 15.64,
+          "none": null,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1218
+        }
+      },
+      "notes": "網路調查（DMP 主動發放、分層抽樣），非電話抽樣。另有時代力量2.74%；中立比例未公布。報導另列2022年10月同機構數字（民進黨30.19%、國民黨20.41%、民眾黨5.54%）未收。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026新北市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2026-01-06",
+      "fieldEnd": "2026-01-16",
+      "published": "2026-01-20",
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2026/20260121/f549e8011d885ed630573b7f936eff9c.pdf",
+      "byRace": {
+        "new-taipei": {
+          "kmt": 30,
+          "dpp": 30,
+          "tpp": 9,
+          "none": 24,
+          "other": 8,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 997
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "美麗島電子報（戴立安規劃，畢肯市場研究公司執行）",
+      "sponsor": "美麗島電子報",
+      "title": "2026新北市長選舉可能人選支持度民調",
+      "measure": "party-id",
+      "fieldStart": "2026-01-19",
+      "fieldEnd": "2026-01-21",
+      "published": "2026-01-23",
+      "method": "phone+mobile",
+      "source": "https://my-formosa.com.tw/DOC_223242.htm",
+      "byRace": {
+        "new-taipei": {
+          "kmt": 26.2,
+          "dpp": 27.1,
+          "tpp": 11.8,
+          "none": 25.0,
+          "other": 0.1,
+          "undeclared": 2.3,
+          "panBlue": 31.0,
+          "panGreen": 29.7,
+          "sampleSize": 1070
+        }
+      },
+      "notes": "數字讀自原文附的交叉分析表圖片（政黨傾向列的「直行%」），網頁文字沒有這些數字。none＝中立／看人不看黨，undeclared＝未明確回答；panBlue/panGreen 為同表「政治立場」列（泛藍＝國民黨＋其他泛藍，泛綠＝民進黨＋時代力量＋基進＋其他泛綠）。另有其他泛藍4.8%、時代力量0.5%、其他泛綠2.1%。住宅電話＋手機。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026台中市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2026-01-19",
+      "fieldEnd": "2026-01-22",
+      "published": "2026-01-23",
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2026/20260123/e81df25f05002ab1c3e1dbf68d1d320b.pdf",
+      "byRace": {
+        "taichung": {
+          "kmt": 29,
+          "dpp": 26,
+          "tpp": 14,
+          "none": 21,
+          "other": 11,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1037
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "美麗島電子報（戴立安規劃，畢肯市場研究公司執行）",
+      "sponsor": "美麗島電子報",
+      "title": "美麗島民調：2026台中市長選舉可能人選支持度民調",
+      "measure": "party-id",
+      "fieldStart": "2026-01-21",
+      "fieldEnd": "2026-01-23",
+      "published": "2026-01-26",
+      "method": "phone",
+      "source": "https://my-formosa.com.tw/DOC_223267.htm",
+      "byRace": {
+        "taichung": {
+          "kmt": 26.5,
+          "dpp": 26.0,
+          "tpp": 6.1,
+          "none": 30.2,
+          "other": null,
+          "undeclared": 3.1,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1069
+        }
+      },
+      "notes": "數字讀自原文附的交叉分析表圖片（政黨傾向列的「直行%」），網頁文字沒有這些數字。none＝中立／看人不看黨，undeclared＝未明確回答；panBlue/panGreen 為同表「政治立場」列（泛藍＝國民黨＋其他泛藍，泛綠＝民進黨＋時代力量＋基進＋其他泛綠）。這張表沒有政治立場列，panBlue/panGreen 填 null。另有其他泛藍4.8%、時代力量0.3%、基進黨0.3%、其他泛綠2.9%。住宅電話。"
+    },
+    {
+      "pollster": "山水民意研究",
+      "sponsor": "震傳媒",
+      "title": "震傳媒台北市議題民調",
+      "measure": "party-id",
+      "fieldStart": "2026-01-25",
+      "fieldEnd": "2026-01-26",
+      "published": "2026-01-28",
+      "method": "phone+mobile",
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/40330",
+      "byRace": {
+        "taipei": {
+          "kmt": 31.6,
+          "dpp": 30.4,
+          "tpp": 12.4,
+          "none": 20.8,
+          "other": null,
+          "undeclared": null,
+          "panBlue": 37.9,
+          "panGreen": 33.5,
+          "sampleSize": 1078
+        }
+      },
+      "notes": "none＝自詡為中間選民（藍綠光譜題）。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026台北市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2026-01-23",
+      "fieldEnd": "2026-01-28",
+      "published": "2026-01-29",
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2026/20260130/a77f38bdee0ceef8c988b182d179b754.pdf",
+      "byRace": {
+        "taipei": {
+          "kmt": 31,
+          "dpp": 26,
+          "tpp": 11,
+          "none": 20,
+          "other": 11,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1009
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "山水民意研究",
+      "sponsor": "新頭殼（Newtalk）",
+      "title": "高雄市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-01-29",
+      "fieldEnd": "2026-01-30",
+      "published": "2026-02-02",
+      "method": "phone",
+      "source": "https://newtalk.tw/news/view/2026-02-02/1017969",
+      "byRace": {
+        "kaohsiung": {
+          "kmt": 21.4,
+          "dpp": 42.7,
+          "tpp": null,
+          "none": 20.9,
+          "other": null,
+          "undeclared": null,
+          "panBlue": 24.0,
+          "panGreen": 46.5,
+          "sampleSize": 1083
+        }
+      },
+      "notes": "民眾黨比例未公布；none＝中間選民（藍綠光譜題）。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026新竹市長可能人選民調",
+      "measure": "party-id",
+      "fieldStart": "2026-01-29",
+      "fieldEnd": "2026-02-04",
+      "published": "2026-02-06",
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2026/20260206/008741205265e8613fa0d2ba0607b0ce.pdf",
+      "byRace": {
+        "hsinchu-city": {
+          "kmt": 25,
+          "dpp": 23,
+          "tpp": 14,
+          "none": 23,
+          "other": 14,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 953
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。"
+    },
+    {
+      "pollster": "美麗島電子報（戴立安規劃，畢肯市場研究公司執行）",
+      "sponsor": "美麗島電子報",
+      "title": "美麗島民調：2026新竹縣長選舉可能人選支持度民調",
+      "measure": "party-id",
+      "fieldStart": "2026-02-04",
+      "fieldEnd": "2026-02-05",
+      "published": "2026-02-06",
+      "method": "phone",
+      "source": "https://my-formosa.com.tw/DOC_223590.htm",
+      "byRace": {
+        "hsinchu-county": {
+          "kmt": 38.3,
+          "dpp": 17.4,
+          "tpp": 10.2,
+          "none": 22.3,
+          "other": null,
+          "undeclared": 4.3,
+          "panBlue": 41.8,
+          "panGreen": 21.4,
+          "sampleSize": 1073
+        }
+      },
+      "notes": "數字讀自原文附的交叉分析表圖片（政黨傾向列的「直行%」），網頁文字沒有這些數字。none＝中立／看人不看黨，undeclared＝未明確回答；panBlue/panGreen 為同表「政治立場」列（泛藍＝國民黨＋其他泛藍，泛綠＝民進黨＋時代力量＋基進＋其他泛綠）。另有其他泛藍3.5%、時代力量0.6%、基進黨0.4%、其他泛綠3.0%。住宅電話。"
+    },
+    {
+      "pollster": "皮爾森數據",
+      "sponsor": "鉅聞天下新聞網",
+      "title": "台南市長選舉網路民調",
+      "measure": "party-id",
+      "fieldStart": "2026-02-23",
+      "fieldEnd": "2026-02-28",
+      "published": "2026-03-06",
+      "method": "online",
+      "source": "https://www.bigmedia.com.tw/article/1772712411866",
+      "byRace": {
+        "tainan": {
+          "kmt": 22.6,
+          "dpp": 38.91,
+          "tpp": 6.91,
+          "none": null,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1580
+        }
+      },
+      "notes": "網路調查，非電話抽樣。中立比例未公布（報導的「中性選民13.41%」是負面黨性題，不是政黨認同，未收）。"
+    },
+    {
+      "pollster": "CNEWS匯流新聞網民調中心",
+      "sponsor": "CNEWS匯流新聞網",
+      "title": "桃園市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-03-02",
+      "fieldEnd": "2026-03-03",
+      "published": "2026-03-12",
+      "method": "phone",
+      "source": "https://cnews.com.tw/145260312a01/",
+      "byRace": {
+        "taoyuan": {
+          "kmt": 21.5,
+          "dpp": 38.5,
+          "tpp": 6.6,
+          "none": 15.7,
+          "other": null,
+          "undeclared": 13.6,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1068
+        }
+      },
+      "notes": "另有時代力量3.5%；none＝不偏任何政黨，undeclared＝未表態。家戶電話。"
+    },
+    {
+      "pollster": "美麗島電子報（戴立安規劃，畢肯市場研究公司執行）",
+      "sponsor": "美麗島電子報",
+      "title": "美麗島民調：2026新竹縣長選舉可能人選支持度民調",
+      "measure": "party-id",
+      "fieldStart": "2026-03-04",
+      "fieldEnd": "2026-03-06",
+      "published": "2026-03-09",
+      "method": "phone",
+      "source": "https://my-formosa.com.tw/DOC_224158.htm",
+      "byRace": {
+        "hsinchu-county": {
+          "kmt": 40.7,
+          "dpp": 14.1,
+          "tpp": 10.8,
+          "none": 25.9,
+          "other": null,
+          "undeclared": 2.9,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1072
+        }
+      },
+      "notes": "數字讀自原文附的交叉分析表圖片（政黨傾向列的「直行%」），網頁文字沒有這些數字。none＝中立／看人不看黨，undeclared＝未明確回答；panBlue/panGreen 為同表「政治立場」列（泛藍＝國民黨＋其他泛藍，泛綠＝民進黨＋時代力量＋基進＋其他泛綠）。讀到的那張表沒有政治立場列，panBlue/panGreen 填 null。另有其他泛藍3.1%、時代力量0.7%、其他泛綠1.8%（未列基進黨）。住宅電話。"
+    },
+    {
+      "pollster": "趨勢民調",
+      "sponsor": "中彰投地方輔選系統（藍營）",
+      "title": "彰化縣長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-03-06",
+      "fieldEnd": "2026-03-08",
+      "published": "2026-03-25",
+      "method": "phone",
+      "source": "https://www.mirrormedia.mg/story/20260325inv003",
+      "byRace": {
+        "changhua": {
+          "kmt": 25.2,
+          "dpp": 27.4,
+          "tpp": 9.4,
+          "none": 17.2,
+          "other": null,
+          "undeclared": 15.5,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1076
+        }
+      },
+      "notes": "none＝不偏袒任一政黨，undeclared＝不知道或沒意見。藍營地方輔選系統委託。"
+    },
+    {
+      "pollster": "美麗島電子報（戴立安規劃，畢肯市場研究公司執行）",
+      "sponsor": "美麗島電子報",
+      "title": "美麗島民調：2026新北市長選舉可能人選支持度民調",
+      "measure": "party-id",
+      "fieldStart": "2026-03-09",
+      "fieldEnd": "2026-03-11",
+      "published": "2026-03-12",
+      "method": "phone",
+      "source": "https://my-formosa.com.tw/DOC_224233.htm",
+      "byRace": {
+        "new-taipei": {
+          "kmt": 22.5,
+          "dpp": 31.8,
+          "tpp": 9.0,
+          "none": 26.2,
+          "other": null,
+          "undeclared": 3.4,
+          "panBlue": 26.3,
+          "panGreen": 35.0,
+          "sampleSize": 1070
+        }
+      },
+      "notes": "數字讀自原文附的交叉分析表圖片（政黨傾向列的「直行%」），網頁文字沒有這些數字。none＝中立／看人不看黨，undeclared＝未明確回答；panBlue/panGreen 為同表「政治立場」列（泛藍＝國民黨＋其他泛藍，泛綠＝民進黨＋時代力量＋基進＋其他泛綠）。另有其他泛藍3.8%、時代力量0.1%、基進黨0.2%、其他泛綠3.0%。只有住宅電話。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026台南市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-03-09",
+      "fieldEnd": "2026-03-12",
+      "published": "2026-03-16",
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2026/20260316/17c65a48cf4cb9fa94dd118ac0b13662.pdf",
+      "byRace": {
+        "tainan": {
+          "kmt": 24,
+          "dpp": 36,
+          "tpp": 8,
+          "none": 21,
+          "other": 11,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1052
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。政黨比例的基數是「有投票意願」的受訪者（人數未載；sampleSize 為全體有效樣本），這份報告沒有全體樣本的政黨分布。"
+    },
+    {
+      "pollster": "美麗島電子報（戴立安規劃，畢肯市場研究公司執行）",
+      "sponsor": "美麗島電子報",
+      "title": "美麗島民調：2026宜蘭縣長選舉可能人選支持度民調",
+      "measure": "party-id",
+      "fieldStart": "2026-03-16",
+      "fieldEnd": "2026-03-18",
+      "published": "2026-03-19",
+      "method": "phone",
+      "source": "https://my-formosa.com.tw/DOC_224420.htm",
+      "byRace": {
+        "yilan": {
+          "kmt": 20.6,
+          "dpp": 28.4,
+          "tpp": 7.8,
+          "none": 27.4,
+          "other": null,
+          "undeclared": 6.0,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1070
+        }
+      },
+      "notes": "數字讀自原文附的交叉分析表圖片（政黨傾向列的「直行%」），網頁文字沒有這些數字。none＝中立／看人不看黨，undeclared＝未明確回答；panBlue/panGreen 為同表「政治立場」列（泛藍＝國民黨＋其他泛藍，泛綠＝民進黨＋時代力量＋基進＋其他泛綠）。讀到的那張表沒有政治立場列，panBlue/panGreen 填 null。另有其他泛藍4.8%、時代力量0.6%、基進黨0.3%、其他泛綠4.2%。住宅電話。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026宜蘭縣長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-03-13",
+      "fieldEnd": "2026-03-19",
+      "published": "2026-03-23",
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2026/20260323/19c44cdc976c0baac442963d0f74e3bd.pdf",
+      "byRace": {
+        "yilan": {
+          "kmt": 22,
+          "dpp": 30,
+          "tpp": 10,
+          "none": 22,
+          "other": 16,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1042
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。政黨比例的基數是「有投票意願」的受訪者（人數未載；sampleSize 為全體有效樣本），這份報告沒有全體樣本的政黨分布。"
+    },
+    {
+      "pollster": "美麗島電子報（戴立安規劃，畢肯市場研究公司執行）",
+      "sponsor": "美麗島電子報",
+      "title": "美麗島民調：2026花蓮縣長選舉可能人選支持度民調",
+      "measure": "party-id",
+      "fieldStart": "2026-03-18",
+      "fieldEnd": "2026-03-23",
+      "published": "2026-03-24",
+      "method": "phone",
+      "source": "https://my-formosa.com.tw/DOC_224538.htm",
+      "byRace": {
+        "hualien": {
+          "kmt": 32.0,
+          "dpp": 16.7,
+          "tpp": 7.6,
+          "none": 31.2,
+          "other": null,
+          "undeclared": 3.9,
+          "panBlue": 37.6,
+          "panGreen": 19.7,
+          "sampleSize": 1071
+        }
+      },
+      "notes": "數字讀自原文附的交叉分析表圖片（政黨傾向列的「直行%」），網頁文字沒有這些數字。none＝中立／看人不看黨，undeclared＝未明確回答；panBlue/panGreen 為同表「政治立場」列（泛藍＝國民黨＋其他泛藍，泛綠＝民進黨＋時代力量＋基進＋其他泛綠）。另有其他泛藍5.6%、時代力量0.6%、基進黨0.1%、其他泛綠2.3%。調查日為3/18–20及3/23。住宅電話。"
+    },
+    {
+      "pollster": "皮爾森數據",
+      "sponsor": "鉅聞天下新聞網",
+      "title": "雲林縣長選舉網路民調",
+      "measure": "party-id",
+      "fieldStart": "2026-03-23",
+      "fieldEnd": "2026-03-28",
+      "published": "2026-05-20",
+      "method": "online",
+      "source": "https://www.bigmedia.com.tw/article/1779181485438",
+      "byRace": {
+        "yunlin": {
+          "kmt": 32.28,
+          "dpp": 27.12,
+          "tpp": 5.67,
+          "none": 29.18,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1417
+        }
+      },
+      "notes": "網路調查，非電話抽樣。none＝選人不選黨／中立。報導另列四年前同機構的比較數字（民進黨24.44%、民眾黨6.37%、中立38.50%，國民黨只寫「提升7.07個百分點」），未收。"
+    },
+    {
+      "pollster": "美麗島電子報（戴立安規劃，畢肯市場研究公司執行）",
+      "sponsor": "美麗島電子報",
+      "title": "美麗島民調：2026新北市長選舉選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-04-08",
+      "fieldEnd": "2026-04-10",
+      "published": "2026-04-13",
+      "method": "phone+mobile",
+      "source": "https://my-formosa.com.tw/DOC_224921.htm",
+      "byRace": {
+        "new-taipei": {
+          "kmt": 21.6,
+          "dpp": 31.0,
+          "tpp": 7.0,
+          "none": 27.1,
+          "other": null,
+          "undeclared": 4.1,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1075
+        }
+      },
+      "notes": "數字讀自原文附的交叉分析表圖片（政黨傾向列的「直行%」），網頁文字沒有這些數字。none＝中立／看人不看黨，undeclared＝未明確回答；panBlue/panGreen 為同表「政治立場」列（泛藍＝國民黨＋其他泛藍，泛綠＝民進黨＋時代力量＋基進＋其他泛綠）。讀到的那張表沒有政治立場列，panBlue/panGreen 填 null。另有其他泛藍5.0%、時代力量0.8%、基進黨0.1%、其他泛綠3.4%。住宅電話＋手機。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026嘉義市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-04-24",
+      "fieldEnd": "2026-04-30",
+      "published": "2026-05-04",
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2026/20260505/ba57d93fe28a36bb606732d0c49fbe1f.pdf",
+      "byRace": {
+        "chiayi-city": {
+          "kmt": 24,
+          "dpp": 27,
+          "tpp": 13,
+          "none": 22,
+          "other": 14,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 948
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。政黨比例的基數是「有投票意願」的受訪者（人數未載；sampleSize 為全體有效樣本），這份報告沒有全體樣本的政黨分布。"
+    },
+    {
+      "pollster": "山水民意研究",
+      "sponsor": "震傳媒",
+      "title": "新北市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-04-29",
+      "fieldEnd": "2026-05-01",
+      "published": "2026-05-05",
+      "method": "phone",
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/41952",
+      "byRace": {
+        "new-taipei": {
+          "kmt": 29.3,
+          "dpp": 33.0,
+          "tpp": 9.4,
+          "none": 25.7,
+          "other": null,
+          "undeclared": null,
+          "panBlue": 34.5,
+          "panGreen": 34.6,
+          "sampleSize": 1070
+        }
+      },
+      "notes": "none＝自詡中間選民（藍綠光譜題）。"
+    },
+    {
+      "pollster": "皮爾森數據",
+      "sponsor": "鉅聞天下新聞網",
+      "title": "彰化縣長選舉網路民調",
+      "measure": "party-id",
+      "fieldStart": "2026-04-27",
+      "fieldEnd": "2026-05-02",
+      "published": "2026-05-08",
+      "method": "online",
+      "source": "https://www.bigmedia.com.tw/article/1778147228192",
+      "byRace": {
+        "changhua": {
+          "kmt": 31.86,
+          "dpp": 26.16,
+          "tpp": 10.33,
+          "none": null,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1477
+        }
+      },
+      "notes": "網路調查，非電話抽樣。中立比例未公布。"
+    },
+    {
+      "pollster": "ETtoday民調雲",
+      "sponsor": null,
+      "title": "新北市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-05-01",
+      "fieldEnd": "2026-05-04",
+      "published": "2026-05-12",
+      "method": "unknown",
+      "source": "https://www.ettoday.net/news/20260512/3164695.htm",
+      "byRace": {
+        "new-taipei": {
+          "kmt": 16.1,
+          "dpp": 27.7,
+          "tpp": 10.5,
+          "none": null,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1142
+        }
+      },
+      "notes": "報導只公布三黨比例，未寫調查方式（國民黨議員稱是簡訊＋網路問卷）。"
+    },
+    {
+      "pollster": "匯流新聞網民調中心",
+      "sponsor": "CNEWS匯流新聞網",
+      "title": "台中市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-05-11",
+      "fieldEnd": "2026-05-12",
+      "published": "2026-05-14",
+      "method": "phone",
+      "source": "https://cnews.com.tw/1450514a01/",
+      "extraSources": [
+        "https://cnews.com.tw/1450514a02/"
+      ],
+      "byRace": {
+        "taichung": {
+          "kmt": 27.5,
+          "dpp": 24.9,
+          "tpp": 10.1,
+          "none": 17.5,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1070
+        }
+      },
+      "notes": "none＝不偏任何政黨。家戶電話。"
+    },
+    {
+      "pollster": "匯流新聞網民調中心",
+      "sponsor": "CNEWS匯流新聞網",
+      "title": "新竹市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-05-19",
+      "fieldEnd": "2026-05-20",
+      "published": "2026-05-27",
+      "method": "phone",
+      "source": "https://cnews.com.tw/【匯流民調】2026新竹市長選舉最新民調-六成五新竹/",
+      "byRace": {
+        "hsinchu-city": {
+          "kmt": 24.6,
+          "dpp": 27.9,
+          "tpp": 18.8,
+          "none": 16.6,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1068
+        }
+      },
+      "notes": "none＝中間選民。家戶電話；母體原文寫年滿18歲。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026台北市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-05-21",
+      "fieldEnd": "2026-05-26",
+      "published": "2026-05-27",
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/poll_center/2026/20260527/87ed4a7009e43fa1cea459b7f1785f83.pdf",
+      "byRace": {
+        "taipei": {
+          "kmt": 33,
+          "dpp": 30,
+          "tpp": 8,
+          "none": 16,
+          "other": 13,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 901
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。政黨比例的基數是「有投票意願」的受訪者（人數未載；sampleSize 為全體有效樣本），這份報告沒有全體樣本的政黨分布。"
+    },
+    {
+      "pollster": "CNEWS匯流新聞網民調中心",
+      "sponsor": "CNEWS匯流新聞網",
+      "title": "台東縣長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-05-27",
+      "fieldEnd": "2026-05-28",
+      "published": "2026-06-01",
+      "method": "phone",
+      "source": "https://cnews.com.tw/145260601a01/",
+      "byRace": {
+        "taitung": {
+          "kmt": 42.8,
+          "dpp": 21.6,
+          "tpp": 9.8,
+          "none": 14.0,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 905
+        }
+      },
+      "notes": "none＝中間選民。家戶電話。"
+    },
+    {
+      "pollster": "新台灣國策智庫民調中心",
+      "sponsor": "財團法人凱達格蘭基金會",
+      "title": "高雄市長選情評估",
+      "measure": "party-id",
+      "fieldStart": "2026-06-09",
+      "fieldEnd": "2026-06-10",
+      "published": "2026-06-12",
+      "method": "phone",
+      "source": "https://www.ettoday.net/news/20260612/3182106.htm",
+      "byRace": {
+        "kaohsiung": {
+          "kmt": 15.5,
+          "dpp": 45.7,
+          "tpp": 7.9,
+          "none": null,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1094
+        }
+      },
+      "notes": "另有時代力量1.9%、台灣基進1.4%；中立比例未公布。綠營智庫，經費來自凱達格蘭基金會。"
+    },
+    {
+      "pollster": "東森民調雲（ETtoday民調雲）",
+      "sponsor": "東森民調雲",
+      "title": "高雄市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-06-16",
+      "fieldEnd": "2026-06-19",
+      "published": "2026-06-23",
+      "method": "online",
+      "source": "https://www.ettoday.net/news/20260623/3187875.htm",
+      "byRace": {
+        "kaohsiung": {
+          "kmt": 19.4,
+          "dpp": 34.8,
+          "tpp": 7.5,
+          "none": 24.6,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1070
+        }
+      },
+      "notes": "none＝不支持任何政黨。EDM／簡訊邀請的封閉式網路問卷。"
+    },
+    {
+      "pollster": "山水民意研究",
+      "sponsor": "震傳媒",
+      "title": "台北市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-06-21",
+      "fieldEnd": "2026-06-22",
+      "published": "2026-06-24",
+      "method": "phone",
+      "source": "https://www.setn.com/News.aspx?NewsID=1861503",
+      "byRace": {
+        "taipei": {
+          "kmt": 29.7,
+          "dpp": 30.3,
+          "tpp": 9.5,
+          "none": 27.1,
+          "other": null,
+          "undeclared": null,
+          "panBlue": 35.5,
+          "panGreen": 31.6,
+          "sampleSize": 1074
+        }
+      },
+      "notes": "none＝自認中間選民（藍綠光譜題）。"
+    },
+    {
+      "pollster": "皮爾森數據",
+      "sponsor": "鉅聞天下",
+      "title": "新北市長選舉網路民調（7月）",
+      "measure": "party-id",
+      "fieldStart": "2026-07-06",
+      "fieldEnd": "2026-07-11",
+      "published": "2026-07-20",
+      "method": "online",
+      "source": "https://www.bigmedia.com.tw/article/1791969638295",
+      "extraSources": [
+        "https://www.ettoday.net/news/20260720/3204332.htm"
+      ],
+      "byRace": {
+        "new-taipei": {
+          "kmt": 32.09,
+          "dpp": 33.02,
+          "tpp": 5.86,
+          "none": null,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1766
+        }
+      },
+      "notes": "這份7月調查的政黨認同數字，是在同機構10月調查的報導中回顧引用（7月原始報導 https://www.ettoday.net/news/20260720/3204332.htm 沒有寫政黨認同）。網路調查。"
+    },
+    {
+      "pollster": "關鍵調查有限公司",
+      "sponsor": null,
+      "title": "嘉義市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-07-10",
+      "fieldEnd": "2026-07-12",
+      "published": "2026-07-20",
+      "method": "phone",
+      "source": "https://sunmedia.tw/news/collaborative/2acUgQRl2gSuldPntgr9btUK4mmfKahkpZSFUMtNIIUC4U3WdIUjKIoe8AxhAA8S3BdGM03R",
+      "byRace": {
+        "chiayi-city": {
+          "kmt": 23.2,
+          "dpp": 30.5,
+          "tpp": 12.2,
+          "none": 15.8,
+          "other": null,
+          "undeclared": 14.2,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1069
+        }
+      },
+      "notes": "none＝不偏任何政黨，undeclared＝沒有明確政黨傾向。商傳媒合作稿，未寫委託單位。市內電話。"
+    },
+    {
+      "pollster": "新台灣國策智庫",
+      "sponsor": "財團法人凱達格蘭基金會",
+      "title": "新北市長選情評估",
+      "measure": "party-id",
+      "fieldStart": "2026-07-12",
+      "fieldEnd": "2026-07-14",
+      "published": "2026-07-16",
+      "method": "phone",
+      "source": "https://www.setn.com/news/1873356",
+      "byRace": {
+        "new-taipei": {
+          "kmt": 22.0,
+          "dpp": 34.6,
+          "tpp": null,
+          "none": null,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1080
+        }
+      },
+      "notes": "報導只公布國民黨、民進黨認同比例。綠營智庫，經費來自凱達格蘭基金會。"
+    },
+    {
+      "pollster": "山水民意研究",
+      "sponsor": "震傳媒",
+      "title": "高雄市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-07-18",
+      "fieldEnd": "2026-07-20",
+      "published": "2026-07-23",
+      "method": "phone",
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/43287",
+      "byRace": {
+        "kaohsiung": {
+          "kmt": 19.8,
+          "dpp": 41.1,
+          "tpp": 5.2,
+          "none": 29.3,
+          "other": null,
+          "undeclared": null,
+          "panBlue": 22.9,
+          "panGreen": 43.3,
+          "sampleSize": 1069
+        }
+      },
+      "notes": "none＝中間選民（藍綠光譜題）。"
+    },
+    {
+      "pollster": "皮爾森數據",
+      "sponsor": "鉅聞天下新聞網",
+      "title": "高雄市長選舉網路民調",
+      "measure": "party-id",
+      "fieldStart": "2026-07-27",
+      "fieldEnd": "2026-08-01",
+      "published": "2026-08-10",
+      "method": "online",
+      "source": "https://www.bigmedia.com.tw/article/1786278801544",
+      "byRace": {
+        "kaohsiung": {
+          "kmt": 25.19,
+          "dpp": 41.43,
+          "tpp": null,
+          "none": 23.14,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1608
+        }
+      },
+      "notes": "網路調查。none＝選人不選黨／中立；民眾黨比例未公布。"
+    },
+    {
+      "pollster": "山水民意研究",
+      "sponsor": "上報",
+      "title": "基隆市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-08-21",
+      "fieldEnd": "2026-08-24",
+      "published": "2026-08-31",
+      "method": "phone",
+      "source": "https://newtalk.tw/news/view/2026-08-31/1056730",
+      "extraSources": [
+        "https://www.upmedia.mg/tw/focus/politics/267542"
+      ],
+      "byRace": {
+        "keelung": {
+          "kmt": 28.6,
+          "dpp": 28.3,
+          "tpp": 10.1,
+          "none": 30.0,
+          "other": 3.0,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1068
+        }
+      },
+      "notes": "none＝不偏任何政黨。上報（委託方）原文被 Cloudflare 擋，數字讀自新頭殼轉述。"
+    },
+    {
+      "pollster": "年代民調中心",
+      "sponsor": null,
+      "title": "新北市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-08-24",
+      "fieldEnd": "2026-08-26",
+      "published": "2026-08-28",
+      "method": "phone",
+      "source": "https://news.tvbs.com.tw/politics/4013907",
+      "extraSources": [
+        "https://www.nownews.com/news/6870016"
+      ],
+      "byRace": {
+        "new-taipei": {
+          "kmt": 17.9,
+          "dpp": 30.4,
+          "tpp": 7,
+          "none": null,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1070
+        }
+      },
+      "notes": "數字出自 TVBS 報導中李四川競辦發言人引述「年代民調公布的樣本」政黨傾向，年代原始報告未找到。"
+    },
+    {
+      "pollster": "畢肯市場研究公司（戴立安設計問卷與分析）",
+      "sponsor": "台北市信民兩岸研究協會",
+      "title": "信民協會新北市民調",
+      "measure": "party-id",
+      "fieldStart": "2026-08-26",
+      "fieldEnd": "2026-08-28",
+      "published": "2026-09-01",
+      "method": "phone+mobile",
+      "source": "https://ctinews.com/news/items/4XamVZDJxA",
+      "extraSources": [
+        "https://www.nownews.com/news/6871043"
+      ],
+      "byRace": {
+        "new-taipei": {
+          "kmt": null,
+          "dpp": null,
+          "tpp": 7.3,
+          "none": null,
+          "other": null,
+          "undeclared": null,
+          "panBlue": 25.4,
+          "panGreen": null,
+          "sampleSize": 1071
+        }
+      },
+      "notes": "報導只引述戴立安說的「政黨傾向抽樣結構」：泛藍25.4%、民眾黨7.3%，「泛綠加上民眾黨傾向泛綠者」33.8%（不是單純泛綠，所以 panGreen 填 null）。國民黨、民進黨個別比例未公布。"
+    },
+    {
+      "pollster": "山水民意研究",
+      "sponsor": "林國漳競選總部",
+      "title": "宜蘭縣長選情民調（林國漳陣營委託）",
+      "measure": "party-id",
+      "fieldStart": "2026-08-26",
+      "fieldEnd": "2026-08-29",
+      "published": "2026-09-01",
+      "method": "unknown",
+      "source": "https://news.ltn.com.tw/news/politics/breakingnews/5558776",
+      "byRace": {
+        "yilan": {
+          "kmt": 21.5,
+          "dpp": 31.8,
+          "tpp": 8.6,
+          "none": 36.5,
+          "other": 5.1,
+          "undeclared": null,
+          "panBlue": 25.4,
+          "panGreen": 33,
+          "sampleSize": 2327
+        }
+      },
+      "notes": "候選人陣營委託。none＝中間選民、other＝其他（藍綠光譜題）。調查方式報導未載。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "國民黨台中市議會黨團",
+      "title": "台中市長選情民調（國民黨台中市議會黨團委託）",
+      "measure": "party-id",
+      "fieldStart": "2026-09-07",
+      "fieldEnd": "2026-09-11",
+      "published": "2026-09-14",
+      "method": "phone",
+      "source": "https://news.tvbs.com.tw/politics/4022042",
+      "byRace": {
+        "taichung": {
+          "kmt": 28.3,
+          "dpp": 28.6,
+          "tpp": 7.5,
+          "none": 24.5,
+          "other": 11.1,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1086
+        }
+      },
+      "notes": "報導原文：受訪者政黨支持度民進黨28.6%、國民黨28.3%、民眾黨7.5%、中立24.5%、其他政黨和拒答11.1%。TVBS 民調中心網站沒有公開這份 PDF。"
+    },
+    {
+      "pollster": "畢肯市場研究公司（戴立安設計問卷與分析）",
+      "sponsor": "台北市信民兩岸研究協會",
+      "title": "信民協會台北市民調",
+      "measure": "party-id",
+      "fieldStart": "2026-09-16",
+      "fieldEnd": "2026-09-18",
+      "published": "2026-09-22",
+      "method": "phone+mobile",
+      "source": "https://dc579968-5ed9-4902-8454-9871fa44324e.filesusr.com/ugd/3ea6ac_7c66d227dc414f169202cda2ca75a7f3.pdf",
+      "byRace": {
+        "taipei": {
+          "kmt": 24.3,
+          "dpp": 32.7,
+          "tpp": 5.4,
+          "none": 25.5,
+          "other": null,
+          "undeclared": 2.8,
+          "panBlue": 28.4,
+          "panGreen": 37.5,
+          "sampleSize": 1076
+        }
+      },
+      "notes": "數字取自報告 PDF 交叉表的政黨傾向「直行%」。另有其他泛藍4.1%、時代力量0.7%、基進黨0.2%、其他泛綠3.9%。住宅電話752、手機324。"
+    },
+    {
+      "pollster": "皮爾森數據",
+      "sponsor": "鉅聞天下",
+      "title": "新北市長選舉網路民調（10月）",
+      "measure": "party-id",
+      "fieldStart": "2026-09-28",
+      "fieldEnd": "2026-10-03",
+      "published": "2026-10-15",
+      "method": "online",
+      "source": "https://www.bigmedia.com.tw/article/1791969638295",
+      "byRace": {
+        "new-taipei": {
+          "kmt": 25.56,
+          "dpp": 33.09,
+          "tpp": 7.38,
+          "none": null,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1066
+        }
+      },
+      "notes": "網路調查。中立比例未公布。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "2026台北市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-10-03",
+      "fieldEnd": "2026-10-07",
+      "published": "2026-10-08",
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/uploads/opinion-polls/1552/1791788111_20261003_________________________________.pdf",
+      "extraSources": [
+        "https://news.tvbs.com.tw/politics/4033527"
+      ],
+      "byRace": {
+        "taipei": {
+          "kmt": 31,
+          "dpp": 27,
+          "tpp": 7,
+          "none": 23,
+          "other": 11,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1120
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。這裡用全體受訪者（看好度交叉表，基數為20歲以上台北市民）的比例；支持度交叉表以有投票意願者（N=1,054）為基數，比例為民進黨28%、國民黨32%、民眾黨7%、中立22%、其他10%，TVBS 新聞稿引用的是後者。調查日為10/3及10/5–7。"
+    },
+    {
+      "pollster": "TVBS民意調查中心",
+      "sponsor": "TVBS",
+      "title": "台北市長電視辯論民調",
+      "measure": "party-id",
+      "fieldStart": "2026-10-12",
+      "fieldEnd": "2026-10-15",
+      "published": null,
+      "method": "phone",
+      "source": "https://www-asset.tvbs.com.tw/uploads/opinion-polls/1553/1792234752_2026_______________________________________.pdf",
+      "byRace": {
+        "taipei": {
+          "kmt": 28,
+          "dpp": 29,
+          "tpp": 6,
+          "none": 26,
+          "other": 11,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1131
+        }
+      },
+      "notes": "數字取自 TVBS 民調中心報告 PDF 交叉表表頭的政黨傾向比例（整數）。none＝中立；other＝其他（TVBS 把時代力量、台灣基進、台聯、親民黨、新黨等其他政黨與拒答併在一起）。基數為20歲以上台北市民。TVBS 民調中心列表日期為115/10/17，實際發布日未核對。"
+    },
+    {
+      "pollster": "畢肯市場研究公司（戴立安設計問卷與分析）",
+      "sponsor": "台北市信民兩岸研究協會",
+      "title": "信民協會台北市民調",
+      "measure": "party-id",
+      "fieldStart": "2026-10-14",
+      "fieldEnd": "2026-10-16",
+      "published": "2026-10-20",
+      "method": "phone+mobile",
+      "source": "https://dc579968-5ed9-4902-8454-9871fa44324e.filesusr.com/ugd/3ea6ac_257951a3d235492f8595f6dcd7b5cdd3.pdf",
+      "byRace": {
+        "taipei": {
+          "kmt": 23.2,
+          "dpp": 38.7,
+          "tpp": 4.0,
+          "none": 25.5,
+          "other": 0.1,
+          "undeclared": 1.6,
+          "panBlue": 26.6,
+          "panGreen": 42.2,
+          "sampleSize": 1075
+        }
+      },
+      "notes": "數字取自報告 PDF 交叉表的政黨傾向「直行%」。另有其他泛藍3.5%、時代力量1.2%、其他泛綠2.2%。住宅電話753、手機322。國民黨議員批評樣本偏綠。"
+    },
+    {
+      "pollster": "皮爾森數據",
+      "sponsor": "鄭朝方競選辦公室",
+      "title": "新竹縣長選舉網路民調",
+      "measure": "party-id",
+      "fieldStart": "2026-10-12",
+      "fieldEnd": "2026-10-18",
+      "published": "2026-10-27",
+      "method": "online",
+      "source": "https://www.storm.mg/article/11176074",
+      "extraSources": [
+        "https://newtalk.tw/news/view/2026-10-27/1067646"
+      ],
+      "byRace": {
+        "hsinchu-county": {
+          "kmt": 27.45,
+          "dpp": 22.48,
+          "tpp": 9.6,
+          "none": 32.78,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 3054
+        }
+      },
+      "notes": "網路調查，鄭朝方競選辦公室委託。none＝選人不選黨或中立。"
+    },
+    {
+      "pollster": "山水民意研究",
+      "sponsor": "震傳媒",
+      "title": "台北市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-10-18",
+      "fieldEnd": "2026-10-19",
+      "published": "2026-10-22",
+      "method": "phone",
+      "source": "https://www.zmedia.com.tw/Document/PoolDetail/44789",
+      "byRace": {
+        "taipei": {
+          "kmt": 25.4,
+          "dpp": 35.9,
+          "tpp": 9.4,
+          "none": 26.9,
+          "other": null,
+          "undeclared": null,
+          "panBlue": 29.6,
+          "panGreen": 37.3,
+          "sampleSize": 1074
+        }
+      },
+      "notes": "none＝自認中間選民（藍綠光譜題）。"
+    },
+    {
+      "pollster": "大地民意研究股份有限公司",
+      "sponsor": "鏡新聞",
+      "title": "基隆市長選情民調",
+      "measure": "party-id",
+      "fieldStart": "2026-10-18",
+      "fieldEnd": "2026-10-21",
+      "published": "2026-10-23",
+      "method": "phone",
+      "source": "https://www.mnews.tw/story/20261023nm001",
+      "byRace": {
+        "keelung": {
+          "kmt": 25.5,
+          "dpp": 28.0,
+          "tpp": 8.5,
+          "none": null,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": 1075
+        }
+      },
+      "notes": "另有時代力量4.6%、小民參政歐巴桑聯盟0.4%；「其餘政黨傾向及未明確表態者合計33.0%」把中立與未表態併在一起，所以 none 填 null。"
+    },
+    {
+      "pollster": "畢肯市場研究公司（戴立安規劃）",
+      "sponsor": "戴立安（自籌）",
+      "title": "10月台灣民心調查：希望您的縣市未來4年由哪個政黨執政比較安心",
+      "measure": "preferred-local-ruling-party",
+      "fieldStart": "2026-10-20",
+      "fieldEnd": "2026-10-22",
+      "published": "2026-10-27",
+      "method": "phone+mobile",
+      "source": "https://www.setn.com/news/1929214",
+      "extraSources": [
+        "https://news.tvbs.com.tw/politics/4041827",
+        "https://newtalk.tw/news/view/2026-10-27/1067619"
+      ],
+      "byRace": {
+        "taoyuan": {
+          "kmt": 41.6,
+          "dpp": 27.7,
+          "tpp": null,
+          "none": null,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        },
+        "taichung": {
+          "kmt": 24.2,
+          "dpp": 43.9,
+          "tpp": null,
+          "none": null,
+          "other": null,
+          "undeclared": null,
+          "panBlue": null,
+          "panGreen": null,
+          "sampleSize": null
+        }
+      },
+      "notes": "全國樣本1,075人（市話696、手機379）分成7群的子樣本，題目是「比較希望您的縣市未來4年是哪一個政黨來執政，會覺得比較安心」，不是政黨認同。只有桃園、台中是單一縣市；其他公布的群組是合併的：台北市＋新北市 民進黨47.1%、國民黨31.8%；台南市＋高雄市 民進黨58.5%、國民黨20.3%（不放進 byRace）。子樣本人數未公布；戴立安自己註明子樣本小、未經推估，不宜當單一縣市支持度。全國：民進黨43.4%、國民黨27.1%、其他政黨或無黨籍2.8%、都一樣或未答26.7%。經費戴立安自籌。"
+    }
+  ]
+}

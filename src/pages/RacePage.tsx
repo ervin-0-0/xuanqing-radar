@@ -240,6 +240,7 @@ function BaselineCard({ race }: { race: ReturnType<typeof useSite>["data"]["race
   const comps = race.prior.components.filter((c) => c.margin != null);
   const r = race.recent;
   const ps = race.partySupport;
+  const lp = race.localPartyId;
   if (!comps.length && !ps && !r.recall2025 && !r.referendum2025) return null;
   const maxAbs = Math.max(20, ...comps.map((c) => Math.abs(c.margin!)));
   return (
@@ -268,17 +269,8 @@ function BaselineCard({ race }: { race: ReturnType<typeof useSite>["data"]["race
           </div>
         </div>
         <div className="space-y-3 text-sm">
-          {ps && (
-            <div>
-              <div className="text-xs text-ink-3">{ps.pollster}政黨支持度（{ps.fieldEnd.slice(0, 7)}）</div>
-              <div className="num mt-0.5">
-                <span style={{ color: "var(--kmt)" }}>藍 {ps.kmt ?? "—"}%</span>　<span style={{ color: "var(--dpp)" }}>綠 {ps.dpp ?? "—"}%</span>
-                {ps.tpp != null && <>　<span style={{ color: "var(--tpp)" }}>白 {ps.tpp}%</span></>}
-                {ps.none != null && <>　<span className="text-ink-3">不支持／未表態 {ps.none}%</span></>}
-              </div>
-              <a className="text-[11px] text-ink-3 underline" href={ps.source} target="_blank" rel="noreferrer">來源</a>
-            </div>
-          )}
+          {ps && <SupportLine label={`${ps.pollster}：今年縣市長支持哪一黨（${ps.fieldEnd.slice(0, 7)}）`} v={ps} />}
+          {lp && <SupportLine label={`${lp.pollster}民調受訪者的政黨傾向（${lp.fieldEnd.slice(0, 7)}，只參考）`} v={lp} />}
           {r.council2022 && <VoteLine label="2022 議員政黨票" v={r.council2022} />}
           {r.legislative2024 && <VoteLine label="2024 區域立委" v={r.legislative2024} />}
           {r.referendum2025?.agreePct != null && (
@@ -297,6 +289,20 @@ function BaselineCard({ race }: { race: ReturnType<typeof useSite>["data"]["race
         </div>
       </div>
     </Card>
+  );
+}
+
+function SupportLine({ label, v }: { label: string; v: NonNullable<ReturnType<typeof useSite>["data"]["races"][number]["partySupport"]> }) {
+  return (
+    <div>
+      <div className="text-xs text-ink-3">{label}</div>
+      <div className="num mt-0.5">
+        <span style={{ color: "var(--kmt)" }}>藍 {v.kmt ?? "—"}%</span>　<span style={{ color: "var(--dpp)" }}>綠 {v.dpp ?? "—"}%</span>
+        {v.tpp != null && <>　<span style={{ color: "var(--tpp)" }}>白 {v.tpp}%</span></>}
+        {v.none != null && <>　<span className="text-ink-3">都不支持／未表態 {v.none}%</span></>}
+      </div>
+      <a className="text-[11px] text-ink-3 underline" href={v.source} target="_blank" rel="noreferrer">來源</a>
+    </div>
   );
 }
 

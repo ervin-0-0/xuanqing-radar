@@ -52,7 +52,15 @@ export interface RaceData extends RaceMeta {
     recall2025: { agreePct: number | null; turnout: number | null; districts: number } | null;
     referendum2025: { agreePct: number | null; turnout: number | null } | null;
   };
-  partySupport: { kmt: number | null; dpp: number | null; tpp?: number | null; none?: number | null; sampleSize?: number | null; pollster: string; fieldEnd: string; source: string } | null;
+  /** 跨縣市調查（遠見）的政黨支持，進基本盤 */
+  partySupport: PartySupportView | null;
+  /** 最近一次本地民調的受訪者政黨傾向，只參考 */
+  localPartyId: PartySupportView | null;
+}
+
+export interface PartySupportView {
+  kmt: number | null; dpp: number | null; tpp?: number | null; none?: number | null; sampleSize?: number | null;
+  pollster: string; fieldEnd: string; source: string;
 }
 
 export interface SeriesPoint {
@@ -84,6 +92,8 @@ export interface Meta {
   asOf: string;
   electionDay: string;
   latestPoll: string;
+  /** 縣市政黨支持度換算成投票尺度的係數 */
+  supportScale?: number;
   wikiFetched: string;
   wikiSource: string;
   counts: { polls: number; extraPolls: number; detailed: number; races: number };
