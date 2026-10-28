@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { Card } from "../components/Layout.tsx";
-import { PollTable } from "../components/PollTable.tsx";
+import { PollCards } from "../components/PollCard.tsx";
 import { useSite } from "../lib/store.tsx";
 import { METHOD_LABEL } from "../lib/format.ts";
 import { RACES, type RaceId, type Region } from "../lib/types.ts";
@@ -44,7 +44,7 @@ export function PollsPage() {
         <h1 className="mt-2 font-serif text-3xl font-black">把報導裡的支持率，全部攤開來</h1>
         <p className="mt-3 max-w-2xl leading-relaxed text-ink-2">
           共 <b className="num">{data.polls.length}</b> 筆（含同一次調查的不同假設情境），其中 <b className="num">{detailed}</b> 筆已從原始報導補上樣本數、調查方式與委託單位。
-          點任一列看細節與原始連結。未表態另外列，不把「不知道」當成中立。
+          點任一張卡片看細節與原始連結。未表態另外列，不把「不知道」當成中立。
         </p>
       </section>
 
@@ -82,7 +82,7 @@ export function PollsPage() {
         </div>
       </Card>
 
-      <Card><PollTable polls={filtered} /></Card>
+      <Card><PollCards key={`${region}|${race}|${pollster}|${method}|${since}|${showAll}`} polls={filtered} /></Card>
     </div>
   );
 }

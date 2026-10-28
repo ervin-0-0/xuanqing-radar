@@ -79,7 +79,12 @@ export function PollCard({ p, showRace = true, expandable = false }: { p: Public
   return (
     <div className={`${cls} ${open ? "md:col-span-2" : ""}`}>
       <button type="button" className="block w-full cursor-pointer text-left" onClick={() => setOpen(!open)} aria-expanded={open}>{body}</button>
-      {open && <div className="mt-3 border-t hairline pt-3"><PollDetail p={p} /></div>}
+      {open && (
+        <div className="mt-3 border-t hairline pt-3">
+          <PollDetail p={p} />
+          {showRace && <a href={`#/race/${p.raceId}`} className="mt-3 inline-flex text-sm font-medium text-ink hover:underline">看{RACE_BY_ID[p.raceId].name}的預測與所有民調 →</a>}
+        </div>
+      )}
     </div>
   );
 }
