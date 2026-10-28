@@ -3,6 +3,7 @@ import type { PublicPoll } from "../lib/data.ts";
 import { METHOD_LABEL, PARTY_VAR, md } from "../lib/format.ts";
 import { RACE_BY_ID } from "../lib/types.ts";
 import { CandName } from "./RaceBits.tsx";
+import { PollDetail } from "./PollCard.tsx";
 
 const KIND_LABEL = { general: "", primary: "初選／整合", internal: "內參" } as const;
 
@@ -55,26 +56,8 @@ export function PollTable({ polls, showRace = true, limit = 60 }: { polls: Publi
                 </tr>
                 {isOpen && (
                   <tr className="border-b hairline bg-wash/60">
-                    <td colSpan={showRace ? 6 : 5} className="px-3 py-3 text-xs leading-relaxed text-ink-2">
-                      <dl className="grid gap-x-6 gap-y-1 sm:grid-cols-2">
-                        {p.scenario && <Item k="情境" v={p.scenario} />}
-                        <Item k="委託單位" v={p.sponsor ?? "未載明／機構自辦"} />
-                        <Item k="調查方式" v={METHOD_LABEL[p.method]} />
-                        <Item k="樣本數" v={p.sampleSize ? `${p.sampleSize.toLocaleString()} 人` : "未載明"} />
-                        <Item k="抽樣誤差" v={p.moe ? `±${p.moe} 個百分點` : "未載明"} />
-                        {p.population && <Item k="母體" v={p.population} />}
-                        {p.published && <Item k="發布日" v={p.published} />}
-                        {p.likelyVoters && <Item k="定投票者" v={p.likelyVoters.results.map((r) => `${r.name} ${r.pct}%`).join("／") + (p.likelyVoters.sampleSize ? `（n=${p.likelyVoters.sampleSize}）` : "")} />}
-                        {p.excludeReason && <Item k="不採用原因" v={p.excludeReason} />}
-                        {p.qualityNote && <Item k="權重" v={`${p.qualityNote}（×${p.quality}）`} />}
-                        {p.kind !== "general" && <Item k="說明" v="初選、整合或內參民調，不進當選機率模型" />}
-                      </dl>
-                      {p.notes && <p className="mt-2">{p.notes}</p>}
-                      <div className="mt-2 flex flex-wrap gap-3">
-                        {p.sources.map((s, i) => (
-                          <a key={s} href={s} target="_blank" rel="noreferrer" className="underline underline-offset-2">原始報導{p.sources.length > 1 ? ` ${i + 1}` : ""}（{host(s)}）</a>
-                        ))}
-                      </div>
+                    <td colSpan={showRace ? 6 : 5} className="px-3 py-3">
+                      <PollDetail p={p} />
                     </td>
                   </tr>
                 )}
@@ -91,9 +74,3 @@ export function PollTable({ polls, showRace = true, limit = 60 }: { polls: Publi
     </div>
   );
 }
-
-function Item({ k, v }: { k: string; v: string }) {
-  return <div className="flex gap-2"><dt className="w-16 shrink-0 text-ink-3">{k}</dt><dd>{v}</dd></div>;
-}
-
-const host = (u: string) => { try { return new URL(u).host.replace(/^www\./, ""); } catch { return "連結"; } };

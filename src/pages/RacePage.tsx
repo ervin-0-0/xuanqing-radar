@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import { Card } from "../components/Layout.tsx";
 import { LineChart, type Dot, type Series } from "../components/LineChart.tsx";
 import { BallotNo, CandName, PartyChip, ProbBars, RatingBadge } from "../components/RaceBits.tsx";
-import { PollTable } from "../components/PollTable.tsx";
+import { PollCards } from "../components/PollCard.tsx";
 import { useSite } from "../lib/store.tsx";
 import { usablePolls, pollAverage, PARAMS } from "../lib/model.ts";
 import { PARTY_FILL, PARTY_VAR, md, pct, prob } from "../lib/format.ts";
@@ -177,8 +177,9 @@ export function RacePage({ id }: { id: RaceId }) {
         </Card>
       )}
 
-      <Card kicker={`${allPolls.length} 筆，含各種假設情境`} title={`${meta.short}民調庫`}>
-        <PollTable polls={allPolls} showRace={false} />
+      <Card kicker={`${allPolls.length} 筆，含各種假設情境`} title={`${meta.short}民調庫`}
+        right={<span className="text-xs text-ink-3">點卡片看抽樣細節</span>}>
+        <PollCards polls={allPolls} showRace={false} />
       </Card>
     </div>
   );
