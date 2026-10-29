@@ -1,5 +1,6 @@
 import type { Party } from "./types.ts";
 import type { Rating } from "./model.ts";
+import type { TurnoutView } from "./data.ts";
 
 export const PARTY_VAR: Record<Party, string> = {
   kmt: "var(--kmt)", dpp: "var(--dpp)", tpp: "var(--tpp)", npp: "var(--ind)", pfp: "var(--ind)",
@@ -29,6 +30,12 @@ export const pct = (v: number | null | undefined, digits = 0) => (v == null ? "�
 export const prob = (p: number) => (p > 0.995 ? ">99%" : p < 0.005 ? "<1%" : `${Math.round(p * 100)}%`);
 export const md = (d: string | null | undefined) => (d ? `${Number(d.slice(5, 7))}/${Number(d.slice(8, 10))}` : "—");
 export const ymd = (d: string) => d.replaceAll("-", "/");
+
+/** 預估票數＝選舉人數 × 投票率 × 有效票比例 × 得票率 */
+export const expectedVotes = (t: TurnoutView, share: number) => t.electorate * (t.turnout / 100) * t.validRate * (share / 100);
+/** 一萬以上寫「萬」到小數一位，以下取到十位，例如「72.8 萬票」「3,900 票」 */
+export const votesText = (n: number, unit = "票") =>
+  (n >= 10_000 ? `${(n / 10_000).toFixed(1)} 萬${unit}` : `${(Math.round(n / 10) * 10).toLocaleString()} ${unit}`).trim();
 
 export function ratingText(r: Rating, party: Party) {
   const side = party === "kmt" ? "藍" : party === "dpp" ? "綠" : party === "tpp" ? "白" : "無";

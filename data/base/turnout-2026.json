@@ -1,0 +1,10 @@
+{
+  "basis": "2022 縣市長選舉各縣市投票率，加上 addPoints 個百分點；有效票比例也沿用 2022",
+  "addPoints": 6,
+  "maxTurnout": 90,
+  "electorate": {},
+  "electorateSource": null,
+  "notes": {
+    "chiayi-city": "2022 嘉義市長選舉因候選人過世延到 12/18 單獨舉行，投票率特別低（44%），用它加 6 點估出來的票數可能偏少。"
+  }
+}

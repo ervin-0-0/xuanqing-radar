@@ -56,6 +56,20 @@ export interface RaceData extends RaceMeta {
   partySupport: PartySupportView | null;
   /** 最近一次本地民調的受訪者政黨傾向，只參考 */
   localPartyId: PartySupportView | null;
+  /** 預估票數用的投票率假設 */
+  turnout: TurnoutView | null;
+}
+
+export interface TurnoutView {
+  electorate: number;
+  electorateYear: number;
+  /** 2022 投票率 */
+  baseTurnout: number;
+  /** 假設的 2026 投票率 */
+  turnout: number;
+  /** 有效票佔投票數 */
+  validRate: number;
+  note: string | null;
 }
 
 export interface PartySupportView {
@@ -94,6 +108,8 @@ export interface Meta {
   latestPoll: string;
   /** 縣市政黨支持度換算成投票尺度的係數 */
   supportScale?: number;
+  /** 投票率假設：2022 加幾個百分點 */
+  turnoutAddPoints?: number | null;
   wikiFetched: string;
   wikiSource: string;
   counts: { polls: number; extraPolls: number; detailed: number; races: number };

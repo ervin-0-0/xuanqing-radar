@@ -37,6 +37,7 @@ gh workflow run update.yml
 | `data/polls/details/{縣市}.json` | 每筆民調的樣本數、方式、委託單位、定投票者；維基沒列的民調放 `extraPolls` | 對照原始報導人工／AI 補 |
 | `data/races/{縣市}.json` | 候選人、號次、現任、退選、大事記 | 中選會公告與新聞 |
 | `data/base/` | 2018／2022 縣市長、2016／2020／2024 總統、2020／2024 不分區政黨票 | 中選會選舉資料庫 |
+| `data/base/turnout-2026.json` | 預估票數的投票率假設（2022 加幾個百分點）；中選會公告 2026 選舉人數後填 `electorate` | 手動 |
 | `data/national/` | 總統滿意度、政黨好感與支持度、政大政黨偏好 | 美麗島電子報、台灣民意基金會、政大選研 |
 
 格式見 `data/SCHEMA.md`。民調細節用原始報導網址跟維基資料對上，所以 `source` 要用維基 ref 裡的網址。

@@ -1,6 +1,7 @@
 import type { Candidate, RaceForecast } from "../lib/model.ts";
 import { useTween } from "../lib/motion.ts";
-import { PARTY_FILL, PARTY_SOFT, PARTY_VAR, prob, ratingText, pct } from "../lib/format.ts";
+import { PARTY_FILL, PARTY_SOFT, PARTY_VAR, prob, ratingText, pct, expectedVotes, votesText } from "../lib/format.ts";
+import type { TurnoutView } from "../lib/data.ts";
 import { PARTY_NAME, type Party } from "../lib/types.ts";
 import { useSite } from "../lib/store.tsx";
 
@@ -46,7 +47,7 @@ export function RatingBadge({ f }: { f: RaceForecast }) {
 }
 
 /** 候選人當選機率條，依機率排序；機率 <1% 的併成一行 */
-export function ProbBars({ f, candidates, compact = false }: { f: RaceForecast; candidates: Candidate[]; compact?: boolean }) {
+export function ProbBars({ f, candidates, compact = false, turnout }: { f: RaceForecast; candidates: Candidate[]; compact?: boolean; turnout?: TurnoutView | null }) {
   // 依當選機率排，機率一樣（例如都 <1%）再依預估得票
   const sorted = [...candidates].sort((a, b) =>
     (f.winProb[b.name] ?? 0) - (f.winProb[a.name] ?? 0) || (f.shares[b.name] ?? 0) - (f.shares[a.name] ?? 0));
@@ -69,7 +70,10 @@ export function ProbBars({ f, candidates, compact = false }: { f: RaceForecast; 
               <div className="h-2 rounded-full transition-[width] duration-300" style={{ width: `${Math.max(1, p * 100)}%`, background: PARTY_FILL[c.party] }} />
             </div>
             {!compact && (
-              <div className="mt-0.5 text-[11px] text-ink-3">預估得票 <span className="num">{pct(f.shares[c.name], 1)}</span></div>
+              <div className="mt-0.5 text-xs text-ink-3">
+                預估得票 <span className="num">{pct(f.shares[c.name], 1)}</span>
+                {turnout && <>・約 <span className="num">{votesText(expectedVotes(turnout, f.shares[c.name] ?? 0))}</span></>}
+              </div>
             )}
           </div>
         );

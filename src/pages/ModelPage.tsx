@@ -55,6 +55,10 @@ export function ModelPage() {
           每次模擬先抽一個全國誤差（標準差 {PARAMS.nationalError} 點，所有國民黨候選人一起加、民進黨一起減），再抽各縣市自己的誤差，記下誰贏。
           抽一萬次，就能回答「國民黨拿到 12 席以上的機率」。
         </Step>
+        <Step n="07" title="預估票數">
+          票數＝選舉人數 × 投票率 × 有效票比例 × 預估得票率。投票率假設是各縣市 2022 縣市長投票率加 {data.meta.turnoutAddPoints ?? 0} 個百分點，
+          有效票比例沿用 2022；選舉人數先用 2022，中選會公告 2026 選舉人數後會換掉。投票率只影響票數，不影響得票率和當選機率。
+        </Step>
       </div>
 
       <Card kicker={`${house.length} 家機構`} title="目前估出的機構效應" right={<span className="text-xs text-ink-3">正＝偏藍，負＝偏綠</span>}>

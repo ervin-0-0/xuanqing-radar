@@ -269,6 +269,22 @@ const leansFor = (id: RaceId, cands: Candidate[]) => {
   ];
 };
 
+// 預估票數：2022 投票率加幾個百分點（data/base/turnout-2026.json），選舉人數先用 2022，中選會公告後填 electorate
+const turnoutCfg = read<{ addPoints: number; maxTurnout?: number; electorate?: Record<string, number>; electorateSource?: string | null; notes?: Record<string, string> }>("data/base/turnout-2026.json");
+const turnoutFor = (id: RaceId) => {
+  const r = mayor2022?.races[id];
+  if (!turnoutCfg || !r?.electorate || !r.turnout || !r.ballotsCast || !r.validVotes) return null;
+  const override = turnoutCfg.electorate?.[id];
+  return {
+    electorate: override ?? r.electorate,
+    electorateYear: override ? 2026 : 2022,
+    baseTurnout: r.turnout,
+    turnout: Math.min(turnoutCfg.maxTurnout ?? 90, +(r.turnout + turnoutCfg.addPoints).toFixed(2)),
+    validRate: +(r.validVotes / r.ballotsCast).toFixed(4),
+    note: turnoutCfg.notes?.[id] ?? null,
+  };
+};
+
 const races = RACES.map((meta) => {
   const candidates = candidatesFor(meta.id);
   const prior = computePrior(meta.id, candidates, { mayorPrev: mayor2022, pres, leans: leansFor(meta.id, candidates) });
@@ -295,6 +311,7 @@ const races = RACES.map((meta) => {
     },
     partySupport: supportView(latestMulti(meta.id), meta.id),
     localPartyId: supportView(latestLocal(meta.id), meta.id),
+    turnout: turnoutFor(meta.id),
   };
 });
 
@@ -363,6 +380,7 @@ out("meta", {
   electionDay: ELECTION_DAY,
   latestPoll: latest,
   supportScale: +supportScale.toFixed(2),
+  turnoutAddPoints: turnoutCfg?.addPoints ?? null,
   wikiFetched: wiki.fetched,
   wikiSource: wiki.source,
   counts: { polls: polls.length, extraPolls: polls.filter((p) => p.origin === "extra").length, detailed: usedDetails.size, races: races.length },

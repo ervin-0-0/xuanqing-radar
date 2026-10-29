@@ -7,8 +7,8 @@ import { CandName, PartyChip, ProbBars, RatingBadge } from "../components/RaceBi
 import { PollCard } from "../components/PollCard.tsx";
 import { LineChart } from "../components/LineChart.tsx";
 import { useSite } from "../lib/store.tsx";
-import { PARTY_VAR, probFill, prob } from "../lib/format.ts";
-import { RACE_BY_ID, RACES, PARTY_NAME, type RaceId } from "../lib/types.ts";
+import { PARTY_VAR, probFill, prob, expectedVotes, votesText } from "../lib/format.ts";
+import { RACE_BY_ID, RACES, PARTY_NAME, type Party, type RaceId } from "../lib/types.ts";
 import type { RaceForecast } from "../lib/model.ts";
 
 export function Overview() {
@@ -25,6 +25,18 @@ export function Overview() {
   const sel = byId[selected];
   const usable = data.polls.filter((p) => !p.excluded && p.kind === "general");
   const recent = usable.filter((p) => p.variant === 0 && p.fieldEnd <= asOf).slice(0, 8);
+
+  // 22 縣市合計預估得票（竹北市長不算）
+  const totals = useMemo(() => {
+    const t: Partial<Record<Party, number>> = {};
+    for (const f of live.races) {
+      const r = raceData[f.id];
+      if (!r?.turnout || r.tier === "township") continue;
+      for (const c of r.candidates) t[c.party] = (t[c.party] ?? 0) + expectedVotes(r.turnout, f.shares[c.name] ?? 0);
+    }
+    return t;
+  }, [live, raceData]);
+  const otherVotes = Object.entries(totals).filter(([p]) => !["kmt", "dpp", "tpp"].includes(p)).reduce((s, [, v]) => s + (v ?? 0), 0);
 
   const sorted = [...live.races].sort((a, b) => a.winProb[a.leader] - b.winProb[b.leader]);
   const flips = live.races
@@ -74,7 +86,7 @@ export function Overview() {
           {sel && (
             <Card kicker={`${tierLabel(RACE_BY_ID[selected].tier)}${raceData[selected]?.pvi != null ? ` · 基本盤 ${pviText(raceData[selected].pvi)}` : ""}`}
               title={RACE_BY_ID[selected].name} right={<RatingBadge f={sel} />}>
-              <ProbBars f={sel} candidates={raceData[selected].candidates} />
+              <ProbBars f={sel} candidates={raceData[selected].candidates} turnout={raceData[selected].turnout} />
               <div className="mt-4 space-y-2 border-t hairline pt-3">
                 <div className="text-xs text-ink-3">最近民調</div>
                 {usable.filter((p) => p.raceId === selected && p.variant === 0 && p.fieldEnd <= asOf).slice(0, 3).map((p) => <PollCard key={p.id} p={p} showRace={false} />)}
@@ -93,6 +105,17 @@ export function Overview() {
               <Stat label="國民黨拿到 12 席以上" value={atLeast(live, "kmt", 12)} party="kmt" />
               <Stat label="民進黨拿到 12 席以上" value={atLeast(live, "dpp", 12)} party="dpp" />
             </div>
+            {Object.keys(totals).length > 0 && (
+              <div className="mt-4 border-t hairline pt-3">
+                <div className="text-xs text-ink-3">22 縣市合計預估得票（投票率＝2022 加 {data.meta.turnoutAddPoints ?? 0} 個百分點）</div>
+                <div className="mt-1.5 flex flex-wrap gap-x-5 gap-y-1 text-sm">
+                  {(["kmt", "dpp", "tpp"] as const).filter((p) => totals[p]).map((p) => (
+                    <span key={p}><span className="font-medium" style={{ color: PARTY_VAR[p] }}>{PARTY_NAME[p]}</span> <span className="num font-semibold">{votesText(totals[p]!)}</span></span>
+                  ))}
+                  {otherVotes > 0 && <span><span className="font-medium text-ink-2">無黨籍及其他</span> <span className="num font-semibold">{votesText(otherVotes)}</span></span>}
+                </div>
+              </div>
+            )}
           </Card>
         </div>
       </div>

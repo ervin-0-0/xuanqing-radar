@@ -203,3 +203,18 @@
   ]
 }
 ```
+
+## data/base/turnout-2026.json（預估票數的投票率假設）
+
+```json
+{
+  "addPoints": 6,
+  "maxTurnout": 90,
+  "electorate": { "taipei": 2010000 },
+  "electorateSource": "https://...",
+  "notes": { "chiayi-city": "說明文字" }
+}
+```
+- 投票率＝2022 縣市長投票率加 `addPoints` 個百分點（上限 `maxTurnout`），有效票比例沿用 2022。
+- `electorate`：中選會公告 2026 選舉人數後填進來，沒填的縣市用 2022 選舉人數。
+- 只影響網站顯示的票數，不影響得票率與當選機率。

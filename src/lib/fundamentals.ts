@@ -5,7 +5,7 @@ import { blocCandidate, type Candidate } from "./model.ts";
 import type { Party, RaceId } from "./types.ts";
 
 export interface ResultCandidate { name: string; party: Party; votes: number | null; pct: number | null; elected: boolean; incumbent: boolean }
-export interface MayorResults { year: number; races: Partial<Record<RaceId, { candidates: ResultCandidate[]; turnout: number | null; validVotes?: number | null }>> }
+export interface MayorResults { year: number; races: Partial<Record<RaceId, { candidates: ResultCandidate[]; turnout: number | null; validVotes?: number | null; electorate?: number | null; ballotsCast?: number | null }>> }
 export interface PresidentialResults {
   elections: Record<string, { national: Record<string, number>; byRace: Partial<Record<RaceId, Record<string, number>>> }>;
 }
