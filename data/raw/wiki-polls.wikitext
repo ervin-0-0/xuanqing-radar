@@ -1913,6 +1913,13 @@
 | style="background-color:#99FF99;" |'''50.30%'''
 |1.14%
 |11.24%
+|-
+|關鍵民調<ref>{{cite web |title= 民調》僅5.9%新竹縣民知道鄭朝方參選縣長　學者：他爸努力幫他綁樁也難勝選|url=https://www.cmmedia.com.tw/home/articles/63566 |work=信傳媒|date=2026-10-29 |dead-url=no  }}</ref><ref>{{cite web |title= 徐欣瑩看好度領先 學者：鄭朝方認知度偏低|url=https://www.youtube.com/watch?v=FdSm4VTdE_k|work=民視|date=2026-10-29 |dead-url=no  }}</ref>
+|10月25日至26日
+| style="border-left:4px solid #000099;background-color:#CCCCFF;" |'''44.1%'''
+| 37.7%
+| 2.2%
+| 15.9%
 |}
 
 == 新竹市 ==
@@ -1986,7 +1993,7 @@
 |25.5%
 |-
 |匯流民調<ref>{{Cite web |title=匯流民調／高虹安支持度49.5%居冠！狠甩莊競程、何志勇差距曝 |url=https://news.tvbs.com.tw/politics/4025748 |website=TVBS |date=2026-09-22 ||dead-url=no }}</ref>
-| style="border-right:4px solid #000000;" |9月10日至9月13日
+| style="border-right:4px solid #000000;" |9月10日至13日
 | style="background-color:#E9E9E9;" |'''49.5%'''
 |25.7%
 |6.1%
