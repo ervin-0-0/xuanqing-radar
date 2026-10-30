@@ -31,7 +31,7 @@ export function TimeMachine({ from = "2026-06-01" }: { from?: string }) {
 }
 
 const MIN = -10, MAX = 15;
-const signed = (v: number) => (v > 0 ? `+${v}` : v < 0 ? `−${-v}` : "±0");
+export const signed = (v: number) => (v > 0 ? `+${v}` : v < 0 ? `−${-v}` : "±0");
 
 /** 投票率拉桿：只改票數，不改得票率與當選機率。t 給了就順便顯示這個縣市的投票率 */
 export function TurnoutSlider({ t }: { t?: TurnoutView | null }) {

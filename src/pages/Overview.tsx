@@ -2,7 +2,7 @@ import { useMemo, useRef, useState } from "react";
 import { TaiwanMap } from "../components/TaiwanMap.tsx";
 import { Card } from "../components/Layout.tsx";
 import { SeatBar, SeatHistogram, atLeast } from "../components/Seats.tsx";
-import { TimeMachine, TurnoutSlider } from "../components/Controls.tsx";
+import { TimeMachine, TurnoutSlider, signed } from "../components/Controls.tsx";
 import { CandName, PartyChip, ProbBars, RatingBadge } from "../components/RaceBits.tsx";
 import { PollCard } from "../components/PollCard.tsx";
 import { LineChart } from "../components/LineChart.tsx";
@@ -12,7 +12,7 @@ import { RACE_BY_ID, RACES, PARTY_NAME, type Party, type RaceId } from "../lib/t
 import type { RaceForecast } from "../lib/model.ts";
 
 export function Overview() {
-  const { data, live, asOf, withTurnout } = useSite();
+  const { data, live, asOf, withTurnout, turnoutAdd } = useSite();
   const [selected, setSelected] = useState<RaceId>(() => mostContested(data.forecast.races));
   const panel = useRef<HTMLDivElement>(null);
   // 手機上地圖跟縣市卡片是上下排，點了要捲過去才看得到
@@ -88,6 +88,13 @@ export function Overview() {
             <Card kicker={`${tierLabel(RACE_BY_ID[selected].tier)}${raceData[selected]?.pvi != null ? ` · 基本盤 ${pviText(raceData[selected].pvi)}` : ""}`}
               title={RACE_BY_ID[selected].name} right={<RatingBadge f={sel} />}>
               <ProbBars f={sel} candidates={raceData[selected].candidates} turnout={withTurnout(raceData[selected].turnout)} />
+              {raceData[selected].turnout && (
+                <div className="mt-4 rounded-lg bg-wash px-3 py-3">
+                  <TurnoutSlider t={withTurnout(raceData[selected].turnout)} />
+                  <p className="mt-1 text-xs text-ink-3">只改票數，不改得票率和當選機率。</p>
+                  {raceData[selected].turnout!.note && <p className="mt-1 text-xs text-accent">{raceData[selected].turnout!.note}</p>}
+                </div>
+              )}
               <div className="mt-4 space-y-2 border-t hairline pt-3">
                 <div className="text-xs text-ink-3">最近民調</div>
                 {usable.filter((p) => p.raceId === selected && p.variant === 0 && p.fieldEnd <= asOf).slice(0, 3).map((p) => <PollCard key={p.id} p={p} showRace={false} />)}
@@ -108,8 +115,7 @@ export function Overview() {
             </div>
             {Object.keys(totals).length > 0 && (
               <div className="mt-4 border-t hairline pt-3">
-                <TurnoutSlider />
-                <div className="mt-3 text-xs text-ink-3">22 縣市合計預估得票</div>
+                <div className="text-xs text-ink-3">22 縣市合計預估得票（投票率＝2022 <span className="num">{signed(turnoutAdd)}</span> 個百分點，在上方縣市卡片調整）</div>
                 <div className="mt-1 flex flex-wrap gap-x-5 gap-y-1 text-sm">
                   {(["kmt", "dpp", "tpp"] as const).filter((p) => totals[p]).map((p) => (
                     <span key={p}><span className="font-medium" style={{ color: PARTY_VAR[p] }}>{PARTY_NAME[p]}</span> <span className="num font-semibold">{votesText(totals[p]!)}</span></span>
