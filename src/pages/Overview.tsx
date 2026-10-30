@@ -181,6 +181,9 @@ function NationalCharts() {
   // 同一家機構才能連成線：不同機構題目不同
   const favMain = mostCommon(fav.map((p) => p.pollster));
   const favSeries = fav.filter((p) => p.pollster === favMain);
+  const support = data.national["party-id"];
+  const supMain = mostCommon(support.map((p) => p.pollster));
+  const supSeries = support.filter((p) => p.pollster === supMain);
   return (
     <div className="grid gap-6 lg:grid-cols-2">
       {approval.length > 0 && (
@@ -193,6 +196,24 @@ function NationalCharts() {
             ]}
           />
           <p className="mt-2 text-xs text-ink-3">青色實線是滿意，紫色虛線是不滿意。其他機構的數字在模型說明頁。</p>
+        </Card>
+      )}
+      {supSeries.length > 0 && (
+        <Card kicker={`${supMain}・每月`} title="政黨支持度">
+          <LineChart
+            yDomain={[0, 45]} yTicks={[10, 20, 30, 40]} yFormat={(v) => `${v}%`} lineWidth={3.5}
+            markers={supMain === "美麗島電子報" ? [{ x: "2026-07-10", label: "換調查團隊" }] : []}
+            series={[
+              { key: "d", label: "民進黨", color: "var(--dpp)", points: byPollster(supSeries, "dpp").map((p) => ({ x: p.fieldEnd, y: p.values.dpp! })) },
+              { key: "k", label: "國民黨", color: "var(--kmt)", points: byPollster(supSeries, "kmt").map((p) => ({ x: p.fieldEnd, y: p.values.kmt! })) },
+              { key: "t", label: "民眾黨", color: "var(--tpp)", points: byPollster(supSeries, "tpp").map((p) => ({ x: p.fieldEnd, y: p.values.tpp! })) },
+              { key: "n", label: "中立／未表態", color: "var(--ind)", dashed: true, points: byPollster(supSeries, "neutral").map((p) => ({ x: p.fieldEnd, y: p.values.neutral! })) },
+            ].filter((s) => s.points.length)}
+          />
+          <p className="mt-2 text-xs text-ink-3">
+            題目是「平常哪一黨的主張比較接近您的想法」。綠線民進黨、藍線國民黨、青線民眾黨，灰色虛線是中立或未表態。
+            2026 年 7 月起改由別的團隊執行，前後不完全可比；7 月以後原文沒寫這題，是從交叉分析表的樣本數換算的。
+          </p>
         </Card>
       )}
       {fav.length > 0 && (
@@ -208,7 +229,46 @@ function NationalCharts() {
           <p className="mt-2 text-xs text-ink-3">綠線民進黨、藍線國民黨、青線民眾黨。2026 年 8 月起題目改為「喜歡／不喜歡」，跟之前的好感度不完全可比。</p>
         </Card>
       )}
+      {supSeries.length > 0 && <SupportExplainer />}
     </div>
+  );
+}
+
+/** 政黨支持度不等於得票：用政大歷年政黨偏好對照當年縣市長席次 */
+function SupportExplainer() {
+  const { data } = useSite();
+  const nccu = (y: string) => data.national["party-id-nccu"].find((p) => p.fieldEnd.startsWith(y))?.values;
+  const seats = (k: "result2018" | "result2022") => {
+    const c: Partial<Record<Party, number>> = {};
+    for (const r of data.races) {
+      const w = r.tier !== "township" ? r[k]?.candidates.find((x) => x.elected) : null;
+      if (w) c[w.party] = (c[w.party] ?? 0) + 1;
+    }
+    return c;
+  };
+  const rows = (["2018", "2022"] as const).map((y) => ({ y, v: nccu(y), s: seats(y === "2018" ? "result2018" : "result2022") }));
+  return (
+    <Card kicker="怎麼解讀" title="支持度不等於選票">
+      <p className="text-sm leading-relaxed text-ink-2">
+        「支持哪一黨」量的是長期的政黨認同，比較像各黨有多少鐵票，不是會投給誰。最大的一群是中立選民，地方選舉又很看候選人、投票率也比較低，
+        所以支持度領先的黨，縣市長不一定贏：
+      </p>
+      <table className="mt-3 w-full text-sm">
+        <thead><tr className="border-b hairline text-left text-xs text-ink-3"><th className="py-1.5 font-normal">年份</th><th className="font-normal">政黨支持（政大）</th><th className="font-normal">縣市長席次</th></tr></thead>
+        <tbody className="divide-y divide-rule">
+          {rows.filter((r) => r.v).map(({ y, v, s }) => (
+            <tr key={y}>
+              <td className="num py-2">{y}</td>
+              <td className="num"><span style={{ color: PARTY_VAR.dpp }}>綠 {v!.dpp}</span>・<span style={{ color: PARTY_VAR.kmt }}>藍 {v!.kmt}</span></td>
+              <td className="num"><span style={{ color: PARTY_VAR.dpp }}>綠 {s.dpp ?? 0}</span>・<span style={{ color: PARTY_VAR.kmt }}>藍 {s.kmt ?? 0}</span></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      <p className="mt-3 text-sm leading-relaxed text-ink-2">
+        所以模型只用各縣市的政黨支持度看「哪裡比全國偏藍或偏綠」，換算成投票傾向時再乘上 <span className="num">{data.meta.supportScale ?? 1}</span>；全國整體偏哪一黨，交給當年的民調決定。
+      </p>
+    </Card>
   );
 }
 
