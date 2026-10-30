@@ -1,8 +1,8 @@
 {
  "page": "2026年中華民國直轄市長及縣市長選舉民意調查",
  "source": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7%E5%8F%8A%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E6%B0%91%E6%84%8F%E8%AA%BF%E6%9F%A5",
- "fetched": "2026-10-29T16:30:54.897Z",
- "revision": "Thu, 29 Oct 2026 15:40:24 GMT",
+ "fetched": "2026-10-30T16:22:47.418Z",
+ "revision": "Fri, 30 Oct 2026 07:01:33 GMT",
  "rows": [
   {
    "raceId": "taipei",
@@ -4691,7 +4691,7 @@
   },
   {
    "raceId": "kaohsiung",
-   "scenario": "賴瑞隆－柯志恩",
+   "scenario": "賴瑞隆－柯志恩－其他",
    "pollster": "ETtoday",
    "dateText": "2026年1月14日至16日",
    "fieldStart": "2026-01-14",
@@ -4716,7 +4716,7 @@
   },
   {
    "raceId": "kaohsiung",
-   "scenario": "賴瑞隆－柯志恩",
+   "scenario": "賴瑞隆－柯志恩－其他",
    "pollster": "山水民調",
    "dateText": "1月29日至30日",
    "fieldStart": "2026-01-29",
@@ -4741,7 +4741,7 @@
   },
   {
    "raceId": "kaohsiung",
-   "scenario": "賴瑞隆－柯志恩",
+   "scenario": "賴瑞隆－柯志恩－其他",
    "pollster": "雨晴民調",
    "dateText": "2月3日至9日",
    "fieldStart": "2026-02-03",
@@ -4766,7 +4766,7 @@
   },
   {
    "raceId": "kaohsiung",
-   "scenario": "賴瑞隆－柯志恩",
+   "scenario": "賴瑞隆－柯志恩－其他",
    "pollster": "山水民調",
    "dateText": "4月27日至29日",
    "fieldStart": "2026-04-27",
@@ -4791,7 +4791,7 @@
   },
   {
    "raceId": "kaohsiung",
-   "scenario": "賴瑞隆－柯志恩",
+   "scenario": "賴瑞隆－柯志恩－其他",
    "pollster": "TVBS",
    "dateText": "5月27日至6月2日",
    "fieldStart": "2026-05-27",
@@ -4816,7 +4816,7 @@
   },
   {
    "raceId": "kaohsiung",
-   "scenario": "賴瑞隆－柯志恩",
+   "scenario": "賴瑞隆－柯志恩－其他",
    "pollster": "大地民意",
    "dateText": "6月8日至9日",
    "fieldStart": "2026-06-08",
@@ -4841,7 +4841,7 @@
   },
   {
    "raceId": "kaohsiung",
-   "scenario": "賴瑞隆－柯志恩",
+   "scenario": "賴瑞隆－柯志恩－其他",
    "pollster": "新台灣國策智庫",
    "dateText": "6月9日至10日",
    "fieldStart": "2026-06-09",
@@ -4866,7 +4866,7 @@
   },
   {
    "raceId": "kaohsiung",
-   "scenario": "賴瑞隆－柯志恩",
+   "scenario": "賴瑞隆－柯志恩－其他",
    "pollster": "ETtoday",
    "dateText": "6月16日至19日",
    "fieldStart": "2026-06-16",
@@ -4891,7 +4891,7 @@
   },
   {
    "raceId": "kaohsiung",
-   "scenario": "賴瑞隆－柯志恩",
+   "scenario": "賴瑞隆－柯志恩－其他",
    "pollster": "新台灣民調研究中心",
    "dateText": "6月26日至28日",
    "fieldStart": "2026-06-26",
@@ -4916,7 +4916,7 @@
   },
   {
    "raceId": "kaohsiung",
-   "scenario": "賴瑞隆－柯志恩",
+   "scenario": "賴瑞隆－柯志恩－其他",
    "pollster": "年代民調",
    "dateText": "7月16日至18日",
    "fieldStart": "2026-07-16",
@@ -4941,7 +4941,7 @@
   },
   {
    "raceId": "kaohsiung",
-   "scenario": "賴瑞隆－柯志恩",
+   "scenario": "賴瑞隆－柯志恩－其他",
    "pollster": "山水民調",
    "dateText": "7月18日至20日",
    "fieldStart": "2026-07-18",
@@ -4966,7 +4966,7 @@
   },
   {
    "raceId": "kaohsiung",
-   "scenario": "賴瑞隆－柯志恩",
+   "scenario": "賴瑞隆－柯志恩－其他",
    "pollster": "皮爾森數據",
    "dateText": "7月13日至19日",
    "fieldStart": "2026-07-13",
@@ -4991,7 +4991,7 @@
   },
   {
    "raceId": "kaohsiung",
-   "scenario": "賴瑞隆－柯志恩",
+   "scenario": "賴瑞隆－柯志恩－其他",
    "pollster": "皮爾森數據",
    "dateText": "7月27日至8月1日",
    "fieldStart": "2026-07-27",
@@ -5016,7 +5016,7 @@
   },
   {
    "raceId": "kaohsiung",
-   "scenario": "賴瑞隆－柯志恩",
+   "scenario": "賴瑞隆－柯志恩－其他",
    "pollster": "ETtoday",
    "dateText": "8月22日至30日",
    "fieldStart": "2026-08-22",
@@ -5037,6 +5037,46 @@
     }
    ],
    "undecided": 12.5,
+   "variant": 0
+  },
+  {
+   "raceId": "kaohsiung",
+   "scenario": "賴瑞隆－柯志恩－其他",
+   "pollster": "ETtoday",
+   "dateText": "10月20日至25日",
+   "fieldStart": "2026-10-20",
+   "fieldEnd": "2026-10-25",
+   "sources": [
+    "https://www.ettoday.net/news/20261030/3262904.htm"
+   ],
+   "results": [
+    {
+     "name": "賴瑞隆",
+     "party": "dpp",
+     "pct": 43.2
+    },
+    {
+     "name": "柯志恩",
+     "party": "kmt",
+     "pct": 43.1
+    },
+    {
+     "name": "张静",
+     "party": "ind",
+     "pct": 0.3
+    },
+    {
+     "name": "王肇民",
+     "party": "ind",
+     "pct": 0.1
+    },
+    {
+     "name": "洪方隆",
+     "party": "ind",
+     "pct": 0.1
+    }
+   ],
+   "undecided": 13.2,
    "variant": 0
   },
   {
@@ -7221,7 +7261,7 @@
   },
   {
    "raceId": "changhua",
-   "scenario": "魏平政－陳素月－邱建富",
+   "scenario": "魏平政－陳素月－邱建富－陳重嘉",
    "pollster": "民進黨內參",
    "dateText": "6月",
    "fieldStart": "2026-06-01",
@@ -7251,7 +7291,7 @@
   },
   {
    "raceId": "changhua",
-   "scenario": "魏平政－陳素月－邱建富",
+   "scenario": "魏平政－陳素月－邱建富－陳重嘉",
    "pollster": "ETtoday",
    "dateText": "8月10日至17日",
    "fieldStart": "2026-08-10",
@@ -8883,7 +8923,7 @@
   },
   {
    "raceId": "kaohsiung",
-   "scenario": "賴瑞隆－柯志恩",
+   "scenario": "賴瑞隆－柯志恩－其他",
    "candidates": [
     {
      "name": "賴瑞隆",
@@ -8892,6 +8932,18 @@
     {
      "name": "柯志恩",
      "party": "kmt"
+    },
+    {
+     "name": "张静",
+     "party": "ind"
+    },
+    {
+     "name": "王肇民",
+     "party": "ind"
+    },
+    {
+     "name": "洪方隆",
+     "party": "ind"
     }
    ]
   },
@@ -9060,24 +9112,6 @@
     {
      "name": "蔡壁如",
      "party": "tpp"
-    }
-   ]
-  },
-  {
-   "raceId": "changhua",
-   "scenario": "魏平政－陳素月－邱建富",
-   "candidates": [
-    {
-     "name": "魏平政",
-     "party": "kmt"
-    },
-    {
-     "name": "陳素月",
-     "party": "dpp"
-    },
-    {
-     "name": "邱建富",
-     "party": "ind"
     }
    ]
   },
