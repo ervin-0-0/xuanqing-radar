@@ -50,6 +50,7 @@
   --tpp-soft: #def4f6;
   --ind-soft: #e7eef1;
   /* 施政滿意度：跟政黨色分開，用冷色 */
+  --slider-base: #c3d0d9;
   --approve: #06a3b8;
   --disapprove: #6a6cf0;
   color-scheme: light;
@@ -77,6 +78,7 @@
     --dpp-soft: #233220;
     --tpp-soft: #153539;
     --ind-soft: #22303a;
+    --slider-base: #3b4d58;
     --approve: #12aebd;
     --disapprove: #8486f2;
     color-scheme: dark;
@@ -91,9 +93,10 @@ body { background: var(--paper); color: var(--ink); font-family: var(--font-sans
 .hairline { border-color: var(--rule); }
 
 input[type="range"].slider { -webkit-appearance: none; appearance: none; height: 28px; background: transparent; width: 100%; cursor: pointer; }
-input[type="range"].slider::-webkit-slider-runnable-track { height: 6px; border-radius: 3px; background: var(--track, var(--wash)); }
-input[type="range"].slider::-moz-range-track { height: 6px; border-radius: 3px; background: var(--track, var(--wash)); }
-input[type="range"].slider::-webkit-slider-thumb { -webkit-appearance: none; width: 22px; height: 22px; margin-top: -8px; border-radius: 50%; background: var(--card); border: 2px solid var(--ink); box-shadow: 0 1px 3px rgb(0 0 0 / .2); }
+/* 橫桿：灰底加一段強調色（--lo 到 --hi），放在淺灰底的框裡也看得清楚 */
+input[type="range"].slider::-webkit-slider-runnable-track { height: 8px; border-radius: 4px; background: linear-gradient(to right, var(--slider-base) 0 var(--lo, 0%), var(--accent) var(--lo, 0%) var(--hi, 0%), var(--slider-base) var(--hi, 0%) 100%); }
+input[type="range"].slider::-moz-range-track { height: 8px; border-radius: 4px; background: linear-gradient(to right, var(--slider-base) 0 var(--lo, 0%), var(--accent) var(--lo, 0%) var(--hi, 0%), var(--slider-base) var(--hi, 0%) 100%); }
+input[type="range"].slider::-webkit-slider-thumb { -webkit-appearance: none; width: 22px; height: 22px; margin-top: -7px; border-radius: 50%; background: var(--card); border: 2px solid var(--ink); box-shadow: 0 1px 3px rgb(0 0 0 / .2); }
 input[type="range"].slider::-moz-range-thumb { width: 18px; height: 18px; border-radius: 50%; background: var(--card); border: 2px solid var(--ink); }
 input[type="range"].slider:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 4px; }
 
