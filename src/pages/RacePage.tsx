@@ -4,6 +4,7 @@ import { LineChart, type Dot, type Series } from "../components/LineChart.tsx";
 import { BallotNo, CandName, PartyChip, ProbBars, RatingBadge } from "../components/RaceBits.tsx";
 import { PollCards } from "../components/PollCard.tsx";
 import { useSite } from "../lib/store.tsx";
+import { TurnoutSlider } from "../components/Controls.tsx";
 import { usablePolls, pollAverage, PARAMS } from "../lib/model.ts";
 import { PARTY_FILL, PARTY_VAR, md, pct, prob, expectedVotes, votesText } from "../lib/format.ts";
 import type { TurnoutView } from "../lib/data.ts";
@@ -12,7 +13,7 @@ import { RACE_BY_ID, PARTY_NAME, type RaceId } from "../lib/types.ts";
 import { pviText, tierLabel } from "./Overview.tsx";
 
 export function RacePage({ id }: { id: RaceId }) {
-  const { data, live, modelRaces, modelPolls, asOf } = useSite();
+  const { data, live, modelRaces, modelPolls, asOf, withTurnout } = useSite();
   const race = data.races.find((r) => r.id === id);
   const f = live.races.find((r) => r.id === id);
   const model = modelRaces.find((r) => r.id === id);
@@ -69,6 +70,7 @@ export function RacePage({ id }: { id: RaceId }) {
   const leaderP = f.winProb[f.leader];
   const runner = Object.entries(f.shares).sort((a, b) => b[1] - a[1])[1];
   const lead = f.shares[f.leader] - (runner?.[1] ?? 0);
+  const tv = withTurnout(race.turnout);
 
   return (
     <div className="space-y-6">
@@ -81,7 +83,7 @@ export function RacePage({ id }: { id: RaceId }) {
         </div>
         <p className="mt-3 max-w-2xl leading-relaxed text-ink-2">
           {PARTY_NAME[f.leaderParty]} <b style={{ color: PARTY_VAR[f.leaderParty] }}><CandName raceId={id} name={f.leader} /></b> 當選機率 <b className="num">{prob(leaderP)}</b>，
-          預估得票領先 <span className="num">{lead.toFixed(1)}</span> 個百分點{race.turnout && <>，約 <span className="num">{votesText(expectedVotes(race.turnout, lead))}</span></>}。
+          預估得票領先 <span className="num">{lead.toFixed(1)}</span> 個百分點{tv && <>，約 <span className="num">{votesText(expectedVotes(tv, lead))}</span></>}。
           {f.pollCount > 0
             ? <>預測有 <b className="num">{Math.round(f.pollWeight * 100)}%</b> 來自 {f.pollCount} 筆民調（最新 {md(f.latestPoll)}），其餘來自歷屆選舉基本盤。</>
             : <>這裡還沒有可用的公開民調，預測完全靠歷屆選舉基本盤和全國風向，不確定性很大。</>}
@@ -91,8 +93,8 @@ export function RacePage({ id }: { id: RaceId }) {
 
       <div className="grid gap-6 lg:grid-cols-[1fr_1.3fr]">
         <Card kicker="候選人" title="當選機率">
-          <ProbBars f={f} candidates={race.candidates} turnout={race.turnout} />
-          {race.turnout && <TurnoutNote t={race.turnout} add={data.meta.turnoutAddPoints ?? 0} />}
+          <ProbBars f={f} candidates={race.candidates} turnout={tv} />
+          {tv && <TurnoutNote t={tv} />}
           <div className="mt-5 space-y-3 border-t hairline pt-4">
             {race.candidates.map((c) => (
               <div key={c.name} className="flex gap-3 text-sm">
@@ -188,14 +190,17 @@ export function RacePage({ id }: { id: RaceId }) {
 }
 
 /** 預估票數的算法與假設 */
-function TurnoutNote({ t, add }: { t: TurnoutView; add: number }) {
+function TurnoutNote({ t }: { t: TurnoutView }) {
   const ballots = t.electorate * (t.turnout / 100);
   return (
-    <div className="mt-4 rounded-lg bg-wash px-3 py-2.5 text-sm leading-relaxed text-ink-2">
-      票數這樣估：選舉人 <span className="num">{votesText(t.electorate, "人")}</span>（{t.electorateYear} 年）× 投票率 <span className="num">{t.turnout.toFixed(1)}%</span>
-      （2022 的 <span className="num">{t.baseTurnout.toFixed(1)}%</span> 加 {add} 點）＝約 <span className="num">{votesText(ballots, "人")}</span>投票，
-      有效票約 <span className="num">{votesText(ballots * t.validRate)}</span>。
-      {t.note && <div className="mt-1 text-accent">{t.note}</div>}
+    <div className="mt-4 rounded-lg bg-wash px-3 py-3 text-sm leading-relaxed text-ink-2">
+      <TurnoutSlider t={t} />
+      <p className="mt-2">
+        票數這樣估：選舉人 <span className="num">{votesText(t.electorate, "人")}</span>（{t.electorateYear} 年）× 投票率 <span className="num">{t.turnout.toFixed(1)}%</span>
+        （2022 是 <span className="num">{t.baseTurnout.toFixed(1)}%</span>）＝約 <span className="num">{votesText(ballots, "人")}</span>投票，
+        有效票約 <span className="num">{votesText(ballots * t.validRate)}</span>。投票率只改票數，不改得票率和當選機率。
+      </p>
+      {t.note && <p className="mt-1 text-accent">{t.note}</p>}
     </div>
   );
 }

@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import { forecast, type Forecast, type ModelRace, type Poll } from "./model.ts";
-import type { SiteData } from "./data.ts";
+import type { SiteData, TurnoutView } from "./data.ts";
 
 interface Ctx {
   data: SiteData;
@@ -16,6 +16,11 @@ interface Ctx {
   isLive: boolean;
   /** 抽籤號次；沒抽到（或已退選、假設人選）回傳 null */
   ballot: (raceId: string, name: string) => number | null;
+  /** 投票率拉桿：比 2022 多幾個百分點 */
+  turnoutAdd: number;
+  setTurnoutAdd: (v: number) => void;
+  /** 套用拉桿後的投票率假設 */
+  withTurnout: (t: TurnoutView | null) => TurnoutView | null;
 }
 
 const C = createContext<Ctx | null>(null);
@@ -36,6 +41,9 @@ export function SiteProvider({ data, children }: { data: SiteData; children: Rea
   const ballot = (raceId: string, name: string) => ballots.get(`${raceId}|${name}`) ?? null;
   const [asOf, setAsOf] = useState(data.meta.asOf);
   const [dragging, setDragging] = useState(false);
+  const [turnoutAdd, setTurnoutAdd] = useState(data.meta.turnoutAddPoints ?? 0);
+  const withTurnout = (t: TurnoutView | null) =>
+    t && { ...t, turnout: Math.min(95, Math.max(5, +(t.baseTurnout + turnoutAdd).toFixed(2))) };
   const [live, setLive] = useState<Forecast>(data.forecast);
 
   const isLive = asOf === data.meta.asOf;
@@ -49,7 +57,7 @@ export function SiteProvider({ data, children }: { data: SiteData; children: Rea
   }, [asOf, dragging, isLive, data, modelRaces, modelPolls]);
 
   return (
-    <C.Provider value={{ data, modelRaces, modelPolls, asOf, setAsOf, dragging, setDragging, live, isLive, ballot }}>
+    <C.Provider value={{ data, modelRaces, modelPolls, asOf, setAsOf, dragging, setDragging, live, isLive, ballot, turnoutAdd, setTurnoutAdd, withTurnout }}>
       {children}
     </C.Provider>
   );
