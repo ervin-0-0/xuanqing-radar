@@ -247,8 +247,20 @@
 | -
 | -
 |13%
+|-
+| colspan="9" |10月31日第一場辯論會
+|-
+|TVBS<ref>{{Cite web |title=TVBS民調／蔣萬安辯論贏了？支持度46%超車沈伯洋 2人僅差4% |url=https://news.tvbs.com.tw/politics/4044014 |website=TVBS新聞網 |date=2026-10-31 |language=zh-TW |access-date=2026-10-31}}</ref>
+| style="border-right:4px solid #000099;" |10月31日
+| style="background-color:#CCCCFF;" |'''46%'''
+|42%
+| -
+| -
+| -
+| -
+|12%
+|-
 |}
-
 == 新北市 ==
 === 李四川－蘇巧慧－黃國昌 ===
 {| class="wikitable collapsible sortable" style="text-align:center"
@@ -1415,6 +1427,7 @@
 ! style="width:120px; border-bottom:4px solid #000000;" |{{NONP/logo2}} [[王肇民]]
 ! style="width:120px; border-bottom:4px solid #000000;" |{{NONP/logo2}} [[洪方隆]]
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
+!
 |-
 |ETtoday<ref>{{Cite news |title=ET民調／2026高雄市長藍綠對決　柯志恩44%領先賴瑞隆6.3個百分點|url=https://www.ettoday.net/news/20260119/3103373.htm
 |work=ETtoday|date=2026-01-19}}</ref>
@@ -1425,6 +1438,7 @@
 | -
 | -
 |11.9%
+|
 |-
 |山水民調<ref>{{cite news| title=高雄市長選情民調》陳其邁高施政滿意度撐腰！賴瑞隆 11%領先柯志恩 這區成綠營「最強票倉」| work=Newtalk | date=2026-02-02 | url=https://newtalk.tw/news/view/2026-02-02/1017969}}</ref>
 | style="border-right:4px solid #1B9431;" |1月29日至30日
@@ -1434,6 +1448,7 @@
 | -
 | -
 |33.3%
+|
 |-
 |雨晴民調<ref>{{cite news| title=賴瑞隆最新民調大贏柯志恩！這1群人「佔28%」投下選情變數| work=Nownews| date=2026-02-11| url=https://www.nownews.com/news/6785609| access-date=2026-02-13| archive-date=2026-02-17| archive-url=https://web.archive.org/web/20260217183600/https://www.nownews.com/news/6785609| dead-url=no}}</ref>
 | style="border-right:4px solid #1B9431;" |2月3日至9日
@@ -1443,6 +1458,7 @@
 | -
 | -
 |28.3%
+|
 |-
 |山水民調<ref>{{cite news| title=【最新民調】遭譏「最弱母雞」？其實很強　賴瑞隆47%領先柯志恩30.7%| work=上報| date=2026-05-05| url=https://www.upmedia.mg/tw/lifestyle/policy/257777| dead-url=live| access-date=2026-05-05| archive-date=2026-05-18| archive-url=https://web.archive.org/web/20260518040034/https://www.upmedia.mg/tw/lifestyle/policy/257777}}</ref>
 | style=" border-right:4px solid #1B9431;" |4月27日至29日
@@ -1452,6 +1468,7 @@
 | -
 | -
 |22.3%
+|
 |-
 |TVBS<ref>{{cite news| title=民調／柯志恩支持度近4成　緊咬賴瑞隆！差距僅0.6個百分點| work=TVBS| date=2026-06-04| url=https://news.tvbs.com.tw/politics/3221242| dead-url=live| access-date=2026-06-04| archive-date=2026-06-10| archive-url=https://web.archive.org/web/20260610150417/https://news.tvbs.com.tw/politics/3221242}}</ref>
 | style=" border-right:4px solid #1B9431;" |5月27日至6月2日
@@ -1461,6 +1478,7 @@
 | -
 | -
 |19.9%
+|
 |-
 |大地民意<ref>{{cite news| title=賴瑞隆民調45.1%輾壓柯志恩！兩人回應了| work=鏡周刊| date=2026-06-15| url=https://www.mirrormedia.mg/external/setn_1855498| dead-url=live}}</ref>
 | style=" border-right:4px solid #1B9431;" |6月8日至9日
@@ -1470,6 +1488,7 @@
 | -
 | -
 |29.3%
+|
 |-
 |新台灣國策智庫<ref>{{cite news| title=國策民調／賴瑞隆支持度46.2%輾壓柯志恩　差距17.8個百分點| work=ETToday| date=2026-06-12| url=https://www.ettoday.net/news/20260612/3182106.htm| dead-url=live}}</ref>
 | style=" border-right:4px solid #1B9431;" |6月9日至10日
@@ -1479,6 +1498,7 @@
 | -
 | -
 |25.4%
+|
 |-
 |ETtoday<ref>{{cite news|title=高雄市長民調/柯志恩46.8％領先賴瑞隆　7成市民憂校安問題|url=https://www.ettoday.net/news/20260623/3187875.htm|work=ETtoday|date=2026-06-23|access-date=2026-06-23|archive-date=2026-06-24|archive-url=https://web.archive.org/web/20260624095153/https://www.ettoday.net/news/20260623/3187875.htm|url-status=live}}</ref>
 | style="border-right:4px solid #000099;" |6月16日至19日
@@ -1488,6 +1508,7 @@
 | -
 | -
 |11.2%
+|
 |-
 |新台灣民調研究中心<ref>{{cite news| title=最新民調曝 「柯志恩在深藍選區竟也落後賴瑞隆」| work=CNMA新聞聯合網| date=2026-07-03| url=https://www.cnma.org.tw/page/news/show.aspx?num=52457| dead-url=live}}</ref>
 | style=" border-right:4px solid #1B9431;" |6月26日至28日
@@ -1497,6 +1518,7 @@
 | -
 | -
 |20%
+|
 |-
 |年代民調<ref>{{cite news| title= 115年7月19日高雄市長選情調查 | work=年代民調中心| date=2026-07-20| url= http://survey.eracom.com.tw/detail.jsp?resultId=566 | dead-url=live}}</ref>
 | style=" border-right:4px solid #1B9431;" |7月16日至18日
@@ -1506,6 +1528,7 @@
 | -
 | -
 |32.8%
+|
 |-
 |山水民調<ref>{{cite news| title=震傳媒民調（一）／賴瑞隆支持度領先柯志恩8%！50.3%高雄市民看好賴瑞隆！| work=震傳媒| date=2026-07-23 | url=https://www.zmedia.com.tw/Document/PoolDetail/43287}}</ref>
 | style=" border-right:4px solid #1B9431;" |7月18日至20日 
@@ -1515,6 +1538,7 @@
 | -
 | -
 |28.8%
+|
 |-
 |皮爾森數據<ref>{{cite news|title=高雄市長民調/柯志恩46.8％領先賴瑞隆　7成市民憂校安問題|url=https://www.upmedia.mg/tw/investigation/politics/265557|work=上報|date=2026-08-06|url-status=live}}</ref>
 | style="border-right:4px solid #000099;" |7月13日至19日
@@ -1524,6 +1548,7 @@
 | -
 | -
 |5.03%
+|
 |-
 |皮爾森數據<ref>{{cite news|title=2026《鉅聞民調》高雄市長選舉／選情膠著！柯志恩46.14%緊咬賴瑞隆47.78%　各選區及年齡層互有領先　決戰「中間選民」
 |url=https://www.bigmedia.com.tw/article/1786278801544|work=上報|date=2026-08-11|url-status=live}}</ref>
@@ -1534,6 +1559,7 @@
 | -
 | -
 |4.24%
+|
 |-
 |ETtoday<ref>{{Cite news |title=ET民調雲／高雄市長最新民調出爐！柯志恩43.8％微幅領先賴瑞隆　選情呈拉鋸|url=https://www.ettoday.net/news/20260911/3233581.htm
 |work=ETtoday|date=2026-09-11}}</ref>
@@ -1544,6 +1570,7 @@
 | -
 | -
 |12.5%
+|
 |-
 |ETtoday<ref>{{Cite web |title=高雄市長選情五五波！支持度差距僅0.1%，柯志恩好感度佔優 {{!}} ETtoday政治新聞 {{!}} ETtoday新聞雲 |url=https://www.ettoday.net/news/20261030/3262904.htm |website=www.ettoday.net |date=2026-10-30 |language=zh-Hant |last=張芳瑜 |access-date=2026-10-30}}</ref>
 | style="border-right:4px solid #1B9431;" |10月20日至25日
@@ -1553,6 +1580,11 @@
 |0.1%
 |0.1%
 |13.2%
+|
+|-
+|
+|10月30日
+| colspan="7" |第一場辯論
 |}
 
 == 基隆市 ==

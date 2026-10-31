@@ -1,8 +1,8 @@
 {
  "page": "2026年中華民國直轄市長及縣市長選舉民意調查",
  "source": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7%E5%8F%8A%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E6%B0%91%E6%84%8F%E8%AA%BF%E6%9F%A5",
- "fetched": "2026-10-30T16:22:47.418Z",
- "revision": "Fri, 30 Oct 2026 07:01:33 GMT",
+ "fetched": "2026-10-31T15:33:01.231Z",
+ "revision": "Sat, 31 Oct 2026 13:16:57 GMT",
  "rows": [
   {
    "raceId": "taipei",
@@ -617,6 +617,31 @@
     }
    ],
    "undecided": 13,
+   "variant": 0
+  },
+  {
+   "raceId": "taipei",
+   "scenario": "蔣萬安－沈伯洋－其他",
+   "pollster": "TVBS",
+   "dateText": "10月31日",
+   "fieldStart": "2026-10-31",
+   "fieldEnd": "2026-10-31",
+   "sources": [
+    "https://news.tvbs.com.tw/politics/4044014"
+   ],
+   "results": [
+    {
+     "name": "蔣萬安",
+     "party": "kmt",
+     "pct": 46
+    },
+    {
+     "name": "沈伯洋",
+     "party": "dpp",
+     "pct": 42
+    }
+   ],
+   "undecided": 12,
    "variant": 0
   },
   {
