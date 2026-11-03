@@ -2052,6 +2052,138 @@
       "extraSources": [
         "https://cdn2.ettoday.net/images/8911/8911565.jpg"
       ]
+    },
+    {
+      "source": "https://udn.com/vote2026/story/124652/9850777",
+      "pollster": "聯合報民意調查中心",
+      "sponsor": "聯合報",
+      "fieldStart": "2026-10-28",
+      "fieldEnd": "2026-10-31",
+      "published": "2026-11-02",
+      "method": "phone+mobile",
+      "sampleSize": 1101,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "設籍高雄市 20 歲以上選民",
+      "weighting": "依性別、年齡加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 40
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 33
+        }
+      ],
+      "undecided": 26,
+      "likelyVoters": null,
+      "notes": "張靜、王肇民、洪方隆合計不到 1%。電視辯論前調查，279 人拒訪。看好度：賴瑞隆 49%、柯志恩 21%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.ettoday.net/news/20261030/3262904.htm",
+      "pollster": "ETtoday民調雲",
+      "sponsor": null,
+      "fieldStart": "2026-10-20",
+      "fieldEnd": "2026-10-25",
+      "published": "2026-10-30",
+      "method": "online",
+      "sampleSize": 1338,
+      "moe": 2.68,
+      "confidence": 95,
+      "population": "設籍高雄市 20 歲以上",
+      "weighting": "依性別、年齡、行政區、教育程度加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 43.2
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 43.1
+        },
+        {
+          "name": "張靜",
+          "party": "other",
+          "pct": 0.3
+        },
+        {
+          "name": "王肇民",
+          "party": "ind",
+          "pct": 0.1
+        },
+        {
+          "name": "洪方隆",
+          "party": "ind",
+          "pct": 0.1
+        }
+      ],
+      "undecided": 12.7,
+      "likelyVoters": null,
+      "notes": "不投票或投廢票 0.5%。看好度：賴瑞隆 51.6%、柯志恩 36.8%；陳其邁施政滿意 71.9%。",
+      "extraSources": []
+    },
+    {
+      "source": "https://www.ftnn.com.tw/news/591256",
+      "pollster": "鋒燦民調",
+      "sponsor": "鋒燦傳媒",
+      "fieldStart": "2026-10-16",
+      "fieldEnd": "2026-10-21",
+      "published": "2026-11-02",
+      "method": "mixed",
+      "sampleSize": 1824,
+      "moe": 2.3,
+      "confidence": 95,
+      "population": "戶籍高雄市、有投票權的選民（市話 1,014、網路 810）",
+      "weighting": "市話與網路樣本 1:1 合併後，依性別、年齡、行政區加權",
+      "results": [
+        {
+          "name": "賴瑞隆",
+          "party": "dpp",
+          "pct": 47.8
+        },
+        {
+          "name": "柯志恩",
+          "party": "kmt",
+          "pct": 27.4
+        },
+        {
+          "name": "張靜",
+          "party": "other",
+          "pct": 1.3
+        },
+        {
+          "name": "王肇民",
+          "party": "ind",
+          "pct": 0.5
+        },
+        {
+          "name": "洪方隆",
+          "party": "ind",
+          "pct": 0.6
+        }
+      ],
+      "undecided": 22.4,
+      "likelyVoters": {
+        "sampleSize": null,
+        "results": [
+          {
+            "name": "賴瑞隆",
+            "pct": 53.7
+          },
+          {
+            "name": "柯志恩",
+            "pct": 28.2
+          }
+        ]
+      },
+      "notes": "張佑宗規劃，市話＋網路混合。直接問：賴瑞隆 44.5%、柯志恩 25.0%、其他或未表態 30.5%；對未決定者追問傾向後為表列數字（無偏向 12.5%、無意見 9.9%；小黨候選人數字依維基）。一定會投票者（69.4%）：賴 53.7%、柯 28.2%。賴清德施政滿意 57.3%。",
+      "extraSources": []
     }
   ],
   "extraPolls": [

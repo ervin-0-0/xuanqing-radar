@@ -467,6 +467,41 @@
         "https://udn.com/vote2026/story/124652/9820824",
         "https://www.ettoday.net/news/20261024/3260334.htm"
       ]
+    },
+    {
+      "source": "https://www.chinatimes.com/realtimenews/20261102001592-260407",
+      "pollster": "佛光大學民調中心",
+      "sponsor": "國民黨台中市議會黨團",
+      "fieldStart": "2026-10-29",
+      "fieldEnd": "2026-10-31",
+      "published": "2026-11-02",
+      "method": "phone",
+      "sampleSize": 1003,
+      "moe": 3.1,
+      "confidence": 95,
+      "population": "設籍台中市 20 歲以上有投票權民眾",
+      "weighting": "依性別、年齡、學歷、行政區加權",
+      "results": [
+        {
+          "name": "江啟臣",
+          "party": "kmt",
+          "pct": 38.3
+        },
+        {
+          "name": "何欣純",
+          "party": "dpp",
+          "pct": 28.1
+        },
+        {
+          "name": "洪麗華",
+          "party": "other",
+          "pct": 0.5
+        }
+      ],
+      "undecided": 25.3,
+      "likelyVoters": null,
+      "notes": "電腦輔助電話訪問，電話簿抽樣後隨機跳號。尚未決定 18.6%、未表態 6.7%。看好度：江啟臣 46.9%、何欣純 21.3%。",
+      "extraSources": []
     }
   ],
   "extraPolls": [
@@ -506,6 +541,41 @@
       "extraSources": [],
       "excluded": true,
       "excludeReason": "政黨別支持度，非候選人對決題；單一縣市樣本數未公布"
+    },
+    {
+      "source": "https://my-formosa.com.tw/DOC_230526.htm",
+      "pollster": "信民協會",
+      "sponsor": "台北市信民兩岸研究協會",
+      "fieldStart": "2026-10-28",
+      "fieldEnd": "2026-10-30",
+      "published": "2026-11-03",
+      "method": "phone+mobile",
+      "sampleSize": 1077,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "設籍台中市 20 歲以上民眾（住宅電話 752、行動電話 325）",
+      "weighting": null,
+      "results": [
+        {
+          "name": "何欣純",
+          "party": "dpp",
+          "pct": 41.1
+        },
+        {
+          "name": "江啟臣",
+          "party": "kmt",
+          "pct": 30.4
+        },
+        {
+          "name": "洪麗華",
+          "party": "other",
+          "pct": 0.7
+        }
+      ],
+      "undecided": 20.8,
+      "likelyVoters": null,
+      "notes": "戴立安問卷設計與分析、畢肯市場研究公司執行。不投票或投廢票 7.0%。看好度：江啟臣 39.7%、何欣純 25.4%。團隊另以投票意願、過往投票推估得票率：何欣純 48.6%–51.9%、江啟臣 47.1%–50.3%，區間重疊。維基尚未收錄。",
+      "extraSources": []
     }
   ]
 }

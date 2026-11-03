@@ -24,8 +24,8 @@ export interface HistFile { year: number; electionDay: string; polls: HistPoll[]
 /** 政黨或陣營自己公布的民調：不算進機構準確度，回測時當委託民調降權 */
 export const isPartisan = (pollster: string) => /國民黨|民進黨|民眾黨|團隊|競選|陣營|總部|黨部/.test(pollster);
 
-/** 中選會與維基的異體字 */
-export const normName = (n: string) => n.replace(/黄/g, "黃").replace(/\s+/g, "");
+/** 中選會與維基的異體字、維基偶爾混入的簡體字 */
+export const normName = (n: string) => n.replace(/黄/g, "黃").replace(/张/g, "張").replace(/静/g, "靜").replace(/\s+/g, "");
 
 export interface PollError {
   year: number;

@@ -39,6 +39,7 @@ export const EXCLUDED_POLLSTERS: Record<string, string> = {
 /** 方法較弱、但仍是抽樣調查的來源：進模型但降權 */
 export const POLLSTER_QUALITY: Record<string, { weight: number; note: string }> = {
   包打聽AI民調中心: { weight: 0.4, note: "AI 語音自動撥號電訪（IVR），降權處理" },
+  台灣韜略策進學會: { weight: 0.4, note: "AI 語音電話訪問，降權處理" },
 };
 
 export function classifyPoll(pollster: string, scenario: string): "general" | "primary" | "internal" {

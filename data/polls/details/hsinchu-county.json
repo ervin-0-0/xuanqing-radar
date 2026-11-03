@@ -722,6 +722,23 @@
         "https://tw.news.yahoo.com/%E6%9C%80%E6%96%B0%E6%B0%91%E8%AA%BF%E4%BE%86%E4%BA%86-%E6%96%B0%E7%AB%B9%E7%B8%A3%E9%95%B72%E9%81%B8%E5%B0%87%E5%B7%AE%E8%B7%9D%E5%87%BA%E7%88%90-%E9%A9%9A%E4%BA%BA%E8%B6%A8%E5%8B%A2%E6%9B%9D%E5%85%89-022455169.html",
         "https://www.storm.mg/article/11176074"
       ]
+    },
+    {
+      "source": "https://www.cmmedia.com.tw/home/articles/63566",
+      "pollster": "關鍵民調",
+      "sponsor": "中國地方自治學會（委託關鍵調查有限公司）",
+      "fieldStart": null,
+      "fieldEnd": null,
+      "published": "2026-10-29",
+      "method": "unknown",
+      "sampleSize": 1070,
+      "moe": 3.0,
+      "confidence": 95,
+      "population": "設籍新竹縣 20 歲以上選民",
+      "weighting": null,
+      "likelyVoters": null,
+      "notes": "報導未載調查日期與方式（日期依維基），導言寫「中國地方自治協會」、內文寫「學會」。看好度：徐欣瑩 47.8%、鄭朝方 38.7%。",
+      "extraSources": []
     }
   ],
   "extraPolls": [

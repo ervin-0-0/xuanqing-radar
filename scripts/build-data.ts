@@ -11,7 +11,7 @@ import { canonicalPollster, classifyPoll, EXCLUDED_POLLSTERS, POLLSTER_QUALITY }
 import { RACES, type Party, type RaceId } from "../src/lib/types.ts";
 import { RACE_BY_HEADING, type WikiPollRow, type WikiSection } from "../src/lib/wikitable.ts";
 import type { PublicPoll } from "../src/lib/data.ts";
-import { backtest, pollErrors, pollsterAccuracy, type HistFile } from "../src/lib/calibration.ts";
+import { backtest, normName, pollErrors, pollsterAccuracy, type HistFile } from "../src/lib/calibration.ts";
 
 const ELECTION_DAY = "2026-11-28";
 const HISTORY_FROM = "2026-06-01";
@@ -94,6 +94,7 @@ const polls: PublicPoll[] = [];
 const usedDetails = new Set<Detail>();
 
 for (const row of wiki.rows) {
+  row.results = row.results.map((r) => ({ ...r, name: normName(r.name) }));
   const pollster = canonicalPollster(row.pollster);
   const urls = new Set(row.sources.map(normUrl));
   const cands = (details.get(row.raceId)?.details ?? []).filter((d) =>
