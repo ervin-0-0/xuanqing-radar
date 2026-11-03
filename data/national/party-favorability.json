@@ -454,6 +454,24 @@
       "fieldStart": "2026-08-19",
       "fieldEnd": "2026-08-21",
       "published": "2026-08-25",
+      "pollster": "台灣民心調查",
+      "sampleSize": 1076,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 46.8,
+        "dppDislike": 38.9,
+        "kmtLike": 27.9,
+        "kmtDislike": 53.8,
+        "tppLike": 22.6,
+        "tppDislike": 54.8
+      },
+      "source": "https://www.mirrormedia.mg/external/setn_1894969",
+      "notes": "戴立安規劃（問卷設計與分析、經費自籌），畢肯市場研究公司執行電訪；原始報告未公開，數字取自媒體報導。題目為好感／反感（沿用美麗島 6 月以前的問法）。"
+    },
+    {
+      "fieldStart": "2026-08-19",
+      "fieldEnd": "2026-08-21",
+      "published": "2026-08-25",
       "pollster": "台灣民心調查（戴立安）",
       "sampleSize": 1076,
       "method": "phone+mobile",
@@ -485,6 +503,24 @@
       },
       "source": "https://my-formosa.com.tw/DOC_228773.htm",
       "notes": "題目已改為「喜歡或不喜歡」（喜好度），Like=非常喜歡+喜歡，Dislike=不喜歡+非常不喜歡；與先前好感／反感題不完全可比；成功完訪1632人（住宅電話825人、行動電話807人）；自2026年7月起改由張佑宗教授規劃、趨勢民意調查公司執行"
+    },
+    {
+      "fieldStart": "2026-09-21",
+      "fieldEnd": "2026-09-23",
+      "published": "2026-09-29",
+      "pollster": "台灣民心調查",
+      "sampleSize": 1075,
+      "method": "phone+mobile",
+      "values": {
+        "dppLike": 47.4,
+        "dppDislike": 37.2,
+        "kmtLike": 26.4,
+        "kmtDislike": 50.9,
+        "tppLike": 21.6,
+        "tppDislike": 51.4
+      },
+      "source": "https://www.nownews.com/news/6878898",
+      "notes": "戴立安規劃（問卷設計與分析、經費自籌），畢肯市場研究公司執行電訪；原始報告未公開，數字取自媒體報導。題目為好感／反感。"
     },
     {
       "fieldStart": "2026-09-21",

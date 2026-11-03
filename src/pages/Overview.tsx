@@ -10,6 +10,7 @@ import { useSite } from "../lib/store.tsx";
 import { PARTY_VAR, probFill, prob, expectedVotes, votesText } from "../lib/format.ts";
 import { RACE_BY_ID, RACES, PARTY_NAME, type Party, type RaceId } from "../lib/types.ts";
 import type { RaceForecast } from "../lib/model.ts";
+import type { SeriesPoint } from "../lib/data.ts";
 
 export function Overview() {
   const { data, live, asOf, withTurnout, turnoutAdd } = useSite();
@@ -171,65 +172,86 @@ export function Overview() {
   );
 }
 
+// 首頁三張全國圖的來源：戴立安的題目與執行團隊從美麗島（到 2026 年 6 月）延續到台灣民心調查；美麗島 7 月起換團隊
+const DAI_UNTIL = "2026-07-01";
+const SOURCES = {
+  dai: { label: "戴立安系列", kicker: "戴立安規劃・畢肯執行・每月", note: "2026 年 6 月以前刊在美麗島電子報，8 月起改名「台灣民心調查」自行發布，題目與執行公司相同。原始報告未公開，數字取自媒體報導，部分月份缺項。" },
+  formosa: { label: "美麗島電子報", kicker: "美麗島電子報・每月", note: "2026 年 7 月起改由張佑宗規劃、趨勢民調執行，前後不完全可比。" },
+} as const;
+type Source = keyof typeof SOURCES;
+
 function NationalCharts() {
   const { data } = useSite();
-  const approval = data.national.approval;
-  const fav = data.national["party-favorability"];
-  if (!approval.length && !fav.length) return null;
-  const byPollster = (pts: typeof approval, key: string) => pts.filter((p) => p.values[key] != null);
-  const main = mostCommon(approval.map((p) => p.pollster));
-  // 同一家機構才能連成線：不同機構題目不同
-  const favMain = mostCommon(fav.map((p) => p.pollster));
-  const favSeries = fav.filter((p) => p.pollster === favMain);
-  const support = data.national["party-id"];
-  const supMain = mostCommon(support.map((p) => p.pollster));
-  const supSeries = support.filter((p) => p.pollster === supMain);
+  const [src, setSrc] = useState<Source>("dai");
+  const pick = (pts: SeriesPoint[]) =>
+    pts.filter((p) => src === "formosa" ? p.pollster === "美麗島電子報" : (p.pollster === "美麗島電子報" && p.fieldEnd < DAI_UNTIL) || p.pollster === "台灣民心調查");
+  const approval = pick(data.national.approval);
+  const fav = pick(data.national["party-favorability"]);
+  const support = pick(data.national["party-id"]);
+  if (!approval.length && !fav.length && !support.length) return null;
+  const line = (pts: SeriesPoint[], key: string) => pts.filter((p) => p.values[key] != null).map((p) => ({ x: p.fieldEnd, y: p.values[key]! }));
+  const marker = src === "formosa" ? [{ x: "2026-07-10", label: "換調查團隊" }] : [{ x: "2026-08-10", label: "改為台灣民心調查" }];
+  const kicker = SOURCES[src].kicker;
   return (
-    <div className="grid gap-6 lg:grid-cols-2">
-      {approval.length > 0 && (
-        <Card kicker={`${main}・每月`} title="施政滿意度">
-          <LineChart
-            yDomain={[25, 65]} yTicks={[30, 40, 50, 60]} yFormat={(v) => `${v}%`} lineWidth={3.5}
-            series={[
-              { key: "s", label: "滿意", color: "var(--approve)", points: byPollster(approval.filter((p) => p.pollster === main), "satisfied").map((p) => ({ x: p.fieldEnd, y: p.values.satisfied! })) },
-              { key: "d", label: "不滿意", color: "var(--disapprove)", dashed: true, points: byPollster(approval.filter((p) => p.pollster === main), "dissatisfied").map((p) => ({ x: p.fieldEnd, y: p.values.dissatisfied! })) },
-            ]}
-          />
-          <p className="mt-2 text-xs text-ink-3">青色實線是滿意，紫色虛線是不滿意。其他機構的數字在模型說明頁。</p>
-        </Card>
-      )}
-      {supSeries.length > 0 && (
-        <Card kicker={`${supMain}・每月`} title="政黨支持度">
-          <LineChart
-            yDomain={[0, 45]} yTicks={[10, 20, 30, 40]} yFormat={(v) => `${v}%`} lineWidth={3.5}
-            markers={supMain === "美麗島電子報" ? [{ x: "2026-07-10", label: "換調查團隊" }] : []}
-            series={[
-              { key: "d", label: "民進黨", color: "var(--dpp)", points: byPollster(supSeries, "dpp").map((p) => ({ x: p.fieldEnd, y: p.values.dpp! })) },
-              { key: "k", label: "國民黨", color: "var(--kmt)", points: byPollster(supSeries, "kmt").map((p) => ({ x: p.fieldEnd, y: p.values.kmt! })) },
-              { key: "t", label: "民眾黨", color: "var(--tpp)", points: byPollster(supSeries, "tpp").map((p) => ({ x: p.fieldEnd, y: p.values.tpp! })) },
-              { key: "n", label: "中立／未表態", color: "var(--ind)", dashed: true, points: byPollster(supSeries, "neutral").map((p) => ({ x: p.fieldEnd, y: p.values.neutral! })) },
-            ].filter((s) => s.points.length)}
-          />
-          <p className="mt-2 text-xs text-ink-3">
-            題目是「平常哪一黨的主張比較接近您的想法」。綠線民進黨、藍線國民黨、青線民眾黨，灰色虛線是中立或未表態。
-            2026 年 7 月起改由別的團隊執行，前後不完全可比；7 月以後原文沒寫這題，是從交叉分析表的樣本數換算的。
-          </p>
-        </Card>
-      )}
-      {fav.length > 0 && (
-        <Card kicker={`${favMain}・每月`} title="政黨好感度">
-          <LineChart
-            yDomain={[10, 60]} yTicks={[20, 30, 40, 50]} yFormat={(v) => `${v}%`} lineWidth={3.5}
-            series={[
-              { key: "d", label: "民進黨好感", color: "var(--dpp)", points: byPollster(favSeries, "dppLike").map((p) => ({ x: p.fieldEnd, y: p.values.dppLike! })) },
-              { key: "k", label: "國民黨好感", color: "var(--kmt)", points: byPollster(favSeries, "kmtLike").map((p) => ({ x: p.fieldEnd, y: p.values.kmtLike! })) },
-              { key: "t", label: "民眾黨好感", color: "var(--tpp)", points: byPollster(favSeries, "tppLike").map((p) => ({ x: p.fieldEnd, y: p.values.tppLike! })) },
-            ].filter((s) => s.points.length)}
-          />
-          <p className="mt-2 text-xs text-ink-3">綠線民進黨、藍線國民黨、青線民眾黨。2026 年 8 月起題目改為「喜歡／不喜歡」，跟之前的好感度不完全可比。</p>
-        </Card>
-      )}
-      {supSeries.length > 0 && <SupportExplainer />}
+    <div className="space-y-4">
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
+        <span className="text-sm text-ink-2">全國民調來源</span>
+        <div className="inline-flex rounded-full border hairline bg-card p-0.5" role="tablist">
+          {(Object.keys(SOURCES) as Source[]).map((k) => (
+            <button key={k} role="tab" aria-selected={src === k} onClick={() => setSrc(k)}
+              className={`rounded-full px-3 py-1 text-sm ${src === k ? "bg-ink text-paper" : "text-ink-2 hover:bg-wash"}`}>{SOURCES[k].label}</button>
+          ))}
+        </div>
+        <span className="text-xs text-ink-3">{SOURCES[src].note}</span>
+      </div>
+      <div className="grid gap-6 lg:grid-cols-2">
+        {approval.length > 0 && (
+          <Card kicker={kicker} title="施政滿意度">
+            <LineChart
+              yDomain={[25, 65]} yTicks={[30, 40, 50, 60]} yFormat={(v) => `${v}%`} lineWidth={3.5} markers={marker}
+              series={[
+                { key: "s", label: "滿意", color: "var(--approve)", points: line(approval, "satisfied") },
+                { key: "d", label: "不滿意", color: "var(--disapprove)", dashed: true, points: line(approval, "dissatisfied") },
+              ]}
+            />
+            <p className="mt-2 text-xs text-ink-3">青色實線是滿意，紫色虛線是不滿意。其他機構的數字在模型說明頁。</p>
+          </Card>
+        )}
+        {support.length > 0 && (
+          <Card kicker={kicker} title="政黨支持度">
+            <LineChart
+              yDomain={[0, 45]} yTicks={[10, 20, 30, 40]} yFormat={(v) => `${v}%`} lineWidth={3.5} markers={marker}
+              series={[
+                { key: "d", label: "民進黨", color: "var(--dpp)", points: line(support, "dpp") },
+                { key: "k", label: "國民黨", color: "var(--kmt)", points: line(support, "kmt") },
+                { key: "t", label: "民眾黨", color: "var(--tpp)", points: line(support, "tpp") },
+                { key: "n", label: "中立／未表態", color: "var(--ind)", dashed: true, points: line(support, "neutral") },
+              ].filter((s) => s.points.length)}
+            />
+            <p className="mt-2 text-xs text-ink-3">
+              題目是「平常哪一黨的主張比較接近您的想法」。綠線民進黨、藍線國民黨、青線民眾黨，灰色虛線是中立或未表態。
+              {src === "formosa" ? "7 月以後原文沒寫這題，是從交叉分析表的樣本數換算的。" : "8、9 月的報導只寫了部分數字，缺的月份就沒有點。"}
+            </p>
+          </Card>
+        )}
+        {fav.length > 0 && (
+          <Card kicker={kicker} title="政黨好感度">
+            <LineChart
+              yDomain={[10, 60]} yTicks={[20, 30, 40, 50]} yFormat={(v) => `${v}%`} lineWidth={3.5} markers={marker}
+              series={[
+                { key: "d", label: "民進黨好感", color: "var(--dpp)", points: line(fav, "dppLike") },
+                { key: "k", label: "國民黨好感", color: "var(--kmt)", points: line(fav, "kmtLike") },
+                { key: "t", label: "民眾黨好感", color: "var(--tpp)", points: line(fav, "tppLike") },
+              ].filter((s) => s.points.length)}
+            />
+            <p className="mt-2 text-xs text-ink-3">
+              綠線民進黨、藍線國民黨、青線民眾黨。
+              {src === "formosa" ? "2026 年 8 月起題目改為「喜歡／不喜歡」，跟之前的好感度不完全可比。" : "一直沿用「好感／反感」的問法。"}
+            </p>
+          </Card>
+        )}
+        {support.length > 0 && <SupportExplainer />}
+      </div>
     </div>
   );
 }
@@ -301,11 +323,5 @@ export const pviText = (v: number) => (Math.abs(v) < 0.5 ? "持平" : v > 0 ? `�
 function mostContested(races: RaceForecast[]): RaceId {
   const metro = races.filter((r) => RACES.find((x) => x.id === r.id)?.tier === "metro");
   return [...(metro.length ? metro : races)].sort((a, b) => a.winProb[a.leader] - b.winProb[b.leader])[0]?.id ?? "taipei";
-}
-
-function mostCommon(xs: string[]) {
-  const c: Record<string, number> = {};
-  for (const x of xs) c[x] = (c[x] ?? 0) + 1;
-  return Object.entries(c).sort((a, b) => b[1] - a[1])[0]?.[0] ?? "";
 }
 

@@ -942,6 +942,20 @@
       "fieldStart": "2026-08-19",
       "fieldEnd": "2026-08-21",
       "published": "2026-08-25",
+      "pollster": "台灣民心調查",
+      "sampleSize": 1076,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 51.4,
+        "dissatisfied": 42.3
+      },
+      "source": "https://www.businesstoday.com.tw/article/category/183027/post/202608250012/",
+      "notes": "戴立安規劃（問卷設計與分析、經費自籌），畢肯市場研究公司執行電訪；原始報告未公開，數字取自媒體報導。8 月為首份報告。"
+    },
+    {
+      "fieldStart": "2026-08-19",
+      "fieldEnd": "2026-08-21",
+      "published": "2026-08-25",
       "pollster": "台灣民心調查（戴立安）",
       "sampleSize": 1076,
       "method": "phone+mobile",
@@ -984,6 +998,20 @@
       "fieldStart": "2026-09-21",
       "fieldEnd": "2026-09-23",
       "published": "2026-09-29",
+      "pollster": "台灣民心調查",
+      "sampleSize": 1075,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 51.4,
+        "dissatisfied": 41.1
+      },
+      "source": "https://www.nownews.com/news/6878898",
+      "notes": "戴立安規劃（問卷設計與分析、經費自籌），畢肯市場研究公司執行電訪；原始報告未公開，數字取自媒體報導；9 月由信民兩岸研究協會公布。未明確回答 7.5%。"
+    },
+    {
+      "fieldStart": "2026-09-21",
+      "fieldEnd": "2026-09-23",
+      "published": "2026-09-29",
       "pollster": "台灣民心調查（戴立安）",
       "sampleSize": 1075,
       "method": "phone+mobile",
@@ -1007,6 +1035,20 @@
       },
       "source": "https://my-formosa.com.tw/DOC_229724.htm",
       "notes": "題目：對賴清德總統執政以來的整體表現滿意或不滿意；成功完訪1201人（住宅電話721人、行動電話480人）；自2026年7月起改由張佑宗教授規劃、趨勢民意調查公司執行；本期為2026年9月國政民調，訪問期間跨至10月2日"
+    },
+    {
+      "fieldStart": "2026-10-20",
+      "fieldEnd": "2026-10-22",
+      "published": "2026-10-27",
+      "pollster": "台灣民心調查",
+      "sampleSize": 1075,
+      "method": "phone+mobile",
+      "values": {
+        "satisfied": 52.2,
+        "dissatisfied": 37.6
+      },
+      "source": "https://www.mirrormedia.mg/external/setn_1929202",
+      "notes": "戴立安規劃（問卷設計與分析、經費自籌），畢肯市場研究公司執行電訪；原始報告未公開，數字取自媒體報導。未表態 10.2%；住宅電話 696、行動電話 379。"
     },
     {
       "fieldStart": "2026-10-20",
