@@ -806,12 +806,20 @@
 | -
 |31.5%
 |-
+|信民協會<ref>{{Cite web |title=快訊》信民台中市長民調「大翻盤」 輾壓江啟臣逾10% {{!}} 政治 |url=https://newtalk.tw/news/view/2026-11-03/1068920 |website=Newtalk新聞 |date=2026-11-03 |language=zh-Hant-TW |last=李宣萱 |access-date=2026-11-03}}</ref>
+|10月28日至30日
+| style="border-left:4px solid #1B9431;" |30.4%
+| style="background-color:#99FF99;" |'''41.1%'''
+|0.7%
+|27.8%
+|-
 |佛光大學<ref>{{Cite news |title= 台中市長選舉最新民調 江、何差距10個百分點 25％選民未決定 |url= https://www.chinatimes.com/realtimenews/20261102001592-260407|work=中國時報 |date=2026-11-02}}</ref>
 |10月29日至31日
 | style="background-color:#CCCCFF; border-left:4px solid #000099;" |'''38.3%'''
 |28.1%
 |0.5%
 |18.6%
+|-
 |}
 
 == 台南市 ==
@@ -2102,25 +2110,32 @@
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
 |-
 |匯流民調<ref>{{Cite web |title=【匯流民調】2026新竹市長選舉最新民調 六成五新竹市民支持高虹安競選連任 超過五成表態力挺高虹安 |url=https://cnews.com.tw/【匯流民調】2026新竹市長選舉最新民調-六成五新竹/ |website=匯流新聞網 |date=2026-05-27 |dead-url=no }}</ref>
-| style="border-right:4px solid #000000;" |5月19日至20日
-| style="background-color:#E9E9E9;" |'''54.5%'''
+|5月19日至20日
+|style="background-color:#E9E9E9;border-left:4px solid #000000;"|'''54.5%'''
 |21.3%
 | -
 |20.2%
 |-
-|ETtoday<ref>{{Cite web |title=新竹市長三腳督！高虹安48.6%領先 莊競程21.2%、何志勇1.8%|work=ETtoday新聞雲 |url=https://www.ettoday.net/news/20260916/3238141.htm |website=www.ettoday.net |date=2026-09-16 |language=zh-Hant |author=陳弘修 |access-date=2026-09-16}}</ref>
-| style="border-right:4px solid #000000;" |9月3日至10日
-| style="background-color:#E9E9E9;" |'''48.6%'''
+|ETtoday<ref>{{Cite web |title=新竹市長三腳督！高虹安48.6%領先 莊競程21.2%、何志勇1.8%|work=ETtoday新聞雲 |url=https://www.ettoday.net/news/20260916/3238141.htm  |date=2026-09-16 |language=zh-Hant |author=陳弘修 |access-date=2026-09-16}}</ref>
+|9月3日至10日
+|style="background-color:#E9E9E9;border-left:4px solid #000000;"|'''48.6%'''
 |21.2%
 |1.8%
 |25.5%
 |-
 |匯流民調<ref>{{Cite web |title=匯流民調／高虹安支持度49.5%居冠！狠甩莊競程、何志勇差距曝 |url=https://news.tvbs.com.tw/politics/4025748 |website=TVBS |date=2026-09-22 ||dead-url=no }}</ref>
-| style="border-right:4px solid #000000;" |9月10日至13日
-| style="background-color:#E9E9E9;" |'''49.5%'''
+|9月10日至13日
+|style="background-color:#E9E9E9;border-left:4px solid #000000;"|'''49.5%'''
 |25.7%
 |6.1%
 |18.7%
+|-
+|循證民調<ref>{{Cite web |title=Newtalk民調》竹市五五波！莊競程小輸高虹安2％ 「一定會去投票者」莊領先高3.3% |url=https://newtalk.tw/news/view/2026-11-03/1069051|work=Newtalk|date=2026-11-03 }}</ref>
+|10月28日至29日
+| style="background-color:#E9E9E9;border-left:4px solid #000000;"|'''38.1%'''
+|36.1%
+| -
+|23.9%
 |}
 
 == 苗栗縣 ==
@@ -2482,6 +2497,13 @@
 |13.8%
 |17.8%
 |38.8%
+|-
+|關鍵民調<ref>{{cite web |title= 花蓮縣長最新支持度民調！游淑貞28.5%微領先張峻25.7%　選情接近存變數 |url=https://cnews.com.tw/250261103a04/ |work=匯流新聞 |date=2026-11-03 |dead-url=no }}</ref>
+|10月24日至27日
+| style="border-left:4px solid #000099;background-color:#CCCCFF;" |'''28.5%'''
+|16.8%
+|25.7%
+|28.5%
 |}
 
 == 台東縣 ==
@@ -2600,7 +2622,7 @@
 |37%
 |20%
 |-
-|關鍵調查<ref>{{cite web |title= 最新民調曝光！嘉義市長選戰呈拉鋸　王美惠41.5%領先張啟楷38.0%、逾兩成選民仍未決定 |url= https://sunmedia.tw/news/collaborative/2acUgQRl2gSuldPntgr9btUK4mmfKahkpZSFUMtNIIUC4U3WdIUjKIoe8AxhAA8S3BdGM03R |work=商傳媒|date=2026-07-20 |dead-url=no }}</ref>
+|關鍵民調<ref>{{cite web |title= 最新民調曝光！嘉義市長選戰呈拉鋸　王美惠41.5%領先張啟楷38.0%、逾兩成選民仍未決定 |url= https://sunmedia.tw/news/collaborative/2acUgQRl2gSuldPntgr9btUK4mmfKahkpZSFUMtNIIUC4U3WdIUjKIoe8AxhAA8S3BdGM03R |work=商傳媒|date=2026-07-20 |dead-url=no }}</ref>
 |7月10日至12日
 | style="border-left:4px solid #1B9431;background-color:#99FF99;" |'''41.5%'''
 |38%

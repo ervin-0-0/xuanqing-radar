@@ -1,8 +1,8 @@
 {
  "page": "2026年中華民國直轄市長及縣市長選舉民意調查",
  "source": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7%E5%8F%8A%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E6%B0%91%E6%84%8F%E8%AA%BF%E6%9F%A5",
- "fetched": "2026-11-02T19:53:32.004Z",
- "revision": "Mon, 02 Nov 2026 08:38:40 GMT",
+ "fetched": "2026-11-03T17:25:51.359Z",
+ "revision": "Tue, 03 Nov 2026 13:52:05 GMT",
  "rows": [
   {
    "raceId": "taipei",
@@ -2580,6 +2580,36 @@
     }
    ],
    "undecided": 31.5,
+   "variant": 0
+  },
+  {
+   "raceId": "taichung",
+   "scenario": "江啟臣－何欣純－洪麗華",
+   "pollster": "信民協會",
+   "dateText": "10月28日至30日",
+   "fieldStart": "2026-10-28",
+   "fieldEnd": "2026-10-30",
+   "sources": [
+    "https://newtalk.tw/news/view/2026-11-03/1068920"
+   ],
+   "results": [
+    {
+     "name": "江啟臣",
+     "party": "kmt",
+     "pct": 30.4
+    },
+    {
+     "name": "何欣純",
+     "party": "dpp",
+     "pct": 41.1
+    },
+    {
+     "name": "洪麗華",
+     "party": "ind",
+     "pct": 0.7
+    }
+   ],
+   "undecided": 27.8,
    "variant": 0
   },
   {
@@ -7085,6 +7115,31 @@
    "variant": 0
   },
   {
+   "raceId": "hsinchu-city",
+   "scenario": "高虹安－莊競程－何志勇",
+   "pollster": "循證民調",
+   "dateText": "10月28日至29日",
+   "fieldStart": "2026-10-28",
+   "fieldEnd": "2026-10-29",
+   "sources": [
+    "https://newtalk.tw/news/view/2026-11-03/1069051"
+   ],
+   "results": [
+    {
+     "name": "高虹安",
+     "party": "ind",
+     "pct": 38.1
+    },
+    {
+     "name": "莊競程",
+     "party": "dpp",
+     "pct": 36.1
+    }
+   ],
+   "undecided": 23.9,
+   "variant": 0
+  },
+  {
    "raceId": "changhua",
    "scenario": "國民黨－陳素月",
    "pollster": "國民黨內參",
@@ -8210,6 +8265,36 @@
    "variant": 0
   },
   {
+   "raceId": "hualien",
+   "scenario": "游淑貞－魏嘉賢－張峻",
+   "pollster": "關鍵民調",
+   "dateText": "10月24日至27日",
+   "fieldStart": "2026-10-24",
+   "fieldEnd": "2026-10-27",
+   "sources": [
+    "https://cnews.com.tw/250261103a04/"
+   ],
+   "results": [
+    {
+     "name": "游淑貞",
+     "party": "kmt",
+     "pct": 28.5
+    },
+    {
+     "name": "魏嘉賢",
+     "party": "ind",
+     "pct": 16.8
+    },
+    {
+     "name": "張峻",
+     "party": "ind",
+     "pct": 25.7
+    }
+   ],
+   "undecided": 28.5,
+   "variant": 0
+  },
+  {
    "raceId": "taitung",
    "scenario": "吳秀華－陳瑩－劉櫂豪",
    "pollster": "匯流民調",
@@ -8467,7 +8552,7 @@
   {
    "raceId": "chiayi-city",
    "scenario": "王美惠－張啓楷",
-   "pollster": "關鍵調查",
+   "pollster": "關鍵民調",
    "dateText": "7月10日至12日",
    "fieldStart": "2026-07-10",
    "fieldEnd": "2026-07-12",
