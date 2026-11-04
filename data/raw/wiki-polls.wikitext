@@ -271,15 +271,25 @@
 | -
 |7.7%
 |-
-|ETtoday<ref>{{Cite web |title=ET民調／台北市長藍綠對決！蔣萬安52.0%、沈伯洋40.7% 看好度55.9%比39.0%|work=ETtoday新聞雲 |url=https://www.ettoday.net/news/20261102/3264730.htm |date=2026-11-02 |language=zh-Hant |author=陳弘修 |access-date=2026-11-02}}</ref>
+|ETtoday<ref>{{Cite web |title=ET民調／台北市長藍綠對決！蔣萬安52.0%、沈伯洋40.7% 看好度55.9%比39.0% |work=ETtoday新聞雲 |url=https://www.ettoday.net/news/20261102/3264730.htm |date=2026-11-02 |language=zh-Hant |author=陳弘修 |access-date=2026-11-02}}</ref>
 |10月31日至11月1日
 | style="border-left:4px solid #000099;background-color:#CCCCFF;" |'''52.0%'''
 |40.7%
-| 0.3%
-| 0.1%
+|0.3%
+|0.1%
 | -
-| 0.1%
+|0.1%
 |6.9%
+|-
+|ETtoday<ref>{{Cite web |title=ET民調／台北市長選戰膠著　蔣萬安支持度、看好度維持過半穩居領先 |work=ETtoday新聞雲 |url=https://www.ettoday.net/news/20261104/3266402.htm |date=2026-11-04 |language=zh-Hant |author= |access-date=2026-11-04}}</ref>
+|11月1日至3日
+| style="border-left:4px solid #000099;background-color:#CCCCFF;" |'''50.7%'''
+|41.9%
+|0.2%
+| -
+|0.1%
+|0.1%
+|6.2%
 |-
 |}
 
@@ -637,8 +647,13 @@
 | style="background-color:#CCCCFF;" |'''47.0%'''
 |25.9%
 |27.1%
+|-
+|ETtoday<ref>{{Cite web |title=ET民調／桃園市長藍綠對決！張善政47.4%、黃世杰36.0% 逾一成五選民未表態 {{!}} ETtoday政治新聞 {{!}} ETtoday新聞雲 |url=https://www.ettoday.net/news/20261104/3265740.htm |website=www.ettoday.net |date=2026-11-04 |language=zh-Hant |last=陳弘修 |access-date=2026-11-04}}</ref>
+| style="border-right:4px solid #000099;" |10月29日至11月1日
+| style="background-color:#CCCCFF;" |'''47.4%'''
+|36.0%
+|16.5%
 |}
-
 == 台中市 ==
 === 國民黨－何欣純 ===
 {| class="wikitable collapsible sortable" style="text-align:center"
@@ -1732,6 +1747,13 @@
 |style="background-color:#99FF99|'''37.0%'''
 |0.8%
 |25.9%
+|-
+|艾普羅民調<ref>{{Cite web |title=基隆市長選戰陷拉鋸！謝國樑36.1%、童子瑋35.6% 民調差距僅0.5個百分點 |url=https://tw.news.yahoo.com/%E5%9F%BA%E9%9A%86%E5%B8%82%E9%95%B7%E9%81%B8%E6%88%B0%E9%99%B7%E6%8B%89%E9%8B%B8-%E8%AC%9D%E5%9C%8B%E6%A8%9136-1-%E7%AB%A5%E5%AD%90%E7%91%8B35-6-074537823.html |website=Yahoo News |date=2026-11-04 |language=zh-Hant-TW |access-date=2026-11-04}}</ref>
+|10月30日至11月1日
+|style="border-left:4px solid #000099;background-color:#CCCCFF;"|'''36.1%'''
+|35.6%
+|1.1%
+|25.8%
 |-
 | colspan="6" |11月10日第一場辯論會
 |-
