@@ -1,8 +1,8 @@
 {
  "page": "2026年中華民國直轄市長及縣市長選舉民意調查",
  "source": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7%E5%8F%8A%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E6%B0%91%E6%84%8F%E8%AA%BF%E6%9F%A5",
- "fetched": "2026-11-04T17:39:03.880Z",
- "revision": "Wed, 04 Nov 2026 16:05:36 GMT",
+ "fetched": "2026-11-05T17:45:37.518Z",
+ "revision": "Thu, 05 Nov 2026 05:23:03 GMT",
  "rows": [
   {
    "raceId": "taipei",
@@ -1860,6 +1860,36 @@
     }
    ],
    "undecided": 30.3,
+   "variant": 0
+  },
+  {
+   "raceId": "new-taipei",
+   "scenario": "李四川－蘇巧慧－蘇輝湟",
+   "pollster": "大地民意",
+   "dateText": "11月1日至2日",
+   "fieldStart": "2026-11-01",
+   "fieldEnd": "2026-11-02",
+   "sources": [
+    "https://www.mnews.tw/story/20261105nm006"
+   ],
+   "results": [
+    {
+     "name": "李四川",
+     "party": "kmt",
+     "pct": 32.8
+    },
+    {
+     "name": "蘇巧慧",
+     "party": "dpp",
+     "pct": 47.7
+    },
+    {
+     "name": "蘇輝湟",
+     "party": "ind",
+     "pct": 0
+    }
+   ],
+   "undecided": 19.5,
    "variant": 0
   },
   {
@@ -7207,6 +7237,36 @@
     }
    ],
    "undecided": 18.7,
+   "variant": 0
+  },
+  {
+   "raceId": "hsinchu-city",
+   "scenario": "高虹安－莊競程－何志勇",
+   "pollster": "TVBS",
+   "dateText": "10月27日至31日",
+   "fieldStart": "2026-10-27",
+   "fieldEnd": "2026-10-31",
+   "sources": [
+    "https://www.setn.com/news/1933866"
+   ],
+   "results": [
+    {
+     "name": "高虹安",
+     "party": "ind",
+     "pct": 46
+    },
+    {
+     "name": "莊競程",
+     "party": "dpp",
+     "pct": 31
+    },
+    {
+     "name": "何志勇",
+     "party": "ind",
+     "pct": 2
+    }
+   ],
+   "undecided": 20,
    "variant": 0
   },
   {

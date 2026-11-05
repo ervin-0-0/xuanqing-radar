@@ -584,10 +584,16 @@
 |1.5%
 |30.3%
 |-
+|大地民意<ref>{{Cite web |title=鏡新聞新北市最新民調　李四川支持度32.8%、蘇巧慧47.7%領先14.9個百分點 |url=https://www.mnews.tw/story/20261105nm006 |website=鏡新聞 |date=2026-11-05 |language=zh-TW |access-date=2026-11-05}}</ref>
+| 11月1日至2日
+| style="border-left:4px solid #1B9431;"|32.8%
+| style="background-color:#99FF99;"|'''47.7%'''
+|0%
+|19.5%
+|-
 | colspan="6" |11月13日第一場辯論會
 |-
 |}
-
 == 桃園市 ==
 === 民進黨－張善政 ===
 {| class="wikitable collapsible sortable" style="text-align:center"
@@ -648,7 +654,7 @@
 |25.9%
 |27.1%
 |-
-|ETtoday<ref>{{Cite web |title=ET民調／桃園市長藍綠對決！張善政47.4%、黃世杰36.0% 逾一成五選民未表態 {{!}} ETtoday政治新聞 {{!}} ETtoday新聞雲 |url=https://www.ettoday.net/news/20261104/3265740.htm |website=www.ettoday.net |date=2026-11-04 |language=zh-Hant |last=陳弘修 |access-date=2026-11-04}}</ref>
+|ETtoday<ref>{{Cite web |title=ET民調／桃園市長藍綠對決！張善政47.4%、黃世杰36.0% 逾一成五選民未表態 |url=https://www.ettoday.net/news/20261104/3265740.htm |website=ETtoday新聞雲 |date=2026-11-04 |access-date=2026-11-04|author=陳弘修}}</ref>
 | style="border-right:4px solid #000099;" |10月29日至11月1日
 | style="background-color:#CCCCFF;" |'''47.4%'''
 |36.0%
@@ -2053,15 +2059,14 @@
 |2.8%
 |29.9%
 |-
-|皮爾森數據<ref>{{cite news|title=快新聞／最新民調來了！新竹縣長2選將差距出爐　驚人趨勢曝光|url=https://www.ftvnews.com.tw/news/detail/2026A27W0193|work=民視|date=2026-10-27|url-status=live}}</ref>
-| style="border-right:4px solid #1B9431;" |9月14日至21日
+| rowspan="2" |皮爾森數據
+| style="border-right:4px solid #1B9431;" |9月14日至21日<ref>{{cite news|title=快新聞／最新民調來了！新竹縣長2選將差距出爐　驚人趨勢曝光|url=https://www.ftvnews.com.tw/news/detail/2026A27W0193|work=民視|date=2026-10-27|url-status=live}}</ref>
 |33.34%
 | style="background-color:#99FF99;" |'''47.68%'''
 |0.79%
 |13.24%
 |-
-|皮爾森數據<ref>{{cite news|title=皮爾森民調》新竹縣藍天變綠地？鄭朝方擴大領先 支持度首破50%|url=https://newtalk.tw/news/view/2026-10-27/1067646|work=新頭殼|date=2026-10-27|url-status=live}}</ref>
-| style="border-right:4px solid #1B9431;" |10月12日至18日
+| style="border-right:4px solid #1B9431;" |10月12日至18日<ref>{{cite news|title=皮爾森民調》新竹縣藍天變綠地？鄭朝方擴大領先 支持度首破50%|url=https://newtalk.tw/news/view/2026-10-27/1067646|work=新頭殼|date=2026-10-27|url-status=live}}</ref>
 |34.87%
 | style="background-color:#99FF99;" |'''50.30%'''
 |1.14%
@@ -2151,6 +2156,13 @@
 |25.7%
 |6.1%
 |18.7%
+|-
+|TVBS<ref>{{Cite web |title=新竹市長3搶1！高虹安支持度46%領先、莊競程31%居次 |url=https://www.setn.com/news/1933866|work=三立新聞|date=2026-11-05 }}</ref>
+|10月27日至31日
+| style="background-color:#E9E9E9;border-left:4px solid #000000;" |'''46%'''
+|31%
+|2%
+|20%
 |-
 |循證民調<ref>{{Cite web |title=Newtalk民調》竹市五五波！莊競程小輸高虹安2％ 「一定會去投票者」莊領先高3.3% |url=https://newtalk.tw/news/view/2026-11-03/1069051|work=Newtalk|date=2026-11-03 }}</ref>
 |10月28日至29日
