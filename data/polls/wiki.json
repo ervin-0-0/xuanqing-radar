@@ -1,8 +1,8 @@
 {
  "page": "2026年中華民國直轄市長及縣市長選舉民意調查",
  "source": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7%E5%8F%8A%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E6%B0%91%E6%84%8F%E8%AA%BF%E6%9F%A5",
- "fetched": "2026-11-05T17:45:37.518Z",
- "revision": "Thu, 05 Nov 2026 05:23:03 GMT",
+ "fetched": "2026-11-06T17:01:50.347Z",
+ "revision": "Fri, 06 Nov 2026 01:12:17 GMT",
  "rows": [
   {
    "raceId": "taipei",
@@ -2065,6 +2065,31 @@
     }
    ],
    "undecided": 16.5,
+   "variant": 0
+  },
+  {
+   "raceId": "taoyuan",
+   "scenario": "張善政－黃世杰",
+   "pollster": "年代民調",
+   "dateText": "11月2日至4日",
+   "fieldStart": "2026-11-02",
+   "fieldEnd": "2026-11-04",
+   "sources": [
+    "https://news.ltn.com.tw/news/politics/breakingnews/5631183"
+   ],
+   "results": [
+    {
+     "name": "張善政",
+     "party": "kmt",
+     "pct": 35
+    },
+    {
+     "name": "黃世杰",
+     "party": "dpp",
+     "pct": 28
+    }
+   ],
+   "undecided": 37,
    "variant": 0
   },
   {

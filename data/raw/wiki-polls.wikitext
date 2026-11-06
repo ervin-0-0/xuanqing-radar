@@ -659,6 +659,12 @@
 | style="background-color:#CCCCFF;" |'''47.4%'''
 |36.0%
 |16.5%
+|-
+|年代民調<ref>{{Cite web |title=洋流助攻桃園！黃世杰緊追張善政 一定投票選民僅差4.3百分點 |url=https://news.ltn.com.tw/news/politics/breakingnews/5631183 |date=2026-11-06 |language=zh}}</ref>
+| style="border-right:4px solid #000099;" |11月2日至4日
+| style="background-color:#CCCCFF;" |'''35%'''
+|28%
+|37%
 |}
 == 台中市 ==
 === 國民黨－何欣純 ===
