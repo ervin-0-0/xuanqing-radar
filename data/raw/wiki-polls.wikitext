@@ -2569,15 +2569,24 @@
 |26.3%
 |}
 
-=== 吳秀華－陳瑩 ===
+=== 吳秀華－陳瑩－李吳穎智－王志偉 ===
 {| class="wikitable collapsible sortable" style="text-align:center"
 ! style="width:120px;" |民調來源
 ! style="width:140px;" |調查日期
 ! style="width:120px; border-bottom:4px solid #000099;" |{{KMT/logo2}} [[吳秀華]]
 ! style="width:120px; border-bottom:4px solid #1B9431;" |{{DPP/logo2}} [[陳瑩 (政治人物)|陳瑩]]
+! style="width:120px; border-bottom:4px solid #707070;" |{{NONP/logo2}} 李吳穎智
+! style="width:120px; border-bottom:4px solid #707070;" |{{NONP/logo2}} 王志偉
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
+|-
+|ETtoday<ref>{{Cite web |title=ET 民調／台東縣長藍綠對決！吳秀華43.6%、陳瑩29.3% 逾兩成選民尚未表態 {{!}} ETtoday政治新聞 {{!}} ETtoday新聞雲 |url=https://www.ettoday.net/news/20261107/3267824.htm |website=www.ettoday.net |date=2026-11-07 |language=zh-Hant |last=陳弘修 |access-date=2026-11-07}}</ref>
+|style="border-right:4px solid #000099;" |2026年10月25日至11月2日
+| style="background-color:#CCCCFF;" |'''43.6%'''
+|29.3%
+|2.0%
+|0.4%
+|30.0%
 |}
-
 == 雲林縣 ==
 === 張嘉郡－劉建國 ===
 {| class="wikitable collapsible sortable" style="text-align:center"
