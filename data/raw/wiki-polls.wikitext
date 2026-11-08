@@ -137,7 +137,9 @@
 |}
 
 === 蔣萬安－沈伯洋－其他 ===
-{| class="wikitable collapsible sortable" style="text-align:center"
+[[File:2026臺北市長民調.png|center|thumb|630x630px|臺北市長民調]]
+{| class="wikitable sortable mw-collapsible collapsible" style="text-align:center"
+|+
 ! style="width:120px;" |民調來源
 ! style="width:140px;" |調查日期
 ! style="width:120px; border-bottom:4px solid #000099;" |{{KMT/logo2}}<br>[[蔣萬安]]
@@ -147,6 +149,7 @@
 ! style="width:120px; border-bottom:4px solid #000000;" |[[蕭文乾]]
 ! style="width:120px; border-bottom:4px solid #000000;" |{{NONP/logo2}}<br>[[林志成]]
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]]<br>其他/未表態
+! style="width:120px; border-bottom:4px solid #707070;" |備考
 |-
 |新台灣國策智庫<ref>{{Cite web |title=綠首都市長爭霸！蔣萬安52.9%、沈伯洋29.7%　過半市民滿意現任市長 |url=https://www.setn.com/News.aspx?NewsID=1834747 |website=三立新聞 |date=2026-05-07 |dead-url=no }}</ref>
 | style="border-right:4px solid #000099;" |2026年5月4日至5日
@@ -157,6 +160,7 @@
 | -
 | -
 |17.4%
+|
 |-
 |TVBS<ref>{{Cite news |title=TVBS民調／沈伯洋連「年輕票、中立選民」都失守　北市僅這區贏蔣萬安 |url=https://news.tvbs.com.tw/politics/3214850 |work=TVBS |date=2026-05-27}}</ref>
 | style="border-right:4px solid #000099;" |5月21日至26日
@@ -167,6 +171,7 @@
 | -
 | -
 |13%
+|
 |-
 |震傳媒<ref>{{Cite news|title=震傳媒民調／北市長激戰　蔣萬安支持度55.2%領先、沈伯洋27.7%急起直追|url=https://www.setn.com/News.aspx?NewsID=1861503|work=三立|date=2026-06-24|access-date=2026-06-24|archive-date=2026-06-29|archive-url=https://web.archive.org/web/20260629091202/https://www.setn.com/News.aspx?NewsID=1861503|url-status=live}}</ref>
 | style="border-right:4px solid #000099;" |6月21日至22日
@@ -177,6 +182,7 @@
 | -
 | -
 |17.4%
+|
 |-
 | TPOC台灣議題研究中心<ref>{{Cite news|title= 台北市長民調4成6不知沈伯洋 沈：勤走拜票提高能見度 |url= https://news.ltn.com.tw/news/politics/breakingnews/5539708 |work=自由|date=2026-08-14|access-date=2026-08-14}}</ref>
 | style="border-right:4px solid #000099;" |8月5日至7日
@@ -187,6 +193,7 @@
 | -
 | -
 |18.6%
+|
 |-
 |信民協會<ref>{{Cite news |title=2026 台北市長選舉選情民調 |url=https://dc579968-5ed9-4902-8454-9871fa44324e.filesusr.com/ugd/3ea6ac_7c66d227dc414f169202cda2ca75a7f3.pdf |work=信民協會 |date=2026-09-22}}</ref>
 | style="border-right:4px solid #000099;" |9月16日至18日
@@ -197,6 +204,7 @@
 |0.5%
 |0.3%
 |17.8%
+|
 |-
 |TVBS<ref>{{Cite news |title=TVBS民調／洋流上岸！蔣萬安49％、沈伯洋41％　差距從28％緊咬至8％|url=https://news.tvbs.com.tw/politics/4033527|work=TVBS|date=2026-10-08}}</ref>
 |10月3日、5日至7日
@@ -207,6 +215,7 @@
 | -
 | -
 |11%
+|
 |-
 |信民協會<ref>{{Cite news |title=2026 台北市長選舉選情民調 |url=https://dc579968-5ed9-4902-8454-9871fa44324e.filesusr.com/ugd/3ea6ac_257951a3d235492f8595f6dcd7b5cdd3.pdf |work=信民協會 |date=2026-10-20}}</ref>
 |10月14至16日
@@ -217,6 +226,7 @@
 |0.1%
 |0.7%
 |15.2%
+|
 |-
 |震傳媒<ref>{{Cite news |title=震傳媒民調（一）／42.8%北市民支持沈伯洋、39.0%挺蔣萬安 |url=https://www.zmedia.com.tw/Document/PoolDetail/44789 |work=震傳媒 |date=2026-10-22}}</ref>
 |10月18至19日
@@ -227,6 +237,7 @@
 | -
 | -
 |18.1%
+|
 |-
 |ETtoday<ref>{{Cite web |title=ET民調／蔣萬安支持度48.6%、沈伯洋41.1％ 喜好度＆討厭度曝！ |work=ETtoday新聞雲 |url=https://www.ettoday.net/news/20261027/3261830.htm |date=2026-10-27}}</ref>
 |10月21日至25日
@@ -237,18 +248,21 @@
 | 0.2%
 | 0.1%
 |9.8%
+|網路問卷調查
 |-
 |聯合報<ref>{{Cite web |title=本報民調／北市藍綠拉鋸 支持度蔣41%、沈45% |work=聯合報 |url=https://udn.com/news/story/124652/9840910?from=udn-catebreaknews_ch2 |date=2026-10-28}}</ref>
 |10月20日至22日、10月25日
-| style="border-left:4px solid #1B9431;"|41%
+| style="border-left:4px solid #1B9431;" |41%
 | style="background-color:#99FF99;" |'''45%'''
 | -
 | -
 | -
 | -
 |13%
+|
 |-
 | colspan="9" |10月31日第一場辯論會
+|
 |-
 |TVBS<ref>{{Cite web |title=TVBS民調／蔣萬安辯論贏了？支持度46%超車沈伯洋 2人僅差4% |url=https://news.tvbs.com.tw/politics/4044014 |website=TVBS新聞網 |date=2026-10-31 |language=zh-TW |access-date=2026-10-31}}</ref>
 | style="border-right:4px solid #000099;" |10月31日
@@ -259,17 +273,19 @@
 | -
 | -
 |12%
+|
 |-
 |-
 |台灣韜略策進學會<ref>{{Cite web |title=韜略民調》狂掃11區！沈伯洋僅南港落後 看好度「黃金交叉」首超蔣萬安 |url=https://newtalk.tw/news/view/2026-11-02/1068686|website=新頭殼 |date=2026-11-02 |language=zh-TW }}</ref>
 |10月31日至11月1日
-| style="border-left:4px solid #1B9431;"|35.3%
+| style="border-left:4px solid #1B9431;" |35.3%
 | style="background-color:#99FF99;" |'''52.6%'''
 | -
 | -
 | -
 | -
 |7.7%
+|
 |-
 |ETtoday<ref>{{Cite web |title=ET民調／台北市長藍綠對決！蔣萬安52.0%、沈伯洋40.7% 看好度55.9%比39.0% |work=ETtoday新聞雲 |url=https://www.ettoday.net/news/20261102/3264730.htm |date=2026-11-02 |language=zh-Hant |author=陳弘修 |access-date=2026-11-02}}</ref>
 |10月31日至11月1日
@@ -280,6 +296,7 @@
 | -
 |0.1%
 |6.9%
+|網路問卷調查
 |-
 |ETtoday<ref>{{Cite web |title=ET民調／台北市長選戰膠著　蔣萬安支持度、看好度維持過半穩居領先 |work=ETtoday新聞雲 |url=https://www.ettoday.net/news/20261104/3266402.htm |date=2026-11-04 |language=zh-Hant |author= |access-date=2026-11-04}}</ref>
 |11月1日至3日
@@ -290,6 +307,7 @@
 |0.1%
 |0.1%
 |6.2%
+|網路問卷調查
 |-
 |}
 
@@ -464,6 +482,7 @@
 |}
 
 === 李四川－蘇巧慧－蘇輝湟 ===
+[[File:2026新北市長民調.png|center|thumb|630x630px|新北市長民調]]
 {| class="wikitable collapsible sortable" style="text-align:center"
 ! style="width:120px;" |民調來源
 ! style="width:140px;" |調查日期
@@ -471,6 +490,7 @@
 ! style="width:120px; border-bottom:4px solid #1B9431;" |{{DPP/logo2}} [[蘇巧慧]]
 ! style="width:120px; border-bottom:4px solid #000000;" |{{Nonp/logo2}} [[蘇輝湟]]
 ! style="width:80px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
+! style="width:80px; border-bottom:4px solid #707070;" |備考
 |-
 |山水民調<ref>{{cite news |title=震傳媒民調（一）／李四川絕對優勢不再？ 新北5％內決勝負！ |url=https://www.zmedia.com.tw/Document/PoolDetail/41952 |work=震傳媒 |date=2026-05-05}}</ref>
 |4月29日至5月1日
@@ -478,6 +498,7 @@
 |34.8%
 | -
 |25.6%
+|
 |-
 |ETToday<ref>{{cite news |title=ET民調／新北藍白合後再拉近！李四川42.5%、蘇巧慧41.7%　差距剩0.8% |url=https://www.ettoday.net/news/20260512/3164695.htm |work=ETToday |date=2026-05-12 |access-date=2026-05-14 |archive-date=2026-05-13 |archive-url=https://web.archive.org/web/20260513064854/https://www.ettoday.net/news/20260512/3164695.htm |url-status=live }}</ref>
 |5月1日至4日
@@ -485,6 +506,7 @@
 |41.7%
 | -
 |9.6%
+|
 |-
 |民進黨內參<ref>{{cite news|title=獨家》民進黨民調蘇巧慧擴大領先 李四川落後2.6個百分點|url=https://news.ltn.com.tw/news/politics/breakingnews/5461880|work=自由時報|date=2026-06-05|dead-url=live|access-date=2026-06-05|archive-date=2026-06-06|archive-url=https://web.archive.org/web/20260606081151/https://news.ltn.com.tw/news/politics/breakingnews/5461880}}</ref>
 |6月2日至3日
@@ -492,6 +514,7 @@
 | style="background-color:#99FF99;" |'''31.5%'''
 | -
 |39.5%
+|
 |-
 |TVBS<ref>{{cite news |title=新北市長最新民調！李四川39.2％、蘇巧慧33.0％　藍：李穩健領先 |url=https://www.ettoday.net/news/20260608/3179520.htm |work=ETToday |date=2026-06-08 |url-status=live |access-date=2026-06-08 |archive-date=2026-06-09 |archive-url=https://web.archive.org/web/20260609154540/https://www.ettoday.net/news/20260608/3179520.htm }}</ref>
 |6月2日至5日
@@ -499,6 +522,7 @@
 |33.0%
 | -
 |21.4%
+|新北市議會國民黨團委託
 |-
 |新台灣國策智庫<ref>{{cite news|title=民調／新北市長激戰！蘇巧慧獲40.2%險勝李四川　欣賞度、滿意度都領先|url=https://www.setn.com/news/1873356|work=三立新聞|date=2026-07-16|dead-url=live}}</ref>
 |7月12日至14日
@@ -506,6 +530,7 @@
 | style="background-color:#99FF99;" |'''40.2%'''
 | -
 |19.8%
+|
 |-
 |鉅聞天下<ref>{{cite news|title=民調／李四川民調領先6%　蘇巧慧競辦：落後2位數至今證明方向正確
 先|url=https://www.ettoday.net/news/20260720/3204332.htm|work=東森新聞|date=2026-07-20|dead-url=live}}</ref>
@@ -514,6 +539,7 @@
 |44.06%
 | -
 |3.4%
+|
 |-
 |TVBS<ref>{{cite news|title=新北選戰最新民調！李四川領先蘇巧慧6.9個百分點　曝「2選民結構」明顯轉向先|url=https://news.nextapple.com/life/20260729/475E59B3F7F1504C83DD63E801885488|work=壹蘋新聞網|date=2026-07-29|dead-url=live}}</ref>
 |7月20日至23日
@@ -521,6 +547,7 @@
 |36.8%
 | -
 |19.5%
+|新北市議會國民黨團委託
 |-
 |ETToday<ref>{{cite news |title= ET民調／新北市長藍綠對決！李四川39.3%、蘇巧慧37.3%　逾兩成選民未表態 |url= https://www.ettoday.net/news/20260820/3222662.htm |work=ETToday |date=2026-08-20 |access-date=2026-08-20 |archive-date=2026-08-13 |archive-url= https://www.ettoday.net/amp/3222662 |url-status=live }}</ref>
 |8月5日至13日
@@ -528,6 +555,7 @@
 |37.3%
 | -
 |23.4%
+|
 |-
 |年代民調<ref>{{cite news|title=最新民調／蘇巧慧超車李四川5.6％！　44.9%挺「換黨做做看」|url=https://news.tvbs.com.tw/politics/4013907|work=TVBS|date=2026-08-28|dead-url=live}}</ref>
 |8月24日至26日
@@ -535,6 +563,7 @@
 | style="background-color:#99FF99;" |'''37.8%'''
 | -
 |26.0%
+|
 |-
 |信民協會<ref>{{cite news|title=蘇巧慧35.2%險勝李四川　侯友宜72.4%高滿意曝「這反差」|url=https://ctinews.com/news/items/4XamVZDJxA|work=中天新聞|date=2026-09-01|dead-url=live}}</ref>
 |8月26日至28日
@@ -542,6 +571,7 @@
 | style="background-color:#99FF99;" |'''35.2%'''
 | -
 | -
+|
 |-
 |TVBS<ref>{{Cite web |title=藍營新北民調李四川領先6.7個百分點 蘇巧慧攻下板橋、土城兩大關鍵區 |url=https://newtalk.tw/news/view/2026-09-02/1057312 |website=newtalk |date=2026-09-02 |language=zh-Hant-TW |access-date=2026-09-02}}</ref>
 |8月28日至29日
@@ -549,6 +579,7 @@
 |33.1%
 | -
 |27.1%
+|新北市議會國民黨團委託
 |-
 | rowspan="2" |山水民調
 |9月20日至21日<ref>{{Cite web |title=震傳媒民調／新北市長激戰！蘇巧慧38.2%領先李四川 看好度也上揚 |url=https://www.setn.com/news/1911568 |website=三立新聞 |language=zh-TW |date=2026-09-23}}</ref>
@@ -556,12 +587,14 @@
 | style="background-color:#99FF99;" |'''38.2%'''
 |2.6%
 |22.1%
+|
 |-
 |9月30日至10月1日<ref>{{Cite web |title=獨家》「洋流慧聚」發威！山水民調：蘇巧慧領先李四川4.6％ |url=https://news.ltn.com.tw/news/politics/breakingnews/5593630 |website=自由時報 |date=2026-10-02 |language=zh-TW }}</ref>
 | style="border-left:4px solid #1B9431;" |34.5%
 | style="background-color:#99FF99;" |'''39.1%'''
 | -
 | -
+|
 |-
 |TVBS<ref>{{Cite web |title=新北藍營稱李四川沒輸！最新民調贏蘇巧慧6.7％ 指「洋流」影響不大 |url=https://news.ltn.com.tw/news/politics/breakingnews/5598111 |date=2026-10-07 |language=zh-tw |author=黃子暘 |access-date=2026-10-08 |publisher=自由時報}}</ref>
 |9月29日至10月2日
@@ -569,6 +602,7 @@
 |35.9%
 | -
 | -
+|新北市議會國民黨團委託
 |-
 |鉅聞天下<ref>{{cite news|title= 2026《鉅聞民調》新北市長選舉民調／新北市長選情膠著　李四川45.74%　蘇巧慧45.18%　女性選民板塊挪移 |url= https://www.bigmedia.com.tw/article/1791969638295 |work=鉅聞天下|date=2026-10-15|dead-url=live}}</ref>
 |9月28日至10月3日
@@ -576,6 +610,7 @@
 |45.18%
 | -
 |9.08%
+|
 |-
 |信民協會<ref>{{Cite web |title=戴立安民調》蘇巧慧翻盤了！新北市長最新選情曝光 李四川落後「這麼多」 {{!}} 李瑋萱 {{!}} 新聞 |url=https://www.storm.mg/article/11171838 |website=www.storm.mg |date=2026-10-13 |language=zh-Hant-TW |last=李瑋萱 |access-date=2026-10-13}}</ref>
 | 10月6日至8日
@@ -583,6 +618,7 @@
 | style="background-color:#99FF99;"|'''43.1%'''
 |1.5%
 |30.3%
+|
 |-
 |大地民意<ref>{{Cite web |title=鏡新聞新北市最新民調　李四川支持度32.8%、蘇巧慧47.7%領先14.9個百分點 |url=https://www.mnews.tw/story/20261105nm006 |website=鏡新聞 |date=2026-11-05 |language=zh-TW |access-date=2026-11-05}}</ref>
 | 11月1日至2日
@@ -590,10 +626,22 @@
 | style="background-color:#99FF99;"|'''47.7%'''
 |0%
 |19.5%
+|
+|-
+|聯合報<ref>{{Cite web |title=聯合報民調／新北膠著 藍綠勢均力敵
+|url=https://udn.com/vote2026/story/124652/9865791 |website=聯合新聞網 |date=2026-11-09 |language=zh-TW |access-date=2026-11-09}}</ref>
+| 11月1日至7日
+| style="border-left:4px solid #1B9431;"|39%
+| style="background-color:#99FF99;"|'''42%'''
+| -
+|19%
+|
 |-
 | colspan="6" |11月13日第一場辯論會
+|
 |-
 |}
+
 == 桃園市 ==
 === 民進黨－張善政 ===
 {| class="wikitable collapsible sortable" style="text-align:center"
@@ -641,6 +689,7 @@
 |}
 
 === 張善政－黃世杰 ===
+[[File:2026年桃園市長民調.png|center|thumb|630x630px|桃園市長民調]]
 {| class="wikitable collapsible sortable" style="text-align:center"
 ! style="width:120px;" |民調來源
 ! style="width:140px;" |調查日期
@@ -776,6 +825,7 @@
 |}
 
 === 江啟臣－何欣純－洪麗華 ===
+[[File:2026台中市長民調.png|center|thumb|630x630px|台中市長民調]]
 {| class="wikitable collapsible sortable" style="text-align:center"
 ! style="width:120px;" |民調來源
 ! style="width:140px;" |調查日期
@@ -783,6 +833,7 @@
 ! style="width:120px; border-bottom:4px solid #1B9431;" |{{DPP/logo2}} [[何欣純]]
 ! style="width:120px; border-bottom:4px solid #000000;" |[[洪麗華]]
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
+! style="width:120px; border-bottom:4px solid #707070;" |備考
 |-
 |匯流民調<ref>{{Cite news |title= 2026台中市長最新民調江啟臣、何欣純差距曝　藍綠陣營回應了 |url= https://cnews.com.tw/1450514a02/ |work=匯流|date=2026-05-14  |dead-url=no }}</ref>
 |5月11日至12日
@@ -790,6 +841,7 @@
 |24.4%
 | -
 |35.0%
+|
 |-
 |艾普羅民調<ref>{{Cite news |title= 台中市長選情！江啟臣38.2%領先何欣純 最新民調曝 |url= https://news.ebc.net.tw/news/politics/565257|work=東森電視|date=2026-08-07  |dead-url=no }}</ref>
 |8月3日至5日
@@ -797,6 +849,7 @@
 |24.1%
 | -
 |37.7%
+|
 |-
 |新台灣國策智庫<ref>{{Cite news |title= 台中市長選情評估民意調查簡報 |url= https://braintrust.tw/wp-content/uploads/2026/08/2605098-4%E6%96%B0%E5%8F%B0%E7%81%A3%E5%9C%8B%E7%AD%96%E6%99%BA%E5%BA%AB%E8%AA%BF%E6%9F%A5%E7%B0%A1%E5%A0%B1.pdf |work=新台灣國策智庫|date=2026-08-17  |dead-url=no }}</ref>
 |8月11日至13日
@@ -804,6 +857,7 @@
 |36.1%
 | -
 |21.1%
+|
 |-
 |TVBS<ref>{{Cite news |title= 國民黨公布台中市長民調！江啟臣45.1%大幅領先何欣純逾12% |url= https://news.tvbs.com.tw/politics/4022042 |work=TVBS|date=2026-09-14  |dead-url=no }}</ref>
 |9月7日至11日
@@ -811,6 +865,7 @@
 |32.5%
 | -
 |21.4%
+|
 |-
 |年代民調<ref>{{Cite news |title= 2026年台中市長選戰白熱化　年代民調江啟臣、何欣純僅差6% |url= https://www.youtube.com/watch?v=MLwUdNyfH20 |work= 年代新聞CH50 |date=2026-10-06  |dead-url=no }}</ref>
 |10月2日至4日
@@ -818,6 +873,7 @@
 |31.3%
 |1.1%
 |29.7%
+|
 |-
 |循證民調<ref>{{Cite news |title=最新台中市長選舉民調 何欣純緊咬江啟臣僅差1.9個百分點|url=https://news.ltn.com.tw/news/politics/breakingnews/5603302|work=自由時報 |date=2026-10-12}}</ref>
 |10月5日至6日
@@ -825,6 +881,7 @@
 |32.4%
 |1.1%
 |32.2%
+|
 |-
 |世新民調<ref>{{Cite news |title= 【國民黨民調】台中市選戰江啟臣支持度39.8％　領先何欣純11個百分點 |url= https://www.upmedia.mg/tw/focus/politics/271680 |work=上報 |date=2026-10-17}}</ref>
 |10月15日至16日
@@ -832,6 +889,7 @@
 |28.7%
 | -
 |31.5%
+|
 |-
 |信民協會<ref>{{Cite web |title=快訊》信民台中市長民調「大翻盤」 輾壓江啟臣逾10% {{!}} 政治 |url=https://newtalk.tw/news/view/2026-11-03/1068920 |website=Newtalk新聞 |date=2026-11-03 |language=zh-Hant-TW |last=李宣萱 |access-date=2026-11-03}}</ref>
 |10月28日至30日
@@ -839,6 +897,7 @@
 | style="background-color:#99FF99;" |'''41.1%'''
 |0.7%
 |27.8%
+|
 |-
 |佛光大學<ref>{{Cite news |title= 台中市長選舉最新民調 江、何差距10個百分點 25％選民未決定 |url= https://www.chinatimes.com/realtimenews/20261102001592-260407|work=中國時報 |date=2026-11-02}}</ref>
 |10月29日至31日
@@ -846,6 +905,7 @@
 |28.1%
 |0.5%
 |18.6%
+|台中市議會國民黨團委託
 |-
 |}
 
@@ -1025,6 +1085,7 @@
 |}
 
 === 陳亭妃－謝龍介 ===
+[[File:2026台南市長民調.png|center|thumb|630x630px|台南市長民調]]
 {| class="wikitable collapsible sortable" style="text-align:center"
 ! style="width:120px;" |民調來源
 ! style="width:140px;" |調查日期
@@ -1484,6 +1545,7 @@
 |}
 
 === 賴瑞隆－柯志恩－其他 ===
+[[File:2026高雄市長民調.png|center|thumb|630x630px|高雄市長民調]]
 {| class="wikitable collapsible sortable" style="text-align:center"
 ! style="width:120px;" |民調來源
 ! style="width:140px;" |調查日期
@@ -1658,6 +1720,7 @@
 
 == 基隆市 ==
 === 謝國樑－童子瑋－魏造文 ===
+[[File:2026基隆市長民調.png|center|thumb|630x630px|基隆市長民調]]
 {| class="wikitable collapsible sortable" style="text-align:center"
 ! style="width:120px;" |民調來源
 ! style="width:140px;" |調查日期
@@ -2015,6 +2078,7 @@
 |}
 
 === 徐欣瑩－鄭朝方－朱定瑀 ===
+[[File:2026新竹縣長民調.png|center|thumb|630x630px|新竹縣長民調]]
 {| class="wikitable collapsible sortable" style="text-align:center"
 ! style="width:140px;" |民調來源
 ! style="width:140px;" |調查日期
@@ -2134,6 +2198,7 @@
 |}
 
 ===高虹安－莊競程－何志勇===
+[[File:2026新竹市長民調.png|center|thumb|630x630px|新竹市長民調]]
 {| class="wikitable collapsible sortable" style="text-align:center"
 ! style="width:120px;" |民調來源
 ! style="width:140px;" |調查日期
@@ -2307,6 +2372,7 @@
 |}
 
 === 魏平政－陳素月－邱建富－陳重嘉 ===
+[[File:2026彰化縣長民調.png|center|thumb|630x630px|彰化縣長民調]]
 {| class="wikitable collapsible sortable" style="text-align:center"
 ! style="width:120px;" |民調來源
 ! style="width:140px;" |調查日期
@@ -2404,6 +2470,7 @@
 |}
 
 === 吳宗憲－林國漳 ===
+[[File:2026宜蘭縣長民調.png|center|thumb|630x630px|宜蘭縣長民調]]
 {| class="wikitable collapsible sortable" style="text-align:center"
 ! style="width:120px;" |民調來源
 ! style="width:140px;" |調查日期
@@ -2441,6 +2508,7 @@
 |}
 
 === 游淑貞－魏嘉賢－張峻 ===
+[[File:2026花蓮縣長民調.png|center|thumb|630x630px|花蓮縣長民調]]
 {| class="wikitable collapsible sortable" style="text-align:center"
 ! style="width:120px;" |民調來源
 ! style="width:140px;" |調查日期

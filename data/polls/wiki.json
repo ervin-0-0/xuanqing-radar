@@ -1,8 +1,8 @@
 {
  "page": "2026年中華民國直轄市長及縣市長選舉民意調查",
  "source": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7%E5%8F%8A%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E6%B0%91%E6%84%8F%E8%AA%BF%E6%9F%A5",
- "fetched": "2026-11-07T15:58:13.202Z",
- "revision": "Sat, 07 Nov 2026 05:32:28 GMT",
+ "fetched": "2026-11-08T16:27:00.828Z",
+ "revision": "Sun, 08 Nov 2026 16:17:25 GMT",
  "rows": [
   {
    "raceId": "taipei",
@@ -1890,6 +1890,31 @@
     }
    ],
    "undecided": 19.5,
+   "variant": 0
+  },
+  {
+   "raceId": "new-taipei",
+   "scenario": "李四川－蘇巧慧－蘇輝湟",
+   "pollster": "聯合報",
+   "dateText": "11月1日至7日",
+   "fieldStart": "2026-11-01",
+   "fieldEnd": "2026-11-07",
+   "sources": [
+    "https://udn.com/vote2026/story/124652/9865791"
+   ],
+   "results": [
+    {
+     "name": "李四川",
+     "party": "kmt",
+     "pct": 39
+    },
+    {
+     "name": "蘇巧慧",
+     "party": "dpp",
+     "pct": 42
+    }
+   ],
+   "undecided": 19,
    "variant": 0
   },
   {
@@ -9237,6 +9262,10 @@
     {
      "name": "林志成",
      "party": "ind"
+    },
+    {
+     "name": "備考",
+     "party": "ind"
     }
    ]
   },
@@ -9272,6 +9301,10 @@
     },
     {
      "name": "蘇輝湟",
+     "party": "ind"
+    },
+    {
+     "name": "備考",
      "party": "ind"
     }
    ]
@@ -9344,6 +9377,10 @@
     },
     {
      "name": "洪麗華",
+     "party": "ind"
+    },
+    {
+     "name": "備考",
      "party": "ind"
     }
    ]
