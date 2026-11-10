@@ -711,7 +711,14 @@
 | style="background-color:#CCCCFF;" |'''35%'''
 |28%
 |37%
+|-
+|信民協會<ref>{{Cite web |title=信民協會最新桃園市長民調公布 張善政、黃世杰支持度受關注 |url=https://tw.news.yahoo.com/【戴立安民調】信民協會最新桃園市長民調公布-張善政、黃世杰支持度受關注｜直播-013108751.html |date=2026-11-10 |language=zh}}</ref>
+| style="border-right:4px solid #000099;" |11月4日至6日
+| style="background-color:#CCCCFF;" |'''36.9%'''
+|32.8%
+|24.0%
 |}
+
 == 台中市 ==
 === 國民黨－何欣純 ===
 {| class="wikitable collapsible sortable" style="text-align:center"

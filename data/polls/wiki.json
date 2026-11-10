@@ -1,8 +1,8 @@
 {
  "page": "2026年中華民國直轄市長及縣市長選舉民意調查",
  "source": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7%E5%8F%8A%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E6%B0%91%E6%84%8F%E8%AA%BF%E6%9F%A5",
- "fetched": "2026-11-09T20:16:50.256Z",
- "revision": "Mon, 09 Nov 2026 16:46:03 GMT",
+ "fetched": "2026-11-10T17:23:04.732Z",
+ "revision": "Tue, 10 Nov 2026 02:13:45 GMT",
  "rows": [
   {
    "raceId": "taipei",
@@ -2120,6 +2120,31 @@
     }
    ],
    "undecided": 37,
+   "variant": 0
+  },
+  {
+   "raceId": "taoyuan",
+   "scenario": "張善政－黃世杰",
+   "pollster": "信民協會",
+   "dateText": "11月4日至6日",
+   "fieldStart": "2026-11-04",
+   "fieldEnd": "2026-11-06",
+   "sources": [
+    "https://tw.news.yahoo.com/【戴立安民調】信民協會最新桃園市長民調公布-張善政、黃世杰支持度受關注｜直播-013108751.html"
+   ],
+   "results": [
+    {
+     "name": "張善政",
+     "party": "kmt",
+     "pct": 36.9
+    },
+    {
+     "name": "黃世杰",
+     "party": "dpp",
+     "pct": 32.8
+    }
+   ],
+   "undecided": 24,
    "variant": 0
   },
   {
