@@ -1,8 +1,8 @@
 {
  "page": "2026年中華民國直轄市長及縣市長選舉民意調查",
  "source": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7%E5%8F%8A%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E6%B0%91%E6%84%8F%E8%AA%BF%E6%9F%A5",
- "fetched": "2026-11-10T17:23:04.732Z",
- "revision": "Tue, 10 Nov 2026 02:13:45 GMT",
+ "fetched": "2026-11-11T17:33:53.488Z",
+ "revision": "Wed, 11 Nov 2026 14:17:04 GMT",
  "rows": [
   {
    "raceId": "taipei",
@@ -58,7 +58,7 @@
    "raceId": "taipei",
    "scenario": "民進黨－蔣萬安",
    "pollster": "TVBS",
-   "dateText": "2025年11月27日至12月4日",
+   "dateText": "11月27日至12月4日",
    "fieldStart": "2025-11-27",
    "fieldEnd": "2025-12-04",
    "sources": [
@@ -83,7 +83,7 @@
    "raceId": "taipei",
    "scenario": "民進黨－蔣萬安",
    "pollster": "TVBS",
-   "dateText": "2025年11月27日至12月4日",
+   "dateText": "11月27日至12月4日",
    "fieldStart": "2025-11-27",
    "fieldEnd": "2025-12-04",
    "sources": [
@@ -108,7 +108,7 @@
    "raceId": "taipei",
    "scenario": "民進黨－蔣萬安",
    "pollster": "TVBS",
-   "dateText": "2025年11月27日至12月4日",
+   "dateText": "11月27日至12月4日",
    "fieldStart": "2025-11-27",
    "fieldEnd": "2025-12-04",
    "sources": [
@@ -133,7 +133,7 @@
    "raceId": "taipei",
    "scenario": "民進黨－蔣萬安",
    "pollster": "TVBS",
-   "dateText": "2025年11月27日至12月4日",
+   "dateText": "11月27日至12月4日",
    "fieldStart": "2025-11-27",
    "fieldEnd": "2025-12-04",
    "sources": [
@@ -158,7 +158,7 @@
    "raceId": "taipei",
    "scenario": "民進黨－蔣萬安",
    "pollster": "TVBS",
-   "dateText": "2025年11月27日至12月4日",
+   "dateText": "11月27日至12月4日",
    "fieldStart": "2025-11-27",
    "fieldEnd": "2025-12-04",
    "sources": [
@@ -258,9 +258,9 @@
    "raceId": "taipei",
    "scenario": "民進黨－蔣萬安",
    "pollster": "TVBS",
-   "dateText": "2026年1月23日至1月28日",
-   "fieldStart": "2026-01-23",
-   "fieldEnd": "2026-01-28",
+   "dateText": "1月23日至1月28日",
+   "fieldStart": "2025-01-23",
+   "fieldEnd": "2025-01-28",
    "sources": [
     "https://cc.tvbs.com.tw/portal/file/poll_center/2026/20260130/a77f38bdee0ceef8c988b182d179b754.pdf"
    ],
@@ -283,9 +283,9 @@
    "raceId": "taipei",
    "scenario": "民進黨－蔣萬安",
    "pollster": "TVBS",
-   "dateText": "2026年1月23日至1月28日",
-   "fieldStart": "2026-01-23",
-   "fieldEnd": "2026-01-28",
+   "dateText": "1月23日至1月28日",
+   "fieldStart": "2025-01-23",
+   "fieldEnd": "2025-01-28",
    "sources": [
     "https://cc.tvbs.com.tw/portal/file/poll_center/2026/20260130/a77f38bdee0ceef8c988b182d179b754.pdf"
    ],
@@ -1456,7 +1456,7 @@
    "raceId": "new-taipei",
    "scenario": "李四川－蘇巧慧－蘇輝湟",
    "pollster": "山水民調",
-   "dateText": "4月29日至5月1日",
+   "dateText": "2026年4月29日至5月1日",
    "fieldStart": "2026-04-29",
    "fieldEnd": "2026-05-01",
    "sources": [
@@ -2051,7 +2051,7 @@
    "raceId": "taoyuan",
    "scenario": "張善政－黃世杰",
    "pollster": "新台灣國策智庫",
-   "dateText": "9月15日至17日",
+   "dateText": "2026年9月15日至17日",
    "fieldStart": "2026-09-15",
    "fieldEnd": "2026-09-17",
    "sources": [
@@ -2576,7 +2576,7 @@
    "raceId": "taichung",
    "scenario": "江啟臣－何欣純－洪麗華",
    "pollster": "匯流民調",
-   "dateText": "5月11日至12日",
+   "dateText": "2026年5月11日至12日",
    "fieldStart": "2026-05-11",
    "fieldEnd": "2026-05-12",
    "sources": [
@@ -3528,7 +3528,7 @@
    "raceId": "tainan",
    "scenario": "陳亭妃－謝龍介",
    "pollster": "鉅聞天下",
-   "dateText": "2月23日至28日",
+   "dateText": "2026年2月23日至28日",
    "fieldStart": "2026-02-23",
    "fieldEnd": "2026-02-28",
    "sources": [
@@ -6916,7 +6916,7 @@
    "raceId": "hsinchu-county",
    "scenario": "徐欣瑩－鄭朝方－朱定瑀",
    "pollster": "年代民調",
-   "dateText": "4月6日至7日",
+   "dateText": "2026年4月6日至7日",
    "fieldStart": "2026-04-06",
    "fieldEnd": "2026-04-07",
    "sources": [
@@ -7268,7 +7268,7 @@
    "raceId": "hsinchu-city",
    "scenario": "高虹安－莊競程－何志勇",
    "pollster": "匯流民調",
-   "dateText": "5月19日至20日",
+   "dateText": "2026年5月19日至20日",
    "fieldStart": "2026-05-19",
    "fieldEnd": "2026-05-20",
    "sources": [
@@ -7613,7 +7613,7 @@
    "raceId": "changhua",
    "scenario": "魏平政－陳素月－蔡壁如",
    "pollster": "鉅聞天下",
-   "dateText": "4月27日至5月2日",
+   "dateText": "2026年4月27日至5月2日",
    "fieldStart": "2026-04-27",
    "fieldEnd": "2026-05-02",
    "sources": [
@@ -7638,7 +7638,7 @@
    "raceId": "changhua",
    "scenario": "魏平政－陳素月－蔡壁如",
    "pollster": "鉅聞天下",
-   "dateText": "4月27日至5月2日",
+   "dateText": "2026年4月27日至5月2日",
    "fieldStart": "2026-04-27",
    "fieldEnd": "2026-05-02",
    "sources": [
@@ -7768,7 +7768,7 @@
    "raceId": "changhua",
    "scenario": "魏平政－陳素月－邱建富－陳重嘉",
    "pollster": "民進黨內參",
-   "dateText": "6月",
+   "dateText": "2026年6月",
    "fieldStart": "2026-06-01",
    "fieldEnd": "2026-06-30",
    "sources": [
@@ -7863,7 +7863,7 @@
    "raceId": "yilan",
    "scenario": "吳宗憲－林國漳－陳琬惠",
    "pollster": "美麗島電子報",
-   "dateText": "3月16日至18日",
+   "dateText": "2026年3月16日至18日",
    "fieldStart": "2026-03-16",
    "fieldEnd": "2026-03-18",
    "sources": [
@@ -7888,7 +7888,7 @@
    "raceId": "yilan",
    "scenario": "吳宗憲－林國漳－陳琬惠",
    "pollster": "美麗島電子報",
-   "dateText": "3月16日至18日",
+   "dateText": "2026年3月16日至18日",
    "fieldStart": "2026-03-16",
    "fieldEnd": "2026-03-18",
    "sources": [
@@ -7913,7 +7913,7 @@
    "raceId": "yilan",
    "scenario": "吳宗憲－林國漳－陳琬惠",
    "pollster": "美麗島電子報",
-   "dateText": "3月16日至18日",
+   "dateText": "2026年3月16日至18日",
    "fieldStart": "2026-03-16",
    "fieldEnd": "2026-03-18",
    "sources": [
@@ -8048,7 +8048,7 @@
    "raceId": "yilan",
    "scenario": "吳宗憲－林國漳",
    "pollster": "山水民調",
-   "dateText": "8月26日至29日",
+   "dateText": "2026年8月26日至29日",
    "fieldStart": "2026-08-26",
    "fieldEnd": "2026-08-29",
    "sources": [
@@ -8123,7 +8123,7 @@
    "raceId": "hualien",
    "scenario": "游淑貞－魏嘉賢－張峻",
    "pollster": "美麗島電子報",
-   "dateText": "3月18日至20日、3月23日",
+   "dateText": "2026年3月18日至20日、3月23日",
    "fieldStart": "2026-03-18",
    "fieldEnd": "2026-03-23",
    "sources": [
@@ -8153,7 +8153,7 @@
    "raceId": "hualien",
    "scenario": "游淑貞－魏嘉賢－張峻",
    "pollster": "美麗島電子報",
-   "dateText": "3月18日至20日、3月23日",
+   "dateText": "2026年3月18日至20日、3月23日",
    "fieldStart": "2026-03-18",
    "fieldEnd": "2026-03-23",
    "sources": [
@@ -8178,7 +8178,7 @@
    "raceId": "hualien",
    "scenario": "游淑貞－魏嘉賢－張峻",
    "pollster": "美麗島電子報",
-   "dateText": "3月18日至20日、3月23日",
+   "dateText": "2026年3月18日至20日、3月23日",
    "fieldStart": "2026-03-18",
    "fieldEnd": "2026-03-23",
    "sources": [
@@ -8563,7 +8563,7 @@
    "raceId": "taitung",
    "scenario": "吳秀華－陳瑩－劉櫂豪",
    "pollster": "匯流民調",
-   "dateText": "5月27日至28日",
+   "dateText": "2026年5月27日至28日",
    "fieldStart": "2026-05-27",
    "fieldEnd": "2026-05-28",
    "sources": [
@@ -8593,7 +8593,7 @@
    "raceId": "taitung",
    "scenario": "吳秀華－陳瑩－劉櫂豪",
    "pollster": "匯流民調",
-   "dateText": "5月27日至28日",
+   "dateText": "2026年5月27日至28日",
    "fieldStart": "2026-05-27",
    "fieldEnd": "2026-05-28",
    "sources": [
@@ -8650,6 +8650,41 @@
    "variant": 0
   },
   {
+   "raceId": "taitung",
+   "scenario": "吳秀華－陳瑩－李吳穎智－王志偉",
+   "pollster": "大地民調",
+   "dateText": "11月6日至8日",
+   "fieldStart": "2026-11-06",
+   "fieldEnd": "2026-11-08",
+   "sources": [
+    "https://www.mirrordaily.news/story/97146"
+   ],
+   "results": [
+    {
+     "name": "吳秀華",
+     "party": "kmt",
+     "pct": 35.7
+    },
+    {
+     "name": "陳瑩",
+     "party": "dpp",
+     "pct": 31.1
+    },
+    {
+     "name": "李吳穎智",
+     "party": "ind",
+     "pct": 1.2
+    },
+    {
+     "name": "王志偉",
+     "party": "ind",
+     "pct": 0.9
+    }
+   ],
+   "undecided": 28.4,
+   "variant": 0
+  },
+  {
    "raceId": "yunlin",
    "scenario": "張嘉郡－劉建國",
    "pollster": "鉅聞天下",
@@ -8678,7 +8713,7 @@
    "raceId": "chiayi-county",
    "scenario": "民進黨－王育敏",
    "pollster": "民進黨初選",
-   "dateText": "1月13日",
+   "dateText": "2026年1月13日",
    "fieldStart": "2026-01-13",
    "fieldEnd": "2026-01-13",
    "sources": [
@@ -8703,7 +8738,7 @@
    "raceId": "chiayi-county",
    "scenario": "民進黨－王育敏",
    "pollster": "民進黨初選",
-   "dateText": "1月13日",
+   "dateText": "2026年1月13日",
    "fieldStart": "2026-01-13",
    "fieldEnd": "2026-01-13",
    "sources": [
@@ -8728,7 +8763,7 @@
    "raceId": "chiayi-county",
    "scenario": "民進黨－王育敏",
    "pollster": "民進黨初選",
-   "dateText": "1月13日",
+   "dateText": "2026年1月13日",
    "fieldStart": "2026-01-13",
    "fieldEnd": "2026-01-13",
    "sources": [
@@ -8753,7 +8788,7 @@
    "raceId": "chiayi-county",
    "scenario": "民進黨－王育敏",
    "pollster": "民進黨初選",
-   "dateText": "1月13日",
+   "dateText": "2026年1月13日",
    "fieldStart": "2026-01-13",
    "fieldEnd": "2026-01-13",
    "sources": [
@@ -8778,7 +8813,7 @@
    "raceId": "chiayi-county",
    "scenario": "民進黨－王育敏",
    "pollster": "民進黨初選",
-   "dateText": "1月13日",
+   "dateText": "2026年1月13日",
    "fieldStart": "2026-01-13",
    "fieldEnd": "2026-01-13",
    "sources": [
@@ -8803,7 +8838,7 @@
    "raceId": "chiayi-county",
    "scenario": "民進黨－王育敏",
    "pollster": "民進黨初選",
-   "dateText": "1月13日",
+   "dateText": "2026年1月13日",
    "fieldStart": "2026-01-13",
    "fieldEnd": "2026-01-13",
    "sources": [
@@ -8828,7 +8863,7 @@
    "raceId": "chiayi-city",
    "scenario": "王美惠－張啓楷",
    "pollster": "TVBS",
-   "dateText": "4月24日至30日",
+   "dateText": "2026年4月24日至30日",
    "fieldStart": "2026-04-24",
    "fieldEnd": "2026-04-30",
    "sources": [
@@ -8878,7 +8913,7 @@
    "raceId": "penghu",
    "scenario": "國民黨－陳光復",
    "pollster": "民意調查協會",
-   "dateText": "2025年11月24日到27日",
+   "dateText": "2025年11月24日至27日",
    "fieldStart": "2025-11-24",
    "fieldEnd": "2025-11-27",
    "sources": [
@@ -8908,7 +8943,7 @@
    "raceId": "penghu",
    "scenario": "國民黨－陳光復",
    "pollster": "民意調查協會",
-   "dateText": "2025年11月24日到27日",
+   "dateText": "2025年11月24日至27日",
    "fieldStart": "2025-11-24",
    "fieldEnd": "2025-11-27",
    "sources": [
@@ -8938,7 +8973,7 @@
    "raceId": "penghu",
    "scenario": "國民黨－陳光復",
    "pollster": "民意調查協會",
-   "dateText": "2025年11月24日到27日",
+   "dateText": "2025年11月24日至27日",
    "fieldStart": "2025-11-24",
    "fieldEnd": "2025-11-27",
    "sources": [
@@ -8963,7 +8998,7 @@
    "raceId": "penghu",
    "scenario": "國民黨－陳光復",
    "pollster": "民意調查協會",
-   "dateText": "2025年11月24日到27日",
+   "dateText": "2025年11月24日至27日",
    "fieldStart": "2025-11-24",
    "fieldEnd": "2025-11-27",
    "sources": [

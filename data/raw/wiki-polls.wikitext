@@ -1,9 +1,10 @@
 {{Note TA
 |1=世杰
 }}
+{{UTC+8}}
 本列表記錄[[2026年中華民國直轄市長及縣市長選舉]]前多次[[民意調查]]的結果。
 
-依據中華民國《[[公職人員選舉罷免法]]》第53條，本次選舉投票日前10日（即[[國家標準時間|台灣時間]]2026年11月18日00:00）起到投票時間截止前（台灣時間2026年11月28日16:00）不得發布、報導、散布、評論、引述民意調查資料。 
+依據中華民國《[[公職人員選舉罷免法]]》第53條，本次選舉投票日前10日（即[[國家標準時間|台灣時間]]2026年（[[民國紀年|民國]]115年）11月18日00:00）起到投票時間截止前（台灣時間2026年（[[民國紀年|民國]]115年）11月28日16:00）不得發布、報導、散布、評論、引述民意調查資料。
 
 == 台北市 ==
 === 民進黨－蔣萬安 === 
@@ -40,7 +41,7 @@
 | -
 |-
 | rowspan="5" |TVBS<ref>{{Cite web |title=2026台北市長可能人選民調 |url=https://cc.tvbs.com.tw/portal/file/poll_center/2025/20251208/f76262efaa46dd37ae3df58e65b2d1eb.pdf |website=TVBS |date=2025-12-08 |access-date=2025-12-08 |archive-date=2025-12-26 |archive-url=https://web.archive.org/web/20251226021910/https://cc.tvbs.com.tw/portal/file/poll_center/2025/20251208/f76262efaa46dd37ae3df58e65b2d1eb.pdf |dead-url=no }}</ref>
-| rowspan="5" style="border-right:4px solid #000099;"|2025年11月27日至12月4日
+| rowspan="5" style="border-right:4px solid #000099;"|11月27日至12月4日
 |34%
 | -
 | -
@@ -116,7 +117,7 @@
 |13.3%
 |-
 | rowspan="2" |TVBS<ref>{{Cite web |title=2026台北市長可能人選民調 |url=https://cc.tvbs.com.tw/portal/file/poll_center/2026/20260130/a77f38bdee0ceef8c988b182d179b754.pdf |website=TVBS |date=2026-01-30 |dead-url=no |access-date=2026-03-25 |archive-date=2025-12-26 |archive-url=https://web.archive.org/web/20251226021910/https://cc.tvbs.com.tw/portal/file/poll_center/2025/20251208/f76262efaa46dd37ae3df58e65b2d1eb.pdf }}</ref>
-| rowspan="2" style="border-right:4px solid #000099;"|2026年1月23日至1月28日
+| rowspan="2" style="border-right:4px solid #000099;"|1月23日至1月28日
 |27%
 | -
 | -
@@ -183,7 +184,7 @@
 |17.4%
 |
 |-
-| TPOC台灣議題研究中心<ref>{{Cite news|title= 台北市長民調4成6不知沈伯洋 沈：勤走拜票提高能見度 |url= https://news.ltn.com.tw/news/politics/breakingnews/5539708 |work=自由|date=2026-08-14|access-date=2026-08-14}}</ref>
+|TPOC台灣議題研究中心<ref>{{Cite news|title= 台北市長民調4成6不知沈伯洋 沈：勤走拜票提高能見度 |url= https://news.ltn.com.tw/news/politics/breakingnews/5539708 |work=自由|date=2026-08-14|access-date=2026-08-14}}</ref>
 | style="border-right:4px solid #000099;" |8月5日至7日
 | style="background-color:#CCCCFF;" |'''48.4%'''
 |33.0%
@@ -491,7 +492,7 @@
 ! style="width:80px; border-bottom:4px solid #707070;" |備考
 |-
 |山水民調<ref>{{cite news |title=震傳媒民調（一）／李四川絕對優勢不再？ 新北5％內決勝負！ |url=https://www.zmedia.com.tw/Document/PoolDetail/41952 |work=震傳媒 |date=2026-05-05}}</ref>
-|4月29日至5月1日
+|2026年4月29日至5月1日
 | style="background-color:#CCCCFF; border-left:4px solid #000099;" |'''39.6%'''
 |34.8%
 | -
@@ -695,7 +696,7 @@
 ! style="width:80px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
 |-
 |新台灣國策智庫<ref>{{Cite news |title= 黃世杰選情冷！ 綠智庫民調：只22.5%桃園人講得出他要選桃園市長 |url= https://newtalk.tw/news/view/2026-09-22/1061231 |work=newtalk|date=2026-09-22  |dead-url=no }}</ref>
-| style="border-right:4px solid #000099;" |9月15日至17日
+| style="border-right:4px solid #000099;" |2026年9月15日至17日
 | style="background-color:#CCCCFF;" |'''47.0%'''
 |25.9%
 |27.1%
@@ -838,7 +839,7 @@
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
 |-
 |匯流民調<ref>{{Cite news |title= 2026台中市長最新民調江啟臣、何欣純差距曝　藍綠陣營回應了 |url= https://cnews.com.tw/1450514a02/ |work=匯流|date=2026-05-14  |dead-url=no }}</ref>
-|5月11日至12日
+|2026年5月11日至12日
 | style="background-color:#CCCCFF; border-left:4px solid #000099;" |'''40.6%'''
 |24.4%
 | -
@@ -1092,20 +1093,20 @@
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
 |-
 |鉅聞天下<ref>{{cite news| title=2026《鉅聞民調》台南市長選舉／綠在台南已失優勢？賴清德支持度未過半　黃偉哲支持者流失25%　陳亭妃只領先謝龍介5%| work=鉅聞天下|date=2026-03-06|url=https://www.bigmedia.com.tw/article/1772712411866}}</ref>
-| style="border-left:4px solid #1b9431;" |2月23日至28日
-| style="background-color:#99FF99;" |'''45.96%'''
+|2026年2月23日至28日
+| style="background-color:#99FF99;border-left:4px solid #1b9431" |'''45.96%'''
 |40.57%
 | -
 |-
 |TVBS<ref>{{cite news| title=TVBS民調／台南市長「妃龍」大戰　陳亭妃53％輾壓謝龍介30％| work=TVBS|date=2026-03-16|url=https://news.tvbs.com.tw/politics/3152745}}</ref>
-| style="border-left:4px solid #1b9431;" |3月9日至12日
-| style="background-color:#99FF99;" |'''53%'''
+|3月9日至12日
+| style="background-color:#99FF99;border-left:4px solid #1b9431" |'''53%'''
 |30%
 |17%
 |-
 |新台灣國策智庫<ref>{{cite news| title=民調／台南市長爭霸！陳亭妃獲59.4%碾壓謝龍介| work=三立新聞|date=2026-10-21|url=https://www.setn.com/news/1925870}}</ref>
-| style="border-left:4px solid #1b9431;" |10月13日至15日
-| style="background-color:#99FF99;" |'''59.4%'''
+|10月13日至15日
+| style="background-color:#99FF99;border-left:4px solid #1b9431" |'''59.4%'''
 |22.6%
 |17%
 |}
@@ -2083,7 +2084,7 @@
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
 |-
 |年代民調<ref>{{cite web |title=新竹縣長最新民調 徐欣瑩36.6％領先鄭朝方30.8％ |url=https://udn.com/news/story/124652/9430562 |work=聯合報 |date=2026-04-09 |dead-url=no |access-date=2026-04-09 |archive-date=2026-04-19 |archive-url=https://web.archive.org/web/20260419090920/https://udn.com/news/story/124652/9430562 }}</ref>
-|4月6日至7日
+|2026年4月6日至7日
 | style="border-left:4px solid #000099;background-color:#CCCCFF;" |'''36.6%'''
 |30.8%
 | -
@@ -2202,7 +2203,7 @@
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
 |-
 |匯流民調<ref>{{Cite web |title=【匯流民調】2026新竹市長選舉最新民調 六成五新竹市民支持高虹安競選連任 超過五成表態力挺高虹安 |url=https://cnews.com.tw/【匯流民調】2026新竹市長選舉最新民調-六成五新竹/ |website=匯流新聞網 |date=2026-05-27 |dead-url=no }}</ref>
-|5月19日至20日
+|2026年5月19日至20日
 |style="background-color:#E9E9E9;border-left:4px solid #000000;"|'''54.5%'''
 |21.3%
 | -
@@ -2331,7 +2332,7 @@
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
 |-
 | rowspan="2" |鉅聞天下<ref>{{cite web |title=彰化縣長選舉／藍白整合仍未成形　陳素月暫時領先　蔡壁如小贏魏平政4.77個百分點 |url=https://www.bigmedia.com.tw/article/1778147228192 |work=鉅聞天下 |date=2026-05-08 |dead-url=no  }}</ref>
-| rowspan="2" |4月27日至5月2日
+| rowspan="2" |2026年4月27日至5月2日
 | style="border-left:4px solid #1B9431;" |14.4%
 | style="background-color:#99FF99;" |'''39.2%'''
 | -
@@ -2376,7 +2377,7 @@
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
 |-
 |民進黨內參<ref>{{cite web |title=彰化縣長三腳督綠營民調曝光 陳素月居首、近5成未表態選民勝負關鍵 |url=https://udn.com/vote2026/story/124652/9617676 |work=聯合報 |date=2026-07-09 |dead-url=no  }}</ref>
-|6月
+|2026年6月
 | style="border-left:4px solid #1B9431;" |11%
 | style="background-color:#99FF99;" |'''28%'''
 |12%
@@ -2421,7 +2422,7 @@
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
 |-
 | rowspan="3" |美麗島電子報<ref>{{cite web |title=美麗島民調：2026宜蘭縣長選舉可能人選支持度民調 |url=https://my-formosa.com.tw/DOC_224420.htm |work=美麗島電子報 |date=2026-03-19 |dead-url=no |access-date=2026-03-19 |archive-date=2026-03-22 |archive-url=https://web.archive.org/web/20260322151114/https://my-formosa.com.tw/DOC_224420.htm }}</ref>
-| rowspan="3" |3月16日至18日
+| rowspan="3" |2026年3月16日至18日
 | style="border-left:4px solid #1B9431;" |33.0%
 | style="background-color:#99FF99;" |'''35.8%'''
 | -
@@ -2471,7 +2472,7 @@
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
 |-
 |山水民調<ref>{{cite news|title=宜蘭縣長最新民調 林國漳領先吳宗憲9.8％ 看好度贏18.6％|url=https://news.ltn.com.tw/news/politics/breakingnews/5558776|work=自由時報 |date=2026-09-01 }}</ref>
-|8月26日至29日
+|2026年8月26日至29日
 | style="border-left:4px solid #1B9431;" |28%
 | style="background-color:#99FF99;" |'''37.8%'''
 | -
@@ -2509,7 +2510,7 @@
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
 |-
 | rowspan="3" |美麗島電子報<ref>{{cite web |title=美麗島民調：2026花蓮縣長選舉可能人選支持度民調 |url=https://my-formosa.com.tw/DOC_224538.htm |work=美麗島電子報 |date=2026-03-24 |dead-url=no |access-date=2026-03-24 |archive-date=2026-03-25 |archive-url=https://web.archive.org/web/20260325125158/https://my-formosa.com.tw/DOC_224538.htm }}</ref>
-| rowspan="3" |3月18日至20日、3月23日
+| rowspan="3" |2026年3月18日至20日、3月23日
 | style="border-left:4px solid #000099;background-color:#CCCCFF;" |'''28.7%'''
 |20.2%
 |19.8%
@@ -2616,7 +2617,7 @@
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
 |-
 | rowspan="2" |匯流民調<ref>{{cite web |title=【匯流民調4-1】2026台東縣長選舉最新民調 國民黨吳秀華處於領先 前立委劉櫂豪有吸引藍白選票實力 |url=https://cnews.com.tw/145260601a01/|work=匯流新聞網 |date=2026-06-01 |dead-url=no  }}</ref>
-| rowspan="2" |5月27日至28日
+| rowspan="2" |2026年5月27日至28日
 | style="border-left:4px solid #000099;background-color:#CCCCFF;" |'''44.2%'''
 |15.0%
 |13.4%
@@ -2645,7 +2646,16 @@
 |2.0%
 |0.4%
 |30.0%
+|-
+|大地民調<ref>{{Cite web |title=台東最新民調出爐！陳瑩選情急起直追　「一定會投票」選民支持度僅差2.6% |url=https://www.mirrordaily.news/story/97146 |date=2026-11-11 |language=zh-Hant }}</ref>
+|style="border-right:4px solid #000099;" |11月6日至8日
+| style="background-color:#CCCCFF;" |'''35.7%'''
+|31.1%
+|1.2%
+|0.9%
+|28.4%
 |}
+
 == 雲林縣 ==
 === 張嘉郡－劉建國 ===
 {| class="wikitable collapsible sortable" style="text-align:center"
@@ -2673,7 +2683,7 @@
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
 |-
 | rowspan="6" |民進黨初選<ref>{{cite web |title=快訊／民進黨嘉義縣長初選民調結果出爐　蔡易餘64.8%支持度輾壓勝出 |url=https://www.upmedia.mg/tw/focus/politics/249606 |work= |date=2026-01-14 |dead-url=no }}</ref>
-| rowspan="6" |1月13日
+| rowspan="6" |2026年1月13日
 | style="border-left:4px solid #1B9431;" | -
 | style="background-color:#99FF99;" |'''63.5224%'''
 |15.0550%
@@ -2725,7 +2735,7 @@
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
 |-
 |TVBS<ref>{{cite web |title=TVBS民調／僅差6%！嘉義市藍白合　張啓楷37%緊追王美惠 |url=https://news.tvbs.com.tw/politics/3194942 |work=TVBS|date=2026-05-04 |dead-url=no }}</ref>
-|4月24日至30日
+|2026年4月24日至30日
 | style="border-left:4px solid #1B9431;background-color:#99FF99;" |'''43%'''
 |37%
 |20%
@@ -2759,7 +2769,7 @@
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]]<br>其他/未表態
 |-
 | rowspan="4" |民意調查協會<ref>{{Cite news |title=澎湖縣長民調！陳光復三腳督領先　藍白整合成選戰關鍵 |url=https://news.tvbs.com.tw/politics/3059332 |work=TVBS|date=2025-11-30}}</ref>
-| rowspan="4" |2025年11月24日到27日
+| rowspan="4" |2025年11月24日至27日
 | style="border-left:4px solid #1B9431;background-color:#99FF99;" |'''34.79%'''
 |16.24%
 |19.79%
