@@ -2076,8 +2076,8 @@
 
 === 徐欣瑩－鄭朝方－朱定瑀 ===
 {| class="wikitable collapsible sortable" style="text-align:center"
-! style="width:140px;" |民調來源
-! style="width:140px;" |調查日期
+! style="width:160px;" |民調來源
+! style="width:160px;" |調查日期
 ! style="width:120px; border-bottom:4px solid #000099;" |{{KMT/logo2}} [[徐欣瑩]]
 ! style="width:120px; border-bottom:4px solid #1B9431;" |{{DPP/logo2}} [[鄭朝方]]
 ! style="width:120px; border-bottom:4px solid #000000;" |{{NONP/logo2}} 朱定瑀
@@ -2138,12 +2138,26 @@
 |1.14%
 |11.24%
 |-
-|關鍵民調<ref>{{cite web |title= 民調》僅5.9%新竹縣民知道鄭朝方參選縣長　學者：他爸努力幫他綁樁也難勝選|url=https://www.cmmedia.com.tw/home/articles/63566 |work=信傳媒|date=2026-10-29 |dead-url=no  }}</ref><ref>{{cite web |title= 徐欣瑩看好度領先 學者：鄭朝方認知度偏低|url=https://www.youtube.com/watch?v=FdSm4VTdE_k|work=民視|date=2026-10-29 |dead-url=no  }}</ref>
-|10月25日至26日
+| rowspan="2" |關鍵民調
+|10月25日至26日<ref>{{cite web |title= 新竹縣長選舉民調 徐欣瑩44.1％領先|url=https://www.chinatimes.com/newspapers/20261030000555-260118|work=中國時報|date=2026-10-29 |dead-url=no  }}</ref>
 | style="border-left:4px solid #000099;background-color:#CCCCFF;" |'''44.1%'''
 | 37.7%
 | 2.2%
 | 15.9%
+|-
+|11月5日至8日<ref>{{Cite web |title=新竹縣長最新民調 徐欣瑩44.4%領先 |url=https://udn.com/vote2026/story/124652/9874345 |website=聯合報 |date=2026-11-12 |language=zh-Hant-TW |access-date=2026-11-12}}</ref>
+| style="border-left:4px solid #000099;background-color:#CCCCFF;" |'''44.4%'''
+| 37.5%
+| 3.2%
+| 14.9%
+|-
+|年代民調<ref>{{Cite web |title=新竹縣長誰領先？年代民調鄭朝方36.9%領先國民黨徐欣瑩 |url=https://udn.com/vote2026/story/124652/9874460 |website=2026九合一選舉 |language=zh-Hant-TW |last=聯合新聞網 |access-date=2026-11-12}}</ref>
+| style="border-right:4px solid #1B9431;" |11月8日至10日
+|28.6%
+| style="background-color:#99FF99;" |'''36.9%'''
+|1.9%
+|32.6%
+|-
 |}
 
 == 新竹市 ==
@@ -2409,6 +2423,9 @@
 ! style="width:120px; border-bottom:4px solid #000099;" |{{KMT/logo2}} [[許淑華 (1975年)|許淑華]]
 ! style="width:120px; border-bottom:4px solid #1B9431;" |{{DPP/logo2}} [[温世政]]
 ! style="width:120px; border-bottom:4px solid #707070;" |[[File:Undecided-Square.png|20x20px]] 其他/未表態
+|-
+|[https://yushan-news.com/%E5%8D%97%E6%8A%95%E7%B8%A3%E9%95%B7%E3%80%81%E8%8D%89%E5%B1%AF%E9%8E%AE%E9%95%B7%E3%80%81%E8%AD%B0%E5%93%A1%E6%9C%80%E6%96%B0%E6%B0%91%E8%AA%BF%E5%87%BA%E7%88%90/ 玉山電子報（草屯鎮）] ||2026年10月底
+|style="border-left:4px solid #000099; background-color:#CCCCFF;" |'''44.59%''' ||30.61%||24.80%
 |}
 
 == 宜蘭縣 ==

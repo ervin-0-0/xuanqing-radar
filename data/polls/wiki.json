@@ -1,8 +1,8 @@
 {
  "page": "2026年中華民國直轄市長及縣市長選舉民意調查",
  "source": "https://zh.wikipedia.org/wiki/2026%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%9B%B4%E8%BD%84%E5%B8%82%E9%95%B7%E5%8F%8A%E7%B8%A3%E5%B8%82%E9%95%B7%E9%81%B8%E8%88%89%E6%B0%91%E6%84%8F%E8%AA%BF%E6%9F%A5",
- "fetched": "2026-11-11T17:33:53.488Z",
- "revision": "Wed, 11 Nov 2026 14:17:04 GMT",
+ "fetched": "2026-11-12T17:48:18.292Z",
+ "revision": "Thu, 12 Nov 2026 15:09:23 GMT",
  "rows": [
   {
    "raceId": "taipei",
@@ -7136,8 +7136,7 @@
    "fieldStart": "2026-10-25",
    "fieldEnd": "2026-10-26",
    "sources": [
-    "https://www.cmmedia.com.tw/home/articles/63566",
-    "https://www.youtube.com/watch?v=FdSm4VTdE_k"
+    "https://www.chinatimes.com/newspapers/20261030000555-260118"
    ],
    "results": [
     {
@@ -7157,6 +7156,66 @@
     }
    ],
    "undecided": 15.9,
+   "variant": 0
+  },
+  {
+   "raceId": "hsinchu-county",
+   "scenario": "徐欣瑩－鄭朝方－朱定瑀",
+   "pollster": "關鍵民調",
+   "dateText": "11月5日至8日",
+   "fieldStart": "2026-11-05",
+   "fieldEnd": "2026-11-08",
+   "sources": [
+    "https://udn.com/vote2026/story/124652/9874345"
+   ],
+   "results": [
+    {
+     "name": "徐欣瑩",
+     "party": "kmt",
+     "pct": 44.4
+    },
+    {
+     "name": "鄭朝方",
+     "party": "dpp",
+     "pct": 37.5
+    },
+    {
+     "name": "朱定瑀",
+     "party": "ind",
+     "pct": 3.2
+    }
+   ],
+   "undecided": 14.9,
+   "variant": 0
+  },
+  {
+   "raceId": "hsinchu-county",
+   "scenario": "徐欣瑩－鄭朝方－朱定瑀",
+   "pollster": "年代民調",
+   "dateText": "11月8日至10日",
+   "fieldStart": "2026-11-08",
+   "fieldEnd": "2026-11-10",
+   "sources": [
+    "https://udn.com/vote2026/story/124652/9874460"
+   ],
+   "results": [
+    {
+     "name": "徐欣瑩",
+     "party": "kmt",
+     "pct": 28.6
+    },
+    {
+     "name": "鄭朝方",
+     "party": "dpp",
+     "pct": 36.9
+    },
+    {
+     "name": "朱定瑀",
+     "party": "ind",
+     "pct": 1.9
+    }
+   ],
+   "undecided": 32.6,
    "variant": 0
   },
   {
@@ -7857,6 +7916,29 @@
     }
    ],
    "undecided": 42,
+   "variant": 0
+  },
+  {
+   "raceId": "nantou",
+   "scenario": "許淑華－温世政",
+   "pollster": "[https://yushan-news.com/%E5%8D%97%E6%8A%95%E7%B8%A3%E9%95%B7%E3%80%81%E8%8D%89%E5%B1%AF%E9%8E%AE%E9%95%B7%E3%80%81%E8%AD%B0%E5%93%A1%E6%9C%80%E6%96%B0%E6%B0%91%E8%AA%BF%E5%87%BA%E7%88%90/ 玉山電子報（草屯鎮）]",
+   "dateText": "2026年10月底",
+   "fieldStart": "2026-10-01",
+   "fieldEnd": "2026-10-31",
+   "sources": [],
+   "results": [
+    {
+     "name": "許淑華",
+     "party": "kmt",
+     "pct": 44.59
+    },
+    {
+     "name": "温世政",
+     "party": "dpp",
+     "pct": 30.61
+    }
+   ],
+   "undecided": 24.8,
    "variant": 0
   },
   {
